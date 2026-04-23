@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertise With WanderHawaii | Reach Thousands of Travelers</title>
+    <meta name="description" content="Promote your business to thousands of travelers. Reach 50,000+ monthly visitors planning Hawaiian adventures with WanderHawaii.">
+    <meta name="keywords" content="advertise with us, business advertising, Hawaiian tours promotion">
+    <link rel="canonical" href="https://wanderhawaii.com/advertise.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderhawaii.com/advertise.html">
+    <meta property="og:title" content="Advertise With WanderHawaii">
+    <meta property="og:description" content="Promote your business to thousands of travelers.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=1200">
+    
+    <link rel="icon" type="image/png" href="logo.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        .advertise-hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .advertise-hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-family: 'DM Sans', sans-serif;
+        }
+        
+        .advertise-hero p {
+            font-size: 20px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .advertise-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+            padding: 0 20px;
+        }
+        
+        .stat-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card h3 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #ff6b35;
+            margin: 0 0 10px 0;
+        }
+        
+        .stat-card p {
+            font-size: 16px;
+            color: #666;
+            margin: 0;
+        }
+        
+        .advertise-options {
+            padding: 0 20px;
+            margin-bottom: 60px;
+        }
+        
+        .advertise-options h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 50px;
+            font-family: 'DM Sans', sans-serif;
+        }
+        
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .option-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 40px 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .option-card:hover {
+            border-color: #ff6b35;
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
+            transform: translateY(-5px);
+        }
+        
+        .option-card h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #1a1a2e;
+            font-family: 'DM Sans', sans-serif;
+        }
+        
+        .price {
+            font-size: 32px;
+            font-weight: 700;
+            color: #ff6b35;
+            margin-bottom: 30px !important;
+        }
+        
+        .option-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 30px 0;
+        }
+        
+        .option-card li {
+            padding: 10px 0;
+            color: #666;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 14px;
+        }
+        
+        .option-card li:last-child {
+            border-bottom: none;
+        }
+        
+        .cta-btn {
+            display: inline-block;
+            background: #ff6b35;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background 0.3s ease;
+        }
+        
+        .cta-btn:hover {
+            background: #e55a2b;
+        }
+        
+        .advertise-contact {
+            background: #f9f9f9;
+            padding: 60px 20px;
+            margin-bottom: 60px;
+        }
+        
+        .advertise-contact h2 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 40px;
+            font-family: 'DM Sans', sans-serif;
+        }
+        
+        .contact-form-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .advertise-contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .advertise-contact input,
+        .advertise-contact select,
+        .advertise-contact textarea {
+            padding: 14px 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            background: white;
+        }
+        
+        .advertise-contact input:focus,
+        .advertise-contact select:focus,
+        .advertise-contact textarea:focus {
+            outline: none;
+            border-color: #ff6b35;
+            box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+        }
+        
+        .advertise-contact textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+        
+        .submit-btn {
+            background: #ff6b35;
+            color: white;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .submit-btn:hover {
+            background: #e55a2b;
+        }
+        
+        @media (max-width: 768px) {
+            .advertise-hero h1 {
+                font-size: 32px;
+            }
+            
+            .advertise-hero p {
+                font-size: 16px;
+            }
+            
+            .advertise-options h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">
+                    <img src="logo-full.png" alt="WanderHawaii" class="logo-img">
+                </a>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            </div>
+        </div>
+    </header>
+    
+    <section class="advertise-hero">
+        <div class="container">
+            <h1>Advertise With WanderHawaii</h1>
+            <p>Reach 50,000+ travelers planning their Hawaiian adventures</p>
+        </div>
+    </section>
+    
+    <section class="advertise-stats">
+        <div class="container" style="display: contents;">
+            <div class="stat-card">
+                <h3>50,000+</h3>
+                <p>Monthly Visitors</p>
+            </div>
+            <div class="stat-card">
+                <h3>500+</h3>
+                <p>Tour Bookings/Month</p>
+            </div>
+            <div class="stat-card">
+                <h3>#1</h3>
+                <p>Ranked Hawaii Tour Guide</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="advertise-options">
+        <div class="container">
+            <h2>Advertising Options</h2>
+            
+            <div class="options-grid">
+                <div class="option-card">
+                    <h3>Featured Business Listing</h3>
+                    <p class="price">$99/month</p>
+                    <ul>
+                        <li>✓ Logo on homepage "Featured Partners" section</li>
+                        <li>✓ Business name and description (150 chars)</li>
+                        <li>✓ Direct link to your website</li>
+                        <li>✓ Priority placement on partners grid</li>
+                        <li>✓ Email support included</li>
+                    </ul>
+                    <a href="#contact-form" class="cta-btn">Choose This Option</a>
+                </div>
+                
+                <div class="option-card">
+                    <h3>Sidebar Banner Ad</h3>
+                    <p class="price">$149/month</p>
+                    <ul>
+                        <li>✓ 300x250 banner ad on all pages</li>
+                        <li>✓ 50,000+ estimated monthly impressions</li>
+                        <li>✓ Click tracking included</li>
+                        <li>✓ Monthly performance report</li>
+                        <li>✓ Up to 6-month commitment</li>
+                    </ul>
+                    <a href="#contact-form" class="cta-btn">Choose This Option</a>
+                </div>
+                
+                <div class="option-card">
+                    <h3>Sponsored Blog Post</h3>
+                    <p class="price">$299</p>
+                    <ul>
+                        <li>✓ 1,000+ word article about your business</li>
+                        <li>✓ Permanent placement on blog</li>
+                        <li>✓ Permanent backlink to your website</li>
+                        <li>✓ Social media promotion (Facebook, Instagram)</li>
+                        <li>✓ SEO optimized for better rankings</li>
+                    </ul>
+                    <a href="#contact-form" class="cta-btn">Choose This Option</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact-form" class="advertise-contact">
+        <div class="container">
+            <h2>Get Started</h2>
+            <div class="contact-form-container">
+                <form action="https://formspree.io/f/mvanpbqe" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="business_name" placeholder="Business Name" required>
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <select name="option" required>
+                        <option value="">Select Option</option>
+                        <option value="featured">Featured Business Listing</option>
+                        <option value="banner">Sidebar Banner Ad</option>
+                        <option value="sponsored">Sponsored Blog Post</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <textarea name="message" placeholder="Tell us about your business..." required></textarea>
+                    <button type="submit" class="submit-btn">Get Started</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <img src="logo-full.png" alt="WanderHawaii" class="footer-logo-img">
+                    </a>
+                    <p class="footer-platform-tagline">Tours Discovery Platform</p>
+                    <p>Your guide to 50,000+ Hawaiian adventures. Verified local operators, instant booking.</p>
+                    <p class="footer-tagline">Mahalo for supporting local! 🤙</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Islands</h4>
+                    <ul>
+                        <li><a href="oahu.html">Oahu</a></li>
+                        <li><a href="maui.html">Maui</a></li>
+                        <li><a href="big-island.html">Big Island</a></li>
+                        <li><a href="kauai.html">Kauai</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul>
+                        <li><a href="tours.html">Snorkeling</a></li>
+                        <li><a href="tours.html">Whale Watching</a></li>
+                        <li><a href="tours.html">Shark Diving</a></li>
+                        <li><a href="tours.html">Boat Tours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="advertise.html">Advertise</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderHawaii. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

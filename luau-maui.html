@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-PL7CN6NG44');</script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Hawaiian Luaus in Maui | Fire Show & Feast | $89/Person | WanderHawaii</title>
+    <meta name="description" content="Authentic Maui luau with traditional Hawaiian dinner, fire dancing show, open bar. Oceanfront seating. Book from $89/person. Heritage, culture, entertainment.">
+    <link rel="canonical" href="https://wanderhawaii.com/luau-maui.html">
+    
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: #333; line-height: 1.6; }
+        
+        .hero { background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1577003832033-a94217e546ab?w=1200&q=80') center/cover; color: white; text-align: center; padding: 80px 20px 60px; min-height: 500px; display: flex; flex-direction: column; justify-content: center; }
+        .hero h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); margin-bottom: 20px; font-weight: 700; }
+        .hero-stats { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 30px 0; font-size: 1.1rem; font-weight: 600; }
+        .stat { display: flex; flex-direction: column; align-items: center; }
+        .stat-value { font-size: 1.5rem; margin-bottom: 5px; }
+        .stat-label { font-size: 0.9rem; opacity: 0.9; }
+        .cta-btn { background: #ff6b35; color: white; padding: 14px 28px; border: none; border-radius: 25px; font-size: 1rem; font-weight: 700; cursor: pointer; display: inline-block; text-decoration: none; transition: all 0.3s ease; }
+        .cta-btn:hover { background: #ff5722; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.4); }
+        
+        .offer-section { background: white; padding: 60px 20px; }
+        .offer-container { max-width: 700px; margin: 0 auto; }
+        .offer-box { background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%); color: white; padding: 40px; border-radius: 12px; margin: 40px 0; }
+        .offer-box h2 { font-size: 1.8rem; margin-bottom: 25px; font-weight: 700; }
+        .pricing-options { list-style: none; margin: 30px 0; }
+        .pricing-options li { padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.2); font-size: 1.05rem; }
+        .pricing-options li:last-child { border-bottom: none; }
+        .pricing-options strong { display: block; font-size: 1.2rem; margin-bottom: 5px; }
+        .offer-box .cta-btn { background: #ff6b35; margin-top: 20px; width: 100%; font-size: 1.1rem; padding: 16px; }
+        
+        .included { background: #f8f9fa; padding: 40px 20px; margin: 40px 0; border-radius: 8px; }
+        .included h3 { color: #0077b6; margin-bottom: 20px; font-size: 1.3rem; }
+        .included-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        .included-list li { padding: 12px 0; display: flex; align-items: center; }
+        .included-list li:before { content: "✓"; color: #0077b6; font-weight: 700; margin-right: 12px; font-size: 1.2rem; }
+        
+        .faq-section { background: white; padding: 60px 20px; }
+        .faq-container { max-width: 700px; margin: 0 auto; }
+        .faq-section h2 { color: #0077b6; margin-bottom: 30px; font-size: 1.8rem; text-align: center; }
+        .faq-item { margin-bottom: 20px; background: #f8f9fa; padding: 20px; border-radius: 8px; }
+        .faq-q { font-weight: 700; color: #0077b6; margin-bottom: 10px; font-size: 1.05rem; cursor: pointer; }
+        .faq-a { color: #555; line-height: 1.7; display: none; }
+        .faq-item.open .faq-a { display: block; }
+        
+        .footer-cta { background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%); color: white; padding: 40px 20px; text-align: center; }
+        .footer-cta .cta-btn { background: #ff6b35; padding: 15px 35px; font-size: 1.05rem; }
+        
+        header { background: white; padding: 15px 20px; border-bottom: 1px solid #eee; }
+        .header-container { max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #0077b6; font-weight: 700; font-size: 1.2rem; }
+        .logo img { width: 32px; height: 32px; }
+        .nav-desktop { display: flex; gap: 25px; }
+        .nav-desktop a { color: #555; text-decoration: none; font-weight: 500; font-size: 0.95rem; }
+        .nav-desktop a:hover { color: #0077b6; }
+        .mobile-menu-btn { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
+        
+        @media (max-width: 768px) {
+            .hero { padding: 60px 15px 40px; }
+            .hero h1 { font-size: 1.5rem; }
+            .hero-stats { gap: 20px; }
+            .hero-stats .stat { flex: 1; min-width: 140px; }
+            .offer-box { padding: 25px; }
+            .offer-box h2 { font-size: 1.5rem; }
+            .offer-box .cta-btn { font-size: 1rem; }
+            .included-list { grid-template-columns: 1fr; }
+            .nav-desktop { display: none; }
+            .mobile-menu-btn { display: block; }
+        }
+        
+        @media (max-width: 480px) {
+            .hero h1 { font-size: 1.3rem; }
+            .stat-value { font-size: 1.3rem; }
+            .stat-label { font-size: 0.8rem; }
+            .cta-btn { padding: 12px 24px; font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/" class="logo">
+                <span>🌊</span>
+                <span>WanderHawaii</span>
+            </a>
+            <nav class="nav-desktop">
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+            </nav>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Traditional Hawaiian Luaus in Maui | Fire Show & Feast | $89/Person</h1>
+        <div class="hero-stats">
+            <div class="stat">
+                <div class="stat-value">$89</div>
+                <div class="stat-label">Starting Price</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">🔥</div>
+                <div class="stat-label">Fire Show Included</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">🍹</div>
+                <div class="stat-label">Open Bar</div>
+            </div>
+        </div>
+        <button class="cta-btn" onclick="gtag('event', 'luau_cta_hero'); document.querySelector('.offer-box').scrollIntoView({behavior:'smooth'});">Book Luau Now</button>
+    </section>
+
+    <section class="offer-section">
+        <div class="offer-container">
+            <div class="offer-box">
+                <h2>Maui Luau Experience</h2>
+                <ul class="pricing-options">
+                    <li><strong>$89/person</strong> Dinner + show • Oceanfront seating</li>
+                    <li><strong>$109/person</strong> Premium • Front row seating + pre-show appetizers</li>
+                </ul>
+                <button class="cta-btn" onclick="gtag('event', 'luau_cta_offer');">Book Luau Now</button>
+            </div>
+
+            <div class="included">
+                <h3>What's Included</h3>
+                <ul class="included-list">
+                    <li>Traditional Hawaiian dinner buffet</li>
+                    <li>Fire dancing & hula show</li>
+                    <li>Open bar (local beer, wine, cocktails)</li>
+                    <li>Oceanfront seating</li>
+                    <li>Live island music & culture</li>
+                    <li>Sunset viewing area</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-q">Are there vegetarian options?</div>
+                <div class="faq-a">Yes. Our buffet includes kalua pork, local fish, and vegetarian dishes like poi, laulau, and fresh tropical fruits. Let us know dietary preferences when booking and we'll ensure you're well-fed.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-q">Can children attend?</div>
+                <div class="faq-a">Absolutely. Kids love the fire show and hula performances. We offer kids' pricing and family seating. Keiki (children) menu available with milder dishes. Open bar for adults only, of course.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-q">What's the dress code?</div>
+                <div class="faq-a">Casual but nice. Aloha shirts, sundresses, casual slacks are perfect. No beachwear or overly casual attire. Sunset can be breezy—bring a light shawl or jacket. Flip-flops are fine.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-q">What's the best time to go?</div>
+                <div class="faq-a">Year-round, but sunset times vary. Winter luaus happen earlier (around 5-5:30pm), summer luaus later (6-6:30pm). Any time is magical. Book ahead, especially in peak season (Dec-Mar, Jul-Aug).</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-cta">
+        <h2>Ready for Your Maui Luau Experience?</h2>
+        <p style="margin: 15px 0; font-size: 1.1rem;">Traditional feast, fire show, open bar, oceanfront sunset. Unforgettable Hawaiian night.</p>
+        <button class="cta-btn" onclick="gtag('event', 'luau_cta_footer');">Book Luau Now</button>
+    </section>
+
+    <script>
+        document.querySelectorAll('.faq-q').forEach(q => {
+            q.addEventListener('click', function() {
+                this.parentElement.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>

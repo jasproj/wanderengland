@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii Travel Blog | Local Tips & Tour Guides | WanderHawaii</title>
+    <meta name="description" content="Expert Hawaii travel guides, tour recommendations, and local tips. Find the best snorkeling, whale watching, helicopter tours & more across all islands.">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+    <link rel="canonical" href="https://wanderhawaii.com/blog/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Hawaii Travel Blog | WanderHawaii">
+    <meta property="og:description" content="Expert guides to Hawaii's best tours and adventures.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderhawaii.com/blog/">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PL7CN6NG44');
+    </script>
+    
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .blog-hero {
+            background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+            padding: 80px 20px 60px;
+            text-align: center;
+            color: white;
+        }
+        .blog-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        .blog-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        .blog-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .blog-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .blog-card-content {
+            padding: 20px;
+        }
+        .blog-category {
+            display: inline-block;
+            background: #e8f4fc;
+            color: #0066cc;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .blog-card h2 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+        .blog-card h2 a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+        .blog-card h2 a:hover {
+            color: #0066cc;
+        }
+        .blog-card p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .blog-meta {
+            font-size: 0.85rem;
+            color: #999;
+        }
+        .featured-post {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+        .featured-post img {
+            height: 100%;
+            min-height: 300px;
+        }
+        .featured-post .blog-card-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+        }
+        .featured-post h2 {
+            font-size: 1.8rem;
+        }
+        @media (max-width: 768px) {
+            .featured-post {
+                grid-template-columns: 1fr;
+            }
+            .featured-post img {
+                height: 200px;
+            }
+            .blog-hero h1 {
+                font-size: 2rem;
+            }
+        }
+        .breadcrumb {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            font-size: 0.9rem;
+        }
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="logo-link">
+                <img src="../logo-icon.png" alt="WanderHawaii" class="logo-icon">
+                <span class="logo-text">WanderHawaii</span>
+            </a>
+            <nav class="main-nav">
+                <a href="/#tours-section">Tours</a>
+                <a href="/#islands">Islands</a>
+                <a href="/blog/" class="active">Blog</a>
+                <a href="/about.html">About</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="/">Home</a> → <span>Blog</span>
+    </div>
+
+    <!-- Hero -->
+    <section class="blog-hero">
+        <h1>Hawaii Travel Guides</h1>
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80" alt="Featured image for Hawaii Travel Guides" class="blog-featured-image" loading="lazy">
+
+        <p>Local tips, tour recommendations, and insider knowledge to plan your perfect Hawaiian adventure.</p>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="blog-grid" id="blog-grid">
+        <div class="loading">Loading blog posts...</div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="background: #f0f7ff; padding: 60px 20px; text-align: center;">
+        <h2 style="font-size: 1.8rem; margin-bottom: 15px;">Ready to Book Your Adventure?</h2>
+        <p style="color: #666; max-width: 500px; margin: 0 auto 25px;">Browse 3,142 verified tours from local Hawaiian operators.</p>
+        <a href="/#tours-section" style="display: inline-block; background: #0066cc; color: white; padding: 15px 35px; border-radius: 8px; text-decoration: none; font-weight: 600;">Explore All Tours →</a>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #1a1a1a; color: white; padding: 50px 20px;">
+        <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px;">
+            <div>
+                <img src="../logo-full.png" alt="WanderHawaii" style="max-width: 150px; margin-bottom: 15px;">
+                <p style="color: #999; font-size: 0.9rem;">Your guide to 3,142 Hawaiian adventures. Verified local operators, instant booking.</p>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 15px;">Islands</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"><a href="/oahu.html" style="color: #999; text-decoration: none;">Oahu (1,194)</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/maui.html" style="color: #999; text-decoration: none;">Maui (826)</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/big-island.html" style="color: #999; text-decoration: none;">Big Island (598)</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/kauai.html" style="color: #999; text-decoration: none;">Kauai (524)</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 15px;">Popular Guides</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"><a href="best-snorkeling-oahu.html" style="color: #999; text-decoration: none;">Oahu Snorkeling</a></li>
+                    <li style="margin-bottom: 8px;"><a href="maui-whale-watching-guide.html" style="color: #999; text-decoration: none;">Maui Whale Watching</a></li>
+                    <li style="margin-bottom: 8px;"><a href="big-island-manta-ray-tours.html" style="color: #999; text-decoration: none;">Manta Ray Tours</a></li>
+                    <li style="margin-bottom: 8px;"><a href="na-pali-coast-tours-kauai.html" style="color: #999; text-decoration: none;">Na Pali Coast</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 15px;">Company</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"><a href="/about.html" style="color: #999; text-decoration: none;">About Us</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/blog/" style="color: #999; text-decoration: none;">Blog</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/#faq" style="color: #999; text-decoration: none;">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #333; color: #666; font-size: 0.9rem;">
+            © 2026 WanderHawaii. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+    // Dynamic blog post loader
+    const blogPosts = [
+        { filename: 'best-snorkeling-oahu.html', title: 'Best Snorkeling in Oahu 2026: Top 7 Spots + Tours', category: '🤿 Snorkeling', excerpt: 'From Hanauma Bay\'s protected reef to the North Shore\'s turtle cleaning stations, discover Oahu\'s best underwater adventures.' },
+        { filename: 'maui-whale-watching-guide.html', title: 'Maui Whale Watching Guide 2026: Season, Tours & Tips', category: '🐋 Wildlife', excerpt: 'Humpback season runs December through April. Here\'s how to see them up close with the best boat tours.' },
+        { filename: 'big-island-manta-ray-tours.html', title: 'Big Island Manta Ray Tours: The Ultimate Night Snorkel Guide', category: '🌙 Night Tours', excerpt: 'Swimming with 12-foot manta rays at night is bucket-list Hawaii. Compare the top Kona manta tours.' },
+        { filename: 'hawaii-helicopter-tours.html', title: 'Hawaii Helicopter Tours: Which Island Has the Best Views?', category: '🚁 Air Tours', excerpt: 'Na Pali cliffs, active volcanoes, or Jurassic Park valleys? Compare helicopter tours across all islands.' },
+        { filename: 'na-pali-coast-tours-kauai.html', title: 'Na Pali Coast Tours: Boat, Raft, or Kayak? (2026 Guide)', category: '⛵ Boat Tours', excerpt: 'Kauai\'s most dramatic coastline by sea. Compare catamarans, zodiac rafts, and kayak adventures.' },
+        { filename: 'best-time-to-visit-hawaii.html', title: 'Best Time to Visit Hawaii in 2026: Month-by-Month Guide', category: '📅 Planning', excerpt: 'Whale season, surf season, or shoulder season? Find the perfect time for your trip.' },
+        { filename: 'hawaii-sunset-cruises.html', title: 'Best Hawaii Sunset Cruises: Romantic Sails on Every Island', category: '🌅 Sunset', excerpt: 'Champagne, dolphins, and golden hour on the Pacific. Top sunset sails from Waikiki, Maui, and Kona.' },
+        { filename: 'best-luaus-oahu.html', title: 'Best Luaus in Oahu 2026: Authentic Hawaiian Experiences', category: '🎉 Culture', excerpt: 'From intimate beachside feasts to grand productions, find the perfect luau for your group.' },
+        { filename: 'things-to-do-big-island.html', title: '25 Best Things to Do on Big Island Hawaii (2026)', category: '🌋 Adventure', excerpt: 'Volcanoes, black sand beaches, coffee farms, and manta rays. The ultimate Big Island bucket list.' },
+        
+        // 20 NEW POSTS
+        { filename: 'best-snorkeling-spots-oahu-2026.html', title: 'Best Snorkeling Spots in Oahu 2026', category: '🤿 Snorkeling', excerpt: 'Discover Oahu\'s top snorkeling spots with crystal clear waters, vibrant coral reefs, and sea turtles.' },
+        { filename: 'molokini-crater-snorkeling-guide.html', title: 'Molokini Crater Snorkeling Guide', category: '🤿 Snorkeling', excerpt: 'Complete guide to Molokini Crater snorkeling: best tour operators, marine life, and visibility tips.' },
+        { filename: 'maui-whale-watching-season-when-to-go.html', title: 'Maui Whale Watching Season - When to Go', category: '🐋 Wildlife', excerpt: 'Plan your Maui whale watching trip. Learn peak season months and what to expect.' },
+        { filename: 'napali-coast-boat-tour-comparison.html', title: 'Na Pali Coast Boat Tour Comparison', category: '⛵ Boat Tours', excerpt: 'Compare Na Pali coast boat tours: catamarans vs zodiacs vs sailboats, prices, and which suits you best.' },
+        { filename: 'big-island-manta-ray-night-snorkel-what-to-expect.html', title: 'Big Island Manta Ray Night Snorkel - What to Expect', category: '🌙 Night Tours', excerpt: 'What to expect on Big Island manta ray night snorkel tours. Spotting tips, safety, and encounters.' },
+        { filename: 'best-luaus-maui-families.html', title: 'Best Luaus in Maui for Families', category: '🎉 Culture', excerpt: 'Family-friendly luaus in Maui with kid entertainment, traditional Hawaiian food, and fire dancing.' },
+        { filename: 'oahu-helicopter-tours-worth-the-money.html', title: 'Oahu Helicopter Tours - Worth the Money?', category: '🚁 Air Tours', excerpt: 'Are Oahu helicopter tours worth $250-450? Cost breakdown, what you\'ll see, and ratings.' },
+        { filename: 'sunrise-haleakala-complete-guide.html', title: 'Sunrise at Haleakala - Complete Guide', category: '📅 Planning', excerpt: 'Complete Haleakala sunrise guide: what to bring, best viewing spots, photography tips.' },
+        { filename: 'best-time-visit-hawaii-tours.html', title: 'Best Time to Visit Hawaii for Tours', category: '📅 Planning', excerpt: 'Best Hawaii tour seasons: whale watching (winter), snorkeling (summer), activities by month.' },
+        { filename: 'kauai-vs-maui-snorkeling.html', title: 'Kauai vs Maui - Which Island for Snorkeling?', category: '🤿 Snorkeling', excerpt: 'Compare Kauai and Maui snorkeling. Which has better reefs, wildlife, and best suits your style?' },
+        { filename: 'hawaii-tours-cruise-ship-passengers.html', title: 'Hawaii Tours for Cruise Ship Passengers', category: '📅 Planning', excerpt: 'Cruise ship shore excursions in Hawaii: what tours to book, timing, and maximizing port days.' },
+        { filename: 'best-kid-friendly-tours-oahu.html', title: 'Best Kid-Friendly Tours in Oahu', category: '🎉 Culture', excerpt: 'Best family-friendly tours in Oahu: snorkeling, hiking, activities kids actually enjoy.' },
+        { filename: 'private-vs-group-tours-hawaii.html', title: 'Private vs Group Tours in Hawaii', category: '📅 Planning', excerpt: 'Private vs group Hawaii tours: cost comparison, pros/cons, and which suits your style.' },
+        { filename: 'honolulu-shore-excursions-guide.html', title: 'Honolulu Shore Excursions Guide', category: '📅 Planning', excerpt: 'Complete Honolulu shore excursion guide for cruise passengers: best tours and port logistics.' },
+        { filename: 'best-sunset-cruises-waikiki.html', title: 'Best Sunset Cruises in Waikiki', category: '🌅 Sunset', excerpt: 'Best sunset cruises in Waikiki: catamaran options, dinner cruises, cocktails, and romantic sailing.' },
+        { filename: 'lanikai-kayaking-mokulua-islands.html', title: 'Lanikai Kayaking to Mokulua Islands', category: '🏄 Water Sports', excerpt: 'Complete Lanikai kayaking guide: paddle to Mokulua Islands, snorkeling, and paddling tips.' },
+        { filename: 'hawaii-volcano-tours-kona.html', title: 'Hawaii Volcano Tours from Kona', category: '🌋 Adventure', excerpt: 'Hawaii volcano tours from Kona: experience active lava, crater exploration, and volcanic landscape.' },
+        { filename: 'best-dolphin-tours-hawaii.html', title: 'Best Dolphin Tours in Hawaii', category: '🐋 Wildlife', excerpt: 'Best dolphin watching tours in Hawaii: spinner dolphins, encounter locations, and operators.' },
+        { filename: 'maui-road-to-hana-tour-options.html', title: 'Maui Road to Hana Tour Options', category: '🚗 Scenic Drives', excerpt: 'Maui Road to Hana tour options: self-drive vs guided, waterfalls, stops, and tips.' },
+        { filename: 'budget-hawaii-tours-under-100.html', title: 'Budget Hawaii Tours Under $100', category: '💰 Budget', excerpt: 'Budget Hawaii tours under $100: affordable activities, free attractions, and value experiences.' }
+    ];
+
+    function createBlogCard(post, index) {
+        const image = `https://images.unsplash.com/photo-1507876466758-bc54f384809c?auto=format&fit=crop&w=600&q=80`;
+        const isFeatured = index === 0;
+        
+        if (isFeatured) {
+            return `
+                <article class="blog-card featured-post">
+                    <img src="${image}" alt="${post.title}">
+                    <div class="blog-card-content">
+                        <span class="blog-category">${post.category}</span>
+                        <h2><a href="${post.filename}">${post.title}</a></h2>
+                        <p>${post.excerpt}</p>
+                        <div class="blog-meta">Updated April 2026 • 8 min read</div>
+                    </div>
+                </article>
+            `;
+        } else {
+            return `
+                <article class="blog-card">
+                    <img src="${image}" alt="${post.title}">
+                    <div class="blog-card-content">
+                        <span class="blog-category">${post.category}</span>
+                        <h2><a href="${post.filename}">${post.title}</a></h2>
+                        <p>${post.excerpt}</p>
+                        <div class="blog-meta">Updated April 2026 • 6 min read</div>
+                    </div>
+                </article>
+            `;
+        }
+    }
+
+    // Load and render blog posts
+    document.addEventListener('DOMContentLoaded', () => {
+        const grid = document.getElementById('blog-grid');
+        const html = blogPosts.map((post, index) => createBlogCard(post, index)).join('');
+        grid.innerHTML = html;
+    });
+    </script>
+</body>
+</html>

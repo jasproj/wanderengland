@@ -1,0 +1,35 @@
+# WanderHawaii
+
+> Hawaii's tour discovery platform. 595 tours across Oahu, Maui, Big Island, and Kauai.
+
+WanderHawaii helps travelers find and book authentic Hawaiian experiences from local tour operators. We aggregate tours from across all four main Hawaiian islands, making it easy to discover snorkeling, whale watching, hiking, helicopters, luaus, and more.
+
+## Key Pages
+
+- [Homepage](https://wanderhawaii.com/): Search and browse 595 Hawaiian tours
+- [All Tours](https://wanderhawaii.com/tours.html): Complete tour directory with filters
+- [Islands Guide](https://wanderhawaii.com/islands.html): Compare Oahu, Maui, Big Island, Kauai
+
+## Activity Guides
+
+- [Snorkeling](https://wanderhawaii.com/snorkeling.html): 114 snorkel tours, best spots like Molokini and Hanauma Bay
+- [Whale Watching](https://wanderhawaii.com/whale-watching.html): 43 tours, season runs December-April
+- [Shark Diving](https://wanderhawaii.com/shark-diving.html): Cage diving on Oahu's North Shore
+- [Fishing](https://wanderhawaii.com/fishing.html): Deep sea charters, Kona is world-famous for marlin
+- [Ziplines](https://wanderhawaii.com/zipline.html): 15 courses across all islands
+- [Kayaking](https://wanderhawaii.com/kayak.html): Ocean and river adventures, Secret Falls on Kauai
+- [Waterfalls](https://wanderhawaii.com/waterfalls.html): Guided hikes and helicopter tours
+- [Jet Skis](https://wanderhawaii.com/jet-ski.html): Rentals on Oahu, Maui, Big Island
+
+## Quick Facts
+
+- 595 total tours from local operators
+- 4 Hawaiian islands covered
+- Tours include: snorkeling, scuba, boat tours, whale watching, dolphins, kayaking, surfing, SUP, hiking, ziplines, helicopters, fishing, luaus, food tours, and more
+- Booking links go directly to tour operators via FareHarbor
+- Prices range from ~$30 to $500+ depending on activity
+
+## Contact
+
+Website: https://wanderhawaii.com
+Email: aloha@wanderhawaii.com

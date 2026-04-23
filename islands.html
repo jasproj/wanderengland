@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PL7CN6NG44');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaiian Islands Guide 2025 | Oahu, Maui, Big Island & Kauai | WanderHawaii</title>
+    <meta name="description" content="Complete guide to Hawaii's 4 main islands. Compare Oahu, Maui, Big Island & Kauai—beaches, culture, activities, best time to visit. Find your perfect island match.">
+    <meta name="keywords" content="Hawaiian islands, which Hawaii island, Oahu guide, Maui guide, Big Island Hawaii, Kauai guide, Hawaii vacation, island comparison">
+    <link rel="canonical" href="https://wanderhawaii.com/islands.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderhawaii.com/islands.html">
+    <meta property="og:title" content="Hawaiian Islands Guide 2025 | Which Island Is Right For You?">
+    <meta property="og:description" content="Compare all 4 Hawaiian islands. Find your perfect match based on your travel style.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?w=1200">
+    
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TouristDestination",
+        "name": "Hawaiian Islands",
+        "description": "The Hawaiian Islands are a volcanic archipelago in the Pacific Ocean, comprising four main tourist destinations: Oahu, Maui, Big Island, and Kauai.",
+        "url": "https://wanderhawaii.com/islands.html",
+        "containsPlace": [
+            {"@type": "TouristDestination", "name": "Oahu", "description": "Home to Honolulu, Waikiki Beach, and Pearl Harbor"},
+            {"@type": "TouristDestination", "name": "Maui", "description": "The Valley Isle, famous for Road to Hana and whale watching"},
+            {"@type": "TouristDestination", "name": "Big Island", "description": "Hawaii Island, home to active volcanoes and diverse landscapes"},
+            {"@type": "TouristDestination", "name": "Kauai", "description": "The Garden Isle, featuring Na Pali Coast and Waimea Canyon"}
+        ]
+    }
+    </script>
+    
+    <style>
+        html, body {
+            overflow-x: hidden;
+        }
+        
+        .islands-hero {
+            position: relative;
+            padding: 160px var(--space-lg) var(--space-3xl);
+            background: linear-gradient(135deg, var(--ocean-deep), var(--ocean-mid));
+            color: var(--white);
+            text-align: center;
+        }
+        
+        .islands-hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            margin-bottom: var(--space-lg);
+        }
+        
+        .islands-hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .island-section {
+            padding: var(--space-3xl) 0;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        
+        .island-section:nth-child(even) {
+            background: var(--off-white);
+        }
+        
+        .island-section:last-of-type {
+            border-bottom: none;
+        }
+        
+        .island-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-3xl);
+            align-items: center;
+        }
+        
+        .island-section:nth-child(odd) .island-layout {
+            direction: rtl;
+        }
+        
+        .island-section:nth-child(odd) .island-layout > * {
+            direction: ltr;
+        }
+        
+        .island-image-wrap {
+            position: relative;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+        }
+        
+        .island-image-wrap img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        
+        .island-tag {
+            position: absolute;
+            top: var(--space-md);
+            left: var(--space-md);
+            background: var(--plumeria);
+            color: var(--gray-900);
+            padding: var(--space-xs) var(--space-md);
+            border-radius: var(--radius-full);
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        
+        .island-details h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            color: var(--gray-900);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .island-nickname {
+            font-size: 1.125rem;
+            color: var(--ocean-mid);
+            font-weight: 500;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .island-description {
+            color: var(--gray-600);
+            line-height: 1.8;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .island-highlights {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-md);
+            margin-bottom: var(--space-xl);
+        }
+        
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            font-size: 0.9375rem;
+            color: var(--gray-700);
+        }
+        
+        .highlight-icon {
+            font-size: 1.25rem;
+        }
+        
+        .island-stats {
+            display: flex;
+            gap: var(--space-xl);
+            margin-bottom: var(--space-xl);
+            padding: var(--space-lg);
+            background: var(--gray-100);
+            border-radius: var(--radius-lg);
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            display: block;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--ocean-deep);
+        }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--gray-500);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .island-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            padding: var(--space-md) var(--space-xl);
+            background: var(--plumeria);
+            color: var(--gray-900);
+            font-weight: 600;
+            border-radius: var(--radius-full);
+            transition: all var(--transition-fast);
+        }
+        
+        .island-cta:hover {
+            background: var(--plumeria-hover);
+            transform: translateX(4px);
+        }
+        
+        .history-section {
+            padding: var(--space-3xl) 0;
+            background: var(--ocean-deep);
+            color: var(--white);
+        }
+        
+        .history-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .history-content h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: var(--space-xl);
+        }
+        
+        .history-content p {
+            font-size: 1.125rem;
+            line-height: 1.9;
+            opacity: 0.9;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .comparison-section {
+            padding: var(--space-3xl) 0;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin-top: var(--space-xl);
+        }
+        
+        .comparison-table {
+            width: 100%;
+            min-width: 600px;
+            border-collapse: collapse;
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            padding: var(--space-md) var(--space-lg);
+            text-align: left;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        
+        .comparison-table th {
+            background: var(--ocean-deep);
+            color: var(--white);
+            font-weight: 600;
+        }
+        
+        .comparison-table tr:hover {
+            background: var(--gray-50);
+        }
+        
+        .comparison-table td:first-child {
+            font-weight: 600;
+            color: var(--gray-700);
+        }
+        
+        .best-for {
+            display: inline-block;
+            padding: 2px var(--space-sm);
+            background: var(--pale-blue);
+            color: var(--ocean-deep);
+            border-radius: var(--radius-sm);
+            font-size: 0.8125rem;
+            font-weight: 500;
+        }
+        
+        .quiz-section {
+            padding: var(--space-3xl) 0;
+            background: var(--sand);
+            text-align: center;
+        }
+        
+        .quiz-box {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: var(--space-2xl);
+            background: var(--white);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .quiz-box h2 {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            color: var(--gray-900);
+            margin-bottom: var(--space-md);
+        }
+        
+        .quiz-box p {
+            color: var(--gray-600);
+            margin-bottom: var(--space-xl);
+        }
+        
+        .quiz-options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-md);
+        }
+        
+        .quiz-option {
+            padding: var(--space-lg);
+            background: var(--gray-100);
+            border: 2px solid transparent;
+            border-radius: var(--radius-lg);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            text-align: center;
+        }
+        
+        .quiz-option:hover {
+            border-color: var(--ocean-mid);
+            background: var(--white);
+        }
+        
+        .quiz-option-icon {
+            font-size: 2rem;
+            margin-bottom: var(--space-sm);
+        }
+        
+        .quiz-option-label {
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+        
+        @media (max-width: 968px) {
+            .island-layout {
+                grid-template-columns: 1fr;
+                gap: var(--space-xl);
+            }
+            
+            .island-section:nth-child(odd) .island-layout {
+                direction: ltr;
+            }
+            
+            .island-image-wrap img {
+                height: 300px;
+            }
+            
+            .island-highlights {
+                grid-template-columns: 1fr;
+            }
+            
+            .island-stats {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .comparison-table {
+                font-size: 0.875rem;
+            }
+            
+            .comparison-table th,
+            .comparison-table td {
+                padding: var(--space-sm);
+            }
+            
+            .quiz-options {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="logo-icon.png" alt="WanderHawaii" class="logo-img">
+                    <span class="logo-text">WanderHawaii</span>
+                </a>
+                <span class="logo-tagline">Tours Discovery Platform</span>
+            </div>
+            <nav class="nav-desktop">
+                <a href="index.html#tours-section">Tours</a>
+                <a href="islands.html" class="active">Islands</a>
+                <a href="about.html">About</a>
+                <a href="faq.html">FAQs</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="index.html#tours-section">Tours</a>
+            <a href="islands.html">Islands</a>
+            <a href="about.html">About</a>
+            <a href="faq.html">FAQs</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="islands-hero">
+        <div class="container">
+            <h1>The Hawaiian Islands</h1>
+            <p>Four islands, four personalities. From the energy of Waikiki to the untouched wilderness of Kauai, discover which island is calling your name.</p>
+        </div>
+    </section>
+
+    <!-- OAHU -->
+    <section class="island-section" id="oahu">
+        <div class="container">
+            <div class="island-layout">
+                <div class="island-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1507876466758-bc54f384809c?auto=format&fit=crop&w=1200&q=90" alt="Waikiki Beach and Diamond Head, Oahu">
+                    <span class="island-tag">Most Popular</span>
+                </div>
+                <div class="island-details">
+                    <h2>Oahu</h2>
+                    <p class="island-nickname">"The Gathering Place"</p>
+                    <p class="island-description">
+                        Oahu is where Hawaiian culture, history, and modern life intersect. Home to 70% of Hawaii's population, the island pulses with energy—from the legendary waves of the North Shore to the neon glow of Waikiki. But venture beyond Honolulu and you'll find empty beaches, sacred valleys, and small towns where time moves slower.
+                    </p>
+                    <p class="island-description">
+                        Pearl Harbor draws history buffs. Diamond Head challenges hikers at sunrise. The North Shore humbles the world's best surfers every winter. And everywhere, you'll find the best food scene in Hawaii—from $2 plate lunches to world-class sushi.
+                    </p>
+                    <div class="island-highlights">
+                        <div class="highlight-item"><span class="highlight-icon">🏖️</span> Waikiki Beach</div>
+                        <div class="highlight-item"><span class="highlight-icon">🎖️</span> Pearl Harbor</div>
+                        <div class="highlight-item"><span class="highlight-icon">🏔️</span> Diamond Head</div>
+                        <div class="highlight-item"><span class="highlight-icon">🏄</span> North Shore</div>
+                        <div class="highlight-item"><span class="highlight-icon">🍜</span> Best Food Scene</div>
+                        <div class="highlight-item"><span class="highlight-icon">🌺</span> Polynesian Culture Center</div>
+                    </div>
+                    <div class="island-stats">
+                        <div class="stat">
+                            <span class="stat-number">329</span>
+                            <span class="stat-label">Tours</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">597</span>
+                            <span class="stat-label">Sq Miles</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1M+</span>
+                            <span class="stat-label">Population</span>
+                        </div>
+                    </div>
+                    <a href="oahu.html" class="island-cta">Explore Oahu Tours →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAUI -->
+    <section class="island-section" id="maui">
+        <div class="container">
+            <div class="island-layout">
+                <div class="island-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1542259009477-d625272157b7?auto=format&fit=crop&w=1200&q=90" alt="Road to Hana coastline, Maui">
+                    <span class="island-tag">Best for Couples</span>
+                </div>
+                <div class="island-details">
+                    <h2>Maui</h2>
+                    <p class="island-nickname">"The Valley Isle"</p>
+                    <p class="island-description">
+                        Maui has mastered the art of romance. The island draws honeymooners and couples seeking sunset dinners, luxury resorts, and adventures built for two. But Maui isn't just candlelit dinners—it's watching humpback whales breach from your breakfast table, driving 620 curves to Hana, and snorkeling a volcanic crater.
+                    </p>
+                    <p class="island-description">
+                        The island formed when two volcanoes merged, creating Haleakala ("House of the Sun") in the east and the West Maui Mountains. Between them lies a fertile valley that gives the island its nickname and some of Hawaii's best farm-to-table dining.
+                    </p>
+                    <div class="island-highlights">
+                        <div class="highlight-item"><span class="highlight-icon">🛣️</span> Road to Hana</div>
+                        <div class="highlight-item"><span class="highlight-icon">🐋</span> Whale Watching (Dec-Apr)</div>
+                        <div class="highlight-item"><span class="highlight-icon">🌅</span> Haleakala Sunrise</div>
+                        <div class="highlight-item"><span class="highlight-icon">🤿</span> Molokini Crater</div>
+                        <div class="highlight-item"><span class="highlight-icon">🏨</span> Luxury Resorts</div>
+                        <div class="highlight-item"><span class="highlight-icon">🍷</span> Upcountry Wine & Farms</div>
+                    </div>
+                    <div class="island-stats">
+                        <div class="stat">
+                            <span class="stat-number">101</span>
+                            <span class="stat-label">Tours</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">727</span>
+                            <span class="stat-label">Sq Miles</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">165K</span>
+                            <span class="stat-label">Population</span>
+                        </div>
+                    </div>
+                    <a href="maui.html" class="island-cta">Explore Maui Tours →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BIG ISLAND -->
+    <section class="island-section" id="big-island">
+        <div class="container">
+            <div class="island-layout">
+                <div class="island-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1547483238-f400e65ccd56?auto=format&fit=crop&w=1200&q=90" alt="Kilauea volcano glow, Big Island">
+                    <span class="island-tag">Most Diverse</span>
+                </div>
+                <div class="island-details">
+                    <h2>Big Island</h2>
+                    <p class="island-nickname">"The Island of Hawai'i"</p>
+                    <p class="island-description">
+                        The Big Island earns its name—it's larger than all other Hawaiian islands combined and still growing. Kilauea, one of the world's most active volcanoes, has been adding new land since 1983. This is where you'll find Hawaii's extremes: black sand beaches, snow-capped mountains, tropical rainforests, and barren lava fields—sometimes all in a single day's drive.
+                    </p>
+                    <p class="island-description">
+                        The Big Island moves at its own pace. Towns are small, traffic is rare, and stargazing from Mauna Kea rivals any observatory on Earth. At night, manta rays with 12-foot wingspans glide through illuminated waters while you float above them—an experience found nowhere else.
+                    </p>
+                    <div class="island-highlights">
+                        <div class="highlight-item"><span class="highlight-icon">🌋</span> Hawaii Volcanoes National Park</div>
+                        <div class="highlight-item"><span class="highlight-icon">🌙</span> Manta Ray Night Dives</div>
+                        <div class="highlight-item"><span class="highlight-icon">⭐</span> Mauna Kea Stargazing</div>
+                        <div class="highlight-item"><span class="highlight-icon">☕</span> Kona Coffee Farms</div>
+                        <div class="highlight-item"><span class="highlight-icon">🏖️</span> Black & Green Sand Beaches</div>
+                        <div class="highlight-item"><span class="highlight-icon">🐬</span> Dolphin & Whale Tours</div>
+                    </div>
+                    <div class="island-stats">
+                        <div class="stat">
+                            <span class="stat-number">110</span>
+                            <span class="stat-label">Tours</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4,028</span>
+                            <span class="stat-label">Sq Miles</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">200K</span>
+                            <span class="stat-label">Population</span>
+                        </div>
+                    </div>
+                    <a href="big-island.html" class="island-cta">Explore Big Island Tours →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KAUAI -->
+    <section class="island-section" id="kauai">
+        <div class="container">
+            <div class="island-layout">
+                <div class="island-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?auto=format&fit=crop&w=1200&q=90" alt="Na Pali Coast cliffs, Kauai">
+                    <span class="island-tag">Most Scenic</span>
+                </div>
+                <div class="island-details">
+                    <h2>Kauai</h2>
+                    <p class="island-nickname">"The Garden Isle"</p>
+                    <p class="island-description">
+                        Kauai is Hawaii's oldest main island, and six million years of erosion have carved something extraordinary. The Na Pali Coast's emerald spires rise 4,000 feet from the Pacific. Waimea Canyon—the "Grand Canyon of the Pacific"—stretches 14 miles in rust and green. And Mount Waialeale, one of the wettest spots on Earth, feeds waterfalls that tumble through jungles seen in Jurassic Park.
+                    </p>
+                    <p class="island-description">
+                        Kauai resists development. No building stands taller than a coconut tree. Towns feel like the Hawaii of 50 years ago. Feral chickens roam everywhere (a quirk from Hurricane Iniki in 1992). This is the island for those who want nature raw and roads that end at trailheads.
+                    </p>
+                    <div class="island-highlights">
+                        <div class="highlight-item"><span class="highlight-icon">⛰️</span> Na Pali Coast</div>
+                        <div class="highlight-item"><span class="highlight-icon">🏜️</span> Waimea Canyon</div>
+                        <div class="highlight-item"><span class="highlight-icon">🚁</span> Helicopter Tours</div>
+                        <div class="highlight-item"><span class="highlight-icon">🚣</span> Kayaking & Rafting</div>
+                        <div class="highlight-item"><span class="highlight-icon">🎬</span> Movie Locations</div>
+                        <div class="highlight-item"><span class="highlight-icon">🌿</span> Untouched Wilderness</div>
+                    </div>
+                    <div class="island-stats">
+                        <div class="stat">
+                            <span class="stat-number">55</span>
+                            <span class="stat-label">Tours</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">562</span>
+                            <span class="stat-label">Sq Miles</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">73K</span>
+                            <span class="stat-label">Population</span>
+                        </div>
+                    </div>
+                    <a href="kauai.html" class="island-cta">Explore Kauai Tours →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HISTORY -->
+    <section class="history-section">
+        <div class="container">
+            <div class="history-content">
+                <h2>A Brief History of the Hawaiian Islands</h2>
+                <p>
+                    The Hawaiian Islands emerged from volcanic hotspot activity over 70 million years ago, with Kauai rising first and the Big Island—still volcanically active—being the youngest. Polynesian voyagers, navigating by stars and ocean currents, arrived between 1000-1200 AD, establishing a sophisticated society with complex agriculture, religion, and governance.
+                </p>
+                <p>
+                    In 1778, Captain James Cook became the first European to reach Hawaii. Within a century, the islands transformed dramatically—unified under King Kamehameha I, converted by missionaries, and economically dominated by sugar plantations that drew workers from China, Japan, Portugal, and the Philippines. This mix created Hawaii's unique multicultural identity.
+                </p>
+                <p>
+                    Hawaii became the 50th U.S. state in 1959, but Hawaiian culture endures. The Hawaiian Renaissance of the 1970s revived language, hula, and traditional navigation. Today, visitors experience living culture—not museum pieces—in everything from luaus to the simple greeting of "Aloha."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPARISON TABLE -->
+    <section class="comparison-section">
+        <div class="container">
+            <h2 class="section-title">Island Comparison</h2>
+            <p class="section-subtitle">Quick facts to help you choose your perfect Hawaiian island</p>
+            
+            <div class="table-wrapper">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Oahu</th>
+                        <th>Maui</th>
+                        <th>Big Island</th>
+                        <th>Kauai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Best For</td>
+                        <td><span class="best-for">First-timers</span></td>
+                        <td><span class="best-for">Couples</span></td>
+                        <td><span class="best-for">Adventure</span></td>
+                        <td><span class="best-for">Nature lovers</span></td>
+                    </tr>
+                    <tr>
+                        <td>Main Airport</td>
+                        <td>Honolulu (HNL)</td>
+                        <td>Kahului (OGG)</td>
+                        <td>Kona (KOA) / Hilo (ITO)</td>
+                        <td>Lihue (LIH)</td>
+                    </tr>
+                    <tr>
+                        <td>Top Activity</td>
+                        <td>Pearl Harbor</td>
+                        <td>Road to Hana</td>
+                        <td>Volcanoes</td>
+                        <td>Na Pali Coast</td>
+                    </tr>
+                    <tr>
+                        <td>Vibe</td>
+                        <td>Urban + Beach</td>
+                        <td>Romantic + Upscale</td>
+                        <td>Raw + Diverse</td>
+                        <td>Lush + Quiet</td>
+                    </tr>
+                    <tr>
+                        <td>Crowds</td>
+                        <td>High</td>
+                        <td>Medium-High</td>
+                        <td>Low</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Nightlife</td>
+                        <td>Best in Hawaii</td>
+                        <td>Resort bars</td>
+                        <td>Minimal</td>
+                        <td>Almost none</td>
+                    </tr>
+                    <tr>
+                        <td>Tours Available</td>
+                        <td>329</td>
+                        <td>101</td>
+                        <td>110</td>
+                        <td>55</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUIZ CTA -->
+    <section class="quiz-section">
+        <div class="container">
+            <div class="quiz-box">
+                <h2>🌺 Not Sure Which Island?</h2>
+                <p>Answer a few questions and we'll match you with your perfect Hawaiian island.</p>
+                <div class="quiz-options">
+                    <a href="index.html#tours-section" class="quiz-option" onclick="localStorage.setItem('islandPref', 'oahu')">
+                        <div class="quiz-option-icon">🏙️</div>
+                        <div class="quiz-option-label">I want city + beach</div>
+                    </a>
+                    <a href="index.html#tours-section" class="quiz-option" onclick="localStorage.setItem('islandPref', 'maui')">
+                        <div class="quiz-option-icon">💕</div>
+                        <div class="quiz-option-label">I want romance</div>
+                    </a>
+                    <a href="index.html#tours-section" class="quiz-option" onclick="localStorage.setItem('islandPref', 'big island')">
+                        <div class="quiz-option-icon">🌋</div>
+                        <div class="quiz-option-label">I want adventure</div>
+                    </a>
+                    <a href="index.html#tours-section" class="quiz-option" onclick="localStorage.setItem('islandPref', 'kauai')">
+                        <div class="quiz-option-icon">🌿</div>
+                        <div class="quiz-option-label">I want nature</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMAIL -->
+    <section class="signup-section">
+        <div class="container">
+            <div class="signup-box">
+                <div class="signup-content">
+                    <h2>🌺 Get Insider Hawaii Tips</h2>
+                    <p>Join travelers getting exclusive deals and local secrets.</p>
+                </div>
+                <form class="signup-form" id="email-form" action="https://formspree.io/f/mbdjldrd" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Get the Guide</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <img src="logo-full.png" alt="WanderHawaii" class="footer-logo-img">
+                    </a>
+                    <p class="footer-platform-tagline">Tours Discovery Platform</p>
+                    <p>Your guide to 595 Hawaiian adventures. Verified local operators, instant booking.</p>
+                    <p class="footer-tagline">Mahalo for supporting local! 🤙</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Islands</h4>
+                    <ul>
+                        <li><a href="oahu.html">Oahu (329)</a></li>
+                        <li><a href="maui.html">Maui (101)</a></li>
+                        <li><a href="big-island.html">Big Island (110)</a></li>
+                        <li><a href="kauai.html">Kauai (55)</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul>
+                        <li><a href="index.html#tours-section">Snorkeling</a></li>
+                        <li><a href="index.html#tours-section">Whale Watching</a></li>
+                        <li><a href="index.html#tours-section">Helicopter Tours</a></li>
+                        <li><a href="index.html#tours-section">Luaus</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="mailto:aloha@wanderhawaii.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderHawaii. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu toggle -->
+    <script>
+    document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
+        document.querySelector('.nav-mobile')?.classList.toggle('active');
+        this.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>

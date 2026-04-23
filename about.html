@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PL7CN6NG44');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About WanderHawaii | Local Hawaiian Tour Discovery Platform</title>
+    <meta name="description" content="WanderHawaii connects travelers with 595 verified local Hawaiian tour operators. No middleman markup. Book direct and support local Hawaiian families and businesses.">
+    <link rel="canonical" href="https://wanderhawaii.com/about.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderhawaii.com/about.html">
+    <meta property="og:title" content="About WanderHawaii | Supporting Local Hawaiian Tourism">
+    <meta property="og:description" content="We connect travelers directly with local Hawaiian tour operators. No markup, just aloha.">
+    
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "WanderHawaii",
+        "description": "Hawaii's premier tour discovery platform connecting travelers with local operators.",
+        "url": "https://wanderhawaii.com",
+        "logo": "https://wanderhawaii.com/logo-full.png",
+        "areaServed": "Hawaii, United States",
+        "sameAs": []
+    }
+    </script>
+    
+    <style>
+        .about-hero {
+            position: relative;
+            padding: 160px var(--space-lg) var(--space-3xl);
+            background: linear-gradient(135deg, var(--ocean-deep), var(--ocean-mid));
+            color: var(--white);
+            text-align: center;
+        }
+        
+        .about-hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            margin-bottom: var(--space-lg);
+        }
+        
+        .about-hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .mission-section {
+            padding: var(--space-3xl) 0;
+        }
+        
+        .mission-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-3xl);
+            align-items: center;
+        }
+        
+        .mission-content h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            color: var(--gray-900);
+            margin-bottom: var(--space-lg);
+        }
+        
+        .mission-content p {
+            color: var(--gray-600);
+            line-height: 1.9;
+            margin-bottom: var(--space-lg);
+            font-size: 1.0625rem;
+        }
+        
+        .mission-image {
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+        }
+        
+        .mission-image img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+        }
+        
+        .how-it-works {
+            padding: var(--space-3xl) 0;
+            background: var(--off-white);
+        }
+        
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--space-xl);
+            margin-top: var(--space-2xl);
+        }
+        
+        .step-card {
+            text-align: center;
+            padding: var(--space-xl);
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+        }
+        
+        .step-number {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 36px;
+            height: 36px;
+            background: var(--plumeria);
+            color: var(--gray-900);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+        
+        .step-icon {
+            font-size: 2.5rem;
+            margin: var(--space-md) 0;
+        }
+        
+        .step-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.125rem;
+            color: var(--gray-900);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .step-card p {
+            font-size: 0.9375rem;
+            color: var(--gray-600);
+            line-height: 1.6;
+        }
+        
+        .values-section {
+            padding: var(--space-3xl) 0;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-xl);
+            margin-top: var(--space-2xl);
+        }
+        
+        .value-card {
+            padding: var(--space-xl);
+            background: var(--white);
+            border: 2px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            transition: all var(--transition-fast);
+        }
+        
+        .value-card:hover {
+            border-color: var(--ocean-mid);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .value-icon {
+            font-size: 2.5rem;
+            margin-bottom: var(--space-md);
+        }
+        
+        .value-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            color: var(--gray-900);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .value-card p {
+            color: var(--gray-600);
+            line-height: 1.7;
+        }
+        
+        .transparency-section {
+            padding: var(--space-3xl) 0;
+            background: var(--ocean-deep);
+            color: var(--white);
+        }
+        
+        .transparency-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .transparency-content h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: var(--space-xl);
+        }
+        
+        .transparency-content p {
+            font-size: 1.125rem;
+            line-height: 1.9;
+            opacity: 0.9;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .disclosure-box {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-lg);
+            padding: var(--space-xl);
+            margin-top: var(--space-xl);
+            text-align: left;
+        }
+        
+        .disclosure-box h3 {
+            font-size: 1.125rem;
+            margin-bottom: var(--space-md);
+        }
+        
+        .disclosure-box p {
+            font-size: 1rem;
+            opacity: 0.85;
+            margin-bottom: 0;
+        }
+        
+        .stats-section {
+            padding: var(--space-3xl) 0;
+            background: var(--sand);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--space-xl);
+        }
+        
+        .stat-box {
+            text-align: center;
+            padding: var(--space-xl);
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .stat-box .stat-number {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--ocean-deep);
+            display: block;
+        }
+        
+        .stat-box .stat-label {
+            font-size: 1rem;
+            color: var(--gray-600);
+            margin-top: var(--space-sm);
+        }
+        
+        @media (max-width: 968px) {
+            .mission-grid {
+                grid-template-columns: 1fr;
+                gap: var(--space-xl);
+            }
+            
+            .mission-image {
+                order: -1;
+            }
+            
+            .steps-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 540px) {
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="logo-icon.png" alt="WanderHawaii" class="logo-img">
+                    <span class="logo-text">WanderHawaii</span>
+                </a>
+                <span class="logo-tagline">Tours Discovery Platform</span>
+            </div>
+            <nav class="nav-desktop">
+                <a href="index.html#tours-section">Tours</a>
+                <a href="islands.html">Islands</a>
+                <a href="about.html" class="active">About</a>
+                <a href="faq.html">FAQs</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="index.html#tours-section">Tours</a>
+            <a href="islands.html">Islands</a>
+            <a href="about.html">About</a>
+            <a href="faq.html">FAQs</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>About WanderHawaii</h1>
+            <p>We believe the best Hawaiian experiences come from local operators who know their islands by heart—not corporate booking platforms.</p>
+        </div>
+    </section>
+
+    <!-- MISSION -->
+    <section class="mission-section">
+        <div class="container">
+            <div class="mission-grid">
+                <div class="mission-content">
+                    <h2>Our Mission</h2>
+                    <p>
+                        WanderHawaii started with a simple observation: the best tours in Hawaii aren't always the easiest to find. Small, family-run operations with decades of local knowledge often get buried beneath big-budget marketing from corporate tourism companies.
+                    </p>
+                    <p>
+                        We built WanderHawaii to change that. Our platform connects travelers directly with 595 verified local tour operators across Oahu, Maui, Big Island, and Kauai. No middleman markup. No corporate interference. Just authentic Hawaiian experiences from people who were born and raised on these islands.
+                    </p>
+                    <p>
+                        When you book through WanderHawaii, you're not just getting a tour—you're supporting Hawaiian families, preserving local knowledge, and experiencing the islands the way they were meant to be experienced.
+                    </p>
+                </div>
+                <div class="mission-image">
+                    <img src="https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?auto=format&fit=crop&w=1200&q=90" alt="Hawaiian coastline aerial view">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">From discovery to booking in three simple steps</p>
+            
+            <div class="steps-grid">
+                <div class="step-card">
+                    <span class="step-number">1</span>
+                    <div class="step-icon">🔍</div>
+                    <h3>Browse & Filter</h3>
+                    <p>Search 595 tours by island, activity type, or keyword. Every tour is from a verified local operator.</p>
+                </div>
+                
+                <div class="step-card">
+                    <span class="step-number">2</span>
+                    <div class="step-icon">💡</div>
+                    <h3>Compare Options</h3>
+                    <p>Read descriptions, check ratings, and find the perfect tour for your travel style and budget.</p>
+                </div>
+                
+                <div class="step-card">
+                    <span class="step-number">3</span>
+                    <div class="step-icon">📱</div>
+                    <h3>Book Direct</h3>
+                    <p>Click "Book Now" to go directly to the operator's booking system. Get their prices, their policies, instant confirmation.</p>
+                </div>
+                
+                <div class="step-card">
+                    <span class="step-number">4</span>
+                    <div class="step-icon">🌺</div>
+                    <h3>Experience Aloha</h3>
+                    <p>Show up and enjoy. Your guide knows these waters, trails, and traditions because they've lived them their whole lives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="values-section">
+        <div class="container">
+            <h2 class="section-title">What We Believe</h2>
+            <p class="section-subtitle">The principles that guide everything we do</p>
+            
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🤙</div>
+                    <h3>Local First</h3>
+                    <p>Every operator on our platform is a verified Hawaiian business. We don't feature corporate chains or mainland-owned companies pretending to be local.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">💰</div>
+                    <h3>No Markup</h3>
+                    <p>We don't add fees or inflate prices. When you book through our links, you pay the same price as going directly to the operator's website.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">🌊</div>
+                    <h3>Ocean & Land Respect</h3>
+                    <p>We prioritize operators who practice sustainable tourism, respect marine life, and honor Hawaiian cultural traditions and sacred sites.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">✨</div>
+                    <h3>Quality Over Quantity</h3>
+                    <p>Every tour is vetted for quality, safety, and authenticity. We'd rather feature 595 great tours than 5,000 mediocre ones.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">📍</div>
+                    <h3>Real Local Knowledge</h3>
+                    <p>Our descriptions come from actual tour details, not AI-generated fluff. We highlight what makes each experience unique.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Support Communities</h3>
+                    <p>Tourism should benefit the people who live here. By booking local, you're putting money directly into Hawaiian communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRANSPARENCY -->
+    <section class="transparency-section">
+        <div class="container">
+            <div class="transparency-content">
+                <h2>Transparency Matters</h2>
+                <p>
+                    We believe you deserve to know exactly how WanderHawaii works. We're not a booking platform—we're a discovery platform. When you click "Book Now," you're taken directly to the tour operator's booking system.
+                </p>
+                <p>
+                    We earn a small referral commission from some bookings, which allows us to keep the platform running and continue featuring local operators. This commission never affects the price you pay—it comes from the operator's existing marketing budget.
+                </p>
+                
+                <div class="disclosure-box">
+                    <h3>Affiliate Disclosure</h3>
+                    <p>
+                        WanderHawaii participates in affiliate programs with tour operators. When you book through our links, we may earn a commission at no additional cost to you. This helps us maintain the platform and support our mission of promoting local Hawaiian tourism. We only feature tours we believe offer genuine value to travelers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title">By the Numbers</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">595</span>
+                    <span class="stat-label">Verified Tours</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Hawaiian Islands</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Local Operators</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">0</span>
+                    <span class="stat-label">Hidden Fees</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMAIL -->
+    <section class="signup-section">
+        <div class="container">
+            <div class="signup-box">
+                <div class="signup-content">
+                    <h2>🌺 Get Insider Hawaii Tips</h2>
+                    <p>Join travelers getting exclusive deals and local secrets.</p>
+                </div>
+                <form class="signup-form" id="email-form" action="https://formspree.io/f/mbdjldrd" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Get the Guide</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <img src="logo-full.png" alt="WanderHawaii" class="footer-logo-img">
+                    </a>
+                    <p class="footer-platform-tagline">Tours Discovery Platform</p>
+                    <p>Your guide to 595 Hawaiian adventures. Verified local operators, instant booking.</p>
+                    <p class="footer-tagline">Mahalo for supporting local! 🤙</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Islands</h4>
+                    <ul>
+                        <li><a href="oahu.html">Oahu (329)</a></li>
+                        <li><a href="maui.html">Maui (101)</a></li>
+                        <li><a href="big-island.html">Big Island (110)</a></li>
+                        <li><a href="kauai.html">Kauai (55)</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul>
+                        <li><a href="index.html#tours-section">Snorkeling</a></li>
+                        <li><a href="index.html#tours-section">Whale Watching</a></li>
+                        <li><a href="index.html#tours-section">Helicopter Tours</a></li>
+                        <li><a href="index.html#tours-section">Luaus</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="mailto:aloha@wanderhawaii.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderHawaii. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu toggle -->
+    <script>
+    document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
+        document.querySelector('.nav-mobile')?.classList.toggle('active');
+        this.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PL7CN6NG44');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii Tours FAQ | Questions About Booking Hawaiian Activities | WanderHawaii</title>
+    <meta name="description" content="Answers to common questions about Hawaii tours, booking activities, best time to visit, whale watching season, what to pack, cancellation policies, and more.">
+    <meta name="keywords" content="Hawaii tours FAQ, Hawaii vacation questions, whale watching season Hawaii, best time visit Hawaii, Hawaii booking tips">
+    <link rel="canonical" href="https://wanderhawaii.com/faq.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderhawaii.com/faq.html">
+    <meta property="og:title" content="Hawaii Tours FAQ | Your Questions Answered">
+    <meta property="og:description" content="Everything you need to know about booking Hawaiian tours and activities.">
+    
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What are the best things to do in Hawaii?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Top activities include snorkeling at Molokini Crater or Hanauma Bay, whale watching (December–April), helicopter tours over volcanoes and Na Pali Coast, traditional luaus, surfing lessons in Waikiki, hiking Diamond Head, and swimming with manta rays at night."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Which Hawaiian island should I visit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oahu is perfect for first-timers with Waikiki Beach and Pearl Harbor. Maui is ideal for couples with Road to Hana and whale watching. Big Island is for adventure seekers with active volcanoes and manta rays. Kauai is for nature lovers with Na Pali Coast and Waimea Canyon."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When is whale watching season in Hawaii?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Whale watching season runs December through April, with peak sightings in January-March. Thousands of humpback whales migrate from Alaska to Hawaii's warm waters to breed and give birth."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What's the best time to visit Hawaii?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hawaii is beautiful year-round with temperatures of 75-85°F. Winter (Dec–Mar) offers whale watching. Summer (Jun–Aug) has calmer ocean conditions for snorkeling. Shoulder seasons (Apr–May, Sep–Nov) offer lower prices and fewer crowds."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How far in advance should I book Hawaii tours?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For popular activities like helicopter tours, luaus, and small-group snorkeling, book 2-4 weeks in advance, especially during peak season. Less popular tours can often be booked a few days ahead."
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        .faq-hero {
+            position: relative;
+            padding: 160px var(--space-lg) var(--space-3xl);
+            background: linear-gradient(135deg, var(--ocean-deep), var(--ocean-mid));
+            color: var(--white);
+            text-align: center;
+        }
+        
+        .faq-hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            margin-bottom: var(--space-lg);
+        }
+        
+        .faq-hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .faq-categories {
+            padding: var(--space-xl) 0;
+            background: var(--off-white);
+            border-bottom: 1px solid var(--gray-200);
+            position: sticky;
+            top: 70px;
+            z-index: 50;
+        }
+        
+        .category-tabs {
+            display: flex;
+            gap: var(--space-sm);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .category-tab {
+            padding: var(--space-sm) var(--space-lg);
+            background: var(--white);
+            border: 2px solid var(--gray-200);
+            border-radius: var(--radius-full);
+            font-weight: 500;
+            color: var(--gray-700);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        
+        .category-tab:hover,
+        .category-tab.active {
+            border-color: var(--ocean-mid);
+            background: var(--ocean-deep);
+            color: var(--white);
+        }
+        
+        .faq-main {
+            padding: var(--space-3xl) 0;
+        }
+        
+        .faq-category-section {
+            margin-bottom: var(--space-3xl);
+        }
+        
+        .faq-category-section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-xl);
+            padding-bottom: var(--space-md);
+            border-bottom: 2px solid var(--gray-200);
+        }
+        
+        .category-icon {
+            font-size: 2rem;
+        }
+        
+        .category-header h2 {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            color: var(--gray-900);
+        }
+        
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+        
+        .faq-item-full {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: all var(--transition-fast);
+        }
+        
+        .faq-item-full:hover {
+            box-shadow: var(--shadow-md);
+        }
+        
+        .faq-item-full summary {
+            padding: var(--space-lg) var(--space-xl);
+            font-weight: 600;
+            color: var(--gray-900);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+        }
+        
+        .faq-item-full summary::-webkit-details-marker {
+            display: none;
+        }
+        
+        .faq-item-full summary::after {
+            content: '+';
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: var(--ocean-mid);
+            transition: transform var(--transition-fast);
+        }
+        
+        .faq-item-full[open] summary::after {
+            transform: rotate(45deg);
+        }
+        
+        .faq-item-full[open] summary {
+            background: var(--gray-50);
+        }
+        
+        .faq-answer-full {
+            padding: 0 var(--space-xl) var(--space-xl);
+        }
+        
+        .faq-answer-full p {
+            color: var(--gray-600);
+            line-height: 1.8;
+            margin-bottom: var(--space-md);
+        }
+        
+        .faq-answer-full p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .faq-answer-full ul {
+            margin: var(--space-md) 0;
+            padding-left: var(--space-xl);
+        }
+        
+        .faq-answer-full li {
+            color: var(--gray-600);
+            line-height: 1.8;
+            margin-bottom: var(--space-sm);
+        }
+        
+        .faq-answer-full a {
+            color: var(--ocean-mid);
+            font-weight: 500;
+        }
+        
+        .faq-answer-full a:hover {
+            text-decoration: underline;
+        }
+        
+        .still-questions {
+            padding: var(--space-3xl) 0;
+            background: var(--sand);
+            text-align: center;
+        }
+        
+        .still-questions h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            color: var(--gray-900);
+            margin-bottom: var(--space-md);
+        }
+        
+        .still-questions p {
+            color: var(--gray-600);
+            margin-bottom: var(--space-xl);
+            font-size: 1.125rem;
+        }
+        
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            padding: var(--space-md) var(--space-2xl);
+            background: var(--plumeria);
+            color: var(--gray-900);
+            font-weight: 600;
+            border-radius: var(--radius-full);
+            transition: all var(--transition-fast);
+        }
+        
+        .contact-btn:hover {
+            background: var(--plumeria-hover);
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .category-tabs {
+                justify-content: flex-start;
+                overflow-x: auto;
+                padding-bottom: var(--space-sm);
+            }
+            
+            .category-tab {
+                white-space: nowrap;
+                flex-shrink: 0;
+            }
+            
+            .faq-item-full summary {
+                padding: var(--space-md);
+            }
+            
+            .faq-answer-full {
+                padding: 0 var(--space-md) var(--space-md);
+            }
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="logo-icon.png" alt="WanderHawaii" class="logo-img">
+                    <span class="logo-text">WanderHawaii</span>
+                </a>
+                <span class="logo-tagline">Tours Discovery Platform</span>
+            </div>
+            <nav class="nav-desktop">
+                <a href="index.html#tours-section">Tours</a>
+                <a href="islands.html">Islands</a>
+                <a href="about.html">About</a>
+                <a href="faq.html" class="active">FAQs</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="index.html#tours-section">Tours</a>
+            <a href="islands.html">Islands</a>
+            <a href="about.html">About</a>
+            <a href="faq.html">FAQs</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="faq-hero">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            <p>Everything you need to know about planning your Hawaiian adventure, from booking tours to packing your bags.</p>
+        </div>
+    </section>
+
+    <!-- CATEGORY TABS -->
+    <nav class="faq-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <a href="#planning" class="category-tab active">🗓️ Planning</a>
+                <a href="#booking" class="category-tab">📱 Booking</a>
+                <a href="#activities" class="category-tab">🏄 Activities</a>
+                <a href="#islands" class="category-tab">🏝️ Islands</a>
+                <a href="#practical" class="category-tab">🎒 Practical</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FAQ CONTENT -->
+    <main class="faq-main">
+        <div class="container">
+            
+            <!-- PLANNING -->
+            <section class="faq-category-section" id="planning">
+                <div class="category-header">
+                    <span class="category-icon">🗓️</span>
+                    <h2>Planning Your Trip</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item-full">
+                        <summary>What's the best time to visit Hawaii?</summary>
+                        <div class="faq-answer-full">
+                            <p>Hawaii is beautiful year-round with temperatures typically between 75-85°F. The best time depends on what you want to do:</p>
+                            <ul>
+                                <li><strong>Winter (December–March):</strong> Prime whale watching season. Slightly cooler temperatures and occasional rain, especially on windward sides. Higher tourist volume and prices around holidays.</li>
+                                <li><strong>Summer (June–August):</strong> Calmest ocean conditions—perfect for snorkeling, diving, and boat tours. Warmer temperatures. Peak family travel season.</li>
+                                <li><strong>Shoulder Seasons (April–May, September–November):</strong> Best of both worlds—good weather, fewer crowds, and lower prices. September-October can have more rain.</li>
+                            </ul>
+                            <p>Pro tip: Weather varies dramatically by location. The leeward (west) sides of islands are typically drier and sunnier than windward (east) sides.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>How far in advance should I book tours?</summary>
+                        <div class="faq-answer-full">
+                            <p>It depends on the tour type and season:</p>
+                            <ul>
+                                <li><strong>2-4 weeks ahead:</strong> Helicopter tours, popular luaus, small-group snorkeling (Molokini, manta rays), sunrise at Haleakala</li>
+                                <li><strong>1-2 weeks ahead:</strong> Boat tours, kayaking, ziplines, ATV tours</li>
+                                <li><strong>A few days ahead:</strong> Surf lessons, food tours, hiking tours, larger group activities</li>
+                            </ul>
+                            <p>During peak season (December-April, June-August), add an extra week to these timelines. The most popular tours can sell out a month in advance.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>How many days do I need in Hawaii?</summary>
+                        <div class="faq-answer-full">
+                            <p>We recommend at least 5-7 days per island to truly experience it without rushing. Here's a general guide:</p>
+                            <ul>
+                                <li><strong>5-7 days:</strong> Comfortable exploration of one island</li>
+                                <li><strong>10-14 days:</strong> Two islands at a relaxed pace</li>
+                                <li><strong>2-3 weeks:</strong> Three or four islands</li>
+                            </ul>
+                            <p>First-time visitors often make the mistake of island-hopping too quickly. Inter-island flights, hotel check-ins, and adjusting to new areas eat into your time. It's better to deeply explore fewer islands than superficially see many.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>When is whale watching season in Hawaii?</summary>
+                        <div class="faq-answer-full">
+                            <p>Whale watching season runs <strong>December through April</strong>, with peak sightings in January through March.</p>
+                            <p>Thousands of humpback whales migrate 3,000+ miles from Alaska to Hawaii's warm, protected waters to breed, give birth, and nurse their calves. At peak season, you might see dozens of whales on a single tour—breaching, tail slapping, and spouting.</p>
+                            <p>Maui is particularly famous for whale watching (the channel between Maui and Lanai is a favorite whale hangout), but you can see whales from all islands. Even from shore—bring binoculars!</p>
+                            <p><a href="index.html#tours-section">Browse whale watching tours →</a></p>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <!-- BOOKING -->
+            <section class="faq-category-section" id="booking">
+                <div class="category-header">
+                    <span class="category-icon">📱</span>
+                    <h2>Booking Tours</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item-full">
+                        <summary>How do I book tours through WanderHawaii?</summary>
+                        <div class="faq-answer-full">
+                            <p>WanderHawaii is a discovery platform that connects you directly with local tour operators. Here's how it works:</p>
+                            <ul>
+                                <li>Browse our 595 tours using filters for island, activity type, or search</li>
+                                <li>Click "Book Now" on any tour you're interested in</li>
+                                <li>You'll be taken directly to the tour operator's booking system</li>
+                                <li>Complete your booking with the operator and receive instant confirmation</li>
+                            </ul>
+                            <p>We don't handle bookings ourselves—you book directly with the local operator at their prices. This means you get their policies, their customer service, and your money goes directly to Hawaiian businesses.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>Are your prices better than Viator or Expedia?</summary>
+                        <div class="faq-answer-full">
+                            <p>We connect you directly with local tour operators through their booking systems, so you get their direct prices—often the same as or better than large booking platforms.</p>
+                            <p>The real difference: when you book through WanderHawaii, more of your money stays in Hawaii's local economy rather than going to mainland corporations. Big platforms take 20-30% commissions from operators, which either gets passed to you or squeezes small businesses.</p>
+                            <p>We earn a small referral commission that doesn't affect your price—it comes from the operator's existing marketing budget.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>What's the cancellation policy?</summary>
+                        <div class="faq-answer-full">
+                            <p>Cancellation policies vary by operator, but here's what's typical:</p>
+                            <ul>
+                                <li><strong>Most tours:</strong> Free cancellation 24-48 hours before departure</li>
+                                <li><strong>Premium experiences (helicopters, private charters):</strong> May require 72 hours or more notice</li>
+                                <li><strong>Weather cancellations:</strong> Usually fully refunded or rescheduled at no charge</li>
+                            </ul>
+                            <p>Always check the specific policy when booking—it's displayed on each tour's booking page. Many operators are flexible, especially for weather or emergencies, but policies are set by each individual operator.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>Can I book tours for a group?</summary>
+                        <div class="faq-answer-full">
+                            <p>Yes! Most tours accommodate groups, and many offer group discounts for 6+ people. For larger groups (10+), consider:</p>
+                            <ul>
+                                <li><strong>Private tours:</strong> Many operators offer private charter options—you get the boat, guide, or vehicle to yourselves</li>
+                                <li><strong>Direct contact:</strong> For groups over 15-20, reach out to operators directly for custom arrangements</li>
+                            </ul>
+                            <p>Filter by "Private" in our activity dropdown to find private tour options. Private tours are great for families, corporate groups, or special occasions.</p>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <!-- ACTIVITIES -->
+            <section class="faq-category-section" id="activities">
+                <div class="category-header">
+                    <span class="category-icon">🏄</span>
+                    <h2>Activities & Experiences</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item-full">
+                        <summary>What are the best things to do in Hawaii?</summary>
+                        <div class="faq-answer-full">
+                            <p>Hawaii offers incredible variety. Here are the must-do experiences:</p>
+                            <ul>
+                                <li><strong>Snorkeling:</strong> Molokini Crater (Maui), Hanauma Bay (Oahu), Kealakekua Bay (Big Island)</li>
+                                <li><strong>Whale Watching:</strong> December-April, especially from Maui</li>
+                                <li><strong>Helicopter Tours:</strong> Na Pali Coast (Kauai), Volcanoes (Big Island), Waterfalls (all islands)</li>
+                                <li><strong>Luaus:</strong> Traditional Hawaiian feast with music, hula, and fire dancing</li>
+                                <li><strong>Manta Ray Night Dive:</strong> Bucket-list experience in Kona (Big Island)</li>
+                                <li><strong>Hiking:</strong> Diamond Head (Oahu), Haleakala (Maui), Volcanoes (Big Island)</li>
+                                <li><strong>Surfing:</strong> Lessons in Waikiki are perfect for beginners</li>
+                            </ul>
+                            <p><a href="index.html#tours-section">Browse all 595 tours →</a></p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>Do I need to know how to swim for snorkeling?</summary>
+                        <div class="faq-answer-full">
+                            <p>Basic swimming ability is recommended for most snorkeling tours. However, there are options for non-swimmers or nervous swimmers:</p>
+                            <ul>
+                                <li><strong>Flotation devices:</strong> Many operators provide life vests, noodles, or flotation belts</li>
+                                <li><strong>Shallow areas:</strong> Some tours visit calm, shallow reefs where you can touch bottom</li>
+                                <li><strong>Glass-bottom boats:</strong> See marine life without getting in the water</li>
+                                <li><strong>Submarine tours:</strong> Dry way to explore underwater (Oahu and Big Island)</li>
+                            </ul>
+                            <p>Always inform your tour operator about your comfort level in water. They want you to have a safe, enjoyable experience and can suggest the best options.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>What's the manta ray night snorkel like?</summary>
+                        <div class="faq-answer-full">
+                            <p>The manta ray night snorkel in Kona (Big Island) is a bucket-list experience unlike anything else on Earth.</p>
+                            <p>Here's how it works: You float at the surface holding onto an illuminated surfboard. Lights attract plankton, which attracts giant manta rays—some with wingspans up to 16 feet. The mantas glide directly beneath you, sometimes within inches, doing graceful barrel rolls as they feed.</p>
+                            <p>Key details:</p>
+                            <ul>
+                                <li><strong>Swimming ability:</strong> Minimal—you're floating, not swimming</li>
+                                <li><strong>Success rate:</strong> Over 90% of trips see mantas</li>
+                                <li><strong>Duration:</strong> Usually 2-3 hours total, 30-45 minutes in water</li>
+                                <li><strong>Best time:</strong> Year-round, any moon phase</li>
+                            </ul>
+                            <p>It's safe, surreal, and absolutely unforgettable. One of Hawaii's most unique experiences.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>Can I see lava in Hawaii?</summary>
+                        <div class="faq-answer-full">
+                            <p>Active lava viewing depends on volcanic activity, which varies. Here's what to expect:</p>
+                            <ul>
+                                <li><strong>Hawaii Volcanoes National Park (Big Island):</strong> Always worth visiting. Hiking, steam vents, lava tubes, and the massive Kilauea caldera are accessible year-round, even without active eruption.</li>
+                                <li><strong>Active eruptions:</strong> When Kilauea is actively erupting (check USGS Hawaiian Volcano Observatory for current status), special viewing areas open. Eruptions can start and stop unpredictably.</li>
+                                <li><strong>Lava tours:</strong> Helicopter tours offer the best chance to see active lava when it's flowing. Boat tours can sometimes approach ocean entry points.</li>
+                            </ul>
+                            <p>Even without glowing lava, walking on fresh volcanic rock, seeing sulfur vents, and understanding Hawaii's geological power is incredible.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>Are the tours family-friendly?</summary>
+                        <div class="faq-answer-full">
+                            <p>Many tours welcome families with children! Look for these family-friendly options:</p>
+                            <ul>
+                                <li><strong>Submarine tours:</strong> Dry, air-conditioned, and exciting for kids</li>
+                                <li><strong>Luaus:</strong> Entertainment, food, and often special activities for children</li>
+                                <li><strong>Catamaran snorkel tours:</strong> Stable boats, often with slides and trampolines</li>
+                                <li><strong>Farm tours:</strong> Coffee, chocolate, tropical fruit—hands-on and educational</li>
+                                <li><strong>Easy beach activities:</strong> Kayaking in calm bays, paddleboarding lessons</li>
+                            </ul>
+                            <p>Age and weight restrictions vary by tour—helicopter tours often require minimum ages, ziplines have weight limits. Check individual tour listings for specifics.</p>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <!-- ISLANDS -->
+            <section class="faq-category-section" id="islands">
+                <div class="category-header">
+                    <span class="category-icon">🏝️</span>
+                    <h2>Choosing an Island</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item-full">
+                        <summary>Which Hawaiian island should I visit?</summary>
+                        <div class="faq-answer-full">
+                            <p>Each island has its own personality. Here's a quick guide:</p>
+                            <ul>
+                                <li><strong>Oahu:</strong> Best for first-timers. Waikiki Beach, Pearl Harbor, diverse dining, North Shore surfing. Most activities and nightlife. 329 tours available.</li>
+                                <li><strong>Maui:</strong> Best for couples and romance. Road to Hana, world-class snorkeling at Molokini, prime whale watching, luxury resorts. 101 tours available.</li>
+                                <li><strong>Big Island:</strong> Best for adventure seekers. Active volcanoes, manta ray dives, black sand beaches, Kona coffee, diverse landscapes from desert to rainforest. 110 tours available.</li>
+                                <li><strong>Kauai:</strong> Best for nature lovers. Dramatic Na Pali Coast, Waimea Canyon, lush jungles, fewest crowds, most unspoiled scenery. 55 tours available.</li>
+                            </ul>
+                            <p><a href="islands.html">Read our complete island guide →</a></p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>Can I visit multiple islands?</summary>
+                        <div class="faq-answer-full">
+                            <p>Absolutely! Inter-island flights are quick (25-45 minutes) and relatively affordable ($80-150 each way on Hawaiian Airlines or Southwest).</p>
+                            <p>Tips for island-hopping:</p>
+                            <ul>
+                                <li>Book inter-island flights early for best prices</li>
+                                <li>Allow at least 3-4 days per island</li>
+                                <li>Account for airport time—it adds up</li>
+                                <li>Consider visiting islands with different "personalities" for variety</li>
+                            </ul>
+                            <p>Popular combinations: Oahu + Maui (contrast of city and relaxation), Maui + Big Island (beaches and volcanoes), Kauai + any other (most dramatic scenery plus something else).</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>Do I need a rental car in Hawaii?</summary>
+                        <div class="faq-answer-full">
+                            <p>It depends on the island and your plans:</p>
+                            <ul>
+                                <li><strong>Oahu:</strong> Not essential if staying in Waikiki. Good public transit (TheBus), Uber/Lyft, and many tours include pickup. Helpful for North Shore or east side exploration.</li>
+                                <li><strong>Maui:</strong> Highly recommended. Road to Hana, upcountry, and west side require a car. Limited public transit.</li>
+                                <li><strong>Big Island:</strong> Essential. The island is huge (larger than all others combined), and distances are significant. Sparse public transit.</li>
+                                <li><strong>Kauai:</strong> Recommended. Small island but attractions are spread out. Some tours include pickup from major hotels.</li>
+                            </ul>
+                            <p>Book rental cars early, especially during peak season—inventory can run out.</p>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <!-- PRACTICAL -->
+            <section class="faq-category-section" id="practical">
+                <div class="category-header">
+                    <span class="category-icon">🎒</span>
+                    <h2>Practical Information</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item-full">
+                        <summary>What should I pack for Hawaii tours?</summary>
+                        <div class="faq-answer-full">
+                            <p>Essential packing list for Hawaiian activities:</p>
+                            <ul>
+                                <li><strong>Reef-safe sunscreen:</strong> Required by law in Hawaii. Look for "reef-safe" or "reef-friendly" labels. Oxybenzone and octinoxate are banned.</li>
+                                <li><strong>Rash guard:</strong> Better sun protection than sunscreen for water activities</li>
+                                <li><strong>Water shoes:</strong> Helpful for rocky beaches and reef walking</li>
+                                <li><strong>Hat and sunglasses:</strong> The Hawaiian sun is intense</li>
+                                <li><strong>Light rain jacket:</strong> Brief showers are common, especially on windward sides</li>
+                                <li><strong>Waterproof phone case or camera:</strong> You'll want photos!</li>
+                                <li><strong>Swimsuit and towel:</strong> Many tours provide towels, but having your own is nice</li>
+                                <li><strong>Light layers:</strong> For helicopter tours, early morning activities, and air-conditioned spaces</li>
+                            </ul>
+                            <p>Most snorkel tours provide gear, but bringing your own mask ensures a good fit if you wear glasses or have fit issues.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>Is tipping expected on Hawaii tours?</summary>
+                        <div class="faq-answer-full">
+                            <p>Yes, tipping is customary and appreciated in Hawaii. Guidelines:</p>
+                            <ul>
+                                <li><strong>Standard tip:</strong> 15-20% of tour cost for good service</li>
+                                <li><strong>Exceptional service:</strong> 20-25% or more</li>
+                                <li><strong>Group tours:</strong> $10-20 per person is typical</li>
+                                <li><strong>Private tours:</strong> 20% is appropriate</li>
+                            </ul>
+                            <p>Tips go directly to your guides and crew, who often depend on gratuities as part of their income. Cash is preferred, but many operators can add tips to credit card payments.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>What if it rains during my Hawaii trip?</summary>
+                        <div class="faq-answer-full">
+                            <p>Don't panic! Rain in Hawaii is usually brief and localized—it's what keeps the islands so green.</p>
+                            <p>Strategies for rainy days:</p>
+                            <ul>
+                                <li><strong>Switch sides:</strong> If the windward (east) side is rainy, the leeward (west) side is often sunny. Just 30 minutes of driving can change everything.</li>
+                                <li><strong>Morning activities:</strong> Mornings are typically clearer than afternoons, especially in summer</li>
+                                <li><strong>Indoor backup plans:</strong> Museums (Pearl Harbor, Bishop Museum), spa treatments, food tours, shopping</li>
+                                <li><strong>Embrace it:</strong> Snorkeling doesn't care about rain (you're wet anyway!), and waterfalls are more dramatic after rain</li>
+                            </ul>
+                            <p>Check weather by specific location, not just "Maui" or "Oahu"—conditions vary dramatically across each island.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item-full">
+                        <summary>Is Hawaii safe for tourists?</summary>
+                        <div class="faq-answer-full">
+                            <p>Hawaii is generally very safe for tourists. Standard precautions apply:</p>
+                            <ul>
+                                <li><strong>Car break-ins:</strong> The most common tourist crime. Never leave valuables visible in rental cars, especially at trailheads and beaches.</li>
+                                <li><strong>Ocean safety:</strong> Respect the water. Conditions change quickly. Heed warning signs and lifeguard advice. When in doubt, don't go out.</li>
+                                <li><strong>Sun exposure:</strong> The Hawaiian sun is stronger than you expect. Apply sunscreen every 2 hours, even on cloudy days.</li>
+                                <li><strong>Hiking safety:</strong> Stick to marked trails, bring plenty of water, and let someone know your plans for remote hikes.</li>
+                            </ul>
+                            <p>Hawaiian culture emphasizes hospitality (aloha spirit). You'll find locals friendly and helpful. Respect sacred sites, don't trespass on private property, and leave natural areas as you found them.</p>
+                        </div>
+                    </details>
+                </div>
+            </section>
+            
+        </div>
+    </main>
+
+    <!-- STILL HAVE QUESTIONS -->
+    <section class="still-questions">
+        <div class="container">
+            <h2>Still Have Questions?</h2>
+            <p>We're happy to help you plan the perfect Hawaiian adventure.</p>
+            <a href="mailto:aloha@wanderhawaii.com" class="contact-btn">
+                ✉️ Email Us
+            </a>
+        </div>
+    </section>
+
+    <!-- EMAIL -->
+    <section class="signup-section">
+        <div class="container">
+            <div class="signup-box">
+                <div class="signup-content">
+                    <h2>🌺 Get Insider Hawaii Tips</h2>
+                    <p>Join travelers getting exclusive deals and local secrets.</p>
+                </div>
+                <form class="signup-form" id="email-form" action="https://formspree.io/f/mbdjldrd" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Get the Guide</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <img src="logo-full.png" alt="WanderHawaii" class="footer-logo-img">
+                    </a>
+                    <p class="footer-platform-tagline">Tours Discovery Platform</p>
+                    <p>Your guide to 595 Hawaiian adventures. Verified local operators, instant booking.</p>
+                    <p class="footer-tagline">Mahalo for supporting local! 🤙</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Islands</h4>
+                    <ul>
+                        <li><a href="oahu.html">Oahu (329)</a></li>
+                        <li><a href="maui.html">Maui (101)</a></li>
+                        <li><a href="big-island.html">Big Island (110)</a></li>
+                        <li><a href="kauai.html">Kauai (55)</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul>
+                        <li><a href="index.html#tours-section">Snorkeling</a></li>
+                        <li><a href="index.html#tours-section">Whale Watching</a></li>
+                        <li><a href="index.html#tours-section">Helicopter Tours</a></li>
+                        <li><a href="index.html#tours-section">Luaus</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="mailto:aloha@wanderhawaii.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderHawaii. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu toggle -->
+    <script>
+    document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
+        document.querySelector('.nav-mobile')?.classList.toggle('active');
+        this.classList.toggle('active');
+    });
+    
+    // Smooth scroll for category tabs
+    document.querySelectorAll('.category-tab').forEach(tab => {
+        tab.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+            document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+    </script>
+</body>
+</html>

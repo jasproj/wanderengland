@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="msvalidate.01" content="50EDCBB8A280875091FC80EE6C6C1AC0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderHawaii | 3,142 Hawaiian Tours & Adventures | Book Direct</title>
+    <meta name="description" content="Discover 3,142 handpicked Hawaiian adventures across Oahu, Maui, Big Island & Kauai. Snorkeling, whale watching, helicopters, luaus & more. Book direct with local operators.">
+    <meta name="keywords" content="Hawaii tours, Hawaiian activities, Oahu tours, Maui adventures, Big Island activities, Kauai tours, Hawaii snorkeling, whale watching Hawaii">
+    <link rel="canonical" href="https://wanderhawaii.com/">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderhawaii.com/">
+    <meta property="og:title" content="WanderHawaii | 3,142 Hawaiian Tours & Adventures">
+    <meta property="og:description" content="Handpicked Hawaiian adventures across all islands. Book direct with local operators.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=1200">
+    
+    <link rel="icon" type="image/png" href="logo.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PL7CN6NG44');
+        
+        function trackBookingClick(tourName, tourId, island) {
+            gtag('event', 'booking_click', {
+                'event_category': 'conversion',
+                'event_label': tourName,
+                'tour_id': tourId,
+                'island': island || 'hawaii'
+            });
+        }
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "WanderHawaii",
+        "description": "Hawaii's premier tour discovery platform featuring 3,142 adventures across all islands.",
+        "url": "https://wanderhawaii.com",
+        "areaServed": {"@type": "Place", "name": "Hawaii, United States"}
+    }
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "LocalBusiness",
+    "TravelAgency"
+  ],
+  "name": "Wander Hawaii",
+  "url": "https://wanderhawaii.com",
+  "description": "Expert Hawaii travel guides and tours",
+  "areaServed": "United States",
+  "serviceType": "TravelAgency"
+}
+</script>
+</head>
+<body>
+    <!-- LEAD MAGNET BANNER -->
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="logo-icon.png" alt="WanderHawaii" class="logo-img">
+                    <span class="logo-text">WanderHawaii</span>
+                </a>
+                <span class="logo-tagline">Tours Discovery Platform</span>
+            </div>
+            <div class="header-weather" id="header-weather">
+                <span class="weather-icon">☀️</span>
+                <span class="weather-temp">--°F</span>
+                <span class="weather-location">Hawaii</span>
+            </div>
+            <nav class="nav-desktop">
+                <a href="#tours-section">Tours</a>
+                <a href="#islands">Islands</a>
+                <a href="/blog/">Blog</a>
+                <a href="about.html">About</a>
+                <a href="#faq">FAQs</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="#tours-section">Tours</a>
+            <a href="#islands">Islands</a>
+            <a href="/blog/">Blog</a>
+            <a href="about.html">About</a>
+            <a href="#faq">FAQs</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-slide"></div>
+            <div class="hero-slide"></div>
+            <div class="hero-slide"></div>
+            <div class="hero-slide"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tagline">Book Local. Live Aloha.</p>
+            <div class="hero-logo-pill">
+                <div class="hero-logo">
+                    <img src="logo-full.png" alt="WanderHawaii" class="hero-logo-img">
+                </div>
+            </div>
+            <p class="hero-subtitle">3,142 handpicked tours across Oahu, Maui, Big Island & Kauai.<br>Book direct with local tour guides and support local.</p>
+            
+            <div class="hero-search">
+                <div class="search-input-wrap">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="hero-search" placeholder="Search snorkeling, whale watching, helicopters..." autocomplete="off">
+                </div>
+                <button class="search-btn" onclick="executeHeroSearch()">Find Tours</button>
+            </div>
+            
+            <!-- Scrolling Category Tags -->
+            <div class="quick-tags-wrapper">
+                <div class="quick-tags">
+                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
+                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
+                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
+                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
+                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
+                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
+                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
+                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
+                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
+                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
+                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
+                    <button onclick="quickFilter('food')">🍽️ Food Tours</button>
+                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
+                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
+                    <button onclick="quickFilter('private')">✨ Private Tours</button>
+                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
+                    <button onclick="quickFilter('fishing')">🎣 Fishing</button>
+                    <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
+                    <!-- Duplicate for seamless loop -->
+                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
+                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
+                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
+                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
+                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
+                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
+                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
+                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
+                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
+                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
+                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
+                    <button onclick="quickFilter('food')">🍽️ Food Tours</button>
+                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
+                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
+                    <button onclick="quickFilter('private')">✨ Private Tours</button>
+                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
+                    <button onclick="quickFilter('fishing')">🎣 Fishing</button>
+                    <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="trust-bar">
+            <div class="trust-item">
+                <span class="trust-number">3,142</span>
+                <span class="trust-label">Verified Tours</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number">4</span>
+                <span class="trust-label">Islands</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number">100%</span>
+                <span class="trust-label">Local Operators</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- AD SLOT: Below Hero Section (728x90 Leaderboard) -->
+    <div class="ad-slot" id="ad-hero-below">
+        Advertisement
+    </div>
+
+    <!-- ISLANDS -->
+    <section class="islands-nav" id="islands">
+        <div class="container">
+            <h2 class="section-title">Explore by Island</h2>
+            <p class="section-subtitle">Each island has its own personality. Find your perfect match.</p>
+            
+            <div class="islands-grid">
+                <a href="oahu.html" class="island-card" onclick="trackBookingClick('Oahu Tours', 'oahu', 'oahu')">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=600')"></div>
+                    <div class="island-content">
+                        <h3>Oahu</h3>
+                        <p>Waikiki • Pearl Harbor • North Shore</p>
+                        <span class="island-count">1,194 Adventures</span>
+                    </div>
+                </a>
+                
+                <a href="maui.html" class="island-card" onclick="trackBookingClick('Maui Tours', 'maui', 'maui')">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1542259009477-d625272157b7?w=600')"></div>
+                    <div class="island-content">
+                        <h3>Maui</h3>
+                        <p>Road to Hana • Molokini • Whale Watching</p>
+                        <span class="island-count">826 Adventures</span>
+                    </div>
+                </a>
+                
+                <a href="big-island.html" class="island-card" onclick="trackBookingClick('Big Island Tours', 'big-island', 'big-island')">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=600')"></div>
+                    <div class="island-content">
+                        <h3>Big Island</h3>
+                        <p>Volcanoes • Manta Rays • Kona Coffee</p>
+                        <span class="island-count">598 Adventures</span>
+                    </div>
+                </a>
+                
+                <a href="kauai.html" class="island-card" onclick="trackBookingClick('Kauai Tours', 'kauai', 'kauai')">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?w=600')"></div>
+                    <div class="island-content">
+                        <h3>Kauai</h3>
+                        <p>Na Pali Coast • Waimea Canyon</p>
+                        <span class="island-count">524 Adventures</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOURS -->
+    <section class="tours-section" id="tours-section">
+        <div class="tours-hero-banner">
+            <img src="https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?auto=format&fit=crop&w=2400&q=90" alt="Hawaiian ocean horizon">
+            <div class="tours-hero-overlay"></div>
+            <div class="tours-hero-content">
+                <h2>Find Your Perfect Adventure</h2>
+                <p>Browse 3,142 tours from trusted local operators</p>
+            </div>
+        </div>
+        <div class="container">
+            
+            <div class="filters-bar">
+                <div class="filter-group">
+                    <label for="island-filter">Island</label>
+                    <select id="island-filter">
+                        <option value="">All Islands</option>
+                        <option value="oahu">Oahu (1,194)</option>
+                        <option value="maui">Maui (826)</option>
+                        <option value="big island">Big Island (598)</option>
+                        <option value="kauai">Kauai (524)</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="activity-filter">Activity</label>
+                    <select id="activity-filter">
+                        <option value="">All Activities</option>
+                        <option value="Snorkel">🤿 Snorkeling (114)</option>
+                        <option value="Boat Tour">🚤 Boat Tours (127)</option>
+                        <option value="Whale Watch">🐋 Whale Watching (43)</option>
+                        <option value="Dolphin">🐬 Dolphins (46)</option>
+                        <option value="Scuba">🤿 Scuba Diving (34)</option>
+                        <option value="Kayak">🚣 Kayaking (23)</option>
+                        <option value="Surf">🏄 Surfing (26)</option>
+                        <option value="SUP">🏄 Stand Up Paddle (18)</option>
+                        <option value="Sailing">⛵ Sailing (22)</option>
+                        <option value="Catamaran">⛵ Catamaran (23)</option>
+                        <option value="Fishing">🎣 Fishing (8)</option>
+                        <option value="Hiking">🥾 Hiking (18)</option>
+                        <option value="Zipline">🎢 Zipline (15)</option>
+                        <option value="ATV">🏎️ ATV/UTV (8)</option>
+                        <option value="Air">🚁 Air Tours (10)</option>
+                        <option value="Food Tour">🍽️ Food Tours (16)</option>
+                        <option value="Farm">🌴 Farm Tours (20)</option>
+                        <option value="Private">👑 Private Tours (33)</option>
+                        <option value="Guided Tour">🎯 Guided Tours (63)</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="sort-filter">Sort By</label>
+                    <select id="sort-filter">
+                        <option value="quality">Top Rated</option>
+                        <option value="name">Name A-Z</option>
+                    </select>
+                </div>
+                
+                <div class="search-inline">
+                    <input type="text" id="search-input" placeholder="Search tours...">
+                </div>
+                
+                <button class="clear-filters" onclick="clearAllFilters()">Clear All</button>
+            </div>
+            
+            <div class="results-info">
+                <span id="results-count">Loading adventures...</span>
+                <button class="shuffle-btn" onclick="trackBookingClick('Shuffle Tours', 'shuffle', 'all'); shuffleTours()">🎲 Shuffle</button>
+            </div>
+            
+            <div class="tours-grid" id="tours-grid">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Loading adventures...</p>
+                </div>
+            </div>
+            
+            <div class="load-more-wrap">
+                <button class="load-more-btn" id="load-more" onclick="trackBookingClick('Load More Adventures', 'load-more', 'all'); loadMoreTours()">
+                    Load More Adventures <span>→</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="why-section" id="why">
+        <div class="container">
+            <h2 class="section-title">Why Book With WanderHawaii?</h2>
+            <p class="section-subtitle">We connect you directly with Hawaii's best local tour operators.</p>
+            
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">🏝️</div>
+                    <h3>3,142 Verified Tours</h3>
+                    <p>Every tour is from a verified local operator. Real businesses, real experiences, real aloha.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">💰</div>
+                    <h3>Book Direct</h3>
+                    <p>No middleman markup. Book directly with the tour operator at their prices.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">🤙</div>
+                    <h3>Support Local</h3>
+                    <p>Your booking supports Hawaiian families and small businesses.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">📱</div>
+                    <h3>Instant Confirmation</h3>
+                    <p>Real-time availability. Book now, get confirmed instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FREE GUIDE / LEAD MAGNET -->
+    <section class="guide-section" id="free-guide">
+        <div class="container">
+            <div class="guide-box">
+                <div class="guide-image">
+                    <div class="guide-preview">
+                        <span class="guide-badge">FREE PDF</span>
+                        <div class="guide-mock">
+                            <span>🌴</span>
+                            <strong>Ultimate Hawaii<br>Trip Planner</strong>
+                            <small>7-Day Itinerary + Tips</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="guide-content">
+                    <h2>Get the Free Hawaii Trip Planner</h2>
+                    <p>Everything you need to plan your perfect Hawaiian adventure:</p>
+                    <ul class="guide-features">
+                        <li>✓ 7-day itineraries for each island</li>
+                        <li>✓ Best times to book popular tours</li>
+                        <li>✓ Local secrets & hidden gems</li>
+                        <li>✓ Packing checklist by activity</li>
+                        <li>✓ Money-saving tips from locals</li>
+                    </ul>
+                    <form class="guide-form" id="guide-form" action="https://formspree.io/f/mbdjldrd" method="POST">
+                        <input type="hidden" name="source" value="hawaii-trip-planner">
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <button type="submit">Send Me the Free Guide</button>
+                    </form>
+                    <p class="guide-privacy">🔒 No spam, ever. Unsubscribe anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-grid" id="faq-container">
+                <!-- FAQs will be inserted by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <script>
+    // 15 FAQs - randomized on each page load, show 5
+    const allFAQs = [
+        {
+            q: "What are the best things to do in Hawaii?",
+            a: "Top activities include snorkeling at Molokini Crater or Hanauma Bay, whale watching (December–April), helicopter tours over volcanoes and Na Pali Coast, traditional luaus, surfing lessons in Waikiki, hiking Diamond Head, and swimming with manta rays at night. We feature 3,142 tours across all islands."
+        },
+        {
+            q: "Which Hawaiian island should I visit?",
+            a: "<strong>Oahu</strong> is perfect for first-timers—Waikiki Beach, Pearl Harbor, diverse dining, 1,194 tour options. <strong>Maui</strong> is ideal for couples—Road to Hana, world-class snorkeling, whale watching. <strong>Big Island</strong> is for adventure seekers—active volcanoes, manta ray dives, diverse landscapes. <strong>Kauai</strong> is for nature lovers—Na Pali Coast, Waimea Canyon, lush rainforests."
+        },
+        {
+            q: "How do I book tours through WanderHawaii?",
+            a: "Browse our 3,142 tours, filter by island or activity, and click \"Book Now\" on any tour. You'll be connected directly with the local tour operator's booking system. Most tours offer free cancellation 24-48 hours before your activity, and you'll receive instant confirmation."
+        },
+        {
+            q: "When is whale watching season in Hawaii?",
+            a: "Whale watching season runs <strong>December through April</strong>, with peak sightings in January-March. Thousands of humpback whales migrate from Alaska to Hawaii's warm waters to breed and give birth. Maui is particularly famous for whale watching, but you can see whales from all islands."
+        },
+        {
+            q: "What's the best time to visit Hawaii?",
+            a: "Hawaii is beautiful year-round with temperatures of 75-85°F. <strong>Winter (Dec–Mar)</strong> offers whale watching and slightly cooler temps. <strong>Summer (Jun–Aug)</strong> has calmer ocean conditions, perfect for snorkeling. <strong>Shoulder seasons (Apr–May, Sep–Nov)</strong> offer lower prices and fewer crowds."
+        },
+        {
+            q: "Are your prices better than Viator or Expedia?",
+            a: "We connect you directly with local tour operators through their booking systems, so you get their direct prices—often the same or better than large booking platforms. Plus, more of your money stays in Hawaii's local economy rather than going to mainland corporations."
+        },
+        {
+            q: "Do I need to know how to swim for snorkeling?",
+            a: "Basic swimming ability is recommended for most snorkeling tours. However, many operators provide flotation devices, and some tours offer shallow reef areas perfect for beginners. Always let your tour operator know your comfort level in advance."
+        },
+        {
+            q: "What should I pack for Hawaii tours?",
+            a: "Essentials include reef-safe sunscreen (required by law), a hat, sunglasses, and comfortable water shoes. For water activities, bring a swimsuit, towel, and waterproof camera. Many tours provide snorkel gear. Bring a light jacket for helicopter tours or evening activities."
+        },
+        {
+            q: "Are the tours family-friendly?",
+            a: "Many tours welcome families with children. Look for tours labeled \"family-friendly\" or filter by activity type. Popular family activities include submarine rides, luaus, easy snorkeling spots, farm tours, and beach activities. Age restrictions vary by tour—check individual listings."
+        },
+        {
+            q: "What if it rains during my Hawaii trip?",
+            a: "Rain in Hawaii is usually brief and localized—it's what keeps the islands so green! If one side of an island is rainy, the other side is often sunny. Great backup options include museum visits, spa treatments, food tours, or simply driving to the sunny side of the island."
+        },
+        {
+            q: "How far in advance should I book tours?",
+            a: "For popular activities like helicopter tours, luaus, and small-group snorkeling, book 2-4 weeks in advance, especially during peak season (December-April, June-August). Less popular tours can often be booked a few days ahead. Last-minute availability varies."
+        },
+        {
+            q: "What's the cancellation policy?",
+            a: "Cancellation policies vary by operator, but most offer free cancellation 24-48 hours before your scheduled tour. Some specialty tours may require longer notice. Always check the specific policy when booking—it's displayed on each tour's booking page."
+        },
+        {
+            q: "Can I see lava in Hawaii?",
+            a: "Active lava viewing depends on volcanic activity, which varies. Hawaii Volcanoes National Park on Big Island offers hiking, steam vents, and lava tube tours year-round. When Kilauea is actively erupting, special lava viewing tours become available. Check current conditions before your trip."
+        },
+        {
+            q: "What's the manta ray night snorkel experience like?",
+            a: "The manta ray night snorkel in Kona (Big Island) is a bucket-list experience. You float at the surface holding onto a lit surfboard while giant manta rays (up to 16ft wingspan) glide beneath you feeding on plankton attracted by the lights. Success rate is over 90%. No swimming required—just floating."
+        },
+        {
+            q: "Is tipping expected on Hawaii tours?",
+            a: "Tipping is customary and appreciated in Hawaii. For tours, 15-20% of the tour cost is standard for good service. For exceptional experiences, feel free to tip more. Tips go directly to your guides and crew, who often depend on gratuities as part of their income."
+        }
+    ];
+
+    function shuffleArray(array) {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+
+    function renderFAQs() {
+        const container = document.getElementById('faq-container');
+        const shuffled = shuffleArray(allFAQs);
+        const selected = shuffled.slice(0, 5);
+        
+        container.innerHTML = selected.map(faq => `
+            <details class="faq-item">
+                <summary>${faq.q}</summary>
+                <div class="faq-answer">
+                    <p>${faq.a}</p>
+                </div>
+            </details>
+        `).join('');
+    }
+
+    document.addEventListener('DOMContentLoaded', renderFAQs);
+    </script>
+
+    <!-- FEATURED BUSINESSES -->
+    <section class="featured-businesses">
+        <div class="container">
+            <h2 class="section-title">Featured Local Partners</h2>
+            <p class="section-subtitle">Support the businesses that make Hawaiian adventures unforgettable.</p>
+            
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <div class="partner-logo">🍽️</div>
+                    <h3>Sample Restaurant</h3>
+                    <p>Fresh local cuisine with ocean views</p>
+                    <a href="#" class="partner-btn">Visit Website</a>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">🏨</div>
+                    <h3>Beachfront Hotel</h3>
+                    <p>Luxury accommodations steps from the sand</p>
+                    <a href="#" class="partner-btn">Visit Website</a>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">🏄</div>
+                    <h3>Activity Rental Shop</h3>
+                    <p>Surfboards, paddleboards, and water gear</p>
+                    <a href="#" class="partner-btn">Visit Website</a>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">☕</div>
+                    <h3>Coffee & Café</h3>
+                    <p>Specialty coffee and local pastries daily</p>
+                    <a href="#" class="partner-btn">Visit Website</a>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">🎁</div>
+                    <h3>Gift Shop</h3>
+                    <p>Authentic Hawaiian gifts and souvenirs</p>
+                    <a href="#" class="partner-btn">Visit Website</a>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">🧭</div>
+                    <h3>Tours & Guides</h3>
+                    <p>Expert local guides for island exploration</p>
+                    <a href="#" class="partner-btn">Visit Website</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <img src="logo-full.png" alt="WanderHawaii" class="footer-logo-img">
+                    </a>
+                    <p class="footer-platform-tagline">Tours Discovery Platform</p>
+                    <p>Your guide to 3,142 Hawaiian adventures. Verified local operators, instant booking.</p>
+                    <p class="footer-tagline">Mahalo for supporting local! 🤙</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Islands</h4>
+                    <ul>
+                        <li><a href="oahu.html">Oahu (1,194)</a></li>
+                        <li><a href="maui.html">Maui (826)</a></li>
+                        <li><a href="big-island.html">Big Island (598)</a></li>
+                        <li><a href="kauai.html">Kauai (524)</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul>
+                        <li><a href="#" onclick="quickFilter('snorkel'); return false;">Snorkeling</a></li>
+                        <li><a href="#" onclick="quickFilter('whale'); return false;">Whale Watching</a></li>
+                        <li><a href="#" onclick="quickFilter('shark'); return false;">Shark Diving</a></li>
+                        <li><a href="#" onclick="quickFilter('boat'); return false;">Boat Tours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="advertise.html">Advertise</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="/cdn-cgi/l/email-protection#6405080b0c052413050a0001160c0513050d0d4a070b09">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderHawaii. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MOBILE CTA -->
+    <div class="mobile-cta" id="mobile-cta">
+        <a href="#tours-section" class="mobile-cta-btn" onclick="trackBookingClick('Find Your Adventure', 'mobile-cta', 'all')">
+            <span>🌺</span> Find Your Adventure
+        </a>
+    </div>
+
+    <!-- FOMO -->
+    <div class="notification" id="notification">
+        <div class="notification-content">
+            <span class="notification-icon">🎉</span>
+            <div class="notification-text">
+                <strong id="notification-name">Sarah from California</strong>
+                <span id="notification-action">just booked a snorkel tour!</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=20260410"></script>
+    <!-- FareHarbor Embed for modal bookings -->
+    <script>
+      (function(w,d,s){
+        w.FareHarborAPI=w.FareHarborAPI||{};
+        var j=d.createElement(s),p=d.scripts[d.scripts.length-1];
+        j.src='https://fareharbor.com/api/embed-builder/embed.js';
+        j.async=true;
+        p.parentNode.insertBefore(j,p);
+      })(window,document,'script');
+    </script>
+    
+    <!-- STICKY MOBILE CTA BAR -->
+    <div class="sticky-cta-bar" id="sticky-cta-bar">
+        <button>Find Your Adventure</button>
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="social-proof.js"></script>
+    <script src="exit-intent.js"></script>
+    <script src="urgency-badges.js"></script>
+    <script src="js/social-proof.js"></script>
+    <script src="js/exit-intent.js"></script>
+    <script src="js/urgency-badges.js"></script>
+</body>
+</html>
+<!-- Cache bust: 1775794080 -->
+<!-- cache bust: 2026-04-10-0130 -->

@@ -1,0 +1,17 @@
+markdown: kramdown
+theme: null
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - .git
+  - .gitignore
+  - README.md
+  - .DS_Store
+permalink: /:path/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+keep_files:
+  - blog

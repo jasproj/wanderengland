@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PL7CN6NG44');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost at Sea | WanderHawaii</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ocean-deep: #1e3a5f;
+            --ocean-mid: #3b6b8c;
+            --plumeria: #ffd166;
+            --white: #ffffff;
+            --gray-600: #4b5563;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--ocean-deep), var(--ocean-mid));
+            color: var(--white);
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .logo {
+            width: 120px;
+            margin-bottom: 2rem;
+        }
+        
+        .error-code {
+            font-family: 'DM Sans', sans-serif;
+            font-size: clamp(6rem, 20vw, 12rem);
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 1rem;
+            text-shadow: 4px 4px 0 rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            font-family: 'DM Sans', sans-serif;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            margin-bottom: 1rem;
+        }
+        
+        .message {
+            font-size: 1.125rem;
+            opacity: 0.9;
+            max-width: 500px;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+        
+        .emoji-wave {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            animation: wave 2s infinite;
+        }
+        
+        @keyframes wave {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--plumeria);
+            color: var(--ocean-deep);
+            font-weight: 600;
+            font-size: 1.125rem;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .suggestions {
+            margin-top: 3rem;
+            font-size: 0.9375rem;
+            opacity: 0.8;
+        }
+        
+        .suggestions a {
+            color: var(--plumeria);
+            text-decoration: none;
+        }
+        
+        .suggestions a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="logo-full.png" alt="WanderHawaii" class="logo">
+    
+    <div class="emoji-wave">🌊</div>
+    
+    <div class="error-code">404</div>
+    
+    <h1>You've drifted off course!</h1>
+    
+    <p class="message">
+        Looks like this page caught a wave and floated away. 
+        Even the sea turtles can't find it. 
+        Let's get you back to paradise.
+    </p>
+    
+    <a href="/" class="btn">🏝️ Back to Shore</a>
+    
+    <div class="suggestions">
+        <p>Or try: <a href="/tours.html">Browse Tours</a> · <a href="/islands.html">Explore Islands</a> · <a href="/snorkeling.html">Go Snorkeling</a></p>
+    </div>
+</body>
+</html>
