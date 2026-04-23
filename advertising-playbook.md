@@ -2,14 +2,14 @@
 ## Site Factory Marketing Gameplan
 
 **Created:** December 29, 2025  
-**Based on:** WanderHawaii.com launch campaign  
+**Based on:** WanderEngland.com launch campaign  
 **Author:** Claude + Jason  
 
 ---
 
 ## Executive Summary
 
-This playbook documents the complete advertising and analytics setup for WanderHawaii.com. Use it to replicate the process for new market sites (WanderPuertoRico, FloridaSandbarTours, KeyWestSandbarTours, etc.).
+This playbook documents the complete advertising and analytics setup for WanderEngland.com. Use it to replicate the process for new market sites (WanderPuertoRico, FloridaSandbarTours, KeyWestSandbarTours, etc.).
 
 **Business Model:**
 - FareHarbor affiliate (20% commission)
@@ -109,7 +109,7 @@ best [activity] in [location]
 [specific attraction] tours
 ```
 
-**Example - Hawaii:**
+**Example - England:**
 - things to do in Maui
 - Oahu tours
 - whale watching big island
@@ -456,7 +456,7 @@ To profit on paid ads:
 
 ---
 
-## Appendix: WanderHawaii Results (First 3 Days)
+## Appendix: WanderEngland Results (First 3 Days)
 
 | Metric | Value |
 |--------|-------|

@@ -1,4 +1,4 @@
-// WanderHawaii Tours App
+// WanderEngland Tours App
 // Load tours from JSON and render with descriptions
 
 let toursData = [];
@@ -144,9 +144,9 @@ function formatPrice(price) {
 
 function cleanLocation(location = '') {
     return location
-        .replace(/^United States\/Hawaii\//, '')
-        .replace(/^Hawaii\//, '')
-        .trim() || 'Hawaii';
+        .replace(/^United States\/England\//, '')
+        .replace(/^England\//, '')
+        .trim() || 'England';
 }
 
 function scoreLabel(score) {

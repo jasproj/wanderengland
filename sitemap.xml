@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage -->
     <url>
-        <loc>https://wanderhawaii.com/</loc>
+        <loc>https://wanderengland.com/</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -10,25 +10,25 @@
 
     <!-- Island Pages -->
     <url>
-        <loc>https://wanderhawaii.com/oahu.html</loc>
+        <loc>https://wanderengland.com/oahu.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/maui.html</loc>
+        <loc>https://wanderengland.com/maui.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/big-island.html</loc>
+        <loc>https://wanderengland.com/big-island.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/kauai.html</loc>
+        <loc>https://wanderengland.com/kauai.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -36,49 +36,49 @@
 
     <!-- Activity Landing Pages -->
     <url>
-        <loc>https://wanderhawaii.com/oahu/snorkeling.html</loc>
+        <loc>https://wanderengland.com/oahu/snorkeling.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/maui/whale-watching.html</loc>
+        <loc>https://wanderengland.com/maui/whale-watching.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/kauai/napali-coast.html</loc>
+        <loc>https://wanderengland.com/kauai/napali-coast.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/big-island/manta-ray.html</loc>
+        <loc>https://wanderengland.com/big-island/manta-ray.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/oahu/helicopter.html</loc>
+        <loc>https://wanderengland.com/oahu/helicopter.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/maui/luau.html</loc>
+        <loc>https://wanderengland.com/maui/luau.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/oahu/sunset-cruise.html</loc>
+        <loc>https://wanderengland.com/oahu/sunset-cruise.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/big-island/kayaking.html</loc>
+        <loc>https://wanderengland.com/big-island/kayaking.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -86,163 +86,163 @@
 
     <!-- Blog Posts -->
     <url>
-        <loc>https://wanderhawaii.com/blog/best-hawaii-tours-couples-honeymoon.html</loc>
+        <loc>https://wanderengland.com/blog/best-hawaii-tours-couples-honeymoon.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/best-luaus-oahu.html</loc>
+        <loc>https://wanderengland.com/blog/best-luaus-oahu.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/best-snorkeling-hawaii.html</loc>
+        <loc>https://wanderengland.com/blog/best-snorkeling-hawaii.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/best-snorkeling-oahu.html</loc>
+        <loc>https://wanderengland.com/blog/best-snorkeling-oahu.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/best-time-to-visit-hawaii.html</loc>
+        <loc>https://wanderengland.com/blog/best-time-to-visit-hawaii.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/big-island-manta-ray-tours.html</loc>
+        <loc>https://wanderengland.com/blog/big-island-manta-ray-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-family-tours-toddlers-young-kids.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-family-tours-toddlers-young-kids.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-fishing-charters.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-fishing-charters.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-food-tours.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-food-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-helicopter-tours.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-helicopter-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-kayak-tours.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-kayak-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-luaus.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-luaus.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-on-a-budget-affordable-tours.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-on-a-budget-affordable-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-parasailing.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-parasailing.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-scuba-diving.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-scuba-diving.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-sea-turtles-dolphins-marine-life.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-sea-turtles-dolphins-marine-life.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-sunset-cruises.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-sunset-cruises.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-surfing-lessons.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-surfing-lessons.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-water-safety-what-to-avoid-hazards.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-water-safety-what-to-avoid-hazards.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/kauai-tours.html</loc>
+        <loc>https://wanderengland.com/blog/kauai-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/maui-whale-watching-guide.html</loc>
+        <loc>https://wanderengland.com/blog/maui-whale-watching-guide.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/na-pali-coast-tours-kauai.html</loc>
+        <loc>https://wanderengland.com/blog/na-pali-coast-tours-kauai.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/pearl-harbor-tours.html</loc>
+        <loc>https://wanderengland.com/blog/pearl-harbor-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/things-to-do-big-island.html</loc>
+        <loc>https://wanderengland.com/blog/things-to-do-big-island.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/things-to-do-maui.html</loc>
+        <loc>https://wanderengland.com/blog/things-to-do-maui.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/things-to-do-oahu.html</loc>
+        <loc>https://wanderengland.com/blog/things-to-do-oahu.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/whale-watching-maui.html</loc>
+        <loc>https://wanderengland.com/blog/whale-watching-maui.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -250,121 +250,121 @@
     
     <!-- NEW: 20 SEO Blog Posts -->
     <url>
-        <loc>https://wanderhawaii.com/blog/best-snorkeling-spots-oahu-2026.html</loc>
+        <loc>https://wanderengland.com/blog/best-snorkeling-spots-oahu-2026.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/molokini-crater-snorkeling-guide.html</loc>
+        <loc>https://wanderengland.com/blog/molokini-crater-snorkeling-guide.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/maui-whale-watching-season-when-to-go.html</loc>
+        <loc>https://wanderengland.com/blog/maui-whale-watching-season-when-to-go.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/napali-coast-boat-tour-comparison.html</loc>
+        <loc>https://wanderengland.com/blog/napali-coast-boat-tour-comparison.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/big-island-manta-ray-night-snorkel-what-to-expect.html</loc>
+        <loc>https://wanderengland.com/blog/big-island-manta-ray-night-snorkel-what-to-expect.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/best-luaus-maui-families.html</loc>
+        <loc>https://wanderengland.com/blog/best-luaus-maui-families.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/oahu-helicopter-tours-worth-the-money.html</loc>
+        <loc>https://wanderengland.com/blog/oahu-helicopter-tours-worth-the-money.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/sunrise-haleakala-complete-guide.html</loc>
+        <loc>https://wanderengland.com/blog/sunrise-haleakala-complete-guide.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/best-time-visit-hawaii-tours.html</loc>
+        <loc>https://wanderengland.com/blog/best-time-visit-hawaii-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/kauai-vs-maui-snorkeling.html</loc>
+        <loc>https://wanderengland.com/blog/kauai-vs-maui-snorkeling.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-tours-cruise-ship-passengers.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-tours-cruise-ship-passengers.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/best-kid-friendly-tours-oahu.html</loc>
+        <loc>https://wanderengland.com/blog/best-kid-friendly-tours-oahu.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/private-vs-group-tours-hawaii.html</loc>
+        <loc>https://wanderengland.com/blog/private-vs-group-tours-hawaii.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/honolulu-shore-excursions-guide.html</loc>
+        <loc>https://wanderengland.com/blog/honolulu-shore-excursions-guide.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/best-sunset-cruises-waikiki.html</loc>
+        <loc>https://wanderengland.com/blog/best-sunset-cruises-waikiki.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/lanikai-kayaking-mokulua-islands.html</loc>
+        <loc>https://wanderengland.com/blog/lanikai-kayaking-mokulua-islands.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/hawaii-volcano-tours-kona.html</loc>
+        <loc>https://wanderengland.com/blog/hawaii-volcano-tours-kona.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/best-dolphin-tours-hawaii.html</loc>
+        <loc>https://wanderengland.com/blog/best-dolphin-tours-hawaii.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/maui-road-to-hana-tour-options.html</loc>
+        <loc>https://wanderengland.com/blog/maui-road-to-hana-tour-options.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/budget-hawaii-tours-under-100.html</loc>
+        <loc>https://wanderengland.com/blog/budget-hawaii-tours-under-100.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -372,61 +372,61 @@
     
     <!-- NEW: 10 Comparison Blog Posts -->
     <url>
-        <loc>https://wanderhawaii.com/blog/molokini-crater-vs-hanauma-bay-snorkeling.html</loc>
+        <loc>https://wanderengland.com/blog/molokini-crater-vs-hanauma-bay-snorkeling.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/napali-coast-boat-vs-helicopter-tour.html</loc>
+        <loc>https://wanderengland.com/blog/napali-coast-boat-vs-helicopter-tour.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/maui-vs-oahu-first-time-visitors.html</loc>
+        <loc>https://wanderengland.com/blog/maui-vs-oahu-first-time-visitors.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/morning-vs-afternoon-snorkeling-hawaii.html</loc>
+        <loc>https://wanderengland.com/blog/morning-vs-afternoon-snorkeling-hawaii.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/private-vs-group-tours-worth-it.html</loc>
+        <loc>https://wanderengland.com/blog/private-vs-group-tours-worth-it.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/big-island-vs-maui-for-families.html</loc>
+        <loc>https://wanderengland.com/blog/big-island-vs-maui-for-families.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/catamaran-vs-raft-napali-coast.html</loc>
+        <loc>https://wanderengland.com/blog/catamaran-vs-raft-napali-coast.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/sunrise-vs-sunset-haleakala-tours.html</loc>
+        <loc>https://wanderengland.com/blog/sunrise-vs-sunset-haleakala-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/north-shore-vs-waikiki-snorkeling-oahu.html</loc>
+        <loc>https://wanderengland.com/blog/north-shore-vs-waikiki-snorkeling-oahu.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/kona-vs-hilo-side-big-island-tours.html</loc>
+        <loc>https://wanderengland.com/blog/kona-vs-hilo-side-big-island-tours.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -434,35 +434,35 @@
     
     <!-- NEW: Roundup Posts (April 11, 2026) -->
     <url>
-        <loc>https://wanderhawaii.com/blog/10-best-maui-tours-2026.html</loc>
+        <loc>https://wanderengland.com/blog/10-best-maui-tours-2026.html</loc>
         <lastmod>2026-04-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://wanderhawaii.com/blog/top-5-oahu-snorkeling-spots.html</loc>
+        <loc>https://wanderengland.com/blog/top-5-oahu-snorkeling-spots.html</loc>
         <lastmod>2026-04-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
   <url>
-    <loc>https://wanderhawaii.com/</blog/best-snorkeling-for-beginners-oahu.html</loc>
+    <loc>https://wanderengland.com/</blog/best-snorkeling-for-beginners-oahu.html</loc>
     <lastmod>2026-04-11</lastmod>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/</blog/kid-friendly-boat-tours-maui.html</loc>
+    <loc>https://wanderengland.com/</blog/kid-friendly-boat-tours-maui.html</loc>
     <lastmod>2026-04-11</lastmod>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/</blog/cheapest-helicopter-tours-big-island.html</loc>
+    <loc>https://wanderengland.com/</blog/cheapest-helicopter-tours-big-island.html</loc>
     <lastmod>2026-04-11</lastmod>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/</blog/best-sunrise-tours-haleakala.html</loc>
+    <loc>https://wanderengland.com/</blog/best-sunrise-tours-haleakala.html</loc>
     <lastmod>2026-04-11</lastmod>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/</blog/whale-watching-from-lahaina.html</loc>
+    <loc>https://wanderengland.com/</blog/whale-watching-from-lahaina.html</loc>
     <lastmod>2026-04-11</lastmod>
   </url>
 </urlset>
