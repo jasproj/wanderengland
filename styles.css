@@ -116,7 +116,7 @@ ul, ol { list-style: none; }
 
 /* Logo Image Styles */
 .logo-img {
-    height: 36px;
+    height: 80px;
     width: auto;
     vertical-align: middle;
 }
@@ -130,7 +130,7 @@ ul, ol { list-style: none; }
 }
 
 .hero-logo-img {
-    height: 320px;
+    height: 480px;
     width: auto;
     max-width: 90%;
     filter: drop-shadow(0 4px 30px rgba(0,0,0,0.4));
@@ -196,10 +196,10 @@ ul, ol { list-style: none; }
         display: none;
     }
     .logo-img {
-        height: 32px;
+        height: 60px;
     }
     .hero-logo-img {
-        height: 220px;
+        height: 330px;
     }
     .footer-logo-img {
         height: 90px;
@@ -289,7 +289,7 @@ ul, ol { list-style: none; }
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?auto=format&fit=crop&w=2400&q=90') center/cover no-repeat;
+    background: url('images/hero-photo-1.jpg') center/cover no-repeat;
 }
 
 .hero-slide {
@@ -304,26 +304,26 @@ ul, ol { list-style: none; }
 
 .hero-slide:nth-child(1) {
     /* Hawaiian beach sunset */
-    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=2400&q=90');
+    background-image: url('images/hero-photo-1.jpg');
     animation-delay: 0s;
     opacity: 1;
 }
 
 .hero-slide:nth-child(2) {
     /* Snorkeling with fish */
-    background-image: url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=2400&q=90');
+    background-image: url('images/hero-photo-2.jpg');
     animation-delay: 6s;
 }
 
 .hero-slide:nth-child(3) {
     /* Tropical landscape */
-    background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=2400&q=90');
+    background-image: url('images/hero-photo-3.jpg');
     animation-delay: 12s;
 }
 
 .hero-slide:nth-child(4) {
     /* Sunset cruise */
-    background-image: url('https://images.unsplash.com/photo-1495954484750-af469f1357be?w=2400&q=90');
+    background-image: url('images/hero-photo-1.jpg');
     animation-delay: 18s;
 }
 
@@ -338,7 +338,8 @@ ul, ol { list-style: none; }
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.4) 100%);
+    background: rgba(0, 0, 0, 0.1);
+    pointer-events: none;
 }
 
 .hero-content {
@@ -363,14 +364,9 @@ ul, ol { list-style: none; }
 /* Hero Logo - Big centered branding */
 .hero-logo-pill {
     display: inline-block;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 50%;
-    padding: 15px;
+    background: transparent;
+    padding: 0;
     margin-bottom: var(--space-lg);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .hero-logo {
@@ -1873,7 +1869,7 @@ section { padding: var(--space-3xl) 0; }
     }
     
     .hero-logo-img {
-        height: 160px;
+        height: 240px;
     }
 }
 /* ============================================
