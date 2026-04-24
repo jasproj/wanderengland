@@ -2588,3 +2588,11 @@ section { padding: var(--space-3xl) 0; }
 .ad-slot#ad-blog-sidebar { min-height: 280px; } /* 300x250 */
 .ad-slot#ad-tour-native { min-height: 120px; } /* Native ad style */
 .ad-slot#ad-blog-bottom { min-height: 100px; } /* 728x90 leaderboard */
+
+/* Footer badge — light pill background for contrast on dark footer */
+.footer-logo-img {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    padding: 10px;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+}
