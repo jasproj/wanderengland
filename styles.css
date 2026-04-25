@@ -133,7 +133,10 @@ ul, ol { list-style: none; }
     height: 480px;
     width: auto;
     max-width: 90%;
-    filter: drop-shadow(0 4px 30px rgba(0,0,0,0.4));
+    filter:
+        drop-shadow(0 0 30px rgba(0, 0, 0, 0.8))
+        drop-shadow(0 0 60px rgba(0, 0, 0, 0.5))
+        drop-shadow(0 4px 15px rgba(0, 0, 0, 0.9));
 }
 
 .footer-logo-img {
