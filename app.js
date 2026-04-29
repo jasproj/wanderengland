@@ -138,8 +138,20 @@ async function loadTours() {
 }
 
 // Helper functions
-function formatPrice(price) {
-    return Number.isFinite(price) ? `From $${price}` : 'Check live price';
+function escapeHtml(str) {
+    if (str == null) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function formatPrice(price, confidence) {
+    if (!Number.isFinite(price)) return 'Check live price';
+    if (confidence === 'low') return 'Check availability';
+    return `From £${price}`;
 }
 
 function cleanLocation(location = '') {
@@ -156,19 +168,22 @@ function scoreLabel(score) {
 }
 
 function generateTourSchema(tour) {
+    const emitPrice = Number.isFinite(tour.price) && tour.priceConfidence !== 'low';
     return {
         "@context": "https://schema.org",
         "@type": "TouristTrip",
         "name": tour.name,
         "description": tour.description || "",
         "touristType": tour.tags ? tour.tags.join(", ") : "",
-        "offers": {
-            "@type": "Offer",
-            "price": tour.price || "",
-            "priceCurrency": "USD",
-            "url": tour.bookingLink,
-            "availability": "https://schema.org/InStock"
-        },
+        ...(emitPrice && {
+            "offers": {
+                "@type": "Offer",
+                "price": tour.price,
+                "priceCurrency": "GBP",
+                "url": tour.bookingLink,
+                "availability": "https://schema.org/InStock"
+            }
+        }),
         "provider": {
             "@type": "LocalBusiness",
             "name": tour.company
@@ -188,52 +203,51 @@ function shuffleArray(array) {
 // Create tour card HTML
 function createTourCard(tour) {
     const tags = tour.tags || [];
-    const tagDisplay = tags.slice(0, 3).map(tag => 
-        `<span class="tour-tag">${tag}</span>`
-    ).join('');
-    
+    const tagDisplay = tags.slice(0, 3).map(tag =>
+        `<span class="tour-tag">${escapeHtml(tag)}</span>`
+    ).join(' ');
+
     const description = tour.description || '';
-    const truncatedDesc = description.length > 120 
-        ? description.substring(0, 117) + '...' 
-        : description;
-    
+    const safeDesc = description.replace(/\s+/g, ' ').trim();
+    const truncatedDesc = safeDesc.length > 120
+        ? safeDesc.substring(0, safeDesc.lastIndexOf(' ', 117)) + '…'
+        : safeDesc;
+
     const score = tour.qualityScore || 0;
     const badge = scoreLabel(score);
-    const qualityBadge = badge 
-        ? `<span class="quality-badge">⭐ ${badge}</span>` 
+    const qualityBadge = badge
+        ? `<span class="quality-badge">⭐ ${badge}</span>`
         : '';
-    
+
     const cleanLoc = cleanLocation(tour.location);
-    const priceDisplay = formatPrice(tour.price);
-    
+    const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
+
     const schema = generateTourSchema(tour);
-    const schemaJson = JSON.stringify(schema);
-    
+    const schemaJson = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script');
+
     let badgesHtml = '<div class="tour-badges">';
     if (tour.freeCancellation) {
         badgesHtml += '<span class="trust-badge free-cancel">Free Cancellation</span>';
     }
     badgesHtml += '</div>';
-    
+
     return `
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
-                <img src="${tour.image}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="${tour.image}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'" style="width: 100%; height: auto; object-fit: cover;">
                 ${qualityBadge}
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
-                    <span class="tour-location">📍 ${cleanLoc}, ${capitalizeIsland(tour.island)}</span>
+                    <span class="tour-location">📍 ${escapeHtml(cleanLoc)}, ${escapeHtml(capitalizeIsland(tour.island))}</span>
                 </div>
-                <h3 class="tour-title">${tour.name}</h3>
-                <p class="tour-description">${truncatedDesc}</p>
+                <h3 class="tour-title">${escapeHtml(tour.name)}</h3>
+                <p class="tour-description">${escapeHtml(truncatedDesc)}</p>
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <button onclick="openBookingWithLoader('${tour.bookingLink}', ${JSON.stringify(tour)})" class="tour-book-btn" style="cursor: pointer; border: none; background: none; padding: 0;">
-                        Book Now →
-                    </button>
+                    <button class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" style="cursor: pointer; border: none; background: none; padding: 0;">Book Now →</button>
                 </div>
             </div>
         </article>
@@ -261,9 +275,20 @@ function renderTours(append = false) {
     } else {
         grid.innerHTML = html;
     }
-    
-    displayedCount = append 
-        ? displayedCount + toursToShow.length 
+
+    if (grid && !grid.dataset.bookingHandlerAttached) {
+        grid.addEventListener('click', (e) => {
+            const btn = e.target.closest('.book-now-btn');
+            if (!btn) return;
+            const tourId = btn.dataset.tourId;
+            const tour = toursData.find(t => String(t.id) === tourId);
+            if (tour) openBookingWithLoader(tour.bookingLink, tour);
+        });
+        grid.dataset.bookingHandlerAttached = 'true';
+    }
+
+    displayedCount = append
+        ? displayedCount + toursToShow.length
         : toursToShow.length;
     
     // Show/hide load more button
