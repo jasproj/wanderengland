@@ -22,7 +22,7 @@ const MIN_LEN = 60;
 
 function stripMetadataPreamble(desc) {
  if (!desc) return { result: desc, action: 'empty' };
- const match = desc.match(/\bActivity details\s*\n/);
+ const match = desc.match(/\b(?:Activity details|Activiteitsdetails|Detalles de la actividad|Detalhes da atividade|Détails de l'activité|Aktivitätsdetails)\s*\n/);
  if (!match) return { result: desc, action: 'no-divider' };
  const after = desc.slice(match.index + match[0].length).trim();
  if (after.length < MIN_LEN) return { result: desc, action: 'restored-too-short' };
