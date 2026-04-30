@@ -135,6 +135,7 @@ async function main() {
       tour.price = price;
       tour.priceConfidence = priceConfidence;
       tour.priceLabel = priceLabel;
+      if (price != null) tour.currency = CURRENCY;
 
       if (fields.description) {
         tour.description = fields.description;
