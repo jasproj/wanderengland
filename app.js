@@ -37,7 +37,10 @@ function preCacheBookingUrls(tours) {
 }
 
 // 2. GA4 Tracking Functions
-function trackBookingClick(tour) {
+// NOTE: Renamed from trackBookingClick to avoid shadowing the canonical
+// 3-string global (defined in index.html <head> and /tracking.js). This
+// enriched form fires on tour-grid clicks where company/price are known.
+function trackTourBooking(tour) {
     gtag('event', 'booking_click', {
         tour_id: tour.id,
         tour_name: tour.name,
@@ -75,7 +78,7 @@ function openBookingWithLoader(url, tour) {
     
     // Track the booking click
     if (tour) {
-        trackBookingClick(tour);
+        trackTourBooking(tour);
     }
     
     const loader = document.createElement('div');
