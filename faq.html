@@ -1,602 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQZ30LYN94"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-QQZ30LYN94');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>England Tours FAQ | Questions About Booking Hawaiian Activities | WanderEngland</title>
-    <meta name="description" content="Answers to common questions about England tours, booking activities, best time to visit, whale watching season, what to pack, cancellation policies, and more.">
-    <meta name="keywords" content="England tours FAQ, England vacation questions, whale watching season England, best time visit England, England booking tips">
-    <link rel="canonical" href="https://wanderengland.com/faq.html">
-    
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://wanderengland.com/faq.html">
-    <meta property="og:title" content="England Tours FAQ | Your Questions Answered">
-    <meta property="og:description" content="Everything you need to know about booking Hawaiian tours and activities.">
-    
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="styles.css">
-    
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What are the best things to do in England?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Top activities include snorkeling at Molokini Crater or Hanauma Bay, whale watching (December–April), helicopter tours over volcanoes and Na Pali Coast, traditional luaus, surfing lessons in Waikiki, hiking Diamond Head, and swimming with manta rays at night."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Which Hawaiian island should I visit?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oahu is perfect for first-timers with Waikiki Beach and Pearl Harbor. Maui is ideal for couples with Road to Hana and whale watching. Big Island is for adventure seekers with active volcanoes and manta rays. Kauai is for nature lovers with Na Pali Coast and Waimea Canyon."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When is whale watching season in England?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Whale watching season runs December through April, with peak sightings in January-March. Thousands of humpback whales migrate from Alaska to England's warm waters to breed and give birth."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What's the best time to visit England?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "England is beautiful year-round with temperatures of 75-85°F. Winter (Dec–Mar) offers whale watching. Summer (Jun–Aug) has calmer ocean conditions for snorkeling. Shoulder seasons (Apr–May, Sep–Nov) offer lower prices and fewer crowds."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How far in advance should I book England tours?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "For popular activities like helicopter tours, luaus, and small-group snorkeling, book 2-4 weeks in advance, especially during peak season. Less popular tours can often be booked a few days ahead."
-                }
-            }
-        ]
-    }
-    </script>
-    
-    <style>
-        .faq-hero {
-            position: relative;
-            padding: 160px var(--space-lg) var(--space-3xl);
-            background: linear-gradient(135deg, var(--ocean-deep), var(--ocean-mid));
-            color: var(--white);
-            text-align: center;
-        }
-        
-        .faq-hero h1 {
-            font-family: var(--font-display);
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            margin-bottom: var(--space-lg);
-        }
-        
-        .faq-hero p {
-            font-size: 1.25rem;
-            opacity: 0.9;
-            max-width: 700px;
-            margin: 0 auto;
-        }
-        
-        .faq-categories {
-            padding: var(--space-xl) 0;
-            background: var(--off-white);
-            border-bottom: 1px solid var(--gray-200);
-            position: sticky;
-            top: 70px;
-            z-index: 50;
-        }
-        
-        .category-tabs {
-            display: flex;
-            gap: var(--space-sm);
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .category-tab {
-            padding: var(--space-sm) var(--space-lg);
-            background: var(--white);
-            border: 2px solid var(--gray-200);
-            border-radius: var(--radius-full);
-            font-weight: 500;
-            color: var(--gray-700);
-            cursor: pointer;
-            transition: all var(--transition-fast);
-        }
-        
-        .category-tab:hover,
-        .category-tab.active {
-            border-color: var(--ocean-mid);
-            background: var(--ocean-deep);
-            color: var(--white);
-        }
-        
-        .faq-main {
-            padding: var(--space-3xl) 0;
-        }
-        
-        .faq-category-section {
-            margin-bottom: var(--space-3xl);
-        }
-        
-        .faq-category-section:last-child {
-            margin-bottom: 0;
-        }
-        
-        .category-header {
-            display: flex;
-            align-items: center;
-            gap: var(--space-md);
-            margin-bottom: var(--space-xl);
-            padding-bottom: var(--space-md);
-            border-bottom: 2px solid var(--gray-200);
-        }
-        
-        .category-icon {
-            font-size: 2rem;
-        }
-        
-        .category-header h2 {
-            font-family: var(--font-display);
-            font-size: 1.75rem;
-            color: var(--gray-900);
-        }
-        
-        .faq-list {
-            display: flex;
-            flex-direction: column;
-            gap: var(--space-md);
-        }
-        
-        .faq-item-full {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            transition: all var(--transition-fast);
-        }
-        
-        .faq-item-full:hover {
-            box-shadow: var(--shadow-md);
-        }
-        
-        .faq-item-full summary {
-            padding: var(--space-lg) var(--space-xl);
-            font-weight: 600;
-            color: var(--gray-900);
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            list-style: none;
-        }
-        
-        .faq-item-full summary::-webkit-details-marker {
-            display: none;
-        }
-        
-        .faq-item-full summary::after {
-            content: '+';
-            font-size: 1.5rem;
-            font-weight: 300;
-            color: var(--ocean-mid);
-            transition: transform var(--transition-fast);
-        }
-        
-        .faq-item-full[open] summary::after {
-            transform: rotate(45deg);
-        }
-        
-        .faq-item-full[open] summary {
-            background: var(--gray-50);
-        }
-        
-        .faq-answer-full {
-            padding: 0 var(--space-xl) var(--space-xl);
-        }
-        
-        .faq-answer-full p {
-            color: var(--gray-600);
-            line-height: 1.8;
-            margin-bottom: var(--space-md);
-        }
-        
-        .faq-answer-full p:last-child {
-            margin-bottom: 0;
-        }
-        
-        .faq-answer-full ul {
-            margin: var(--space-md) 0;
-            padding-left: var(--space-xl);
-        }
-        
-        .faq-answer-full li {
-            color: var(--gray-600);
-            line-height: 1.8;
-            margin-bottom: var(--space-sm);
-        }
-        
-        .faq-answer-full a {
-            color: var(--ocean-mid);
-            font-weight: 500;
-        }
-        
-        .faq-answer-full a:hover {
-            text-decoration: underline;
-        }
-        
-        .still-questions {
-            padding: var(--space-3xl) 0;
-            background: var(--sand);
-            text-align: center;
-        }
-        
-        .still-questions h2 {
-            font-family: var(--font-display);
-            font-size: 2rem;
-            color: var(--gray-900);
-            margin-bottom: var(--space-md);
-        }
-        
-        .still-questions p {
-            color: var(--gray-600);
-            margin-bottom: var(--space-xl);
-            font-size: 1.125rem;
-        }
-        
-        .contact-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: var(--space-sm);
-            padding: var(--space-md) var(--space-2xl);
-            background: var(--plumeria);
-            color: var(--gray-900);
-            font-weight: 600;
-            border-radius: var(--radius-full);
-            transition: all var(--transition-fast);
-        }
-        
-        .contact-btn:hover {
-            background: var(--plumeria-hover);
-            transform: translateY(-2px);
-        }
-        
-        @media (max-width: 768px) {
-            .category-tabs {
-                justify-content: flex-start;
-                overflow-x: auto;
-                padding-bottom: var(--space-sm);
-            }
-            
-            .category-tab {
-                white-space: nowrap;
-                flex-shrink: 0;
-            }
-            
-            .faq-item-full summary {
-                padding: var(--space-md);
-            }
-            
-            .faq-answer-full {
-                padding: 0 var(--space-md) var(--space-md);
-            }
-        }
-    </style>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frequently Asked Questions — WanderEngland</title>
+<meta name="description" content="Common questions about visiting and booking tours through WanderEngland — timing, accessibility, cancellation policies, and what to bring.">
+<link rel="canonical" href="https://wanderengland.com/faq.html">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wanderengland.com/faq.html">
+<meta property="og:title" content="Frequently Asked Questions — WanderEngland">
+<meta property="og:description" content="Common questions about visiting and booking tours through WanderEngland — timing, accessibility, cancellation policies, and what to bring.">
+<meta property="og:image" content="https://wanderengland.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://wanderengland.com/og-image.png">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQZ30LYN94"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QQZ30LYN94');
+</script>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the best season to visit England?", "acceptedAnswer": {"@type": "Answer", "text": "May-September has the best weather and longest daylight (sunset after 9 PM in mid-summer). October-March is rainy and cool but rates are lower and tourist sites are uncrowded. Many guided walking tours run year-round. December has Christmas markets in London, York, and Bath."}}, {"@type": "Question", "name": "Do I need a visa to visit England?", "acceptedAnswer": {"@type": "Answer", "text": "U.S., Canadian, Australian, and most EU citizens can enter visa-free for up to 6 months as tourists. From 2024, U.S. and Canadian travelers also need an ETA (Electronic Travel Authorisation) \u2014 apply online before arrival, valid 2 years."}}, {"@type": "Question", "name": "What's the best way to get around?", "acceptedAnswer": {"@type": "Answer", "text": "In London: Tube, bus, and walking. Outside London: trains. The British rail network is dense \u2014 most major cities are 1-3 hours from London by train. Book tickets 2+ weeks ahead for the lowest fares; same-day tickets at the station can cost 3x more."}}, {"@type": "Question", "name": "Are walking tours weather-flexible?", "acceptedAnswer": {"@type": "Answer", "text": "Most walking tours run rain or shine. Operators reschedule for severe weather (Met Office warnings) but light rain is part of the deal. Bring a waterproof jacket and comfortable shoes."}}, {"@type": "Question", "name": "How early should I book a London or Oxford tour?", "acceptedAnswer": {"@type": "Answer", "text": "1-2 weeks ahead in summer (May-September), 2-3 days ahead in shoulder months. Themed private tours (Doctor Who, Harry Potter, Jack the Ripper) book 1-2 weeks ahead even in winter."}}, {"@type": "Question", "name": "What's the difference between a \"private\" and \"shared\" tour?", "acceptedAnswer": {"@type": "Answer", "text": "Private = your group only, your guide. Shared = mixed group of strangers, lower price. Private gives you control over pace and stops; shared is more social. Group sizes on shared tours are typically 8-15 people."}}, {"@type": "Question", "name": "Do British walking-tour operators expect tipping?", "acceptedAnswer": {"@type": "Answer", "text": "Tipping is appreciated but not expected. \u00a35-10 per person for a 2-hour walk is common. Free walking tours (City of London, Sandeman's) are tip-only \u2014 \u00a315-20 per person is the norm at the end."}}, {"@type": "Question", "name": "Are most tours wheelchair-accessible?", "acceptedAnswer": {"@type": "Answer", "text": "London tours: most are flat and largely accessible, though cobblestoned areas (the City, parts of Westminster) are bumpy. Oxford and Cambridge college visits often involve uneven ground; ask the operator before booking."}}, {"@type": "Question", "name": "What's the cancellation policy?", "acceptedAnswer": {"@type": "Answer", "text": "Most walking tours allow free cancellation up to 24 hours before. Some private tours require 48-72 hours. Weather-related rescheduling is always free same-day."}}, {"@type": "Question", "name": "What should I wear for a walking tour?", "acceptedAnswer": {"@type": "Answer", "text": "Layers + waterproof jacket regardless of forecast. Comfortable walking shoes (most tours involve 4-6 km on uneven streets). Sunglasses + hat in summer; gloves + scarf October-March."}}]}</script>
+
 <script src="/tracking.js" defer></script>
+
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; line-height: 1.6; color: #222; background: #fff; }
+  .container { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+  header { background: #a0173a; color: white; padding: 16px 20px; }
+  header .nav-wrap { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+  header a { color: white; text-decoration: none; }
+  header .logo { font-weight: 700; font-size: 1.2rem; }
+  header nav a { margin-left: 18px; opacity: 0.9; }
+  header nav a:hover { opacity: 1; text-decoration: underline; }
+  .hero { background: linear-gradient(135deg, #a0173a 0%, #1c3055 100%); color: white; padding: 60px 20px; text-align: center; }
+  .hero h1 { font-size: 2.2rem; margin: 0 0 10px 0; }
+  .hero p { font-size: 1rem; opacity: 0.95; }
+  .faq-section { padding: 50px 0; }
+  details { background: #f6f6f8; border-left: 4px solid #1c3055; padding: 14px 20px; margin-bottom: 12px; border-radius: 4px; }
+  details summary { font-weight: 600; cursor: pointer; padding: 6px 0; }
+  details[open] summary { margin-bottom: 12px; }
+  details p { margin: 0; color: #444; }
+  .still-have { background: #fafafa; padding: 40px 20px; text-align: center; }
+  .still-have a { color: white; background: #a0173a; padding: 12px 24px; border-radius: 4px; text-decoration: none; font-weight: 600; min-height: 44px; display: inline-block; }
+  footer { background: #222; color: #ccc; padding: 30px 20px; text-align: center; font-size: 0.9rem; }
+</style>
 </head>
 <body>
-    <!-- HEADER -->
-    <header class="header">
-        <div class="header-container">
-            <div class="logo-group">
-                <a href="/" class="logo">
-                    <img src="images/logo.png" alt="WanderEngland" class="logo-img">
-</a>
-</div>
-            <nav class="nav-desktop">
-                <a href="index.html#tours-section">Tours</a>
-                <a href="islands.html">Islands</a>
-                <a href="about.html">About</a>
-                <a href="faq.html" class="active">FAQs</a>
-            </nav>
-            <button class="mobile-menu-btn" aria-label="Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-        <nav class="nav-mobile">
-            <a href="index.html#tours-section">Tours</a>
-            <a href="islands.html">Islands</a>
-            <a href="about.html">About</a>
-            <a href="faq.html">FAQs</a>
-        </nav>
-    </header>
-
-    <!-- HERO -->
-    <section class="faq-hero">
-        <div class="container">
-            <h1>Frequently Asked Questions</h1>
-            <p>Everything you need to know about planning your Hawaiian adventure, from booking tours to packing your bags.</p>
-        </div>
-    </section>
-
-    <!-- CATEGORY TABS -->
-    <nav class="faq-categories">
-        <div class="container">
-            <div class="category-tabs">
-                <a href="#planning" class="category-tab active">🗓️ Planning</a>
-                <a href="#booking" class="category-tab">📱 Booking</a>
-                <a href="#activities" class="category-tab">🏄 Activities</a>
-                <a href="#islands" class="category-tab">🏝️ Islands</a>
-                <a href="#practical" class="category-tab">🎒 Practical</a>
-            </div>
-        </div>
+<header>
+  <div class="nav-wrap">
+    <a href="/" class="logo">WanderEngland</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/faq.html">FAQ</a>
+      <a href="/blog/">Blog</a>
     </nav>
+  </div>
+</header>
 
-    <!-- FAQ CONTENT -->
-    <main class="faq-main">
-        <div class="container">
-            
-            <!-- PLANNING -->
-            <section class="faq-category-section" id="planning">
-                <div class="category-header">
-                    <span class="category-icon">🗓️</span>
-                    <h2>Planning Your Trip</h2>
-                </div>
-                <div class="faq-list">
-                    
-                    <details class="faq-item-full">
-                        <summary>How many days do I need in England?</summary>
-                        <div class="faq-answer-full">
-                            <p>We recommend at least 5-7 days per island to truly experience it without rushing. Here's a general guide:</p>
-                            <ul>
-                                <li><strong>5-7 days:</strong> Comfortable exploration of one island</li>
-                                <li><strong>10-14 days:</strong> Two islands at a relaxed pace</li>
-                                <li><strong>2-3 weeks:</strong> Three or four islands</li>
-                            </ul>
-                            <p>First-time visitors often make the mistake of island-hopping too quickly. Inter-island flights, hotel check-ins, and adjusting to new areas eat into your time. It's better to deeply explore fewer islands than superficially see many.</p>
-                        </div>
-                    </details>
-                </div>
-            </section>
+<section class="hero">
+  <div class="container">
+    <h1>Frequently Asked Questions</h1>
+    <p>Common questions from travelers booking through WanderEngland.</p>
+  </div>
+</section>
 
-            <!-- BOOKING -->
-            <section class="faq-category-section" id="booking">
-                <div class="category-header">
-                    <span class="category-icon">📱</span>
-                    <h2>Booking Tours</h2>
-                </div>
-                <div class="faq-list">
-                    <details class="faq-item-full">
-                        <summary>How do I book tours through WanderEngland?</summary>
-                        <div class="faq-answer-full">
-                            <p>WanderEngland is a discovery platform that connects you directly with local tour operators. Here's how it works:</p>
-                            <ul>
-                                <li>Browse our 595 tours using filters for island, activity type, or search</li>
-                                <li>Click "Book Now" on any tour you're interested in</li>
-                                <li>You'll be taken directly to the tour operator's booking system</li>
-                                <li>Complete your booking with the operator and receive instant confirmation</li>
-                            </ul>
-                            <p>We don't handle bookings ourselves—you book directly with the local operator at their prices. This means you get their policies, their customer service, and your money goes directly to Hawaiian businesses.</p>
-                        </div>
-                    </details>
-                    
-                    <details class="faq-item-full">
-                        <summary>Are your prices better than Viator or Expedia?</summary>
-                        <div class="faq-answer-full">
-                            <p>We connect you directly with local tour operators through their booking systems, so you get their direct prices—often the same as or better than large booking platforms.</p>
-                            <p>The real difference: when you book through WanderEngland, more of your money stays in England's local economy rather than going to mainland corporations. Big platforms take 20-30% commissions from operators, which either gets passed to you or squeezes small businesses.</p>
-                            <p>We earn a small referral commission that doesn't affect your price—it comes from the operator's existing marketing budget.</p>
-                        </div>
-                    </details>
-                    
-                    <details class="faq-item-full">
-                        <summary>What's the cancellation policy?</summary>
-                        <div class="faq-answer-full">
-                            <p>Cancellation policies vary by operator, but here's what's typical:</p>
-                            <ul>
-                                <li><strong>Most tours:</strong> Free cancellation 24-48 hours before departure</li>
-                                <li><strong>Premium experiences (helicopters, private charters):</strong> May require 72 hours or more notice</li>
-                                <li><strong>Weather cancellations:</strong> Usually fully refunded or rescheduled at no charge</li>
-                            </ul>
-                            <p>Always check the specific policy when booking—it's displayed on each tour's booking page. Many operators are flexible, especially for weather or emergencies, but policies are set by each individual operator.</p>
-                        </div>
-                    </details>
-                    
-                    <details class="faq-item-full">
-                        <summary>Can I book tours for a group?</summary>
-                        <div class="faq-answer-full">
-                            <p>Yes! Most tours accommodate groups, and many offer group discounts for 6+ people. For larger groups (10+), consider:</p>
-                            <ul>
-                                <li><strong>Private tours:</strong> Many operators offer private charter options—you get the boat, guide, or vehicle to yourselves</li>
-                                <li><strong>Direct contact:</strong> For groups over 15-20, reach out to operators directly for custom arrangements</li>
-                            </ul>
-                            <p>Filter by "Private" in our activity dropdown to find private tour options. Private tours are great for families, corporate groups, or special occasions.</p>
-                        </div>
-                    </details>
-                </div>
-            </section>
+<section class="faq-section">
+  <div class="container">
+    <details><summary>What&#x27;s the best season to visit England?</summary><p>May-September has the best weather and longest daylight (sunset after 9 PM in mid-summer). October-March is rainy and cool but rates are lower and tourist sites are uncrowded. Many guided walking tours run year-round. December has Christmas markets in London, York, and Bath.</p></details>
+<details><summary>Do I need a visa to visit England?</summary><p>U.S., Canadian, Australian, and most EU citizens can enter visa-free for up to 6 months as tourists. From 2024, U.S. and Canadian travelers also need an ETA (Electronic Travel Authorisation) — apply online before arrival, valid 2 years.</p></details>
+<details><summary>What&#x27;s the best way to get around?</summary><p>In London: Tube, bus, and walking. Outside London: trains. The British rail network is dense — most major cities are 1-3 hours from London by train. Book tickets 2+ weeks ahead for the lowest fares; same-day tickets at the station can cost 3x more.</p></details>
+<details><summary>Are walking tours weather-flexible?</summary><p>Most walking tours run rain or shine. Operators reschedule for severe weather (Met Office warnings) but light rain is part of the deal. Bring a waterproof jacket and comfortable shoes.</p></details>
+<details><summary>How early should I book a London or Oxford tour?</summary><p>1-2 weeks ahead in summer (May-September), 2-3 days ahead in shoulder months. Themed private tours (Doctor Who, Harry Potter, Jack the Ripper) book 1-2 weeks ahead even in winter.</p></details>
+<details><summary>What&#x27;s the difference between a &quot;private&quot; and &quot;shared&quot; tour?</summary><p>Private = your group only, your guide. Shared = mixed group of strangers, lower price. Private gives you control over pace and stops; shared is more social. Group sizes on shared tours are typically 8-15 people.</p></details>
+<details><summary>Do British walking-tour operators expect tipping?</summary><p>Tipping is appreciated but not expected. £5-10 per person for a 2-hour walk is common. Free walking tours (City of London, Sandeman&#x27;s) are tip-only — £15-20 per person is the norm at the end.</p></details>
+<details><summary>Are most tours wheelchair-accessible?</summary><p>London tours: most are flat and largely accessible, though cobblestoned areas (the City, parts of Westminster) are bumpy. Oxford and Cambridge college visits often involve uneven ground; ask the operator before booking.</p></details>
+<details><summary>What&#x27;s the cancellation policy?</summary><p>Most walking tours allow free cancellation up to 24 hours before. Some private tours require 48-72 hours. Weather-related rescheduling is always free same-day.</p></details>
+<details><summary>What should I wear for a walking tour?</summary><p>Layers + waterproof jacket regardless of forecast. Comfortable walking shoes (most tours involve 4-6 km on uneven streets). Sunglasses + hat in summer; gloves + scarf October-March.</p></details>
+  </div>
+</section>
 
-            <!-- ACTIVITIES -->
-            <section class="faq-category-section" id="activities">
-                <div class="category-header">
-                    <span class="category-icon">🏄</span>
-                    <h2>Activities & Experiences</h2>
-                </div>
-                <div class="faq-list">
-                    
-                    <details class="faq-item-full">
-                        <summary>Are the tours family-friendly?</summary>
-                        <div class="faq-answer-full">
-                            <p>Many tours welcome families with children! Look for these family-friendly options:</p>
-                            <ul>
-                                <li><strong>Submarine tours:</strong> Dry, air-conditioned, and exciting for kids</li>
-                                <li><strong>Luaus:</strong> Entertainment, food, and often special activities for children</li>
-                                <li><strong>Catamaran snorkel tours:</strong> Stable boats, often with slides and trampolines</li>
-                                <li><strong>Farm tours:</strong> Coffee, chocolate, tropical fruit—hands-on and educational</li>
-                                <li><strong>Easy beach activities:</strong> Kayaking in calm bays, paddleboarding lessons</li>
-                            </ul>
-                            <p>Age and weight restrictions vary by tour—helicopter tours often require minimum ages, ziplines have weight limits. Check individual tour listings for specifics.</p>
-                        </div>
-                    </details>
-                </div>
-            </section>
+<section class="still-have">
+  <div class="container">
+    <h3>Still have questions?</h3>
+    <p>Browse the full tour catalog and find what fits your trip.</p>
+    <a href="/">See all tours</a>
+  </div>
+</section>
 
-            <!-- ISLANDS -->
-            <section class="faq-category-section" id="islands">
-                <div class="category-header">
-                    <span class="category-icon">🏝️</span>
-                    <h2>Choosing an Island</h2>
-                </div>
-                <div class="faq-list">
-                </div>
-            </section>
-
-            <!-- PRACTICAL -->
-            <section class="faq-category-section" id="practical">
-                <div class="category-header">
-                    <span class="category-icon">🎒</span>
-                    <h2>Practical Information</h2>
-                </div>
-                <div class="faq-list">
-                    
-                    <details class="faq-item-full">
-                        <summary>Is tipping expected on England tours?</summary>
-                        <div class="faq-answer-full">
-                            <p>Yes, tipping is customary and appreciated in England. Guidelines:</p>
-                            <ul>
-                                <li><strong>Standard tip:</strong> 15-20% of tour cost for good service</li>
-                                <li><strong>Exceptional service:</strong> 20-25% or more</li>
-                                <li><strong>Group tours:</strong> $10-20 per person is typical</li>
-                                <li><strong>Private tours:</strong> 20% is appropriate</li>
-                            </ul>
-                            <p>Tips go directly to your guides and crew, who often depend on gratuities as part of their income. Cash is preferred, but many operators can add tips to credit card payments.</p>
-                        </div>
-                    </details>
-                </div>
-            </section>
-            
-        </div>
-    </main>
-
-    <!-- STILL HAVE QUESTIONS -->
-    <section class="still-questions">
-        <div class="container">
-            <h2>Still Have Questions?</h2>
-            <p>We're happy to help you plan the perfect English getaway.</p>
-            <a href="mailto:aloha@wanderengland.com" class="contact-btn">
-                ✉️ Email Us
-            </a>
-        </div>
-    </section>
-
-    <!-- EMAIL -->
-    <section class="signup-section">
-        <div class="container">
-            <div class="signup-box">
-                <div class="signup-content">
-                    <h2>🌺 Get Insider England Tips</h2>
-                    <p>Join travelers getting exclusive deals and local secrets.</p>
-                </div>
-                <form class="signup-form" id="email-form" action="https://formspree.io/f/mbdjldrd" method="POST">
-                    <input type="email" name="email" placeholder="Enter your email" required>
-                    <button type="submit">Get the Guide</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="/" class="logo">
-                        <img src="images/footer-badge.png" alt="WanderEngland" class="footer-logo-img">
-                    </a>
-<p>Your guide to 595 England adventures. Verified local operators, instant booking.</p>
-                    <p class="footer-tagline">Cheers for supporting local! 🇬🇧</p>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>Islands</h4>
-                    <ul>
-                        <li><a href="oahu.html">Oahu (329)</a></li>
-                        <li><a href="maui.html">Maui (101)</a></li>
-                        <li><a href="big-island.html">Big Island (110)</a></li>
-                        <li><a href="kauai.html">Kauai (55)</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>Popular</h4>
-                    <ul>
-                        <li><a href="index.html#tours-section">Snorkeling</a></li>
-                        <li><a href="index.html#tours-section">Whale Watching</a></li>
-                        <li><a href="index.html#tours-section">Helicopter Tours</a></li>
-                        <li><a href="index.html#tours-section">Luaus</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="faq.html">FAQs</a></li>
-                        <li><a href="mailto:aloha@wanderengland.com">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 WanderEngland. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Mobile menu toggle -->
-    <script>
-    document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
-        document.querySelector('.nav-mobile')?.classList.toggle('active');
-        this.classList.toggle('active');
-    });
-    
-    // Smooth scroll for category tabs
-    document.querySelectorAll('.category-tab').forEach(tab => {
-        tab.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-            document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
-            this.classList.add('active');
-        });
-    });
-    </script>
+<footer>
+  <p>© 2026 WanderEngland. All rights reserved.</p>
+</footer>
 </body>
 </html>
