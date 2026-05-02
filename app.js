@@ -250,7 +250,7 @@ function createTourCard(tour) {
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <button class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" style="cursor: pointer; border: none; background: none; padding: 0;">Book Now →</button>
+                    <a href="${tour.bookingLink}" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="cursor: pointer; border: none; background: none; padding: 0; text-decoration: none; display: inline-block;">Check Availability →</a>
                 </div>
             </div>
         </article>
@@ -279,16 +279,12 @@ function renderTours(append = false) {
         grid.innerHTML = html;
     }
 
-    if (grid && !grid.dataset.bookingHandlerAttached) {
-        grid.addEventListener('click', (e) => {
-            const btn = e.target.closest('.book-now-btn');
-            if (!btn) return;
-            const tourId = btn.dataset.tourId;
-            const tour = toursData.find(t => String(t.id) === tourId);
-            if (tour) openBookingWithLoader(tour.bookingLink, tour);
-        });
-        grid.dataset.bookingHandlerAttached = 'true';
-    }
+    // The click delegation that used to call openBookingWithLoader was a
+    // workaround for the previous <button> markup, which couldn't navigate
+    // natively. Now that tour cards render as <a href target="_blank">,
+    // navigation happens via the anchor's native click and tracking.js's
+    // delegated handler still fires booking_click. No JS handler needed
+    // here.
 
     displayedCount = append
         ? displayedCount + toursToShow.length
