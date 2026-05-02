@@ -1,5 +1,5 @@
 /**
- * Patched price extractor v5.3 — comma-thousands support
+ * Patched price extractor v5.4 — currency-symbol whitespace tolerance
  *
  * v5.1: Method 1 fix (price/label order)
  * v5.2: currency parameter (USD default; supports EUR, GBP, NZD)
@@ -8,6 +8,13 @@
  *       digit tokens with `\d+(?:,\d{3})*`, strip commas before parseInt,
  *       and rebuild Method 6's calendar-adjacency pattern from the
  *       captured price using a comma-tolerant template.
+ * v5.4: allow optional whitespace between the currency symbol and the
+ *       digits. Some EUR operators render "€ 39,04" (with a space and
+ *       European-style comma decimal). v5.3's regex required the digit
+ *       to follow the currency immediately, so those tours were
+ *       silently dropped. The European comma-decimal "39,04" still
+ *       produces an integer 39 (cents truncated), which matches how
+ *       the rest of the network formats prices.
  *
  * Usage: extract_price(pageText)         // USD default
  *        extract_price(pageText, 'EUR')  // €
@@ -27,6 +34,12 @@ const CURRENCY_CONFIG = {
 // "$12345" still matches in full; the optional ",\d{3}" repeat handles
 // "$1,299" and "$1,234,567".
 const D = '\\d+(?:,\\d{3})*';
+
+// Optional whitespace between the currency symbol and the leading
+// digit. Handles "€ 39,04" (some EUR operators) without affecting
+// "$1,299" or "EUR26.50" (no-space variants still match because \s* is
+// 0-or-more). Defined once to keep all method regexes consistent.
+const WS = '\\s*';
 
 // Strip commas before parseInt — the capture group can include them.
 const toInt = s => parseInt(String(s).replace(/,/g, ''), 10);
@@ -64,7 +77,7 @@ function extract_price(pageText, currency = 'USD') {
   // ─── METHOD 1: Adult tier (HIGHEST CONFIDENCE) ──────────────────
   // 1a: price-first format ({CUR}N Adults)
   const adultPriceFirst = text.match(
-    new RegExp(`${C}(${D})(?:\\.\\d{2})?\\s+Adults?\\b(?!\\s+Only)`, 'i')
+    new RegExp(`${C}${WS}(${D})(?:[\\.,]\\d{2})?\\s+Adults?\\b(?!\\s+Only)`, 'i')
   );
   if (adultPriceFirst) {
     const val = toInt(adultPriceFirst[1]);
@@ -78,7 +91,7 @@ function extract_price(pageText, currency = 'USD') {
 
   // 1b: label-first format (Adult {CUR}N)
   const adultLabelFirst = text.match(
-    new RegExp(`\\bAdults?\\b(?:\\s*\\([^)]*\\))?\\s*${C}(${D})(?:\\.\\d{2})?\\b`, 'i')
+    new RegExp(`\\bAdults?\\b(?:\\s*\\([^)]*\\))?\\s*${C}${WS}(${D})(?:[\\.,]\\d{2})?\\b`, 'i')
   );
   if (adultLabelFirst) {
     const val = toInt(adultLabelFirst[1]);
@@ -92,7 +105,7 @@ function extract_price(pageText, currency = 'USD') {
 
   // ─── METHOD 2: Per-person context (HIGH CONFIDENCE) ─────────────
   const perPerson = text.match(
-    new RegExp(`${C}(${D})(?:\\.\\d{2})?\\s*(?:per\\s+(?:person|guest|adult|pax)|\\/\\s*(?:person|guest|adult|pax))`, 'i')
+    new RegExp(`${C}${WS}(${D})(?:[\\.,]\\d{2})?\\s*(?:per\\s+(?:person|guest|adult|pax)|\\/\\s*(?:person|guest|adult|pax))`, 'i')
   );
   if (perPerson) {
     const val = toInt(perPerson[1]);
@@ -106,7 +119,7 @@ function extract_price(pageText, currency = 'USD') {
 
   // ─── METHOD 3: "Starting at" / "From {CUR}X" (MEDIUM) ───────────
   const startingAt = text.match(
-    new RegExp(`(?:Starting\\s+(?:at|from)|From|Prices?\\s+from)\\s+${C}(${D})(?:\\.\\d{2})?\\b`, 'i')
+    new RegExp(`(?:Starting\\s+(?:at|from)|From|Prices?\\s+from)\\s+${C}${WS}(${D})(?:[\\.,]\\d{2})?\\b`, 'i')
   );
   if (startingAt) {
     const val = toInt(startingAt[1]);
@@ -121,7 +134,7 @@ function extract_price(pageText, currency = 'USD') {
   // ─── METHOD 4: Charter floor (MEDIUM) ───────────────────────────
   const isCharter = /\b(private\s+charter|full\s+day\s+charter|half\s+day\s+charter)\b/i.test(text);
   if (isCharter) {
-    const allPrices = [...text.matchAll(new RegExp(`${C}(${D})(?:\\.\\d{2})?\\b`, 'g'))]
+    const allPrices = [...text.matchAll(new RegExp(`${C}${WS}(${D})(?:[\\.,]\\d{2})?\\b`, 'g'))]
       .map(m => toInt(m[1]))
       .filter(v => v >= 300 && v <= 50000);
     if (allPrices.length > 0) {
@@ -135,7 +148,7 @@ function extract_price(pageText, currency = 'USD') {
   // ─── METHOD 5: Fallback in Pricing section (LOW) ────────────────
   const pricingSection = extractPricingSection(text);
   if (pricingSection) {
-    const candidates = [...pricingSection.matchAll(new RegExp(`${C}(${D})(?:\\.\\d{2})?\\b`, 'g'))];
+    const candidates = [...pricingSection.matchAll(new RegExp(`${C}${WS}(${D})(?:[\\.,]\\d{2})?\\b`, 'g'))];
     for (const m of candidates) {
       const val = toInt(m[1]);
       if (val < 15 || val > 9999) continue;
@@ -171,7 +184,7 @@ function extract_price(pageText, currency = 'USD') {
 
 function extractPriceMethod6_calendar(pageText, currencyRegex) {
   const C = currencyRegex || '\\$';
-  const priceMatches = [...pageText.matchAll(new RegExp(`${C}(${D})(?:\\.\\d{2})?`, 'g'))];
+  const priceMatches = [...pageText.matchAll(new RegExp(`${C}${WS}(${D})(?:[\\.,]\\d{2})?`, 'g'))];
   if (priceMatches.length < 3) return null;
 
   const priceCounts = {};
@@ -188,8 +201,8 @@ function extractPriceMethod6_calendar(pageText, currencyRegex) {
 
   const validCandidates = repeated.filter(price => {
     const pp = pricePattern(price);
-    const after = new RegExp(`${C}${pp}(?:\\.\\d{2})?\\s{1,5}(\\d{1,2})\\b`, 'g');
-    const before = new RegExp(`\\b(\\d{1,2})\\b\\s{1,5}${C}${pp}(?:\\.\\d{2})?\\b`, 'g');
+    const after = new RegExp(`${C}${WS}${pp}(?:[\\.,]\\d{2})?\\s{1,5}(\\d{1,2})\\b`, 'g');
+    const before = new RegExp(`\\b(\\d{1,2})\\b\\s{1,5}${C}${WS}${pp}(?:[\\.,]\\d{2})?\\b`, 'g');
     const adjacencyMatches = [...pageText.matchAll(after), ...pageText.matchAll(before)];
     const validDays = adjacencyMatches.filter(m => {
       const day = parseInt(m[1], 10);
