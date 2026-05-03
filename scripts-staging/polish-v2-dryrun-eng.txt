@@ -1,0 +1,111 @@
+=== description-polish-v2 dry-run report ===
+generated: 2026-05-03T15:38:38.395Z
+mode: DRY-RUN (no writes)
+
+--- STATS ---
+{
+  "total": 372,
+  "pattern_a_cleaned": 88,
+  "pattern_a_no_match": 284,
+  "pattern_b_cleaned": 11,
+  "pattern_b_no_match": 361,
+  "pattern_b_aborted_too_short": 0,
+  "unchanged": 273,
+  "changed_total": 99
+}
+
+--- PATTERN A SAMPLES (5) ---
+[
+  {
+    "id": "590945",
+    "name": "The Deathly Dark Tour of York",
+    "matched_header": "Additional information",
+    "before_len": 649,
+    "after_len": 607,
+    "stripped_tail": "Additional information\\nFAQs\\nCancellations",
+    "new_tail_first_200": "ded\\n\\nToilet breaks\\n\\nSeating\\n\\nUmbrella\\n\\nHighlights\\nWander off the usual tourist routes\\nEnjoy an unusual award-winning mix of horror, comedy and history!\\nTake a walk down the Shambles after c…"
+  },
+  {
+    "id": "602428",
+    "name": "Goat & Sheep Yoga",
+    "matched_header": "Additional information",
+    "before_len": 874,
+    "after_len": 837,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "ats and sheep.\\nOpen to all yoga skill levels, including beginners.\\nOpportunity to cuddle goats or simply enjoy their company during the session.\\nScenic outdoor location and loving sanctuary for goa…"
+  },
+  {
+    "id": "100314",
+    "name": "City Centre Highlights Tour",
+    "matched_header": "Cancellations",
+    "before_len": 558,
+    "after_len": 543,
+    "stripped_tail": "Cancellations",
+    "new_tail_first_200": " up with the ebikes, brief health & safety talk, then cycle through Chinatown, Cathedrals, Cultural Quarter, Cavern Quarter and more!\\n\\nHighlights\\n\\nThe BEST way to see all the highlights in 90 minu…"
+  },
+  {
+    "id": "100323",
+    "name": "WALKING City Centre Pub Crawl",
+    "matched_header": "Additional information",
+    "before_len": 203,
+    "after_len": 165,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "This is a 2 hour walking tour visiting 3 iconic pubs.\\n\\nWhat's included\\n\\nIncluded are 3 FREE drinks with the tour (beer or soft drink equivalent, not wine or spirits)"
+  },
+  {
+    "id": "354292",
+    "name": "Liverpool with a Local: Walking Tour",
+    "matched_header": "Additional information",
+    "before_len": 1298,
+    "after_len": 1261,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "y’s turbulent history\\nSee iconic sites including the Liver Building and the Cavern Club\\nExperience local stories and Scouse perspective on the city\\nVisit cultural venues such as Tate Liverpool\\nPri…"
+  }
+]
+
+--- PATTERN B SAMPLES (5) ---
+[
+  {
+    "id": "93854",
+    "name": "Surf Lesson - Beginner | Improver",
+    "before_len": 548,
+    "after_len": 148,
+    "stripped_head_first_300": "Best Teaching Ratio In The UK of 6:1 | Award Winning Surfing Centre of Excellence\\n\\nBeing featured in The BBC, Vogue, The Independent, Airbnb, Carve Magazine, and Surfing England, alongside a multitude of 5-star TripAdvisor reviews, video tutorials, and surf blog insights is something we’re very pr…",
+    "after_first_200": "What's included\\n\\nAll equipment is included!\\n\\nA surfboard, wetsuits, boots, gloves & hood if necessary are all included. We have indoor changing room"
+  },
+  {
+    "id": "78794",
+    "name": "Private Sail with Lunch or Dinner",
+    "before_len": 1036,
+    "after_len": 284,
+    "stripped_head_first_300": "Enjoy a glass of Champagne as you set sail on your beautiful, large, comfortable and modern yacht. After a few hours of sailing on the Solent you anchor off the Isle of Wight for a delicious freshly prepared two-course meal, served on deck, and the opportunity for a swim! Afterwards there is more sa…",
+    "after_first_200": "Luxury, well-maintained, modern yachts\\n\\nLarge, spacious and comfortable 45'-50' yachts\\n\\nChoice of morning or afternoon trips at a time to suit you\\n\\nTrips daily – midweek and weekends\\n\\nFriendly…"
+  },
+  {
+    "id": "78857",
+    "name": "Full Day Sail",
+    "before_len": 903,
+    "after_len": 115,
+    "stripped_head_first_300": "Enjoy a glass of Champagne as you set sail on your beautiful, large, comfortable and modern yacht. After a few hours of sailing on the Solent you anchor off the Isle of Wight for a delicious freshly prepared two-course lunch, served on deck, and the opportunity for a swim! Alternatively, enjoy lunch…",
+    "after_first_200": "Luxury, well-maintained, modern yachts\\n\\nLarge, spacious and comfortable 45'-50' yachts\\n\\nChoice of catering on board"
+  },
+  {
+    "id": "242682",
+    "name": "VR Adventures & Escape Rooms",
+    "before_len": 1500,
+    "after_len": 1313,
+    "stripped_head_first_300": "VR Mania - Bournemouth\\n\\n£25 Per Player • All Ages (7+)\\n\\n\t501 Reviewers\\n#5 of 68 Fun & Games in Bournemouth\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "More than 20 unique VR adventures and escape rooms to choose from!\\nDuration\\n\\n60-minute booking with 50 minutes of VR gameplay (plus 10 minutes for onboarding and instructions)\\n\\nAbout\\n\\nVR Escape…"
+  },
+  {
+    "id": "245346",
+    "name": "Your Choice",
+    "before_len": 780,
+    "after_len": 585,
+    "stripped_head_first_300": "VR Mania - Bournemouth\\n\\nFrom £15.00 Per Player • All Ages (7+)\\n\\n\t501 Reviewers\\n#5 of 68 Fun & Games in Bournemouth\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Choose from a selection of the top VR titles\\nDuration\\n\\nA 20, 40 or 60 Minute Booking (1 - 5 minute onboarding and instructions included)\\n\\nAbout\\n\\nYou’ll have the ability to pick, play and switch…"
+  }
+]
+
+--- PATTERN B ABORTED (would have left <100 chars) ---
+[]
