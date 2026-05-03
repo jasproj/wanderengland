@@ -42,6 +42,7 @@
         }
     </script>
     
+    <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high">
     <link rel="stylesheet" href="styles.css">
     
     <script type="application/ld+json">
@@ -119,7 +120,10 @@
             <p class="hero-tagline">Book Local. Support Local.</p>
             <div class="hero-logo-pill">
                 <div class="hero-logo">
-                    <img src="images/hero-banner.png" alt="WanderEngland" class="hero-logo-img">
+                    <picture>
+                        <source srcset="images/hero-banner.webp" type="image/webp">
+                        <img src="images/hero-banner.png" alt="WanderEngland" class="hero-logo-img" width="1024" height="1024" fetchpriority="high">
+                    </picture>
                 </div>
             </div>
             <p class="hero-subtitle">Handpicked tours across England.<br>Book direct with local tour guides and support local.</p>
