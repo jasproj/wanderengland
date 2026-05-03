@@ -118,8 +118,8 @@ async function loadTours() {
         toursData = await response.json();
         console.log(`✅ Loaded ${toursData.length} tours`);
         
-        // Initial shuffle for randomization
-        shuffleArray(toursData);
+        // Initial shuffle for randomization (per-page-load, non-mutating)
+        toursData = shuffleArray(toursData);
         filteredTours = [...toursData];
         
         // Pre-cache booking URLs for instant clicks
@@ -194,13 +194,14 @@ function generateTourSchema(tour) {
     };
 }
 
-// Fisher-Yates shuffle
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
+// Fisher-Yates shuffle (non-mutating, per-page-load only — no localStorage)
+function shuffleArray(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+        [a[i], a[j]] = [a[j], a[i]];
     }
-    return array;
+    return a;
 }
 
 // Create tour card HTML
@@ -366,7 +367,7 @@ function filterTours() {
 
 // Shuffle visible tours
 function shuffleTours() {
-    shuffleArray(filteredTours);
+    filteredTours = shuffleArray(filteredTours);
     displayedCount = 0;
     renderTours();
 }
