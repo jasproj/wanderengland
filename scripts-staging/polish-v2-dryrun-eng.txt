@@ -1,5 +1,5 @@
 === description-polish-v2 dry-run report ===
-generated: 2026-05-03T15:38:38.395Z
+generated: 2026-05-03T15:45:02.902Z
 mode: DRY-RUN (no writes)
 
 --- STATS ---
@@ -7,11 +7,11 @@ mode: DRY-RUN (no writes)
   "total": 372,
   "pattern_a_cleaned": 88,
   "pattern_a_no_match": 284,
-  "pattern_b_cleaned": 11,
-  "pattern_b_no_match": 361,
+  "pattern_b_cleaned": 8,
+  "pattern_b_no_match": 364,
   "pattern_b_aborted_too_short": 0,
-  "unchanged": 273,
-  "changed_total": 99
+  "unchanged": 276,
+  "changed_total": 96
 }
 
 --- PATTERN A SAMPLES (5) ---
@@ -66,30 +66,6 @@ mode: DRY-RUN (no writes)
 --- PATTERN B SAMPLES (5) ---
 [
   {
-    "id": "93854",
-    "name": "Surf Lesson - Beginner | Improver",
-    "before_len": 548,
-    "after_len": 148,
-    "stripped_head_first_300": "Best Teaching Ratio In The UK of 6:1 | Award Winning Surfing Centre of Excellence\\n\\nBeing featured in The BBC, Vogue, The Independent, Airbnb, Carve Magazine, and Surfing England, alongside a multitude of 5-star TripAdvisor reviews, video tutorials, and surf blog insights is something we’re very pr…",
-    "after_first_200": "What's included\\n\\nAll equipment is included!\\n\\nA surfboard, wetsuits, boots, gloves & hood if necessary are all included. We have indoor changing room"
-  },
-  {
-    "id": "78794",
-    "name": "Private Sail with Lunch or Dinner",
-    "before_len": 1036,
-    "after_len": 284,
-    "stripped_head_first_300": "Enjoy a glass of Champagne as you set sail on your beautiful, large, comfortable and modern yacht. After a few hours of sailing on the Solent you anchor off the Isle of Wight for a delicious freshly prepared two-course meal, served on deck, and the opportunity for a swim! Afterwards there is more sa…",
-    "after_first_200": "Luxury, well-maintained, modern yachts\\n\\nLarge, spacious and comfortable 45'-50' yachts\\n\\nChoice of morning or afternoon trips at a time to suit you\\n\\nTrips daily – midweek and weekends\\n\\nFriendly…"
-  },
-  {
-    "id": "78857",
-    "name": "Full Day Sail",
-    "before_len": 903,
-    "after_len": 115,
-    "stripped_head_first_300": "Enjoy a glass of Champagne as you set sail on your beautiful, large, comfortable and modern yacht. After a few hours of sailing on the Solent you anchor off the Isle of Wight for a delicious freshly prepared two-course lunch, served on deck, and the opportunity for a swim! Alternatively, enjoy lunch…",
-    "after_first_200": "Luxury, well-maintained, modern yachts\\n\\nLarge, spacious and comfortable 45'-50' yachts\\n\\nChoice of catering on board"
-  },
-  {
     "id": "242682",
     "name": "VR Adventures & Escape Rooms",
     "before_len": 1500,
@@ -104,6 +80,30 @@ mode: DRY-RUN (no writes)
     "after_len": 585,
     "stripped_head_first_300": "VR Mania - Bournemouth\\n\\nFrom £15.00 Per Player • All Ages (7+)\\n\\n\t501 Reviewers\\n#5 of 68 Fun & Games in Bournemouth\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
     "after_first_200": "Choose from a selection of the top VR titles\\nDuration\\n\\nA 20, 40 or 60 Minute Booking (1 - 5 minute onboarding and instructions included)\\n\\nAbout\\n\\nYou’ll have the ability to pick, play and switch…"
+  },
+  {
+    "id": "540222",
+    "name": "Teen's Glass Illustration Crafternoon @ Nottingham City Centre",
+    "before_len": 1500,
+    "after_len": 1281,
+    "stripped_head_first_300": "1st Floor, No 4-6 St Peter's Gate, Nottingham,NG1 2JG\\n\\n13-17 y/olds. Includes booking fee\\n\\n\t142 Reviewers\\n#1 of 129 Shopping in Nottingham\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "£14.84\\n\tTeen | 13-17 y/old\\n\\n£33.92\\n\tCrafternoon with Teen's Afternoon Tea\\n13-17 y/old\\n\\nPrices for Friday, 1 May 2026 @ 11:30. Prices include fees.\\n\\nCreate fun decorative design on a glass coa…"
+  },
+  {
+    "id": "569693",
+    "name": "Light Floor Games",
+    "before_len": 1072,
+    "after_len": 894,
+    "stripped_head_first_300": "VR Mania - Bournemouth\\n\\n20 Minutes • All Ages\\n\\n\t501 Reviewers\\n#5 of 68 Fun & Games in Bournemouth\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Step onto the Interactive Floor, where movement meets innovation!\\nDuration\\n\\n20 Minutes\\n\\nAbout\\n\\nWatch the players run, hop skip and jump around this amazing attraction or join in for an active s…"
+  },
+  {
+    "id": "221225",
+    "name": "Multiplayer Shooters",
+    "before_len": 1500,
+    "after_len": 1308,
+    "stripped_head_first_300": "VR Mania - Bournemouth\\n\\nFrom £25 Per Player • All Ages (7+)\\n\\n\t501 Reviewers\\n#5 of 68 Fun & Games in Bournemouth\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Experience Tower Tag, HeadGun, Smash Point or Gunslinger the ultimate multiplayer action shooters\\nDuration\\n\\nChoose between 20, 40 or 60 minutes of adrenaline-pumping VR action\\n\\nAbout\\nPlayers in …"
   }
 ]
 

@@ -102,7 +102,6 @@ const PATTERN_B_MARKERS = [
     /Recommended by \d+% of travelers/i,
     /According to TripAdvisor travelers as of [A-Za-z]+ \d{4}/i,
     /TripAdvisor Traveler Rating/i,
-    /\bTripAdvisor\b/i,
     /Based on \d+ reviews/i,
     /\d+\s*Reviewers?\b/i,
     /#\d+ of \d+ [A-Za-z][A-Za-z &]+ in [A-Z][A-Za-z]+/,
