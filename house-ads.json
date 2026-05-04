@@ -1,0 +1,39 @@
+{
+  "_comment": "House ad rotation — internal cross-promo and Capt. Dane / sister-site campaigns. Used when no direct sponsor matches. Multiple matching house ads are weighted-randomly selected via rotation_weight (default 1.0 each). Tier 2 by convention.",
+  "house_ads": [
+    {
+      "id": "capt-dane-sunset-charter",
+      "active": true,
+      "tier": 2,
+      "rotation_weight": 1.5,
+      "pages": [
+        "sunset-cruises.html",
+        "tiki-boats-key-west.html",
+        "*"
+      ],
+      "slot_types": ["leaderboard", "mrec", "native"],
+      "creative": {
+        "type": "native",
+        "src": "/house-ads/capt-dane-sunset.jpg",
+        "headline": "Sunset Charter with Capt. Dane",
+        "description": "Private 6-passenger boat. Champagne included. Local Key West captain.",
+        "cta": "Book direct",
+        "url": "https://walktheplankadventures.com/#book-dane?utm_source=house&utm_medium=display"
+      }
+    },
+    {
+      "id": "wander-cross-promo-usvi",
+      "active": true,
+      "tier": 2,
+      "rotation_weight": 1.0,
+      "pages": ["*"],
+      "slot_types": ["leaderboard"],
+      "creative": {
+        "type": "image",
+        "src": "/house-ads/wander-usvi-728x90.jpg",
+        "alt": "Heading to the Caribbean? Visit WanderUSVI for tour discovery in St. Thomas, St. John, St. Croix.",
+        "url": "https://wanderusvi.com?utm_source=house&utm_medium=display&utm_campaign=cross-network"
+      }
+    }
+  ]
+}
