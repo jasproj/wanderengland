@@ -158,7 +158,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/D5w0tBuUQjsHpQ8ZD5q0",
     "bookingLink": "https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/251796/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 221,
     "description": "Step back in time and explore the fascinating past of Blackfriars, where Roman, Medieval, Tudor, and Victorian London intertwine. This 90-minute guided walking tour takes you through centuries of captivating stories, from Roman temples and Medieval monasteries to Tudor palaces and Victorian engineering marvels.\n\nFollow in the footsteps of literary greats such as William Shakespeare, Samuel Pepys, and Charles Dickens. Stand on the site of a lost Tudor palace once gifted to Katharine of Aragon by Henry VIII and discover the remains of a medieval priory built by the Dominican Black Friars",
     "duration": "90 minutes",
     "durationText": "",
@@ -168,8 +168,8 @@
     "reviewCount": null,
     "ratingSource": "",
     "qualityScore": 100,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "A fascinating journey through time, exploring Blackfriars from its Roman origins to its modern transformation.",
       "Engaging stories about historical figures, lost palaces, and secret landmarks that shaped London.",
@@ -180,7 +180,8 @@
       "What to Bring – Comfortable walking shoes, weather-appropriate clothing, and a bottle of water. A notebook is optional for those who love jotting down historical facts!",
       "Toilets & Refreshments – Public toilets are available at Blackfriars Station."
     ],
-    "currency": "GBP"
+    "currency": "GBP",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "251801",
