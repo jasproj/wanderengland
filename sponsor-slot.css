@@ -1,0 +1,178 @@
+/* ============================================================
+   sponsor-slot.css
+   CLS-safe slot styling. Reserved heights match IAB ad units so
+   layout never shifts when a creative loads (or fails to load).
+
+   Pair with sponsor-slot.js. Slot DOM is:
+
+     <div class="sponsor-slot"
+          data-slot-id="..."
+          data-slot-type="leaderboard|mrec|native|mobile-banner"
+          data-slot-page="page.html"
+          data-allow-adsense="true|false"
+          data-adsense-slot="1234567890"></div>
+   ============================================================ */
+
+.sponsor-slot {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 16px auto;
+  background: #f5f5f5;
+  text-align: center;
+  /* Default fill state: empty. Overridden inline by JS once filled.
+     A persistent very-light gray box keeps debugging easy without
+     looking like broken content. */
+}
+
+/* Hide slots that have data-fill-state="empty" once JS has run AND
+   we are NOT in a test/preview context. Comment this rule out during
+   QA to see all empty slots. */
+.sponsor-slot[data-fill-state="empty"] {
+  display: none;
+}
+
+/* ─── Reserved heights per slot type (CLS guard) ───────────── */
+.sponsor-slot[data-slot-type="mobile-banner"] {
+  min-height: 50px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.sponsor-slot[data-slot-type="leaderboard"] {
+  min-height: 90px;
+  width: 100%;
+  max-width: 728px;
+}
+
+.sponsor-slot[data-slot-type="mrec"] {
+  min-height: 250px;
+  width: 300px;
+}
+
+.sponsor-slot[data-slot-type="native"] {
+  min-height: 280px;
+  width: 100%;
+  max-width: 360px;
+}
+
+/* Mobile responsive — leaderboard reserves slightly more height to
+   accommodate two-line creative copy on narrow viewports if a
+   responsive AdSense unit is rendered. The JS hides .leaderboard on
+   <768px by default, but if a sponsor opts to show it (via override),
+   the height is right. */
+@media (max-width: 767px) {
+  .sponsor-slot[data-slot-type="leaderboard"] {
+    min-height: 100px;
+  }
+  .sponsor-slot[data-slot-type="mrec"] {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* ─── Sponsored / Advertisement label (IAB transparency) ──── */
+.sponsor-slot__label {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  z-index: 2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1px 4px;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+/* ─── Image creatives ──────────────────────────────────────── */
+.sponsor-slot a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sponsor-slot a > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* ─── Native creatives ─────────────────────────────────────── */
+.sponsor-slot__native {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  height: 100%;
+}
+
+.sponsor-slot__native-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.sponsor-slot__native-body {
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: left;
+}
+
+.sponsor-slot__native-headline {
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 6px;
+  color: #222;
+  line-height: 1.25;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sponsor-slot__native-desc {
+  font-size: 0.8125rem;
+  color: #666;
+  margin: 0 0 8px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.sponsor-slot__native-cta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1a73e8;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+/* ─── Optional sticky-bottom for mobile-banner ─────────────── */
+.sponsor-slot[data-sticky-bottom="true"][data-slot-type="mobile-banner"] {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+}

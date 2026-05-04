@@ -1,0 +1,36 @@
+{
+  "_comment": "Per-site direct-sponsor configuration. Place at site root so it's served at /sponsors.json. Sponsors are evaluated FIRST in the fill chain — first matching active entry wins. Order this file by tier descending if you want tier-1 sponsors to outrank tier-2.",
+  "sponsors": [
+    {
+      "id": "captain-jones-charters",
+      "active": true,
+      "tier": 1,
+      "pages": [
+        "bachelorette-party-boats.html",
+        "private-sandbar-charters.html"
+      ],
+      "slot_types": ["leaderboard", "mrec"],
+      "creative": {
+        "type": "image",
+        "src": "/sponsors/captain-jones-728x90.jpg",
+        "alt": "Captain Jones Private Charters — Sunset cruises from Key West",
+        "url": "https://captainjones.com?ref=kwst&utm_source=sponsor-slot&utm_medium=display"
+      }
+    },
+    {
+      "id": "rios-coffee-bachelorette",
+      "active": true,
+      "tier": 2,
+      "pages": ["bachelorette-party-boats.html"],
+      "slot_types": ["native"],
+      "creative": {
+        "type": "native",
+        "src": "/sponsors/rios-coffee-bag.jpg",
+        "headline": "Rios Coffee — Hand-roasted single-origin",
+        "description": "Pre-cruise pick-me-up. Free shipping over $35.",
+        "cta": "Shop Rios",
+        "url": "https://amazon.com/rios-coffee?tag=wandertrav0c1-20"
+      }
+    }
+  ]
+}
