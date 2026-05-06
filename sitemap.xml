@@ -465,4 +465,10 @@
     <loc>https://wanderengland.com/</blog/whale-watching-from-lahaina.html</loc>
     <lastmod>2026-04-11</lastmod>
   </url>
+  <url>
+    <loc>https://wanderengland.com/advertise.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
