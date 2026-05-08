@@ -8,21 +8,10 @@ exclude:
   - .gitignore
   - README.md
   - .DS_Store
-  # Dev artifacts accidentally committed in PR #25 — exclude from Jekyll build
-  # so GitHub Pages can build successfully. A follow-up PR should `git rm`
-  # these from the repo entirely.
+  # Defensive: dev tooling dirs that should never be processed by Jekyll
+  # even if accidentally committed.
   - scripts-staging
   - node_modules
-  - app.js.pre-usvi-port
-  - enrich-full.log
-  - enrich-tours.js.bak-currency
-  - package.json
-  - package-lock.json
-  - "tours-data.json.pre-*"
-  - "*.bak"
-  - "*.bak-*"
-  - "*.pre-*"
-  - "*.log"
 permalink: /:path/
 plugins:
   - jekyll-feed
