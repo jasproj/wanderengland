@@ -176,3 +176,12 @@
   background: #fff;
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
 }
+
+/* ─── Reserve viewport space when sticky-bottom slot is filled ───
+   Prevents mobile-sticky AdSense from covering tour cards / CTAs.
+   Mobile banner is ~50-60px tall; pad 70px for safety + shadow. */
+@media (max-width: 768px) {
+  body:has(.sponsor-slot[data-sticky-bottom="true"][data-fill-state="filled"]) {
+    padding-bottom: 70px;
+  }
+}
