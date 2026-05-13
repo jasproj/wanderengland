@@ -174,6 +174,19 @@
         ' data-ad-slot="' + escAttr(fill.creative.adsenseSlot) + '"' +
         ' data-ad-format="auto" data-full-width-responsive="true"></ins>';
       try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+      // Collapse slot if AdSense returns unfilled. Polls 5x over ~5s.
+      // CSS rule [data-fill-state="empty"] { display:none } hides the slot.
+      var pollCount = 0;
+      var poll = setInterval(function () {
+        var ins = slotEl.querySelector('ins.adsbygoogle');
+        var status = ins && ins.getAttribute('data-ad-status');
+        if (status === 'unfilled') {
+          clearInterval(poll);
+          slotEl.setAttribute('data-fill-state', 'empty');
+        } else if (status === 'filled' || ++pollCount >= 5) {
+          clearInterval(poll);
+        }
+      }, 1000);
       return;
     }
 
