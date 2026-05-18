@@ -457,7 +457,7 @@ document.querySelector('.mobile-menu-btn')?.addEventListener('click', function()
 // Weather widget
 async function loadWeather() {
     try {
-        const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=21.31&longitude=-157.86&current_weather=true&temperature_unit=fahrenheit');
+        const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&current_weather=true&temperature_unit=fahrenheit');
         const data = await response.json();
         const temp = Math.round(data.current_weather.temperature);
         
