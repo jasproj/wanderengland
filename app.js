@@ -115,7 +115,8 @@ async function loadTours() {
             throw new Error(`HTTP ${response.status}: ${response.statusText}`);
         }
         
-        toursData = await response.json();
+        const _raw = await response.json();
+        toursData = Array.isArray(_raw) ? _raw : _raw.tours;
         console.log(`✅ Loaded ${toursData.length} tours`);
         
         // Initial shuffle for randomization (per-page-load, non-mutating)
