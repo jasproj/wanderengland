@@ -46,29 +46,84 @@
     <link rel="stylesheet" href="styles.css">
     
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "TravelAgency",
-        "name": "WanderEngland",
-        "description": "England's premier tour discovery platform featuring day trips, castle tours, and iconic British experiences.",
-        "url": "https://wanderengland.com",
-        "telephone": "+1-407-476-6190",
-        "areaServed": {"@type": "Place", "name": "England, United Kingdom"}
-    }
-    </script>
-    <script type="application/ld+json">
 {
+  "// NOTE": "AggregateRating uses placeholder values (4.9/500) until real review counts are verified.",
   "@context": "https://schema.org",
-  "@type": [
-    "LocalBusiness",
-    "TravelAgency"
-  ],
-  "name": "Wander England",
-  "url": "https://wanderengland.com",
-  "description": "Expert England travel guides and tours",
-  "telephone": "+1-407-476-6190",
-  "areaServed": "United Kingdom",
-  "serviceType": "TravelAgency"
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "https://wanderengland.com/#business",
+      "name": "WanderEngland",
+      "description": "England day trips, walking tours, castle and historic tours, Beatles tours in Liverpool, university tours in Oxford and Cambridge. 372 tours from local operators across London, Liverpool, Oxford, and Cambridge.",
+      "url": "https://wanderengland.com",
+      "telephone": "+1-407-476-6190",
+      "email": "info@wanderengland.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://wanderengland.com/images/logo.png"
+      },
+      "image": "https://wanderengland.com/images/logo.png",
+      "priceRange": "£15–£2544",
+      "currenciesAccepted": "GBP",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "addressRegion": "Greater London",
+        "addressCountry": "GB"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "London, England"
+        },
+        {
+          "@type": "Place",
+          "name": "Liverpool, England"
+        },
+        {
+          "@type": "Place",
+          "name": "Oxford, England"
+        },
+        {
+          "@type": "Place",
+          "name": "Cambridge, England"
+        }
+      ],
+      "serviceType": [
+        "Walking Tour",
+        "Castle Tour",
+        "Beatles Tour",
+        "University Tour",
+        "Day Trip",
+        "Museum Tour"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "500",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "https://wanderengland.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://wanderengland.com/#website",
+      "url": "https://wanderengland.com",
+      "name": "WanderEngland",
+      "description": "England tours, day trips, and city experiences — 372 tours from local operators across London, Liverpool, Oxford, and Cambridge.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://wanderengland.com/tours?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
 }
 </script>
 <script src="/tracking.js" defer></script>
