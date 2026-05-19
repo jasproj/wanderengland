@@ -318,7 +318,10 @@
         <div class="header-container">
             <div class="logo-group">
                 <a href="/" class="logo">
-                    <img src="images/logo.png" alt="WanderEngland" class="logo-img">
+                    <picture>
+                        <source type="image/webp" srcset="images/logo-160.webp 1x, images/logo-320.webp 2x, images/logo-480.webp 3x">
+                        <img src="images/logo.png" alt="WanderEngland" class="logo-img" loading="eager" decoding="async">
+                    </picture>
 </a>
 </div>
             <nav class="nav-desktop">
@@ -524,7 +527,10 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="/" class="logo">
-                        <img src="/images/footer-badge.png" alt="WanderEngland" class="footer-logo-img">
+                        <picture>
+                        <source type="image/webp" srcset="/images/footer-badge-240.webp 1x, /images/footer-badge-480.webp 2x, /images/footer-badge-720.webp 3x">
+                        <img src="/images/footer-badge.png" alt="WanderEngland" class="footer-logo-img" loading="lazy" decoding="async">
+                    </picture>
                     </a>
                     <p>Your guide to 372 England tours. Verified local operators, direct booking.</p>
                     <p class="footer-tagline">Cheers for supporting local! 🇬🇧</p>
