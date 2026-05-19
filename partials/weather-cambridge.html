@@ -1,0 +1,204 @@
+<!--
+  WENG Weather Widget — Cambridge.
+  Sources: Open-Meteo (current conditions, Celsius), Windy.com (radar iframe).
+  Coordinates: Cambridge (52.2053, 0.1218). No API keys required. No tide block (inland-friendly default).
+  Self-contained: includes scoped CSS in <style> and JS in <script>.
+  Inject between </section> close of hero and <section class="intro">.
+-->
+<!-- WEATHER WIDGET START -->
+<section class="weng-weather" id="weather" aria-labelledby="weng-weather-heading">
+    <style>
+        .weng-weather {
+            padding: 36px 16px;
+            background: linear-gradient(180deg, #FDF8F0 0%, #e6f4f8 100%);
+            color: #1B3A57;
+        }
+        .weng-weather .weather-inner { max-width: 1200px; margin: 0 auto; }
+        .weng-weather .weather-header { text-align: center; margin-bottom: 20px; }
+        .weng-weather .weather-header h2 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #1B3A57;
+            margin: 0 0 6px;
+            line-height: 1.2;
+        }
+        .weng-weather .weather-header p { color: #555; font-size: 1rem; margin: 0 0 16px; }
+        .weng-weather .header-weather {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 18px;
+            background: white;
+            border-radius: 999px;
+            box-shadow: 0 2px 8px rgba(27, 58, 87, 0.1);
+            font-size: 0.95rem;
+        }
+        .weng-weather .weather-icon { font-size: 1.2rem; }
+        .weng-weather .weather-temp { font-weight: 700; color: #1B3A57; }
+        .weng-weather .weather-location { color: #666; }
+        .weng-weather .weather-radar {
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+            margin-bottom: 20px;
+            background: #1B3A57;
+        }
+        .weng-weather .weather-radar iframe {
+            display: block;
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+        .weng-weather .weather-ticker-wrap {
+            overflow: hidden;
+            background: linear-gradient(135deg, #1B3A57 0%, #3BB8C3 100%);
+            border-radius: 10px;
+            padding: 12px 0;
+            box-shadow: 0 4px 15px rgba(27, 58, 87, 0.2);
+        }
+        .weng-weather .weather-ticker {
+            display: flex;
+            gap: 36px;
+            animation: wengTickerScroll 25s linear infinite;
+            width: max-content;
+            padding: 0 16px;
+        }
+        .weng-weather .weather-ticker-wrap:hover .weather-ticker,
+        .weng-weather .weather-ticker-wrap:focus-within .weather-ticker {
+            animation-play-state: paused;
+        }
+        .weng-weather .ticker-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: white;
+            font-size: 0.92rem;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .weng-weather .ticker-icon { font-size: 1.1rem; }
+        @keyframes wengTickerScroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        @media (min-width: 768px) {
+            .weng-weather { padding: 56px 24px; }
+            .weng-weather .weather-header h2 { font-size: 2rem; }
+            .weng-weather .weather-radar iframe { height: 400px; }
+        }
+        @media (max-width: 540px) {
+            .weng-weather .weather-ticker { gap: 22px; animation-duration: 22s; }
+            .weng-weather .ticker-item { font-size: 0.82rem; }
+            .weng-weather .header-weather { font-size: 0.88rem; padding: 7px 14px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .weng-weather .weather-ticker { animation: none; }
+        }
+    </style>
+    <div class="weather-inner">
+        <div class="weather-header">
+            <h2 id="weng-weather-heading">Cambridge Live Conditions</h2>
+            <p>Real-time weather and radar — plan around the day.</p>
+            <div class="header-weather" id="weng-header-weather" aria-live="polite">
+                <span class="weather-icon">☀️</span>
+                <span class="weather-temp">--°C</span>
+                <span class="weather-location">Cambridge</span>
+            </div>
+        </div>
+        <div class="weather-radar">
+            <iframe
+                src="https://embed.windy.com/embed2.html?lat=52.2053&lon=0.1218&zoom=8&level=surface&overlay=wind&menu=&message=true&marker=true&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=52.2053&detailLon=0.1218&metricWind=default&metricTemp=default&radarRange=-1"
+                width="100%"
+                height="400"
+                frameborder="0"
+                loading="lazy"
+                title="Cambridge weather radar (Windy.com)">
+            </iframe>
+        </div>
+        <div class="weather-ticker-wrap" aria-label="Live Cambridge conditions">
+            <div class="weather-ticker" id="weng-weather-ticker">
+                <div class="ticker-item"><span class="ticker-icon">🌡️</span> <span class="weng-wx-temp">--</span>°C</div>
+                <div class="ticker-item"><span class="ticker-icon">💧</span> Humidity: <span class="weng-wx-humidity">--</span>%</div>
+                <div class="ticker-item"><span class="ticker-icon">💨</span> Wind: <span class="weng-wx-wind">--</span> mph</div>
+                <div class="ticker-item"><span class="ticker-icon">☀️</span> UV: <span class="weng-wx-uv">--</span></div>
+                <div class="ticker-item"><span class="ticker-icon">👁️</span> Visibility: <span class="weng-wx-vis">--</span> mi</div>
+                <!-- Duplicate row for seamless loop -->
+                <div class="ticker-item" aria-hidden="true"><span class="ticker-icon">🌡️</span> <span class="weng-wx-temp">--</span>°C</div>
+                <div class="ticker-item" aria-hidden="true"><span class="ticker-icon">💧</span> Humidity: <span class="weng-wx-humidity">--</span>%</div>
+                <div class="ticker-item" aria-hidden="true"><span class="ticker-icon">💨</span> Wind: <span class="weng-wx-wind">--</span> mph</div>
+                <div class="ticker-item" aria-hidden="true"><span class="ticker-icon">☀️</span> UV: <span class="weng-wx-uv">--</span></div>
+                <div class="ticker-item" aria-hidden="true"><span class="ticker-icon">👁️</span> Visibility: <span class="weng-wx-vis">--</span> mi</div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+(function() {
+    var WENG_LAT = 52.2053;
+    var WENG_LON = 0.1218;
+    var WENG_LABEL = 'Cambridge';
+
+    function setAll(selector, value) {
+        document.querySelectorAll(selector).forEach(function(el) { el.textContent = value; });
+    }
+
+    function weatherEmoji(code) {
+        if (code === 0) return '☀️';
+        if (code === 1 || code === 2) return '🌤️';
+        if (code === 3) return '☁️';
+        if (code >= 51 && code <= 67) return '🌧️';
+        if (code >= 71 && code <= 77) return '🌨️';
+        if (code >= 80 && code <= 82) return '🌦️';
+        if (code >= 95) return '⛈️';
+        return '☀️';
+    }
+
+    async function fetchWeather() {
+        try {
+            var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + WENG_LAT +
+                '&longitude=' + WENG_LON +
+                '&current=temperature_2m,relative_humidity_2m,wind_speed_10m,uv_index,visibility,weather_code' +
+                '&temperature_unit=celsius&wind_speed_unit=mph&timezone=Europe%2FLondon';
+            var res = await fetch(url);
+            if (!res.ok) return;
+            var data = await res.json();
+            if (!data || !data.current) return;
+            var c = data.current;
+            var temp = Math.round(c.temperature_2m);
+            var humidity = Math.round(c.relative_humidity_2m);
+            var wind = Math.round(c.wind_speed_10m);
+            var uv = (c.uv_index != null) ? Number(c.uv_index).toFixed(1) : '--';
+            var vis = c.visibility ? Math.round(c.visibility / 1609.34) : '--';
+            var emoji = weatherEmoji(c.weather_code);
+
+            var pill = document.getElementById('weng-header-weather');
+            if (pill) {
+                var tempEl = pill.querySelector('.weather-temp');
+                var iconEl = pill.querySelector('.weather-icon');
+                if (tempEl) tempEl.textContent = temp + '°C';
+                if (iconEl) iconEl.textContent = emoji;
+            }
+            setAll('.weng-wx-temp', temp);
+            setAll('.weng-wx-humidity', humidity);
+            setAll('.weng-wx-wind', wind);
+            setAll('.weng-wx-uv', uv);
+            setAll('.weng-wx-vis', vis);
+        } catch (err) {
+            console.log('WENG weather fetch failed:', err);
+        }
+    }
+
+    function refresh() {
+        fetchWeather();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', refresh);
+    } else {
+        refresh();
+    }
+    // Refresh every 15 minutes
+    setInterval(refresh, 15 * 60 * 1000);
+})();
+</script>
+<!-- WEATHER WIDGET END -->
