@@ -117,6 +117,7 @@ async function loadTours() {
         
         const _raw = await response.json();
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
+        toursData = toursData.filter(t => t.status !== 'inactive');
         console.log(`✅ Loaded ${toursData.length} tours`);
         
         // Initial shuffle for randomization (per-page-load, non-mutating)
