@@ -13,9 +13,25 @@
      so they do not double-fire.
    - app.js defines its own enriched trackTourBooking(tour); our window
      definition is only set if not already present.
+
+   utm_source tagging:
+   - On every FareHarbor link click, we append utm_source=wanderengland
+     so GA4 can attribute the booking to ENG.
+   - appendUtmSource is a vendored copy of _tools/generators/source-tag.js
+     (_tools PR #84, 4e73885). Inlined here instead of loaded as a
+     separate <script> to avoid editing every page <head>.
 */
 
 (function () {
+    function appendUtmSource(url, slug) {
+        if (typeof url !== 'string' || !url) return url;
+        if (typeof slug !== 'string' || !slug) return url;
+        if (url.indexOf('fareharbor.com') === -1) return url;
+        if (/[?&]utm_source=/.test(url)) return url;
+        var sep = url.indexOf('?') === -1 ? '?' : '&';
+        return url + sep + 'utm_source=' + encodeURIComponent(slug);
+    }
+
     var CTA_CLASSES = [
         'book-btn',
         'book-btn-inline',
@@ -80,6 +96,9 @@
         var href = link.getAttribute('href') || '';
         var isFareHarbor = href.indexOf('fareharbor.com') !== -1;
         if (!isFareHarbor && !hasCtaClass(link)) return;
+        if (isFareHarbor) {
+            link.href = appendUtmSource(link.href, 'wanderengland');
+        }
         var ctx = readContext(link);
         if (typeof gtag === 'undefined') return;
         gtag('event', 'booking_click', {
