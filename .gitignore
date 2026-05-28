@@ -1,2 +1,7 @@
 node_modules/
 *.bak
+
+# Scratch / build-artifact JSONs — never commit (enrichment merge intermediates, routing scratch)
+tours-data-new.json
+tours-data-merged.json
+*-routing-candidates.json
