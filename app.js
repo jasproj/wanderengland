@@ -3,6 +3,13 @@
 
 let toursData = [];
 
+// Wire the homepage "Verified Tours" stat to the live (non-dead) catalog
+// size, replacing the hardcoded value. No-op on pages without the element.
+function updateVerifiedToursCount(n) {
+    const el = document.getElementById('verified-tours-count');
+    if (el) el.textContent = Number(n).toLocaleString();
+}
+
 // ===== BOOKING PERFORMANCE OPTIMIZATIONS =====
 
 // 1. URL Caching - Pre-cache FareHarbor URLs for instant clicks
@@ -117,7 +124,8 @@ async function loadTours() {
         
         const _raw = await response.json();
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
-        toursData = toursData.filter(t => t.status !== 'inactive');
+        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead);
+        updateVerifiedToursCount(toursData.length);
         console.log(`✅ Loaded ${toursData.length} tours`);
         
         // Initial shuffle for randomization (per-page-load, non-mutating)
