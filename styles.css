@@ -201,9 +201,6 @@ ul, ol { list-style: none; }
     .logo-img {
         height: 60px;
     }
-    .hero-logo-img {
-        height: 330px;
-    }
     .footer-logo-img {
         height: 90px;
     }
@@ -466,16 +463,6 @@ ul, ol { list-style: none; }
     background: linear-gradient(135deg, var(--ocean-deep), #063d52);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(8, 131, 149, 0.5);
-}
-
-@media (max-width: 560px) {
-    .hero-search {
-        flex-direction: column;
-        border-radius: var(--radius-lg);
-        padding: var(--space-md);
-    }
-    .search-input-wrap { padding: var(--space-sm); }
-    .search-btn { width: 100%; }
 }
 
 /* Quick Tags - Scrolling Marquee */
@@ -1615,56 +1602,82 @@ section { padding: var(--space-3xl) 0; }
         letter-spacing: 0.08em;
     }
     
-    /* Hero Mobile */
+    /* Hero Mobile — image-backed band (~290px) with brand logo + tagline +
+       single-row search overlaid. Top padding clears the position:fixed 77px
+       header so the stack sits in the visible band below it.
+       Ported from wanderhawaii #73/#74 (mobile-hero-spec). */
     .hero {
-        min-height: 100svh;
-        padding: 90px var(--space-md) 20px;
+        min-height: 280px;
+        max-height: 290px;
+        padding: 85px var(--space-md) var(--space-md);
+        justify-content: flex-start;
+        overflow: hidden;
     }
-    
+
+    .hero-overlay {
+        background: rgba(0, 0, 0, 0.4);
+    }
+
     .hero-content {
         padding: 0 20px;
-        padding-bottom: 180px;
+        padding-bottom: 0;
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
     }
-    
+
+    .hero-subtitle,
+    .quick-tags-wrapper,
+    .trust-bar {
+        display: none;
+    }
+
     .hero-tagline {
         font-size: 0.75rem;
         letter-spacing: 0.15em;
+        margin-bottom: var(--space-sm);
     }
-    
+
     .hero-logo {
         flex-direction: column;
         gap: var(--space-sm);
     }
-    
+
     .hero-logo-pill {
-        padding: 10px;
+        display: inline-block;
+        padding: 0;
+        margin-bottom: var(--space-sm);
     }
-    
-    .hero-logo-flower {
-        font-size: 3rem;
+
+    .hero-logo-img {
+        height: 80px;
+        width: auto;
+        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
     }
-    
-    .hero-logo-text {
-        font-size: clamp(2rem, 10vw, 3rem);
+
+    .hero-search {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: var(--space-sm);
+        padding: var(--space-sm);
     }
-    
-    .hero-subtitle {
-        font-size: 0.85rem;
-        line-height: 1.7;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin: 0 auto var(--space-md);
-        max-width: 100%;
-        box-sizing: border-box;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
+
+    .hero-search .search-input-wrap {
+        flex: 1;
+        min-width: 0;
+        padding-left: var(--space-sm);
     }
-    
-    .hero-subtitle br {
-        display: none;
+
+    .hero-search input {
+        min-width: 0;
+    }
+
+    .search-btn {
+        width: auto;
+        flex: 0 0 auto;
+        white-space: nowrap;
+        padding: var(--space-sm) var(--space-md);
     }
     
     /* Quick Tags Mobile */
@@ -1861,18 +1874,6 @@ section { padding: var(--space-3xl) 0; }
     .logo-tagline {
         font-size: 0.5rem;
         padding-left: 0;
-    }
-    
-    .hero-logo-text {
-        font-size: 2rem;
-    }
-    
-    .hero-logo-flower {
-        font-size: 2.5rem;
-    }
-    
-    .hero-logo-img {
-        height: 240px;
     }
 }
 /* ============================================
