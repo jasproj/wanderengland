@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="styles.css">
     
     <style>
-        .activity-hero { position: relative; padding: 160px var(--space-lg) var(--space-2xl); background: linear-gradient(135deg, rgba(30, 58, 95, 0.92), rgba(59, 107, 140, 0.88)), url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=2000&q=80'); background-size: cover; background-position: center; color: var(--white); text-align: center; }
+        .activity-hero { position: relative; padding: 160px var(--space-lg) var(--space-2xl); background: linear-gradient(135deg, rgba(30, 58, 95, 0.92), rgba(59, 107, 140, 0.88)), url('/images/hero-photo-1.jpg'); background-size: cover; background-position: center; color: var(--white); text-align: center; }
         .activity-hero h1 { font-family: var(--font-display); font-size: clamp(2.5rem, 6vw, 4rem); margin-bottom: var(--space-md); }
         .activity-hero p { font-size: 1.25rem; opacity: 0.95; max-width: 700px; margin: 0 auto var(--space-xl); }
         .hero-stats { display: flex; justify-content: center; gap: var(--space-2xl); flex-wrap: wrap; }
@@ -64,7 +64,12 @@
         .cta-btn { display: inline-flex; padding: var(--space-lg) var(--space-2xl); background: var(--plumeria); color: var(--gray-900); font-weight: 600; font-size: 1.125rem; border-radius: var(--radius-full); transition: all var(--transition-fast); }
         .cta-btn:hover { background: var(--plumeria-hover); transform: translateY(-2px); }
         
-        @media (max-width: 768px) { .info-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) {
+            .activity-hero { padding: 48px var(--space-lg) 32px; }
+            .activity-hero h1 { font-size: 1.75rem; }
+            .hero-stats { gap: 1rem 1.5rem; }
+            .hero-stat-number { font-size: 1.5rem; }
+ .info-grid { grid-template-columns: 1fr; } }
     </style>
 <script src="/tracking.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">
