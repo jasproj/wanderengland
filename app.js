@@ -1,6 +1,13 @@
 // WanderEngland Tours App
 // Load tours from JSON and render with descriptions
 
+// Fallback for tour records with no image. Applied at render time, not just via
+// onerror: `src="undefined"` costs a real 404 before onerror can rescue it.
+// Local + Pexels-licensed; images/ATTRIBUTION.md records source slug
+// "white-cliffs-of-dover-under-overcast-sky-36100295",
+// which verifies the region from the source URL, not from our own caption.
+const FALLBACK_IMAGE = '/images/hero-photo-1.jpg';
+
 let toursData = [];
 
 // Wire the homepage "Verified Tours" stat to the live (non-dead) catalog
@@ -249,7 +256,7 @@ function createTourCard(tour) {
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
-                <img src="${tour.image}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
                 ${qualityBadge}
             </div>
             <div class="tour-content">
