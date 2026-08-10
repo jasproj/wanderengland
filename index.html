@@ -31,15 +31,6 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-QQZ30LYN94');
-        
-        function trackBookingClick(tourName, tourId, island) {
-            gtag('event', 'booking_click', {
-                'event_category': 'conversion',
-                'event_label': tourName,
-                'tour_id': tourId,
-                'island': island || 'home'
-            });
-        }
     </script>
     
     <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high">
@@ -263,7 +254,7 @@
             <p class="section-subtitle">Each island has its own personality. Find your perfect match.</p>
             
             <div class="islands-grid">
-                <a href="london.html" class="island-card" onclick="trackBookingClick('London Tours', 'london', 'london')">
+                <a href="london.html" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-1.jpg')"></div>
                     <div class="island-content">
                         <h3>London</h3>
@@ -272,7 +263,7 @@
                     </div>
                 </a>
                 
-                <a href="liverpool.html" class="island-card" onclick="trackBookingClick('Liverpool Tours', 'liverpool', 'liverpool')">
+                <a href="liverpool.html" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-2.jpg')"></div>
                     <div class="island-content">
                         <h3>Liverpool</h3>
@@ -281,7 +272,7 @@
                     </div>
                 </a>
                 
-                <a href="oxford.html" class="island-card" onclick="trackBookingClick('Oxford Tours', 'oxford', 'oxford')">
+                <a href="oxford.html" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-3.jpg')"></div>
                     <div class="island-content">
                         <h3>Oxford</h3>
@@ -290,7 +281,7 @@
                     </div>
                 </a>
                 
-                <a href="cambridge.html" class="island-card" onclick="trackBookingClick('Cambridge Tours', 'cambridge', 'cambridge')">
+                <a href="cambridge.html" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-1.jpg')"></div>
                     <div class="island-content">
                         <h3>Cambridge</h3>
@@ -369,7 +360,7 @@
             
             <div class="results-info">
                 <span id="results-count">Loading adventures...</span>
-                <button class="shuffle-btn" onclick="trackBookingClick('Shuffle Tours', 'shuffle', 'all'); shuffleTours()">🎲 Shuffle</button>
+                <button class="shuffle-btn" onclick="shuffleTours()">🎲 Shuffle</button>
             </div>
             
             <div class="tours-grid" id="tours-grid">
@@ -380,7 +371,7 @@
             </div>
             
             <div class="load-more-wrap">
-                <button class="load-more-btn" id="load-more" onclick="trackBookingClick('Load More Adventures', 'load-more', 'all'); loadMoreTours()">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()">
                     Load More Adventures <span>→</span>
                 </button>
             </div>
@@ -635,7 +626,7 @@
 
     <!-- MOBILE CTA -->
     <div class="mobile-cta" id="mobile-cta">
-        <a href="#tours-section" class="mobile-cta-btn" onclick="trackBookingClick('Find Your Adventure', 'mobile-cta', 'all')">
+        <a href="#tours-section" class="mobile-cta-btn">
             <span>🌺</span> Find Your Adventure
         </a>
     </div>
