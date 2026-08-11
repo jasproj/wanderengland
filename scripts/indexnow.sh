@@ -1,9 +1,18 @@
 #!/usr/bin/env bash
 # scripts/indexnow.sh — submit recently-changed URLs from this repo's sitemap to IndexNow.
 #
-# Reads the local sitemap.xml, filters to URLs whose <lastmod> is within the last
-# $LASTMOD_DAYS days (default 30), then calls the shared submission script in
-# jasproj/_tools (assumed at $TOOLS_DIR or ~/repos/_tools).
+# This wrapper does NOT filter the sitemap itself. It used to (a local Python
+# regex block filtering by <lastmod>), and that second implementation of the
+# filtering the shared script now owns is what let a stale sitemap collapse to
+# a silent "nothing to submit, exit 0" for months — indistinguishable from a
+# genuinely quiet day, and never reaching the shared script's freshness guard
+# at all. Removed 2026-08-11; see jasproj/_tools#94 and its follow-up fix.
+#
+# All filtering, classification (SITEMAP_STALE / SITEMAP_UNPARSEABLE /
+# NO_CHANGES / SUBMITTED), and the actual IndexNow POST are delegated to
+# jasproj/_tools's scripts/indexnow-submit.sh, which this wrapper `exec`s
+# into directly so its exit code is never wrapped, trapped, or normalized —
+# see _tools/docs/indexnow.md for the outcome table and exit codes.
 #
 # Usage:
 #   source ~/.secrets/api.env
@@ -37,27 +46,14 @@ if [ ! -f "$SITEMAP" ]; then
   exit 1
 fi
 
-CUTOFF=$(date -v-"${LASTMOD_DAYS}"d +%Y-%m-%d 2>/dev/null || date -d "${LASTMOD_DAYS} days ago" +%Y-%m-%d)
-URL_FILE=$(mktemp)
-trap 'rm -f "$URL_FILE"' EXIT
+# Local, out-of-repo state so re-runs can tell the guard what was already
+# submitted (-> NO_CHANGES instead of resubmitting the same URLs every time).
+# Missing/empty is fine on a first run: the shared script treats an unset
+# prior-run-json as "no history yet".
+STATE_DIR="${INDEXNOW_STATE_DIR:-$HOME/.cache/indexnow}"
+mkdir -p "$STATE_DIR"
+STATE_FILE="$STATE_DIR/${SITE_HOST}.run.json"
+PRIOR_RUN_JSON=""
+[ -f "$STATE_FILE" ] && PRIOR_RUN_JSON="$STATE_FILE"
 
-python3 - "$SITEMAP" "$CUTOFF" > "$URL_FILE" <<'PYEOF'
-import sys, re
-sitemap, cutoff = sys.argv[1], sys.argv[2]
-with open(sitemap) as f:
-    data = f.read()
-pattern = re.compile(r'<url>\s*<loc>([^<]+)</loc>\s*<lastmod>([^<]+)</lastmod>', re.DOTALL)
-for url, lastmod in pattern.findall(data):
-    if lastmod >= cutoff:
-        print(url)
-PYEOF
-
-URL_COUNT=$(wc -l < "$URL_FILE" | tr -d ' ')
-echo "Filtered to $URL_COUNT URLs (lastmod >= $CUTOFF)" >&2
-
-if [ "$URL_COUNT" -eq 0 ]; then
-  echo "No recently-changed URLs to submit. Exiting cleanly." >&2
-  exit 0
-fi
-
-"$SHARED_SCRIPT" "$SITE_HOST" "$INDEXNOW_KEY" "$KEY_LOCATION" "$URL_FILE"
+exec "$SHARED_SCRIPT" "$SITE_HOST" "$INDEXNOW_KEY" "$KEY_LOCATION" "$SITEMAP" "$LASTMOD_DAYS" "$STATE_FILE" "$PRIOR_RUN_JSON"
