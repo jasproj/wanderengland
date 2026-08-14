@@ -1,35 +1,38 @@
 # WanderEngland
 
-> England's tour discovery platform. 595 tours across Oahu, Maui, Big Island, and Kauai.
+> England tour discovery platform. 1,424 bookable tours from 69 local operators, across London, Liverpool, Oxford, Cambridge and towns throughout England.
 
-WanderEngland helps travelers find and book authentic Hawaiian experiences from local tour operators. We aggregate tours from across all four main Hawaiian islands, making it easy to discover snorkeling, whale watching, hiking, helicopters, luaus, and more.
+WanderEngland helps travelers find and book experiences from local operators in England. We aggregate tours from London and the major university and port cities as well as smaller towns, making it easy to discover walking tours, history and heritage tours, museum visits, food tours, boat trips, and workshops. Booking goes direct to the operator.
 
 ## Key Pages
 
-- [Homepage](https://wanderengland.com/): Search and browse 595 Hawaiian tours
+- [Homepage](https://wanderengland.com/): Search and browse England tours
 - [All Tours](https://wanderengland.com/tours.html): Complete tour directory with filters
-- [Islands Guide](https://wanderengland.com/islands.html): Compare Oahu, Maui, Big Island, Kauai
+- [London Guide](https://wanderengland.com/london.html): London tours, 139 listed
+- [Liverpool Guide](https://wanderengland.com/liverpool.html): Liverpool tours, Beatles history and the Albert Dock
+- [Oxford Guide](https://wanderengland.com/oxford.html): Oxford tours, colleges and the Bodleian
+- [Cambridge Guide](https://wanderengland.com/cambridge.html): Cambridge tours, punting and college visits
 
 ## Activity Guides
 
-- [Snorkeling](https://wanderengland.com/snorkeling.html): 114 snorkel tours, best spots like Molokini and Hanauma Bay
-- [Whale Watching](https://wanderengland.com/whale-watching.html): 43 tours, season runs December-April
-- [Shark Diving](https://wanderengland.com/shark-diving.html): Cage diving on Oahu's North Shore
-- [Fishing](https://wanderengland.com/fishing.html): Deep sea charters, Kona is world-famous for marlin
-- [Ziplines](https://wanderengland.com/zipline.html): 15 courses across all islands
-- [Kayaking](https://wanderengland.com/kayak.html): Ocean and river adventures, Secret Falls on Kauai
-- [Waterfalls](https://wanderengland.com/waterfalls.html): Guided hikes and helicopter tours
-- [Jet Skis](https://wanderengland.com/jet-ski.html): Rentals on Oahu, Maui, Big Island
+- [Kayaking](https://wanderengland.com/kayak.html): Sea kayak, river and lake routes; Derwentwater in the Lake District, the Norfolk Broads, Lundy Island from Bideford
+- [Snorkeling](https://wanderengland.com/snorkeling.html): Shore and reef sites; Lundy Island, Skomer Island in Pembrokeshire
+- [Whale Watching](https://wanderengland.com/whale-watching.html): Species, season and operators; Lundy Island, the Farne Islands off Northumberland
+- [Fishing](https://wanderengland.com/fishing.html): Charter ports, target species and the season
+- [Waterfalls](https://wanderengland.com/waterfalls.html): Waterfall hikes and viewpoints, with distances and trail difficulty
+- [Ziplines](https://wanderengland.com/zipline.html): Zipline parks reachable from England, with course and age details
+- [Jet Skis](https://wanderengland.com/jet-ski.html): Rental hubs, open-water routes and local rules
+- [Shark Diving](https://wanderengland.com/shark-diving.html): Where encounters happen, species, and how to book a charter
 
 ## Quick Facts
 
-- 595 total tours from local operators
-- 4 Hawaiian islands covered
-- Tours include: snorkeling, scuba, boat tours, whale watching, dolphins, kayaking, surfing, SUP, hiking, ziplines, helicopters, fishing, luaus, food tours, and more
+- 1,424 bookable tours from 69 local operators
+- Coverage is nationwide, concentrated in London (139 tours), Liverpool (24), Nottingham (21), Oxford (20), Cambridge (12), York (12) and Bath (10)
+- Tours include: walking tours, history tours, guided and private tours, city tours, workshops, sightseeing, museums, food tours, boat tours, ghost tours, photography tours, axe throwing, and surfing
 - Booking links go directly to tour operators via FareHarbor
-- Prices range from ~$30 to $500+ depending on activity
+- Most tours are priced in GBP; the median listed GBP price is £64
 
 ## Contact
 
 Website: https://wanderengland.com
-Email: aloha@wanderengland.com
+Email: info@wanderengland.com
