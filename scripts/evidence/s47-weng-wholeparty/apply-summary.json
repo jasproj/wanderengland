@@ -1,0 +1,240 @@
+[
+ {
+  "pk": 306505,
+  "cls": "MAX-TIER",
+  "action": "FLOOR",
+  "old": 31.5,
+  "new": 24,
+  "label": "Standard Ticket"
+ },
+ {
+  "pk": 489675,
+  "cls": "MAX-TIER",
+  "action": "FLOOR",
+  "old": 31.5,
+  "new": 24,
+  "label": "Standard Ticket"
+ },
+ {
+  "pk": 614765,
+  "cls": "MAX-TIER",
+  "action": "FLOOR",
+  "old": 42.4,
+  "new": 31.8,
+  "label": "Intro lesson 1 hour per person"
+ },
+ {
+  "pk": 608210,
+  "cls": "MAX-TIER",
+  "action": "FLOOR",
+  "old": 74.2,
+  "new": 47.7,
+  "label": "Open Canadian Canoe - Half Day Rental"
+ },
+ {
+  "pk": 404614,
+  "cls": "MAX-TIER",
+  "action": "FLOOR",
+  "old": 103.95,
+  "new": 51.45,
+  "label": "Gold Experience"
+ },
+ {
+  "pk": 414593,
+  "cls": "MAX-TIER",
+  "action": "FLOOR",
+  "old": 103.95,
+  "new": 51.45,
+  "label": "Gold Experience"
+ },
+ {
+  "pk": 673264,
+  "cls": "MAX-TIER",
+  "action": "FLOOR",
+  "old": 82.95,
+  "new": 51.45,
+  "label": "Gold Experience"
+ },
+ {
+  "pk": 713602,
+  "cls": "MAX-TIER",
+  "action": "FLOOR",
+  "old": 82.95,
+  "new": 51.45,
+  "label": "Gold Experience"
+ },
+ {
+  "pk": 140451,
+  "cls": "REANCHOR",
+  "action": "REANCHOR",
+  "old": 143.1,
+  "new": 47.7,
+  "label": "Half Day £45 per person"
+ },
+ {
+  "pk": 140455,
+  "cls": "REANCHOR",
+  "action": "REANCHOR",
+  "old": 143.1,
+  "new": 47.7,
+  "label": "Half Day £45 per person"
+ },
+ {
+  "pk": 140459,
+  "cls": "REANCHOR",
+  "action": "REANCHOR",
+  "old": 238.5,
+  "new": 79.5,
+  "label": "Group of 3 - 9 persons."
+ },
+ {
+  "pk": 140461,
+  "cls": "REANCHOR",
+  "action": "REANCHOR",
+  "old": 238.5,
+  "new": 79.5,
+  "label": "Group of 3 - 9 persons."
+ },
+ {
+  "pk": 140462,
+  "cls": "REANCHOR",
+  "action": "REANCHOR",
+  "old": 238.5,
+  "new": 79.5,
+  "label": "Group of 3 - 9 persons."
+ },
+ {
+  "pk": 140463,
+  "cls": "REANCHOR",
+  "action": "REANCHOR",
+  "old": 238.5,
+  "new": 79.5,
+  "label": "Group of 3 - 9 persons."
+ },
+ {
+  "pk": 141999,
+  "cls": "REANCHOR",
+  "action": "REANCHOR",
+  "old": 143.1,
+  "new": 47.7,
+  "label": "Half Day £45 per person"
+ },
+ {
+  "pk": 140430,
+  "cls": "REANCHOR",
+  "action": "REANCHOR",
+  "old": 143.1,
+  "new": 47.7,
+  "label": "Half Day £45 per person"
+ },
+ {
+  "pk": 685635,
+  "cls": "REANCHOR",
+  "action": "HOLD-UNSAMPLED",
+  "old": 286.2,
+  "new": 286.2
+ },
+ {
+  "pk": 706588,
+  "cls": "REANCHOR",
+  "action": "HOLD-UNSAMPLED",
+  "old": 344.5,
+  "new": 344.5
+ },
+ {
+  "pk": 535865,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 180.2,
+  "new": 180.2,
+  "liveMajorityCeiling": 180.2
+ },
+ {
+  "pk": 535778,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 137.8,
+  "new": 137.8,
+  "liveMajorityCeiling": 137.8
+ },
+ {
+  "pk": 688811,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 175,
+  "new": 175,
+  "liveMajorityCeiling": 175
+ },
+ {
+  "pk": 689195,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 175,
+  "new": 175,
+  "liveMajorityCeiling": 175
+ },
+ {
+  "pk": 684706,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 472.5,
+  "new": 472.5,
+  "liveMajorityCeiling": 262.5
+ },
+ {
+  "pk": 653224,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 312.7,
+  "new": 312.7,
+  "liveMajorityCeiling": 312.7
+ },
+ {
+  "pk": 452439,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 630.7,
+  "new": 630.7,
+  "liveMajorityCeiling": 630.7
+ },
+ {
+  "pk": 452460,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 630.7,
+  "new": 630.7,
+  "liveMajorityCeiling": 630.7
+ },
+ {
+  "pk": 452499,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 1902.7,
+  "new": 1902.7,
+  "liveMajorityCeiling": 1902.7
+ },
+ {
+  "pk": 722804,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 424,
+  "new": 424,
+  "liveMajorityCeiling": 424
+ },
+ {
+  "pk": 722381,
+  "cls": "HOLD",
+  "action": "HOLD",
+  "old": 318,
+  "new": 318,
+  "liveMajorityCeiling": 318
+ },
+ {
+  "pk": 568016,
+  "cls": "HOLD-AMBIG",
+  "action": "HOLD",
+  "old": 12.6,
+  "new": 12.6,
+  "liveMajorityCeiling": 10.5
+ }
+]
