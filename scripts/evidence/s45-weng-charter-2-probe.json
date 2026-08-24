@@ -1,0 +1,592 @@
+{
+  "shortname": "maverickboatadventures",
+  "pks": [
+    374939,
+    553130
+  ],
+  "probedAt": "2026-08-24T19:56:14.002Z",
+  "dates": [
+    "2026-08-24",
+    "2026-08-31",
+    "2026-09-07",
+    "2026-09-14",
+    "2026-09-21",
+    "2026-09-28",
+    "2026-10-05",
+    "2026-10-12",
+    "2026-10-19",
+    "2026-10-26",
+    "2026-11-02",
+    "2026-11-09",
+    "2026-11-16",
+    "2026-11-23",
+    "2026-11-30",
+    "2026-12-07",
+    "2026-12-14"
+  ],
+  "details": {
+    "currency": "GBP",
+    "feesIncl": true,
+    "taxIncl": true,
+    "itemsKeys": [
+      "items",
+      "details"
+    ]
+  },
+  "perPk": {
+    "374939": {
+      "probes": [
+        {
+          "requested": "2026-08-24",
+          "start_at": "2026-08-25T16:30:00",
+          "echoedDate": "2026-08-25",
+          "dateValid": false,
+          "tiers": [
+            {
+              "id": 823303,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 42400,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 84800,
+              "min": 1
+            }
+          ],
+          "low": 42400,
+          "high": null,
+          "availabilityId": 1941882362
+        },
+        {
+          "requested": "2026-08-31",
+          "start_at": "2026-08-31T16:30:00",
+          "echoedDate": "2026-08-31",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 823303,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 42400,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 84800,
+              "min": 1
+            }
+          ],
+          "low": 42400,
+          "high": null,
+          "availabilityId": 1941882244
+        },
+        {
+          "requested": "2026-09-07",
+          "start_at": "2026-09-07T09:00:00",
+          "echoedDate": "2026-09-07",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 823303,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 42400,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 84800,
+              "min": 1
+            }
+          ],
+          "low": 42400,
+          "high": null,
+          "availabilityId": 1941882123
+        },
+        {
+          "requested": "2026-09-14",
+          "start_at": "2026-09-14T09:00:00",
+          "echoedDate": "2026-09-14",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 823303,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 42400,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 84800,
+              "min": 1
+            }
+          ],
+          "low": 42400,
+          "high": null,
+          "availabilityId": 1941882317
+        },
+        {
+          "requested": "2026-09-21",
+          "start_at": "2026-09-21T09:00:00",
+          "echoedDate": "2026-09-21",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 823303,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 42400,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 84800,
+              "min": 1
+            }
+          ],
+          "low": 42400,
+          "high": null,
+          "availabilityId": 1941882239
+        },
+        {
+          "requested": "2026-09-28",
+          "start_at": "2026-09-28T09:00:00",
+          "echoedDate": "2026-09-28",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 823303,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 42400,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 84800,
+              "min": 1
+            }
+          ],
+          "low": 42400,
+          "high": null,
+          "availabilityId": 1941882203
+        },
+        {
+          "requested": "2026-10-05",
+          "start_at": "2026-10-05T09:00:00",
+          "echoedDate": "2026-10-05",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 823303,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 42400,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "Up to 11 people",
+              "priceCents": 84800,
+              "min": 1
+            }
+          ],
+          "low": 42400,
+          "high": null,
+          "availabilityId": 1941882428
+        },
+        {
+          "requested": "2026-10-12",
+          "absent": true
+        },
+        {
+          "requested": "2026-10-19",
+          "absent": true
+        },
+        {
+          "requested": "2026-10-26",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-02",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-09",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-16",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-23",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-30",
+          "absent": true
+        },
+        {
+          "requested": "2026-12-07",
+          "absent": true
+        },
+        {
+          "requested": "2026-12-14",
+          "absent": true
+        }
+      ],
+      "zeroOnlyDates": [],
+      "fallbackEchoes": [
+        {
+          "requested": "2026-08-24",
+          "echoed": "2026-08-25"
+        }
+      ],
+      "absentDates": [
+        "2026-10-12",
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-23",
+        "2026-11-30",
+        "2026-12-07",
+        "2026-12-14"
+      ]
+    },
+    "553130": {
+      "probes": [
+        {
+          "requested": "2026-08-24",
+          "start_at": "2026-08-25T16:30:00",
+          "echoedDate": "2026-08-25",
+          "dateValid": false,
+          "tiers": [
+            {
+              "id": 749269,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "",
+              "priceCents": 37100,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "",
+              "priceCents": 74200,
+              "min": 1
+            }
+          ],
+          "low": 37100,
+          "high": null,
+          "availabilityId": 1941887568
+        },
+        {
+          "requested": "2026-08-31",
+          "start_at": "2026-08-31T11:30:00",
+          "echoedDate": "2026-08-31",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 749269,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "",
+              "priceCents": 37100,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "",
+              "priceCents": 74200,
+              "min": 1
+            }
+          ],
+          "low": 37100,
+          "high": null,
+          "availabilityId": 1941887341
+        },
+        {
+          "requested": "2026-09-07",
+          "start_at": "2026-09-07T11:30:00",
+          "echoedDate": "2026-09-07",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 749269,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "",
+              "priceCents": 37100,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "",
+              "priceCents": 74200,
+              "min": 1
+            }
+          ],
+          "low": 37100,
+          "high": null,
+          "availabilityId": 1941887522
+        },
+        {
+          "requested": "2026-09-14",
+          "start_at": "2026-09-14T11:30:00",
+          "echoedDate": "2026-09-14",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 749269,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "",
+              "priceCents": 37100,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "",
+              "priceCents": 74200,
+              "min": 1
+            }
+          ],
+          "low": 37100,
+          "high": null,
+          "availabilityId": 1941887476
+        },
+        {
+          "requested": "2026-09-21",
+          "start_at": "2026-09-21T11:30:00",
+          "echoedDate": "2026-09-21",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 749269,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "",
+              "priceCents": 37100,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "",
+              "priceCents": 74200,
+              "min": 1
+            }
+          ],
+          "low": 37100,
+          "high": null,
+          "availabilityId": 1941887677
+        },
+        {
+          "requested": "2026-09-28",
+          "start_at": "2026-09-28T11:30:00",
+          "echoedDate": "2026-09-28",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 749269,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "",
+              "priceCents": 37100,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "",
+              "priceCents": 74200,
+              "min": 1
+            }
+          ],
+          "low": 37100,
+          "high": null,
+          "availabilityId": 1941887536
+        },
+        {
+          "requested": "2026-10-05",
+          "start_at": "2026-10-05T11:30:00",
+          "echoedDate": "2026-10-05",
+          "dateValid": true,
+          "tiers": [
+            {
+              "id": 749269,
+              "singular": "Two Hour Private Charter",
+              "plural": "Two Hour Private Charter",
+              "note": "",
+              "priceCents": 37100,
+              "min": 1
+            },
+            {
+              "id": 823304,
+              "singular": "Four Hour Private Charter",
+              "plural": "Four Hour Private Charter",
+              "note": "",
+              "priceCents": 74200,
+              "min": 1
+            }
+          ],
+          "low": 37100,
+          "high": null,
+          "availabilityId": 1941887712
+        },
+        {
+          "requested": "2026-10-12",
+          "absent": true
+        },
+        {
+          "requested": "2026-10-19",
+          "absent": true
+        },
+        {
+          "requested": "2026-10-26",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-02",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-09",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-16",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-23",
+          "absent": true
+        },
+        {
+          "requested": "2026-11-30",
+          "absent": true
+        },
+        {
+          "requested": "2026-12-07",
+          "absent": true
+        },
+        {
+          "requested": "2026-12-14",
+          "absent": true
+        }
+      ],
+      "zeroOnlyDates": [],
+      "fallbackEchoes": [
+        {
+          "requested": "2026-08-24",
+          "echoed": "2026-08-25"
+        }
+      ],
+      "absentDates": [
+        "2026-10-12",
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-23",
+        "2026-11-30",
+        "2026-12-07",
+        "2026-12-14"
+      ]
+    }
+  },
+  "baselineItems": [
+    {
+      "pk": 374939,
+      "start_at": "2026-08-25T16:30:00",
+      "low": 42400,
+      "high": null,
+      "cts": [
+        {
+          "id": 823303,
+          "singular": "Two Hour Private Charter",
+          "plural": "Two Hour Private Charter",
+          "note": "Up to 11 people",
+          "price": 42400,
+          "min_party_size": 1
+        },
+        {
+          "id": 823304,
+          "singular": "Four Hour Private Charter",
+          "plural": "Four Hour Private Charter",
+          "note": "Up to 11 people",
+          "price": 84800,
+          "min_party_size": 1
+        }
+      ]
+    },
+    {
+      "pk": 553130,
+      "start_at": "2026-08-25T16:30:00",
+      "low": 37100,
+      "high": null,
+      "cts": [
+        {
+          "id": 749269,
+          "singular": "Two Hour Private Charter",
+          "plural": "Two Hour Private Charter",
+          "note": "",
+          "price": 37100,
+          "min_party_size": 1
+        },
+        {
+          "id": 823304,
+          "singular": "Four Hour Private Charter",
+          "plural": "Four Hour Private Charter",
+          "note": "",
+          "price": 74200,
+          "min_party_size": 1
+        }
+      ]
+    }
+  ]
+}

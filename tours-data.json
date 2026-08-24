@@ -17484,9 +17484,9 @@
       "category": "",
       "location": "United Kingdom/England/Newhaven",
       "island": "newhaven",
-      "price": 848,
+      "price": 424,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 84,
       "currency": "GBP",
       "duration": null,
@@ -17521,7 +17521,23 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceSource": "s45-weng-charter-2",
+      "priceBasis": "D-597 live floor of the ladder (Two Hour Private Charter); the Math.max ceiling (£848) was rejected under D-600 — product names neither tier; 6 date-valid + 1 re-anchored (D-606) readings",
+      "tiers": [
+        {
+          "name": "Two Hour Private Charter",
+          "note": "Up to 11 people",
+          "price": 424,
+          "minPartySize": 1
+        },
+        {
+          "name": "Four Hour Private Charter",
+          "note": "Up to 11 people",
+          "price": 848,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "455058",
@@ -20129,9 +20145,9 @@
       "category": "",
       "location": "United Kingdom/England/Newhaven",
       "island": "newhaven",
-      "price": 742,
+      "price": 371,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 82,
       "currency": "GBP",
       "duration": null,
@@ -20157,7 +20173,23 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceSource": "s45-weng-charter-2",
+      "priceBasis": "D-597 live floor of the ladder (Two Hour Private Charter); the Math.max ceiling (£742) was rejected under D-600 — product names neither tier; 6 date-valid + 1 re-anchored (D-606) readings",
+      "tiers": [
+        {
+          "name": "Two Hour Private Charter",
+          "note": "",
+          "price": 371,
+          "minPartySize": 1
+        },
+        {
+          "name": "Four Hour Private Charter",
+          "note": "",
+          "price": 742,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "602451",
