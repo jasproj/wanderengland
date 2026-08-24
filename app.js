@@ -50,13 +50,24 @@ function preCacheBookingUrls(tours) {
     });
 }
 
+// Stable attribution key. 1,052 of 1,424 rows (the pk-only schema) carry no
+// `id`; every row carries a unique integer `pk`, and where `id` exists it is
+// always String(pk). Without this, data-id rendered "undefined", data-tour-id
+// rendered "", and tracking.js's delegated booking_click fell back to the full
+// booking URL as tour_id. Legacy id rows are unchanged by construction.
+function tourKey(tour) {
+    if (tour.id != null && tour.id !== '') return String(tour.id);
+    if (Number.isInteger(tour.pk)) return `pk:${tour.pk}`;
+    return '';
+}
+
 // 2. GA4 Tracking Functions
 // NOTE: Renamed from trackBookingClick to avoid shadowing the canonical
 // 3-string global (defined in index.html <head> and /tracking.js). This
 // enriched form fires on tour-grid clicks where company/price are known.
 function trackTourBooking(tour) {
     gtag('event', 'booking_click', {
-        tour_id: tour.id,
+        tour_id: tourKey(tour),
         tour_name: tour.name,
         island: tour.island,
         price: tour.price || 'unknown',
@@ -204,10 +215,16 @@ function generateTourSchema(tour) {
                 "availability": "https://schema.org/InStock"
             }
         }),
-        "provider": {
-            "@type": "LocalBusiness",
-            "name": tour.company
-        }
+        // provider only when the row names one: pk-only rows have no `company`,
+        // and JSON.stringify would otherwise emit a nameless LocalBusiness.
+        // Deriving a display name from the FareHarbor shortname is deferred —
+        // those are slugs, not names.
+        ...(tour.company && {
+            "provider": {
+                "@type": "LocalBusiness",
+                "name": tour.company
+            }
+        })
     };
 }
 
@@ -253,7 +270,7 @@ function createTourCard(tour) {
     badgesHtml += '</div>';
 
     return `
-        <article class="tour-card" data-id="${tour.id}">
+        <article class="tour-card" data-id="${escapeHtml(tourKey(tour))}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
                 <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
@@ -268,7 +285,7 @@ function createTourCard(tour) {
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="text-decoration: none;">Check Availability →</a>
+                    <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tourKey(tour))}" data-tour-name="${escapeHtml(tour.name)}" style="text-decoration: none;">Check Availability →</a>
                 </div>
             </div>
         </article>
