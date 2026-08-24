@@ -1,0 +1,6102 @@
+{
+  "script": "scripts/reextract-v7-mis-currency.mjs",
+  "ranAt": "2026-08-24T19:07:03.655Z",
+  "dryRun": false,
+  "file": "tours-data.json",
+  "population": {
+    "expected": 162,
+    "completed": 162,
+    "byStoredCurrency": {
+      "USD": 152,
+      "EUR": 10
+    }
+  },
+  "requests": {
+    "total": 88,
+    "failed": 0,
+    "retries": 1,
+    "batchSize": 20,
+    "rateLimitMs": 1000,
+    "probeDate": "2026-09-14",
+    "startAtMoved": true
+  },
+  "outcomes": {
+    "ZERO_PREVIEW": 31,
+    "GBP_CONFIRMED": 92,
+    "NON_GBP_SUPPRESSED": 27,
+    "UNSAMPLED": 12
+  },
+  "rowCount": {
+    "before": 1424,
+    "after": 1424
+  },
+  "rowsOutsidePopulationChanged": 0,
+  "gate": {
+    "before": {
+      "loaded": 1424,
+      "visiblePrice": 1076,
+      "jsonLdOffers": 1076,
+      "visibleNonGbp": 119,
+      "visibleByCurrency": {
+        "EUR": 9,
+        "GBP": 957,
+        "USD": 110
+      }
+    },
+    "after": {
+      "loaded": 1424,
+      "visiblePrice": 1049,
+      "jsonLdOffers": 1049,
+      "visibleNonGbp": 0,
+      "visibleByCurrency": {
+        "GBP": 1049
+      }
+    },
+    "delta": {
+      "loaded": 0,
+      "visiblePrice": -27,
+      "jsonLdOffers": -27,
+      "visibleNonGbp": -119
+    }
+  },
+  "rows": [
+    {
+      "pk": 214981,
+      "shortname": "cambridgealumnitours",
+      "name": "Private • Cambridge Walking & Punting Tour & Optional King's College",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": 350,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 682426,
+          "singular": "Private Tour with King's College Entry",
+          "plural": "Private Tour with King's College Entry",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1135804,
+          "singular": "Private Tour for Prospective Students",
+          "plural": "Private Tour for Prospective Students",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1172087,
+          "singular": "Private Prospective Student Tour with Kings College",
+          "plural": "Private Prospective Student Tour with Kings College",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 4,
+      "baselineStartAt": "2026-08-27T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 283390,
+      "shortname": "cambridgealumnitours",
+      "name": "Private • Oxford University Walking Tour  & Optional New College",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 724823,
+          "singular": "Private Tour with New College Entry",
+          "plural": "Private Tours with New College Entry",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1135804,
+          "singular": "Private Tour for Prospective Students",
+          "plural": "Private Tour for Prospective Students",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 776159,
+          "singular": "Private Prospective Student Tour With New College",
+          "plural": "Private Prospective Student Tour With New College",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 4,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 351641,
+      "shortname": "cambridgealumnitours",
+      "name": "Private • Oxford University Punting Tour",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "Includes 4 people",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-25T11:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 67508,
+      "shortname": "cambridgealumnitours",
+      "name": "Private • Cambridge Walking Tour & Optional King's College",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1135804,
+          "singular": "Private Tour for Prospective Students",
+          "plural": "Private Tour for Prospective Students",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 2,
+      "baselineStartAt": "2026-08-26T21:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 67510,
+      "shortname": "cambridgealumnitours",
+      "name": "Private • Cambridge University Punting Tour",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-25T11:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 354861,
+      "shortname": "cambridgealumnitours",
+      "name": "Private • Cambridge University Ghost Tour",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T21:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 346084,
+      "shortname": "cambridgealumnitours",
+      "name": "Private • Harry Potter Film Locations Walking Tour & New College",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 351692,
+      "shortname": "cambridgealumnitours",
+      "name": "Private • Oxford Walking & Punting Tour  & Optional New College",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 724823,
+          "singular": "Private Tour with New College Entry",
+          "plural": "Private Tours with New College Entry",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1135804,
+          "singular": "Private Tour for Prospective Students",
+          "plural": "Private Tour for Prospective Students",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 776159,
+          "singular": "Private Prospective Student Tour With New College",
+          "plural": "Private Prospective Student Tour With New College",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 4,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 609776,
+      "shortname": "cambridgealumnitours",
+      "name": "剑桥校友伴你行 - 剑桥大学步行导览 & 康河撑篙游船之旅（私人小团）",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "独享一位导游",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 682426,
+          "singular": "Private Tour with King's College Entry",
+          "plural": "Private Tour with King's College Entry",
+          "note": "独享一位导游 + 国王学院",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1135804,
+          "singular": "Private Tour for Prospective Students",
+          "plural": "Private Tour for Prospective Students",
+          "note": "潜在牛剑学生 · 配独享导游",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1172087,
+          "singular": "Private Prospective Student Tour with Kings College",
+          "plural": "Private Prospective Student Tour with Kings College",
+          "note": "潜在牛剑学生 + 国王学院 · 配独享导游",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 4,
+      "baselineStartAt": "2026-08-27T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 660913,
+      "shortname": "cambridgealumnitours",
+      "name": "Private • Oxford University Extended Punting Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 100,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 100,
+      "liveLabel": "Private Tour",
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "Includes 4 people",
+          "priceCents": 10000,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 617603,
+      "shortname": "cambridgealumnitours",
+      "name": "Visit the tower of Great St. Mary’s Church.",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 6,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 6,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 150480,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 18+",
+          "priceCents": 600,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T00:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T00:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 609778,
+      "shortname": "cambridgealumnitours",
+      "name": "剑桥校友伴你行 - 剑桥大学怪谈之旅（私人小团）",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "独享一位导游",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T21:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 609779,
+      "shortname": "cambridgealumnitours",
+      "name": "Private Spanish • Cambridge University Ghost Tour",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 609788,
+      "shortname": "cambridgealumnitours",
+      "name": "牛津校友伴你行 - 牛津大学步行导览 & 撑篙体验（私人小团）",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "独享一位导游",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 724823,
+          "singular": "Private Tour with New College Entry",
+          "plural": "Private Tours with New College Entry",
+          "note": "独享一位导游 + 新学院",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1135804,
+          "singular": "Private Tour for Prospective Students",
+          "plural": "Private Tour for Prospective Students",
+          "note": "潜在牛剑学生 · 配独享导游",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 776159,
+          "singular": "Private Prospective Student Tour With New College",
+          "plural": "Private Prospective Student Tour With New College",
+          "note": "潜在牛剑学生 + 新学院 · 配独享导游",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 4,
+      "baselineStartAt": "2026-08-27T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 609789,
+      "shortname": "cambridgealumnitours",
+      "name": "Private Spanish • Oxford Walking & Punting Tour & Optional New College",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 724823,
+          "singular": "Private Tour with New College Entry",
+          "plural": "Private Tours with New College Entry",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1135804,
+          "singular": "Private Tour for Prospective Students",
+          "plural": "Private Tour for Prospective Students",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 776159,
+          "singular": "Private Prospective Student Tour With New College",
+          "plural": "Private Prospective Student Tour With New College",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 4,
+      "baselineStartAt": "2026-08-29T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-19T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 609804,
+      "shortname": "cambridgealumnitours",
+      "name": "Private Spanish • Oxford University Walking Tour & Optional New College",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 150483,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 724823,
+          "singular": "Private Tour with New College Entry",
+          "plural": "Private Tours with New College Entry",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1135804,
+          "singular": "Private Tour for Prospective Students",
+          "plural": "Private Tour for Prospective Students",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 776159,
+          "singular": "Private Prospective Student Tour With New College",
+          "plural": "Private Prospective Student Tour With New College",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 4,
+      "baselineStartAt": "2026-08-29T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-19T12:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 488756,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Power, Profit & Progress Tour: Women in the City",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 527007,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Fleet Street: a Private Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T12:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 531733,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Secrets of Spitalfields Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "All ages • Up to 15 in a group",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 252118,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Private Great Fire of London Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 252106,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Heretics and Horrors: a Private Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 526850,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "City Highlights: a Private Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 252125,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Wonders of Whitehall: a Private Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 252046,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Dr Jekyll and Mr Hyde: a Private Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 328940,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Scientific Secrets and Literary Legends Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 272549,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Half Day London Highlights Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 491.4,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 491.4,
+      "liveLabel": "Private Tour - Small Group",
+      "tiers": [
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 49140,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T09:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T09:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 471798,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Suffragettes of Westminster Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 692616,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private Wonders of Whitehall Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 346.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 346.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 692631,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private Dr Jekyll and Mr Hyde Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 346.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 346.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 693212,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private Women in the City of London Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 346.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 346.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 693244,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private Heretics and Horrors Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 346.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 346.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 252139,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Private Smartphone Photo Tour: St Paul's",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 692322,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private Financial London Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 346.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 346.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 581530,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Quirky Westminster Private Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-16T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 516675,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "LGBT+ Westminster Private Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 220.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 220.5,
+      "liveLabel": "Private Tour for Two",
+      "tiers": [
+        {
+          "id": 1188091,
+          "singular": "Private Tour for Two",
+          "plural": "Private Tour for Two",
+          "note": "A Tour for two",
+          "priceCents": 22050,
+          "minPartySize": 1
+        },
+        {
+          "id": 471068,
+          "singular": "Private Tour - Small Group",
+          "plural": "Private Tour - Small Group",
+          "note": "6 people max",
+          "priceCents": 28350,
+          "minPartySize": 1
+        },
+        {
+          "id": 471069,
+          "singular": "Private Tour - Medium Group",
+          "plural": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "priceCents": 34650,
+          "minPartySize": 1
+        },
+        {
+          "id": 471070,
+          "singular": "Private Tour - Large Group",
+          "plural": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "priceCents": 40950,
+          "minPartySize": 1
+        },
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-16T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 692609,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private Fleet Street Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 346.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 346.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T12:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 252283,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "Private Smartphone Photo Tour: Tower Hill",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 692621,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private Great Fire of London Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 346.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 346.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 692929,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private Secrets of Spitalfields Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 346.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 346.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "All ages • Up to 15 in a group",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 692939,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private Roman London Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 346.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 346.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 34650,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 692946,
+      "shortname": "londonguidedwalksprivatetours",
+      "name": "School group: Private City Highlights Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 291.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 291.5,
+      "liveLabel": "School Group (students under 18yrs old) 30 ppl max",
+      "tiers": [
+        {
+          "id": 470985,
+          "singular": "School Group (students under 18yrs old) 30 ppl max",
+          "plural": "School Groups (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "priceCents": 29150,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 590945,
+      "shortname": "deathlydarktours",
+      "name": "The Deathly Dark Tour of York",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 12.6,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 13.65,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 1045184,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 16+ • Max 8 adults per booking",
+          "priceCents": 1365,
+          "minPartySize": 1
+        },
+        {
+          "id": 1045185,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 6-15 • Must book with an adult • Max 5 children per booking",
+          "priceCents": 840,
+          "minPartySize": 1
+        },
+        {
+          "id": 1045205,
+          "singular": "Infant",
+          "plural": "Infants",
+          "note": "Ages 0-5 • Must book with an adult",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-24T21:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T20:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 658174,
+      "shortname": "liverpoolcycletours",
+      "name": "The Beatles walk through Liverpool",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 9,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 9,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 213787,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 16 +",
+          "priceCents": 900,
+          "minPartySize": 2
+        },
+        {
+          "id": 213789,
+          "singular": "Private Tour (up to 10 people)",
+          "plural": "Private Tour",
+          "note": "",
+          "priceCents": 8900,
+          "minPartySize": 2
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T09:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T09:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83691,
+      "shortname": "babyloncitytours-london",
+      "name": "Tate Modern Museum Guided Tour - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 95.4,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 95.4,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 9540,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 7950,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 5830,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T14:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83692,
+      "shortname": "babyloncitytours-london",
+      "name": "Tate Modern Museum Guided Tour - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83613,
+      "shortname": "babyloncitytours-london",
+      "name": "British Museum Guided Tour - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 95.4,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 95.4,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 9540,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 7950,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 5830,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83623,
+      "shortname": "babyloncitytours-london",
+      "name": "British Museum Guided Tour - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83625,
+      "shortname": "babyloncitytours-london",
+      "name": "National Gallery of London Guided Tour - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 95.4,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 95.4,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 9540,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 7950,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 5830,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83626,
+      "shortname": "babyloncitytours-london",
+      "name": "National Gallery of London Guided Tour - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83643,
+      "shortname": "babyloncitytours-london",
+      "name": "History of London - City Center Westminster Guided Walking Tour – Semi-Private",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 51.94,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 51.94,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-16T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83646,
+      "shortname": "babyloncitytours-london",
+      "name": "History of London - City Center Westminster Guided Walking Tour – Private",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83653,
+      "shortname": "babyloncitytours-london",
+      "name": "Old City of London Guided Walking Tour - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 51.94,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 51.94,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83654,
+      "shortname": "babyloncitytours-london",
+      "name": "Old City of London Guided Walking Tour - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83668,
+      "shortname": "babyloncitytours-london",
+      "name": "East End (Street Art) Guided Walking Tour - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 51.94,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 51.94,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T14:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83669,
+      "shortname": "babyloncitytours-london",
+      "name": "East End (Street Art) Guided Walking Tour- Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T14:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83670,
+      "shortname": "babyloncitytours-london",
+      "name": "London SoHo District Guided Walking Tour - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 51.94,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 51.94,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83675,
+      "shortname": "babyloncitytours-london",
+      "name": "Natural History Museum of London Guided Tour - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 95.4,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 95.4,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 9540,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 7950,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 5830,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 531451,
+      "shortname": "babyloncitytours-london",
+      "name": "Royal Tour w/ Buckingham Palace Entry! Guided Tour - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 157.94,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 157.94,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 15794,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 10494,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 7950,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T09:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-17T09:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83635,
+      "shortname": "babyloncitytours-london",
+      "name": "Combo: British Museum + National Gallery of London Guided Tour - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 174.9,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 174.9,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 17490,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 14734,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 11130,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83636,
+      "shortname": "babyloncitytours-london",
+      "name": "Combo: British Museum + National Gallery of London Guided Tour - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-16T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83671,
+      "shortname": "babyloncitytours-london",
+      "name": "London SoHo District Guided Walking Tour - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 83676,
+      "shortname": "babyloncitytours-london",
+      "name": "Natural History Museum of London Guided Tour - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 599988,
+      "shortname": "babyloncitytours-london",
+      "name": "Churchill War Rooms and Wartime London Walk - Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 132.5,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 165,
+      "liveLabel": "Adult 16+",
+      "tiers": [
+        {
+          "id": 1060684,
+          "singular": "Adult 16+",
+          "plural": "Adults 16+",
+          "note": "",
+          "priceCents": 16500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1060685,
+          "singular": "Youth (Ages 5 - 15)",
+          "plural": "Youth (Ages 5 - 15)",
+          "note": "",
+          "priceCents": 7950,
+          "minPartySize": 1
+        },
+        {
+          "id": 1060686,
+          "singular": "Child (Ages 0 - 4)",
+          "plural": "Children (Ages 0 - 4)",
+          "note": "",
+          "priceCents": 5830,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 599989,
+      "shortname": "babyloncitytours-london",
+      "name": "Churchill War Rooms and Wartime London - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 106154,
+      "shortname": "babyloncitytours-london",
+      "name": "Changing of the Guard Guided Walking Tour – Semi-Private (ENGLISH)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 51.94,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 51.94,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 180117,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180119,
+          "singular": "Youth (Ages 10 - 17)",
+          "plural": "Youth (Ages 10 - 17)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        },
+        {
+          "id": 180118,
+          "singular": "Child (Ages 9 and under)",
+          "plural": "Children (Ages 9 and under)",
+          "note": "",
+          "priceCents": 5194,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T09:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T09:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 588967,
+      "shortname": "babyloncitytours-london",
+      "name": "Family Friendly Natural History Museum of London Guided Tour - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 106155,
+      "shortname": "babyloncitytours-london",
+      "name": "Changing of the Guard Guided Walking Tour – Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-28T09:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-16T09:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 537446,
+      "shortname": "babyloncitytours-london",
+      "name": "Royal Tour w/ Buckingham Palace Entry! Guided Tour - Private (ENGLISH)",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "EUR",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 192032,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 546217,
+      "shortname": "upsidedownhouse-liverpool",
+      "name": "Liverpool - Upside Down House",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 6.45,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 6.45,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 969675,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 4+",
+          "priceCents": 645,
+          "minPartySize": 1
+        },
+        {
+          "id": 969676,
+          "singular": "Infant",
+          "plural": "Infants",
+          "note": "Ages 0 - 3 • Free",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 602428,
+      "shortname": "wildwoodlandretreat",
+      "name": "Goat & Sheep Yoga",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 28.08,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 28.08,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 1063752,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Min age 11+",
+          "priceCents": 2808,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-10-04T13:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 602451,
+      "shortname": "wildwoodlandretreat",
+      "name": "Yoga+Qigong in the cosy cabin - Winter",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 333544,
+      "shortname": "funlondontours",
+      "name": "Small Group Intimate Churchill's London & War Rooms Museum Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 79,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 79,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 204275,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 18+",
+          "priceCents": 7900,
+          "minPartySize": 1
+        },
+        {
+          "id": 368751,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "5 – 15 years old",
+          "priceCents": 6200,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 95766,
+      "shortname": "funlondontours",
+      "name": "Changing the Guard",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 19,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 19,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 204275,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 18+",
+          "priceCents": 1900,
+          "minPartySize": 1
+        },
+        {
+          "id": 204274,
+          "singular": "Child (5-17 yrs)",
+          "plural": "Children (5-17 yrs)",
+          "note": "",
+          "priceCents": 1600,
+          "minPartySize": 1
+        },
+        {
+          "id": 204276,
+          "singular": "Family Tickets",
+          "plural": "Family Tickets",
+          "note": "Buy 4 tickets per family of 4 (2 adults + 2 children)",
+          "priceCents": 1800,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T09:45:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T09:45:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 95770,
+      "shortname": "funlondontours",
+      "name": "Secret London Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 19,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 19,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 204275,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 18+",
+          "priceCents": 1900,
+          "minPartySize": 1
+        },
+        {
+          "id": 204274,
+          "singular": "Child (5-17 yrs)",
+          "plural": "Children (5-17 yrs)",
+          "note": "",
+          "priceCents": 1600,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-16T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 657985,
+      "shortname": "funlondontours",
+      "name": "Small Group Iconic Westminster, WW2 & Churchill War Rooms Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 79,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 79,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 204275,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 18+",
+          "priceCents": 7900,
+          "minPartySize": 1
+        },
+        {
+          "id": 368751,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "5 – 15 years old",
+          "priceCents": 6200,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 715264,
+      "shortname": "funlondontours",
+      "name": "Private Iconic Westminster, WW2 & Churchill War Rooms Tour",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 255261,
+          "singular": "Private Group",
+          "plural": "Groups",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 95779,
+      "shortname": "funlondontours",
+      "name": "Hidden London Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 19,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 19,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 204275,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 18+",
+          "priceCents": 1900,
+          "minPartySize": 1
+        },
+        {
+          "id": 204274,
+          "singular": "Child (5-17 yrs)",
+          "plural": "Children (5-17 yrs)",
+          "note": "",
+          "priceCents": 1600,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-09-04T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 483129,
+      "shortname": "funlondontours",
+      "name": "London Loo Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 19,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 19,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 204275,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 18+",
+          "priceCents": 1900,
+          "minPartySize": 1
+        },
+        {
+          "id": 204274,
+          "singular": "Child (5-17 yrs)",
+          "plural": "Children (5-17 yrs)",
+          "note": "",
+          "priceCents": 1600,
+          "minPartySize": 1
+        },
+        {
+          "id": 204276,
+          "singular": "Family Tickets",
+          "plural": "Family Tickets",
+          "note": "Buy 4 tickets per family of 4",
+          "priceCents": 1500,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-29T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-17T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 717789,
+      "shortname": "funlondontours",
+      "name": "Private Changing the Guard Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 250,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 250,
+      "liveLabel": "Private Group - Up to 4 People",
+      "tiers": [
+        {
+          "id": 1245407,
+          "singular": "Private Group - Up to 4 People",
+          "plural": "Private Group - Up to 4 People",
+          "note": "",
+          "priceCents": 25000,
+          "minPartySize": 1
+        },
+        {
+          "id": 1245408,
+          "singular": "Private Group - 5 to 8 People",
+          "plural": "Private Group - 5 to 8 People",
+          "note": "",
+          "priceCents": 27500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1245409,
+          "singular": "Private Group - 9 to 12 People",
+          "plural": "Private Group - 9 to 12 People",
+          "note": "",
+          "priceCents": 30000,
+          "minPartySize": 1
+        },
+        {
+          "id": 1245410,
+          "singular": "Private Group - 13 to 18 People",
+          "plural": "Private Group - 13 to 18 People",
+          "note": "",
+          "priceCents": 32500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1245415,
+          "singular": "Private Group - 19 to 25 People",
+          "plural": "Private Group - 19 to 25 People",
+          "note": "",
+          "priceCents": 35000,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T09:45:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T09:15:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 717818,
+      "shortname": "funlondontours",
+      "name": "Private Intimate Churchill's London & War Rooms Museum Tour",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 255261,
+          "singular": "Private Group",
+          "plural": "Groups",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-27T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 222432,
+      "shortname": "upsidedownhouse-brighton",
+      "name": "Brighton - Upside Down House",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 7.45,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 7.45,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 425373,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 4+",
+          "priceCents": 745,
+          "minPartySize": 1
+        },
+        {
+          "id": 668233,
+          "singular": "Infant",
+          "plural": "Infants",
+          "note": "Children aged 3 and under go free",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 873096,
+          "singular": "Premium Ticket",
+          "plural": "Premium Tickets",
+          "note": "Ages 4+ Fast Track entry with exclusive souvenir",
+          "priceCents": 1495,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 390312,
+      "shortname": "undergrounddonutour",
+      "name": "London Tea and Doughnuts: Borough Market Walking Food Tour (Small Group)",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 90,
+      "storedConfidence": "high",
+      "liveCurrency": "USD",
+      "livePrice": 79,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 253063,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 11+",
+          "priceCents": 7900,
+          "minPartySize": 1
+        },
+        {
+          "id": 253064,
+          "singular": "Kid",
+          "plural": "Kids",
+          "note": "Ages 10 & Under",
+          "priceCents": 6900,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T12:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T12:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 479128,
+      "shortname": "undergrounddonutour",
+      "name": "Brighton & The Lanes Doughnut Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 65,
+      "storedConfidence": "high",
+      "liveCurrency": "USD",
+      "livePrice": 65,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 253063,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 11+",
+          "priceCents": 6500,
+          "minPartySize": 1
+        },
+        {
+          "id": 253064,
+          "singular": "Kid",
+          "plural": "Kids",
+          "note": "Ages 10 & Under",
+          "priceCents": 5500,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 591464,
+      "shortname": "undergrounddonutour",
+      "name": "London's West End Historic Tea & Doughnut Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 90,
+      "storedConfidence": "high",
+      "liveCurrency": "USD",
+      "livePrice": 79,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 253063,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 11+",
+          "priceCents": 7900,
+          "minPartySize": 1
+        },
+        {
+          "id": 253064,
+          "singular": "Kid",
+          "plural": "Kids",
+          "note": "Ages 10 & Under",
+          "priceCents": 6900,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T12:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T12:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 528958,
+      "shortname": "undergrounddonutour",
+      "name": "London Historic Walking Food Tour with Tea and Doughnuts",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 44,
+      "storedConfidence": "high",
+      "liveCurrency": "USD",
+      "livePrice": 44,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 253063,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 11+",
+          "priceCents": 4400,
+          "minPartySize": 1
+        },
+        {
+          "id": 253064,
+          "singular": "Kid",
+          "plural": "Kids",
+          "note": "Ages 10 & Under",
+          "priceCents": 4200,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 502943,
+      "shortname": "undergrounddonutour",
+      "name": "London Holiday Walking Food Tour with Tea and Doughnuts",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 90,
+      "storedConfidence": "high",
+      "liveCurrency": "USD",
+      "livePrice": 90,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 253063,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 11+",
+          "priceCents": 9000,
+          "minPartySize": 1
+        },
+        {
+          "id": 253064,
+          "singular": "Kid",
+          "plural": "Kids",
+          "note": "Ages 10 & Under",
+          "priceCents": 8000,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-11-07T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-11-07T10:00:00",
+        "moved": false
+      }
+    },
+    {
+      "pk": 502314,
+      "shortname": "undergrounddonutour",
+      "name": "Brighton & The Lanes Holiday Doughnut Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 65,
+      "storedConfidence": "high",
+      "liveCurrency": "USD",
+      "livePrice": 65,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 253063,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 11+",
+          "priceCents": 6500,
+          "minPartySize": 1
+        },
+        {
+          "id": 253064,
+          "singular": "Kid",
+          "plural": "Kids",
+          "note": "Ages 10 & Under",
+          "priceCents": 5500,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-11-05T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-11-05T11:00:00",
+        "moved": false
+      }
+    },
+    {
+      "pk": 354292,
+      "shortname": "walkingtoursin",
+      "name": "Liverpool with a Local: Walking Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 12.72,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 12.72,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 418916,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 1272,
+          "minPartySize": 2
+        },
+        {
+          "id": 560567,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "7-15 years old",
+          "priceCents": 848,
+          "minPartySize": 2
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 354307,
+      "shortname": "walkingtoursin",
+      "name": "Birmingham City Centre Walking Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 12.72,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 12.72,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 418916,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 1272,
+          "minPartySize": 1
+        },
+        {
+          "id": 560567,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "7-15 years old",
+          "priceCents": 848,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 442906,
+      "shortname": "walkingtoursin",
+      "name": "Stratford-Upon-Avon Town Walking Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 12.72,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 12.72,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 418916,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 1272,
+          "minPartySize": 2
+        },
+        {
+          "id": 560567,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "7-15 years old",
+          "priceCents": 848,
+          "minPartySize": 2
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T10:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 502600,
+      "shortname": "walkingtoursin",
+      "name": "Manchester City Centre Walking Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 12.72,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 12.72,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 418916,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 1272,
+          "minPartySize": 1
+        },
+        {
+          "id": 560567,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "7-15 years old",
+          "priceCents": 848,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 441887,
+      "shortname": "walkingtoursin",
+      "name": "Windsor Town Walking Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 12.72,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 12.72,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 418916,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 1272,
+          "minPartySize": 2
+        },
+        {
+          "id": 560567,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "7-15 years old",
+          "priceCents": 848,
+          "minPartySize": 2
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 354306,
+      "shortname": "walkingtoursin",
+      "name": "Leeds City Centre Walking Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 12.72,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 12.72,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 418916,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 1272,
+          "minPartySize": 2
+        },
+        {
+          "id": 560567,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "7-15 years old",
+          "priceCents": 848,
+          "minPartySize": 2
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-29T10:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 502598,
+      "shortname": "walkingtoursin",
+      "name": "Nottingham City Walking Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 12.72,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 12.72,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 418916,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 1272,
+          "minPartySize": 1
+        },
+        {
+          "id": 560567,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "7-15 years old",
+          "priceCents": 848,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 449502,
+      "shortname": "eatingeurope-london",
+      "name": "London East End Food Tour: Special 10 Year Anniversary Edition  • Private",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 773388,
+          "singular": "Private Group",
+          "plural": "Private Group",
+          "note": "Up to 12 people",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-09-08T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T14:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 449503,
+      "shortname": "eatingeurope-london",
+      "name": "Borough Market & London Bridge Food Tour • Private",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 773388,
+          "singular": "Private Group",
+          "plural": "Private Group",
+          "note": "Up to 12 people",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-09-08T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-17T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 449504,
+      "shortname": "eatingeurope-london",
+      "name": "Twilight Soho Food Tour • Private",
+      "outcome": "ZERO_PREVIEW",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": [
+        {
+          "id": 773388,
+          "singular": "Private Group",
+          "plural": "Private Group",
+          "note": "Up to 12 people",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-09-08T17:15:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-21T17:15:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 198885,
+      "shortname": "bobholidays",
+      "name": "Herriot & The Yorkshire Dales",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 58.3,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 58.3,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 383160,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "16 years and older",
+          "priceCents": 5830,
+          "minPartySize": 1
+        },
+        {
+          "id": 383161,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "5–15 years old",
+          "priceCents": 4876,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-28T09:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T09:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 198863,
+      "shortname": "bobholidays",
+      "name": "Moors, Whitby & The Yorkshire Steam Railway",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 58.3,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 58.3,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 383160,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "16 years and older",
+          "priceCents": 5830,
+          "minPartySize": 1
+        },
+        {
+          "id": 383161,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "5–15 years old",
+          "priceCents": 4876,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T09:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T09:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 198872,
+      "shortname": "bobholidays",
+      "name": "Whitby & The North York Moors",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 58.3,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 58.3,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 383160,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "16 years and older",
+          "priceCents": 5830,
+          "minPartySize": 1
+        },
+        {
+          "id": 383161,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "5–15 years old",
+          "priceCents": 4876,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-09-06T09:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-20T09:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 666407,
+      "shortname": "conkerspirit",
+      "name": "Distillery Tour & Guided Tasting",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 31.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 31.5,
+      "liveLabel": "Distillery Tour Guest",
+      "tiers": [
+        {
+          "id": 1167917,
+          "singular": "Distillery Tour Guest",
+          "plural": "Distillery Tour Guests",
+          "note": "Age 18+",
+          "priceCents": 3150,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-28T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-18T14:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 568016,
+      "shortname": "spvr-arcade",
+      "name": "Soft Play, Role Play, Bouncy Castle & Slide",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 12.6,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 12.6,
+      "liveLabel": "Softplay Session",
+      "tiers": [
+        {
+          "id": 1020885,
+          "singular": "Softplay Session",
+          "plural": "Softplay Session",
+          "note": "This is for one Adult and one child",
+          "priceCents": 1260,
+          "minPartySize": 1
+        },
+        {
+          "id": 1020888,
+          "singular": "Additional Supervising Adult",
+          "plural": "Additional Supervising Adult",
+          "note": "",
+          "priceCents": 318,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 689445,
+      "shortname": "laserguys",
+      "name": "Archery & Axe Throwing",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 30,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 30,
+      "liveLabel": "People",
+      "tiers": [
+        {
+          "id": 1202317,
+          "singular": "People",
+          "plural": "People",
+          "note": "Ages 10+",
+          "priceCents": 3000,
+          "minPartySize": 8
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 689446,
+      "shortname": "laserguys",
+      "name": "Laser Tag & Archery",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 30,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 30,
+      "liveLabel": "People",
+      "tiers": [
+        {
+          "id": 1202317,
+          "singular": "People",
+          "plural": "People",
+          "note": "Ages 8+",
+          "priceCents": 3000,
+          "minPartySize": 8
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T12:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 688799,
+      "shortname": "laserguys",
+      "name": "Private Laser Tag",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 200,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 200,
+      "liveLabel": "Private Group",
+      "tiers": [
+        {
+          "id": 1202423,
+          "singular": "Private Group",
+          "plural": "Private Groups",
+          "note": "",
+          "priceCents": 20000,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T12:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 688811,
+      "shortname": "laserguys",
+      "name": "Private Archery",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 175,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 175,
+      "liveLabel": "Private Group",
+      "tiers": [
+        {
+          "id": 1202423,
+          "singular": "Private Group",
+          "plural": "Private Groups",
+          "note": "Up to 8 participants, Ages 8+",
+          "priceCents": 17500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1202355,
+          "singular": "Extra participants",
+          "plural": "Extra participants",
+          "note": "Ages 8+",
+          "priceCents": 1500,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 689177,
+      "shortname": "laserguys",
+      "name": "Open Archery",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 20,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 20,
+      "liveLabel": "People",
+      "tiers": [
+        {
+          "id": 1202317,
+          "singular": "People",
+          "plural": "People",
+          "note": "Ages 8+",
+          "priceCents": 2000,
+          "minPartySize": 2
+        },
+        {
+          "id": 1202860,
+          "singular": "Add extra 30 minutes",
+          "plural": "Add extra 30 minutes",
+          "note": "",
+          "priceCents": 500,
+          "minPartySize": 2
+        },
+        {
+          "id": 1214174,
+          "singular": "Add 3D Zombie targets",
+          "plural": "Add 3D Zombie targets",
+          "note": "Price per person",
+          "priceCents": 500,
+          "minPartySize": 2
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-29T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-19T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 689195,
+      "shortname": "laserguys",
+      "name": "Private Axe Throwing",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 175,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 175,
+      "liveLabel": "Private Group",
+      "tiers": [
+        {
+          "id": 1202423,
+          "singular": "Private Group",
+          "plural": "Private Groups",
+          "note": "Up to 8 participants, Ages 10+",
+          "priceCents": 17500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1202355,
+          "singular": "Extra participants",
+          "plural": "Extra participants",
+          "note": "Ages 8+",
+          "priceCents": 1500,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 689237,
+      "shortname": "laserguys",
+      "name": "Open Axe Throwing",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 20,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 20,
+      "liveLabel": "People",
+      "tiers": [
+        {
+          "id": 1202317,
+          "singular": "People",
+          "plural": "People",
+          "note": "Ages 10+",
+          "priceCents": 2000,
+          "minPartySize": 2
+        },
+        {
+          "id": 1202860,
+          "singular": "Add extra 30 minutes",
+          "plural": "Add extra 30 minutes",
+          "note": "",
+          "priceCents": 500,
+          "minPartySize": 2
+        },
+        {
+          "id": 1218360,
+          "singular": "Add Knife Throwing",
+          "plural": "Add Knife Throwing",
+          "note": "Price per person",
+          "priceCents": 500,
+          "minPartySize": 2
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-29T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-19T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 611738,
+      "shortname": "jaunt-ebikes",
+      "name": "Full Day Bike Hire",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 55,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 55,
+      "liveLabel": "E- Step Over Bike",
+      "tiers": [
+        {
+          "id": 1078247,
+          "singular": "E- Step Over Bike",
+          "plural": "E- Step Over Bikes",
+          "note": "Step-over frame, retro style.  Suitable for 5\"4-6\"4 | Age 14+",
+          "priceCents": 5500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1078248,
+          "singular": "E-Step Thru Bike",
+          "plural": "E-Step Thru Bikes",
+          "note": "Step-through frame, retro style. Suitable for height 5'1 to 6'0. Age 14+",
+          "priceCents": 5500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1078249,
+          "singular": "E-Family Bike",
+          "plural": "E-Family Bikes",
+          "note": "Either Ride Alone, add a Child Pillion Rider or add a Child Seat. Step through frame. Suitable for 5\"4-6\"4. Rider age 14+",
+          "priceCents": 5500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1083076,
+          "singular": "E-Family Bike with Child Seat",
+          "plural": "E-Family Bike with Child Seat",
+          "note": "Ride with the addition of a rear Child Seat (Age1-4 max 22kg/110cm tall) Step through frame. Suitable for 5\"4-6\"4. Rider age 14+",
+          "priceCents": 7000,
+          "minPartySize": 1
+        },
+        {
+          "id": 1083077,
+          "singular": "E-Family Bike with Child Pillion Passenger",
+          "plural": "E-Family Bike with Child Pillion Passengers",
+          "note": "Ride with the addition of Child Pillion (Age 4-10.Inside leg 41cm-66cm. weight max 125kg) Suitable for 5\"4-6\"4. Rider age 14+",
+          "priceCents": 7000,
+          "minPartySize": 1
+        },
+        {
+          "id": 1078250,
+          "singular": "E-Hybrid Bike Large",
+          "plural": "E-Hybrid Bikes",
+          "note": "LARGE Hybrid e-bike with a more traditional style. Large frame for riders between 5'11-6\"4.",
+          "priceCents": 5500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1078251,
+          "singular": "E-Hybrid Bike Small",
+          "plural": "E-Hybrid Bikes",
+          "note": "SMALL/MED hybrid e-bike with a more traditional style. For riders between 4'11-5'8. Age 14+.",
+          "priceCents": 5500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1078252,
+          "singular": "Childs 26” Bike",
+          "plural": "Childs 26” Bike",
+          "note": "Lightweight hybrid child bike 26\" wheels. Inside leg of between 69-78cm. Approx height 128-145cm (4'6-4'9)",
+          "priceCents": 1500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1106853,
+          "singular": "Youth Mountain Bike",
+          "plural": "Youths Mountain Bike",
+          "note": "5’0-5’6 - (160-168cm)",
+          "priceCents": 2000,
+          "minPartySize": 1
+        },
+        {
+          "id": 1078255,
+          "singular": "Front Basket",
+          "plural": "Front Basket",
+          "note": "Available as an extra on all adult bikes",
+          "priceCents": 500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1078257,
+          "singular": "Pannier",
+          "plural": "Pannier",
+          "note": "Add on: For Super Monkey E-Bike Only",
+          "priceCents": 500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1078256,
+          "singular": "Dog Basket",
+          "plural": "Dog Basket",
+          "note": "Suitable for small dogs up to 5kg | For all adult bikes",
+          "priceCents": 1500,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 295340,
+      "shortname": "experienceoxfordshire",
+      "name": "Private & Specialist Tour",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 326243,
+      "shortname": "upsidedownhousewestfield",
+      "name": "Upside Down House - Westfield London",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 7.45,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 7.45,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 599196,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 4+",
+          "priceCents": 745,
+          "minPartySize": 1
+        },
+        {
+          "id": 798103,
+          "singular": "Infant",
+          "plural": "Infants",
+          "note": "Ages 3 and under go free",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1137299,
+          "singular": "Family Ticket",
+          "plural": "Family Ticket",
+          "note": "This ticket is valid for 4 people, ages 4+",
+          "priceCents": 2295,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 270593,
+      "shortname": "britmovietours",
+      "name": "Downton Abbey and Village Small Group Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 160,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 160,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 504500,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "16 years+",
+          "priceCents": 16000,
+          "minPartySize": 1
+        },
+        {
+          "id": 504501,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Under 16",
+          "priceCents": 13000,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T09:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-11-28T09:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 470578,
+      "shortname": "brewerybustoursliverpool",
+      "name": "Private 4 hour tour: Beers, views and history",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 99.75,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 99.75,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 843665,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Up to 2 -6 people",
+          "priceCents": 9975,
+          "minPartySize": 1
+        },
+        {
+          "id": 1231131,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-25T09:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T09:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 577500,
+      "shortname": "letzgocitytours",
+      "name": "London: Kensington Palace Gardens Tour & Royal Afternoon Tea Experience",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 121.9,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 115,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 1024013,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 13+",
+          "priceCents": 11500,
+          "minPartySize": 1
+        },
+        {
+          "id": 1024014,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 4-12",
+          "priceCents": 11100,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 603897,
+      "shortname": "letzgocitytours",
+      "name": "Royal London Experience: Iconic Landmarks & Tower of London",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 136.74,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 129,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 12900,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 12400,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 606965,
+      "shortname": "letzgocitytours",
+      "name": "Exclusive VIP Tower of London early Access White Tower Tour & Crown Jewels Experience",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 126.14,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 119,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 11900,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 11400,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T08:45:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-17T08:45:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 627633,
+      "shortname": "letzgocitytours",
+      "name": "Westminster Abbey, Upper Gallery & Buckingham Palace with Change of the Guard",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 168.54,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 159,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 15900,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 15400,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-29T12:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T12:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 695049,
+      "shortname": "letzgocitytours",
+      "name": "History of England Tour in 2 Hours with Royal Thames Cruise",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 94.34,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 89,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 8900,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 8400,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T10:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 695077,
+      "shortname": "letzgocitytours",
+      "name": "History of England Tour in 2 Hours with Royal Thames Cruise & Tower of London",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 142.04,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 134,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 13400,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 12900,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T10:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 502303,
+      "shortname": "letzgocitytours",
+      "name": "Best of Westminster Abbey with Upper Gallery Tour & Buckingham Palace",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 179.14,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 169,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 16900,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 16400,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-28T13:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 318534,
+      "shortname": "letzgocitytours",
+      "name": "L: VIP Tower of London Highlights with Private Beefeater Experience & Crown Jewels",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 118.72,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 112,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 11200,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 10700,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T08:45:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T08:45:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 611848,
+      "shortname": "letzgocitytours",
+      "name": "Easy Access Tower of London Crown Jewels, Torture & Executions SPANISH",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 94.34,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 89,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 8900,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 8400,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T14:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 200445,
+      "shortname": "letzgocitytours",
+      "name": "L: Early Access Tower of London & Tower Bridge Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 139.92,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 132,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 13200,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 12700,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T08:15:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T08:15:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 509830,
+      "shortname": "letzgocitytours",
+      "name": "L: Easy Access Tower Bridge and Engine Room & Scenic Thames Cruise",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 73.14,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 69,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 385872,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "13+ years old",
+          "priceCents": 6900,
+          "minPartySize": 1
+        },
+        {
+          "id": 385873,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "4-12 years old",
+          "priceCents": 6500,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-27T09:15:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-17T09:15:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 239813,
+      "shortname": "seakayakdevon",
+      "name": "Paddleboard Guided Trip - Devon",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 57.75,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 61.95,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 449823,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "ages 17+",
+          "priceCents": 6195,
+          "minPartySize": 1
+        },
+        {
+          "id": 449824,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "ages 5 to 16",
+          "priceCents": 4410,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-31T09:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-21T09:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 239806,
+      "shortname": "seakayakdevon",
+      "name": "Young Family Half Day (Kids age 5+)",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 57.75,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 61.95,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 449823,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "ages 17+",
+          "priceCents": 6195,
+          "minPartySize": 1
+        },
+        {
+          "id": 449824,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "ages 5 to 16",
+          "priceCents": 4410,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T09:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-20T13:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 239804,
+      "shortname": "seakayakdevon",
+      "name": "Hidden Devon (Half Day Trip)",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 57.75,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 61.95,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 449823,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "ages 17+",
+          "priceCents": 6195,
+          "minPartySize": 1
+        },
+        {
+          "id": 449824,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 12 - 16",
+          "priceCents": 4410,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T09:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": null,
+        "moved": false
+      }
+    },
+    {
+      "pk": 70442,
+      "shortname": "insightactivities",
+      "name": "Medieval Trio (Archery, Crossbow, and Axe Throwing) New Forest",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 40.53,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 40.53,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 155879,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 12+",
+          "priceCents": 4053,
+          "minPartySize": 1
+        },
+        {
+          "id": 672352,
+          "singular": "Group of 4 or more",
+          "plural": "Group of 4 or more",
+          "note": "Price per person",
+          "priceCents": 3893,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 70444,
+      "shortname": "insightactivities",
+      "name": "Woodland Archery New  Forest",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 29.87,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 29.87,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 155879,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 12+",
+          "priceCents": 2987,
+          "minPartySize": 1
+        },
+        {
+          "id": 155881,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 11 and under",
+          "priceCents": 2133,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 70446,
+      "shortname": "insightactivities",
+      "name": "Archery and Crossbows New Forest",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 35.2,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 35.2,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 155879,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 12+",
+          "priceCents": 3520,
+          "minPartySize": 1
+        },
+        {
+          "id": 672352,
+          "singular": "Group of 4 or more",
+          "plural": "Group of 4 or more",
+          "note": "Price per person",
+          "priceCents": 3360,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 70452,
+      "shortname": "insightactivities",
+      "name": "Archery and Axe Throwing New Forest",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 35.2,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 35.2,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 155879,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 12+",
+          "priceCents": 3520,
+          "minPartySize": 1
+        },
+        {
+          "id": 672352,
+          "singular": "Group of 4 or more",
+          "plural": "Group of 4 or more",
+          "note": "Price per person",
+          "priceCents": 3360,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 70466,
+      "shortname": "insightactivities",
+      "name": "Medieval Trio (Archery, Crossbow, and Axe Throwing) Dorset",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 39.47,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 39.47,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 155879,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 12+",
+          "priceCents": 3947,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 70469,
+      "shortname": "insightactivities",
+      "name": "Woodland Archery in Dorset",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 29.87,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 29.87,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 155879,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 12+",
+          "priceCents": 2987,
+          "minPartySize": 1
+        },
+        {
+          "id": 155881,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 11 and under",
+          "priceCents": 2133,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 70470,
+      "shortname": "insightactivities",
+      "name": "Archery and Crossbows in Dorset",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 34.67,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 34.67,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 155879,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 12+",
+          "priceCents": 3467,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 70472,
+      "shortname": "insightactivities",
+      "name": "Archery and Axe Throwing in Dorset",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 34.67,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 34.67,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 155879,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 12+",
+          "priceCents": 3467,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 124430,
+      "shortname": "thecanterburytours",
+      "name": "Canterbury Hidden City Tour",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": 26.5,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 260922,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "From 18 years old",
+          "priceCents": 2650,
+          "minPartySize": 1
+        },
+        {
+          "id": 260923,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Up to 17 years old (Under 6yrs Free of charge must be accompanied by an adult)",
+          "priceCents": 1060,
+          "minPartySize": 1
+        },
+        {
+          "id": 260929,
+          "singular": "Concessions",
+          "plural": "Concessions",
+          "note": "Students, Seniors, Unemployed, Single Parent etc. with valid concession card",
+          "priceCents": 2120,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 214249,
+      "shortname": "cornishwave",
+      "name": "Half Day Surfboard Rental",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 245777,
+      "shortname": "adventurerutland",
+      "name": "Open Water Swimming",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 8,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 8,
+      "liveLabel": "People",
+      "tiers": [
+        {
+          "id": 589875,
+          "singular": "People",
+          "plural": "People",
+          "note": "Ages 12+",
+          "priceCents": 800,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T17:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": null,
+        "moved": false
+      }
+    },
+    {
+      "pk": 247487,
+      "shortname": "newcastlecastle",
+      "name": "Annual Pass Admission to Newcastle Castle",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 14.47,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 14.47,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 464328,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 16 - 64",
+          "priceCents": 1447,
+          "minPartySize": 1
+        },
+        {
+          "id": 477604,
+          "singular": "Senior",
+          "plural": "Seniors",
+          "note": "Ages 65+",
+          "priceCents": 1299,
+          "minPartySize": 1
+        },
+        {
+          "id": 464330,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 5 - 15",
+          "priceCents": 949,
+          "minPartySize": 1
+        },
+        {
+          "id": 464331,
+          "singular": "Infant",
+          "plural": "Infants",
+          "note": "Ages 4 and under",
+          "priceCents": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 464338,
+          "singular": "Family",
+          "plural": "Family",
+          "note": "2 adults 3 Children, or 1 adult 4 children",
+          "priceCents": 4076,
+          "minPartySize": 1
+        },
+        {
+          "id": 464340,
+          "singular": "Concessions",
+          "plural": "Concessions",
+          "note": "NHS,Police,Fire & Rescue Service,Ambulance,HM Coastguard,RNLI,Armed Force or Veteran.Students. Disabled. Unwaged.",
+          "priceCents": 1299,
+          "minPartySize": 1
+        },
+        {
+          "id": 720734,
+          "singular": "Group Ticket",
+          "plural": "Group Tickets",
+          "note": "Group is 10 or more persons",
+          "priceCents": 1302,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-24T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 325488,
+      "shortname": "playerready-portsmouth",
+      "name": "Freeroam VR Arena",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 501715,
+      "shortname": "silentadventures",
+      "name": "A Silent Disco Adventure in London",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 569693,
+      "shortname": "centrevr",
+      "name": "Light Floor Games",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 21.2,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 21.2,
+      "liveLabel": "Session for 20 minutes",
+      "tiers": [
+        {
+          "id": 1010230,
+          "singular": "Session for 20 minutes",
+          "plural": "Session for 20 minutes",
+          "note": "Up to 12 players recommended",
+          "priceCents": 2120,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-12-02T15:10:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-12-02T15:10:00",
+        "moved": false
+      }
+    },
+    {
+      "pk": 306505,
+      "shortname": "londonguidedwalks",
+      "name": "Southwark Walk: Pilgrims, Playwrights, and Prisoners",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 31.5,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 31.5,
+      "liveLabel": "Flexible Ticket",
+      "tiers": [
+        {
+          "id": 696020,
+          "singular": "Flexible Ticket",
+          "plural": "Flexible Tickets",
+          "note": "Exchange your booking for a different date up to 24 hours before the start of the walk.",
+          "priceCents": 3150,
+          "minPartySize": 1
+        },
+        {
+          "id": 178102,
+          "singular": "Standard Ticket",
+          "plural": "Standard Tickets",
+          "note": "Non-refundable and non-exchangeable.",
+          "priceCents": 2400,
+          "minPartySize": 1
+        },
+        {
+          "id": 178103,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "5 - 15 yrs old",
+          "priceCents": 1890,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-09-19T12:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-19T12:00:00",
+        "moved": false
+      }
+    },
+    {
+      "pk": 359860,
+      "shortname": "oxfordrivercruises",
+      "name": "Cocktail Cruise - Private",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": 30.66,
+      "liveLabel": "Passenger",
+      "tiers": [
+        {
+          "id": 509192,
+          "singular": "Passenger",
+          "plural": "Passengers",
+          "note": "All Ages",
+          "priceCents": 3066,
+          "minPartySize": 8
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-30T17:15:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T17:15:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 352851,
+      "shortname": "oxfordrivercruises",
+      "name": "Cruise and Dine at The Folly - Private",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 273702,
+      "shortname": "oxfordrivercruises",
+      "name": "Cruise and Dine at The Folly Restaurant",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 93.81,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 104.35,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 509174,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "12+",
+          "priceCents": 10435,
+          "minPartySize": 1
+        },
+        {
+          "id": 509175,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Up to 11 years old",
+          "priceCents": 4743,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 472985,
+      "shortname": "londonminicabservice",
+      "name": "London to / from Windsor Castle Transfers (one way only)",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 628037,
+      "shortname": "sherpafoodtours_uk",
+      "name": "Modern British Flavours London Foodie Adventure: +10 dishes and drinks",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 126.14,
+      "storedConfidence": "high",
+      "liveCurrency": "USD",
+      "livePrice": 126.14,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 1104433,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "From 13 years old",
+          "priceCents": 12614,
+          "minPartySize": 1
+        },
+        {
+          "id": 1104434,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "From 2 to 12\tyears old",
+          "priceCents": 12190,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T11:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T11:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 696479,
+      "shortname": "sherpafoodtours_uk",
+      "name": "Classic British Bites London Foodie Adventure: +10 dishes and drinks",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "USD",
+      "storedPrice": 100.7,
+      "storedConfidence": "high",
+      "liveCurrency": "USD",
+      "livePrice": 100.7,
+      "liveLabel": "Adult",
+      "tiers": [
+        {
+          "id": 1104433,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "From 13 years old",
+          "priceCents": 10070,
+          "minPartySize": 1
+        },
+        {
+          "id": 1104434,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "From 2 to 12\tyears old",
+          "priceCents": 9540,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-25T11:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T11:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 504091,
+      "shortname": "debbiebryan",
+      "name": "Cream Tea",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 9.54,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 9.54,
+      "liveLabel": "Per person",
+      "tiers": [
+        {
+          "id": 606378,
+          "singular": "Per person",
+          "plural": "Per person",
+          "note": "",
+          "priceCents": 954,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T11:30:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-15T11:30:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 614828,
+      "shortname": "oceanhigh",
+      "name": "8 Person Megasup Hire",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": 10.6,
+      "storedConfidence": "high",
+      "liveCurrency": "GBP",
+      "livePrice": 10.6,
+      "liveLabel": "Person",
+      "tiers": [
+        {
+          "id": 1082524,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Maximum 8 people per SUP •  Minimum  2 adults and 2 teenagers to control it!",
+          "priceCents": 1060,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T10:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-16T10:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 212858,
+      "shortname": "swbmotorsport",
+      "name": "Tank Driving Experience - RUGBY",
+      "outcome": "GBP_CONFIRMED",
+      "storedCurrency": "USD",
+      "storedPrice": null,
+      "storedConfidence": null,
+      "liveCurrency": "GBP",
+      "livePrice": 208.95,
+      "liveLabel": "Driver",
+      "tiers": [
+        {
+          "id": 407643,
+          "singular": "Driver",
+          "plural": "Drivers",
+          "note": "Minimum age is 18",
+          "priceCents": 20895,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-09-09T09:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-16T09:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 630119,
+      "shortname": "lovinglondon",
+      "name": "London Highlight Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "EUR",
+      "storedPrice": 36.76,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 36.76,
+      "liveLabel": "Erwachsener",
+      "tiers": [
+        {
+          "id": 1108131,
+          "singular": "Erwachsener",
+          "plural": "Erwachsene",
+          "note": "9 - 99",
+          "priceCents": 3676,
+          "minPartySize": 1
+        },
+        {
+          "id": 1108132,
+          "singular": "Kind",
+          "plural": "Kinder",
+          "note": "4 - 8",
+          "priceCents": 1576,
+          "minPartySize": 1
+        },
+        {
+          "id": 1120252,
+          "singular": "Kleinkind",
+          "plural": "Kleinkinder",
+          "note": "0-3 Jahre",
+          "priceCents": 0,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-25T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T14:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 298469,
+      "shortname": "bmphotowalks",
+      "name": "London City of Lights Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "EUR",
+      "storedPrice": 418.7,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 418.7,
+      "liveLabel": "Traveler",
+      "tiers": [
+        {
+          "id": 263181,
+          "singular": "Traveler",
+          "plural": "Travelers",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "priceCents": 41870,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T15:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T15:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 298478,
+      "shortname": "bmphotowalks",
+      "name": "London River City Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "EUR",
+      "storedPrice": 630.7,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 630.7,
+      "liveLabel": "Traveler",
+      "tiers": [
+        {
+          "id": 263181,
+          "singular": "Traveler",
+          "plural": "Travelers",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "priceCents": 63070,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T08:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T08:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 298484,
+      "shortname": "bmphotowalks",
+      "name": "East London Day Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "EUR",
+      "storedPrice": 630.7,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 630.7,
+      "liveLabel": "Traveler",
+      "tiers": [
+        {
+          "id": 263181,
+          "singular": "Traveler",
+          "plural": "Travelers",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "priceCents": 63070,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T08:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T08:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 298488,
+      "shortname": "bmphotowalks",
+      "name": "London Hidden Gems Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "EUR",
+      "storedPrice": 312.7,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 312.7,
+      "liveLabel": "Traveler",
+      "tiers": [
+        {
+          "id": 263181,
+          "singular": "Traveler",
+          "plural": "Travelers",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "priceCents": 31270,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T08:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T08:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 298492,
+      "shortname": "bmphotowalks",
+      "name": "London Famous City Landmarks Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "EUR",
+      "storedPrice": 312.7,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 312.7,
+      "liveLabel": "Traveler",
+      "tiers": [
+        {
+          "id": 263181,
+          "singular": "Traveler",
+          "plural": "Travelers",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "priceCents": 31270,
+          "minPartySize": 1
+        }
+      ],
+      "zeroTiersDiscarded": 0,
+      "baselineStartAt": "2026-08-26T08:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T08:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 386815,
+      "shortname": "universal-tourguide",
+      "name": "The British Museum of London Guided Tour",
+      "outcome": "NON_GBP_SUPPRESSED",
+      "storedCurrency": "EUR",
+      "storedPrice": 21.6,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": 21.6,
+      "liveLabel": "Adult - English Guide",
+      "tiers": [
+        {
+          "id": 697431,
+          "singular": "Adult - English Guide",
+          "plural": "Adults - English Guide",
+          "note": "(Age 16 and up)",
+          "priceCents": 2160,
+          "minPartySize": 2
+        },
+        {
+          "id": 697515,
+          "singular": "Youth - English Guide",
+          "plural": "Youths - English Guide",
+          "note": "(Age 4 - 15)",
+          "priceCents": 2160,
+          "minPartySize": 2
+        },
+        {
+          "id": 697514,
+          "singular": "Child - English Guide",
+          "plural": "Children - English Guide",
+          "note": "(Ages 5 - 17)",
+          "priceCents": 0,
+          "minPartySize": 2
+        },
+        {
+          "id": 1246277,
+          "singular": "British Museum + Cruise",
+          "plural": "British Museum Passes + Cruise",
+          "note": "English",
+          "priceCents": 5184,
+          "minPartySize": 2
+        }
+      ],
+      "zeroTiersDiscarded": 1,
+      "baselineStartAt": "2026-08-26T14:00:00",
+      "datedProbe": {
+        "requested": "2026-09-14",
+        "startAt": "2026-09-14T14:00:00",
+        "moved": true
+      }
+    },
+    {
+      "pk": 522893,
+      "shortname": "amitylux",
+      "name": "London Private Walking Tour | 3 Hours",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "EUR",
+      "storedPrice": 312.7,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    },
+    {
+      "pk": 522895,
+      "shortname": "amitylux",
+      "name": "London Small Group Walking Tour | 3 Hours",
+      "outcome": "UNSAMPLED",
+      "storedCurrency": "EUR",
+      "storedPrice": 49.82,
+      "storedConfidence": "high",
+      "liveCurrency": "EUR",
+      "livePrice": null,
+      "liveLabel": null,
+      "tiers": null,
+      "zeroTiersDiscarded": null,
+      "baselineStartAt": null,
+      "datedProbe": null
+    }
+  ]
+}
