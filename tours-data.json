@@ -1858,7 +1858,7 @@
       "island": "london",
       "price": 95.4,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 98,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -1929,7 +1929,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "208995",
@@ -4386,7 +4387,7 @@
       "island": "london",
       "price": 95.4,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -4458,7 +4459,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "83623",
@@ -4537,7 +4539,7 @@
       "island": "london",
       "price": 95.4,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -4609,7 +4611,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "83626",
@@ -4688,7 +4691,7 @@
       "island": "london",
       "price": 51.94,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -4759,7 +4762,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "83646",
@@ -4838,7 +4842,7 @@
       "island": "london",
       "price": 51.94,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -4911,7 +4915,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "83654",
@@ -4991,7 +4996,7 @@
       "island": "london",
       "price": 51.94,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -5060,7 +5065,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "83669",
@@ -5138,7 +5144,7 @@
       "island": "london",
       "price": 51.94,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -5211,7 +5217,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "83675",
@@ -5224,7 +5231,7 @@
       "island": "london",
       "price": 95.4,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -5296,7 +5303,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "252068",
@@ -5633,7 +5641,7 @@
       "island": "london",
       "price": 157.94,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2 hours",
@@ -5706,7 +5714,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "222432",
@@ -5851,7 +5860,7 @@
       "island": "london",
       "price": 79,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 94,
       "currency": "USD",
       "duration": "2 hours",
@@ -5910,7 +5919,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:USD"
+      "priceEnrichmentStatus": "non_gbp_currency:USD",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "442593",
@@ -5971,7 +5981,7 @@
       "island": "brighton-and-hove",
       "price": 65,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 94,
       "currency": "USD",
       "duration": "2 hours",
@@ -6029,7 +6039,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:USD"
+      "priceEnrichmentStatus": "non_gbp_currency:USD",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "591464",
@@ -6042,7 +6053,7 @@
       "island": "london",
       "price": 79,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 94,
       "currency": "USD",
       "duration": "2 hours",
@@ -6099,7 +6110,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:USD"
+      "priceEnrichmentStatus": "non_gbp_currency:USD",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "611756",
@@ -6524,7 +6536,7 @@
       "island": "london",
       "price": 174.9,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 92,
       "currency": "EUR",
       "duration": "5.5 hours",
@@ -6597,7 +6609,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "83636",
@@ -8631,7 +8644,7 @@
       "island": "london",
       "price": 165,
       "priceLabel": "Adult 16+",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -8698,7 +8711,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "599989",
@@ -9743,7 +9757,7 @@
       "island": "london",
       "price": 44,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 89,
       "currency": "USD",
       "duration": "2 hours",
@@ -9804,7 +9818,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:USD"
+      "priceEnrichmentStatus": "non_gbp_currency:USD",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "542401",
@@ -10261,7 +10276,7 @@
       "island": "london",
       "price": 51.94,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 88,
       "currency": "EUR",
       "duration": "2 hours",
@@ -10334,7 +10349,8 @@
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:EUR"
+      "priceEnrichmentStatus": "non_gbp_currency:EUR",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "198863",
@@ -18157,7 +18173,7 @@
       "island": "london",
       "price": 126.14,
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 84,
       "currency": "USD",
       "duration": "3 hours & 30 minutes",
@@ -18217,7 +18233,8 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "non_gbp_currency:USD"
+      "priceEnrichmentStatus": "non_gbp_currency:USD",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "id": "707524",
@@ -21742,7 +21759,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Erwachsener",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1108131,
@@ -21781,7 +21798,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:10:43.752Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/lovinglondon/items/630119/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/lovinglondon/items/630119/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 696479,
@@ -21819,7 +21837,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1104433,
@@ -21849,7 +21867,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:10:53.026Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/sherpafoodtours_uk/items/696479/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/sherpafoodtours_uk/items/696479/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 533571,
@@ -27447,7 +27466,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -27468,7 +27487,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:26:40.892Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298469/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298469/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 298478,
@@ -27496,7 +27516,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -27517,7 +27537,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:26:50.743Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298478/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298478/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 298484,
@@ -27541,7 +27562,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -27562,7 +27583,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:27:01.915Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298484/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298484/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 298488,
@@ -27588,7 +27610,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -27609,7 +27631,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:27:12.731Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298488/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298488/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 298492,
@@ -27635,7 +27658,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -27656,7 +27679,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:27:23.078Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298492/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/bmphotowalks/items/298492/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 316706,
@@ -37434,7 +37458,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Adult - English Guide",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 697431,
@@ -37482,7 +37506,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:56:49.933Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/universal-tourguide/items/386815/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/universal-tourguide/items/386815/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 422968,
@@ -46073,7 +46098,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 253063,
@@ -46103,7 +46128,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:23:59.316Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/undergrounddonutour/items/502943/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/undergrounddonutour/items/502943/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 507820,
@@ -48412,7 +48438,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 253063,
@@ -48442,7 +48468,8 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:30:33.207Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/undergrounddonutour/items/502314/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/undergrounddonutour/items/502314/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceConfidenceSource": "s46-weng-currency"
     },
     {
       "pk": 502801,
