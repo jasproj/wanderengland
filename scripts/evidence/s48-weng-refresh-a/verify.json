@@ -1,0 +1,33 @@
+{
+ "sha256_before_originmain": "8e340d562c89da524b77a81966a6117945ef30856de61cdad732186fc177804c",
+ "sha256_after": "fc6495bed7b31daa07a9af764d04e96115fb7ada02081c2e2ee819d8bc53764c",
+ "rows": 1424,
+ "population": 1017,
+ "outOfPopulationRowsChanged": 0,
+ "byteRoundTrip": true,
+ "before": {
+  "visible": 1062,
+  "offers": 1062
+ },
+ "after": {
+  "visible": 677,
+  "offers": 677,
+  "visibleEqualsOffers": true,
+  "mismatchPks": []
+ },
+ "popSuppressed": 564,
+ "suppressedRenderViolations": [],
+ "nonPopulationRenderDiff": 0,
+ "popVisibleBefore": 838,
+ "popVisibleAfter": 453,
+ "disposition": {
+  "unchanged": 358,
+  "HELD": 348,
+  "repriced": 95,
+  "zero_price": 39,
+  "UNSAMPLED": 175,
+  "PROBE_ERROR": 2
+ },
+ "stampedAt": "2026-08-25T23:10:05.385Z",
+ "appliedAt": "2026-08-24T23:10:05.385Z"
+}
