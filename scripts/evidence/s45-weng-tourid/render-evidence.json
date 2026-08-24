@@ -1,0 +1,133 @@
+{
+  "servedAppJsSha256": "e8ba9a85d9b0a7177aa31d259fabbcd1e8117466a809c5a98d62c99fee7e252f",
+  "servedToursDataSha256": "c5b0ce70d12cbbc4b655dce57ecd305db89b84e222b1dc80a412777977ecb382",
+  "method": "served-bytes substitution: app.js evaluated in node (vm) over served tours-data.json; Chrome extension disconnected",
+  "pre": {
+    "rows": 1424,
+    "legacy": 372,
+    "dataId_undefined": 1052,
+    "dataTourId_empty": 1052,
+    "liveTourId_isHref": 1052,
+    "liveTourId_pkPrefixed": 0,
+    "deadPath_tourId_undefined": 1052,
+    "provider_nameless": 1052,
+    "provider_absent": 0,
+    "provider_named": 372
+  },
+  "post": {
+    "rows": 1424,
+    "legacy": 372,
+    "dataId_undefined": 0,
+    "dataTourId_empty": 0,
+    "liveTourId_isHref": 0,
+    "liveTourId_pkPrefixed": 1052,
+    "deadPath_tourId_undefined": 0,
+    "provider_nameless": 0,
+    "provider_absent": 1052,
+    "provider_named": 372
+  },
+  "legacyControls": {
+    "count": 372,
+    "byteIdentical": 372,
+    "differ": []
+  },
+  "samples": {
+    "pkOnly": [
+      {
+        "pk": "82298",
+        "pre": {
+          "dataId": "undefined",
+          "dataTourId": "",
+          "liveTourId": "https://fareharbor.com/embeds/book/londonguidedwalks/items/82298/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+          "provider": {
+            "@type": "LocalBusiness"
+          }
+        },
+        "post": {
+          "dataId": "pk:82298",
+          "dataTourId": "pk:82298",
+          "liveTourId": "pk:82298",
+          "provider": null
+        }
+      },
+      {
+        "pk": "95769",
+        "pre": {
+          "dataId": "undefined",
+          "dataTourId": "",
+          "liveTourId": "https://fareharbor.com/embeds/book/funlondontours/items/95769/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+          "provider": {
+            "@type": "LocalBusiness"
+          }
+        },
+        "post": {
+          "dataId": "pk:95769",
+          "dataTourId": "pk:95769",
+          "liveTourId": "pk:95769",
+          "provider": null
+        }
+      },
+      {
+        "pk": "111785",
+        "pre": {
+          "dataId": "undefined",
+          "dataTourId": "",
+          "liveTourId": "https://fareharbor.com/embeds/book/talioleeds/items/111785/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+          "provider": {
+            "@type": "LocalBusiness"
+          }
+        },
+        "post": {
+          "dataId": "pk:111785",
+          "dataTourId": "pk:111785",
+          "liveTourId": "pk:111785",
+          "provider": null
+        }
+      }
+    ],
+    "legacy": [
+      {
+        "pk": "64525",
+        "pre": {
+          "dataId": "64525",
+          "dataTourId": "64525",
+          "liveTourId": "64525",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "New Forest Activities"
+          }
+        },
+        "post": {
+          "dataId": "64525",
+          "dataTourId": "64525",
+          "liveTourId": "64525",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "New Forest Activities"
+          }
+        }
+      },
+      {
+        "pk": "64540",
+        "pre": {
+          "dataId": "64540",
+          "dataTourId": "64540",
+          "liveTourId": "64540",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "New Forest Activities"
+          }
+        },
+        "post": {
+          "dataId": "64540",
+          "dataTourId": "64540",
+          "liveTourId": "64540",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "New Forest Activities"
+          }
+        }
+      }
+    ]
+  }
+}
