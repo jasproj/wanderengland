@@ -1,0 +1,119 @@
+{
+  "pass": "s46-weng-currency",
+  "method": "node vm render of app.js createTourCard/generateTourSchema over tours-data.json (served-bytes substitution; served sha == disk c5b0ce70… at af7fd80)",
+  "baseline": "origin/main af7fd80",
+  "gbpRows": 1226,
+  "gbpRowsByteIdentical": true,
+  "nonReleasedRowsByteIdentical": true,
+  "gate": {
+    "pre": {
+      "vis": 1049,
+      "ld": 1049
+    },
+    "post": {
+      "vis": 1076,
+      "ld": 1076
+    },
+    "delta": {
+      "vis": 27,
+      "ld": 27
+    }
+  },
+  "detectorNonGbpRenderingPrice": {
+    "pre": 0,
+    "post": 27,
+    "postEqualsReleasedSet": true
+  },
+  "released": {
+    "count": 27,
+    "byCurrency": {
+      "EUR": 19,
+      "USD": 8
+    },
+    "pks": [
+      83691,
+      83613,
+      83625,
+      83643,
+      83653,
+      83668,
+      83670,
+      83675,
+      531451,
+      390312,
+      479128,
+      591464,
+      83635,
+      599988,
+      528958,
+      106154,
+      628037,
+      630119,
+      696479,
+      298469,
+      298478,
+      298484,
+      298488,
+      298492,
+      386815,
+      502943,
+      502314
+    ]
+  },
+  "stillLowNonGbp": {
+    "EUR|zero_price": 13,
+    "USD|unsampled_currency_unverified": 10,
+    "EUR|unsampled_currency_unverified": 2
+  },
+  "samples": [
+    {
+      "pk": "83691",
+      "pre": "Price on request",
+      "post": "From €95.4",
+      "offer": {
+        "@type": "Offer",
+        "price": 95.4,
+        "priceCurrency": "EUR",
+        "url": "https://fareharbor.com/embeds/book/babyloncitytours-london/items/83691/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "pk": "83613",
+      "pre": "Price on request",
+      "post": "From €95.4",
+      "offer": {
+        "@type": "Offer",
+        "price": 95.4,
+        "priceCurrency": "EUR",
+        "url": "https://fareharbor.com/embeds/book/babyloncitytours-london/items/83613/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "pk": "83625",
+      "pre": "Price on request",
+      "post": "From €95.4",
+      "offer": {
+        "@type": "Offer",
+        "price": 95.4,
+        "priceCurrency": "EUR",
+        "url": "https://fareharbor.com/embeds/book/babyloncitytours-london/items/83625/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "pk": "390312",
+      "pre": "Price on request",
+      "post": "From $79",
+      "offer": {
+        "@type": "Offer",
+        "price": 79,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/undergrounddonutour/items/390312/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ],
+  "failures": []
+}
