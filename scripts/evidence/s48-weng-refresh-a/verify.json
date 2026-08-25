@@ -1,13 +1,13 @@
 {
- "sha256_before_originmain": "8e340d562c89da524b77a81966a6117945ef30856de61cdad732186fc177804c",
- "sha256_after": "fc6495bed7b31daa07a9af764d04e96115fb7ada02081c2e2ee819d8bc53764c",
+ "sha256_before_originmain": "fc6495bed7b31daa07a9af764d04e96115fb7ada02081c2e2ee819d8bc53764c",
+ "sha256_after": "8dad282143da32af29818286f634a1eb3b5a53754777b697859e3448483ca805",
  "rows": 1424,
  "population": 1017,
  "outOfPopulationRowsChanged": 0,
  "byteRoundTrip": true,
  "before": {
-  "visible": 1062,
-  "offers": 1062
+  "visible": 677,
+  "offers": 677
  },
  "after": {
   "visible": 677,
@@ -18,7 +18,7 @@
  "popSuppressed": 564,
  "suppressedRenderViolations": [],
  "nonPopulationRenderDiff": 0,
- "popVisibleBefore": 838,
+ "popVisibleBefore": 453,
  "popVisibleAfter": 453,
  "disposition": {
   "unchanged": 358,
