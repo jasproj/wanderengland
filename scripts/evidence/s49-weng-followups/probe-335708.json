@@ -1,0 +1,143 @@
+{
+ "probedAt": "2026-08-25T17:11:51.278686+00:00",
+ "pk": 335708,
+ "sn": "halaltourismbritain",
+ "probes": [
+  {
+   "date": "2026-08-31",
+   "status": 200,
+   "absent": false,
+   "currency": "GBP",
+   "start_at": "2026-08-31T10:30:00",
+   "dateValid": true,
+   "tiers": [
+    [
+     "Youth",
+     "Ages 8-15",
+     16.96,
+     1
+    ],
+    [
+     "Child",
+     "Ages 0 - 7",
+     37.1,
+     1
+    ],
+    [
+     "Child",
+     "Ages 0 - 7",
+     0.0,
+     1
+    ],
+    [
+     "Family",
+     "Two adults and two children",
+     106.0,
+     1
+    ]
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "status": 200,
+   "absent": false,
+   "currency": "GBP",
+   "start_at": "2026-09-14T10:30:00",
+   "dateValid": true,
+   "tiers": [
+    [
+     "Youth",
+     "Ages 8-15",
+     16.96,
+     1
+    ],
+    [
+     "Child",
+     "Ages 0 - 7",
+     37.1,
+     1
+    ],
+    [
+     "Child",
+     "Ages 0 - 7",
+     0.0,
+     1
+    ],
+    [
+     "Family",
+     "Two adults and two children",
+     106.0,
+     1
+    ]
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "status": 200,
+   "absent": false,
+   "currency": "GBP",
+   "start_at": "2026-09-28T10:30:00",
+   "dateValid": true,
+   "tiers": [
+    [
+     "Youth",
+     "Ages 8-15",
+     16.96,
+     1
+    ],
+    [
+     "Child",
+     "Ages 0 - 7",
+     37.1,
+     1
+    ],
+    [
+     "Child",
+     "Ages 0 - 7",
+     0.0,
+     1
+    ],
+    [
+     "Family",
+     "Two adults and two children",
+     106.0,
+     1
+    ]
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "status": 200,
+   "absent": false,
+   "currency": "GBP",
+   "start_at": "2026-10-19T10:30:00",
+   "dateValid": true,
+   "tiers": [
+    [
+     "Youth",
+     "Ages 8-15",
+     16.96,
+     1
+    ],
+    [
+     "Child",
+     "Ages 0 - 7",
+     37.1,
+     1
+    ],
+    [
+     "Child",
+     "Ages 0 - 7",
+     0.0,
+     1
+    ],
+    [
+     "Family",
+     "Two adults and two children",
+     106.0,
+     1
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "sha_before": {
+  "tours-data.json": "3a6e1379a40b752a01f29b6d40bc6372a3e4db3a27f0229fadd8a61a8d9ca3da"
+ },
+ "sha_after": {
+  "tours-data.json": "7ddb0a094df711d173ccb2b1fb3ea21599bc0785125bbd3239117c776df9f44a"
+ },
+ "released_ok": {
+  "343526": true,
+  "343730": true
+ },
+ "held_ok": {
+  "335708": true,
+  "343738": true
+ },
+ "rowsOutsideChanged": 0,
+ "nonPopulationRenderDiff": 0,
+ "visible_offers_before": [
+  1128,
+  1128
+ ],
+ "visible_offers_after": [
+  1130,
+  1130
+ ],
+ "PASS": true
+}
