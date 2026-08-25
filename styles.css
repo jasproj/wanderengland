@@ -2377,6 +2377,19 @@ section { padding: var(--space-3xl) 0; }
 }
 
 /* Tour card price display */
+/* Unit qualifier inside the JS-rendered price badge. Emitted only when the row
+   carries _unknownFields.priceUnit (ported from wanderamsterdam/styles.css, WAMS #91,
+   via keywestsandbartours / wandernewzealand #108). 0 elements match `.tour-price small`
+   in the tracked HTML before this rule existed, so it cannot restyle anything already shipped. */
+.tour-price small {
+    display: block;
+    font-size: 0.62rem;
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
 .tour-price {
     font-size: 0.85rem;
     font-weight: 600;

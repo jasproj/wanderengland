@@ -1,0 +1,69 @@
+{
+ "sha_after": {
+  "app.js": "f72f597d343cc982960feb2e582306474f30b696bc115a0a6578b1c98c9947e1",
+  "styles.css": "fe47fc0f2047cb02e99d88fc75ef6b7ab819f3e54dcc2e61d59afa600e910f04",
+  "tours-data.json": "170c08068b4ea15780f66dc3eb9961d752c92baec1f1c61cb069a86aa5c1e9f1"
+ },
+ "sha_before": {
+  "app.js": "8e9257b693174425aba42e12b8b2ce181eaf0c3c377cf010e7f04b2738c83f95",
+  "styles.css": "a587384816eb062a4e71d00be870b823d9ad1b1279f5ba39094c6a119baf5a57",
+  "tours-data.json": "170c08068b4ea15780f66dc3eb9961d752c92baec1f1c61cb069a86aa5c1e9f1"
+ },
+ "formatPrice_region_sha_before": "6f220fd7245e60f9ea13573642af26329c56ef83814150079c76e5d5ade93257",
+ "formatPrice_region_sha_after": "6f220fd7245e60f9ea13573642af26329c56ef83814150079c76e5d5ade93257",
+ "formatPrice_region_identical": true,
+ "detector": {
+  "rows": 1424,
+  "rows_with_priceUnit_key": 0,
+  "rows_with_nonblank_priceUnit": 0
+ },
+ "harness_summary_before": {
+  "loaded": 1424,
+  "visiblePrice": 703,
+  "jsonLdOffers": 703,
+  "visibleByCurrency": {
+   "EUR": 19,
+   "GBP": 676,
+   "USD": 8
+  },
+  "visibleBySymbol": {
+   "$": 8,
+   "\u00a3": 676,
+   "\u20ac": 19
+  },
+  "offersByPriceCurrency": {
+   "EUR": 19,
+   "GBP": 676,
+   "USD": 8
+  },
+  "visibleNonGbp": 27,
+  "priceTextButNoOffer": 0
+ },
+ "harness_summary_after": {
+  "loaded": 1424,
+  "visiblePrice": 703,
+  "jsonLdOffers": 703,
+  "visibleByCurrency": {
+   "EUR": 19,
+   "GBP": 676,
+   "USD": 8
+  },
+  "visibleBySymbol": {
+   "$": 8,
+   "\u00a3": 676,
+   "\u20ac": 19
+  },
+  "offersByPriceCurrency": {
+   "EUR": 19,
+   "GBP": 676,
+   "USD": 8
+  },
+  "visibleNonGbp": 27,
+  "priceTextButNoOffer": 0
+ },
+ "harness_html_identical_all_rows": true,
+ "harness_rows_compared": 1424,
+ "small_in_after_html": 0,
+ "tracked_html_tour_price_small": 0,
+ "PASS": true
+}
