@@ -1,0 +1,86 @@
+{
+ "sha_before": {
+  "tours-data.json": "4ce8c7ed0b682552d2ff82f107bea8d0aa99e51beba6db986bab9bb05751c70e"
+ },
+ "sha_after": {
+  "tours-data.json": "04bdb8a5707a884c8e275a829bf362d9d07e0f787d91a556f40a3c7b300cbf22"
+ },
+ "population": 283,
+ "released": 278,
+ "held_new": 5,
+ "held_prior": 8,
+ "held_total": 13,
+ "released_render_violations": [],
+ "held_render_violations": [],
+ "new_hold_stamp_violations": [],
+ "rowsOutsidePopulationChanged": 0,
+ "nonPopulationRenderDiff": 0,
+ "priceFieldDiffs_ruleDecided268": [],
+ "priceFieldDiffs_all283": [],
+ "before": {
+  "loaded": 1424,
+  "visiblePrice": 850,
+  "jsonLdOffers": 850,
+  "visibleByCurrency": {
+   "EUR": 19,
+   "GBP": 823,
+   "USD": 8
+  },
+  "visibleBySymbol": {
+   "$": 8,
+   "\u00a3": 823,
+   "\u20ac": 19
+  },
+  "offersByPriceCurrency": {
+   "EUR": 19,
+   "GBP": 823,
+   "USD": 8
+  },
+  "visibleNonGbp": 27,
+  "priceTextButNoOffer": 0
+ },
+ "after": {
+  "loaded": 1424,
+  "visiblePrice": 1128,
+  "jsonLdOffers": 1128,
+  "visibleByCurrency": {
+   "EUR": 19,
+   "GBP": 1101,
+   "USD": 8
+  },
+  "visibleBySymbol": {
+   "$": 8,
+   "\u00a3": 1101,
+   "\u20ac": 19
+  },
+  "offersByPriceCurrency": {
+   "EUR": 19,
+   "GBP": 1101,
+   "USD": 8
+  },
+  "visibleNonGbp": 27,
+  "priceTextButNoOffer": 0
+ },
+ "visible_offers_before": [
+  850,
+  850
+ ],
+ "visible_offers_after": [
+  1128,
+  1128
+ ],
+ "small_tags_after": 425,
+ "unit_rows_after": 425,
+ "byRule": {
+  "D-614 party-size ladder floor": 221,
+  "child-audience (s49)": 8,
+  "D-614 party-size floor; unit from product name (delta)": 3,
+  "D-621 whole-boat": 35,
+  "D-614 party-total floor (s49)": 3,
+  "single-tier product (delta)": 3,
+  "s48-R1 per-head rate ladder": 1,
+  "D-614 party-size floor; add-on-abort refinement (delta)": 2,
+  "D-621 whole-boat; unit from product name (delta)": 2
+ },
+ "PASS": true
+}

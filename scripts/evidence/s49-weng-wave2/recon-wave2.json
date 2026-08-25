@@ -1,0 +1,6904 @@
+[
+ {
+  "pk": 654760,
+  "name": "History of Horror Private Tour",
+  "stored": 220.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour for Two",
+    220.5,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour - Small Group",
+    0,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour - Medium Group",
+    0,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour - Large Group",
+    409.5,
+    "GROUP:private"
+   ],
+   [
+    "School Group (students under 18yrs old) 30 ppl max",
+    0,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 220.5,
+  "anchorLabel": "Private Tour for Two",
+  "unit": "Private Tour for Two",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 711433,
+  "name": "Festival of Britain Private Tour",
+  "stored": 220.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour for Two",
+    220.5,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour - Small Group",
+    0,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour - Medium Group",
+    0,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour - Large Group",
+    409.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 220.5,
+  "anchorLabel": "Private Tour for Two",
+  "unit": "Private Tour for Two",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 533571,
+  "name": "Children's Embroidery Crafternoon",
+  "stored": 16.96,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Children's Crafternoon",
+    16.96,
+    "NAME_NEVER"
+   ],
+   [
+    "Crafternoon with Children's Afternoon Tea",
+    31.8,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "child-audience (s49)",
+  "anchor": 16.96,
+  "anchorLabel": "Children's Crafternoon",
+  "unit": "Children's Crafternoon",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 211723,
+  "name": "Full Day Private Haworth & The Yorkshire Dales Tour",
+  "stored": 540.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour for up to 4 People",
+    540.6,
+    "GROUP:private"
+   ],
+   [
+    "Private tour for up to 8 People",
+    540.6,
+    "GROUP:private"
+   ],
+   [
+    "Private tour for up to 16 People",
+    662.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 540.6,
+  "anchorLabel": "Private Tour for up to 4 People",
+  "unit": "Private Tour for up to 4 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 247164,
+  "name": "Half-Day Private Yorkshire Dales National Park Tour",
+  "stored": 318,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour for up to 4 People",
+    318,
+    "GROUP:private"
+   ],
+   [
+    "Private tour for up to 8 People",
+    344.5,
+    "GROUP:private"
+   ],
+   [
+    "Private tour for up to 16 People",
+    418.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 318,
+  "anchorLabel": "Private Tour for up to 4 People",
+  "unit": "Private Tour for up to 4 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 412680,
+  "name": "Parties",
+  "stored": 26.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Players for a 40 Minute VR Party",
+    26.5,
+    "GROUP:party"
+   ],
+   [
+    "Players for a 60 Minute VR Party",
+    31.8,
+    "GROUP:party"
+   ],
+   [
+    "Light Floor Add On - 40 Min Party",
+    21.2,
+    "NAME_NEVER"
+   ],
+   [
+    "Light Floor Add On - 60 Min Party",
+    21.2,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 26.5,
+  "anchorLabel": "Players for a 40 Minute VR Party",
+  "unit": "Players for a 40 Minute VR Party",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 540806,
+  "name": "Teen's Personalised Pencil Case Crafternoon @ Nottingham City Centre",
+  "stored": 14.84,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Teen Crafternoon | 13-17 y/old",
+    14.84,
+    "NAME_NEVER"
+   ],
+   [
+    "Crafternoon with Teen's Afternoon Tea",
+    33.92,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "child-audience (s49)",
+  "anchor": 14.84,
+  "anchorLabel": "Teen Crafternoon | 13-17 y/old",
+  "unit": "Teen Crafternoon | 13-17 y/old",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 541827,
+  "name": "Teen's Mini Wreath Making Crafternoon @ Nottingham City Centre",
+  "stored": 42.4,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Teen Crafternoon | 13-17 y/old",
+    42.4,
+    "NAME_NEVER"
+   ],
+   [
+    "Crafternoon with Teen's Afternoon Tea",
+    61.48,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "child-audience (s49)",
+  "anchor": 42.4,
+  "anchorLabel": "Teen Crafternoon | 13-17 y/old",
+  "unit": "Teen Crafternoon | 13-17 y/old",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621894,
+  "name": "Private Newcastle Highlights Walking Tour",
+  "stored": 238.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    238.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 238.5,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 456986,
+  "name": "Children & Teen's Afternoon Tea",
+  "stored": 14.84,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Children's Afternoon Tea",
+    14.84,
+    "NAME_NEVER"
+   ],
+   [
+    "Teen's Afternoon Tea",
+    19.08,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "child-audience (s49)",
+  "anchor": 14.84,
+  "anchorLabel": "Children's Afternoon Tea",
+  "unit": "Children's Afternoon Tea",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 573444,
+  "name": "Kinks 60 / The Journey - Private Tour",
+  "stored": 290,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    290,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 290,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 573455,
+  "name": "Spiritual Home of The Rolling Stones - Private Tour",
+  "stored": 180,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    180,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 180,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 573464,
+  "name": "Birthplace of The Rolling Stones - Private Tour",
+  "stored": 360,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    360,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 360,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 573466,
+  "name": "Beatles Film Locations in West London - Private Tour",
+  "stored": 360,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    360,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 360,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 573467,
+  "name": "London in the 1960s - Private Tour",
+  "stored": 240,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    240,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 240,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 573470,
+  "name": "Private Tour of Rock n Royal Richmond",
+  "stored": 180,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    180,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 180,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 262403,
+  "name": "Private Training (1 Hour)",
+  "stored": 115.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "1:1 Training • own bike",
+    115.5,
+    "NAME_GROUP:private"
+   ],
+   [
+    "1:1 Training - bike hire",
+    141.75,
+    "GROUP:hire"
+   ],
+   [
+    "2:1 Training • 2 own bike",
+    131.25,
+    "GROUP:two people"
+   ],
+   [
+    "2:1 Training - 2 bike hire",
+    189,
+    "GROUP:hire"
+   ],
+   [
+    "2:1 Training • 1 own bike and 1 bike hire",
+    162.75,
+    "GROUP:hire"
+   ],
+   [
+    "3:1 Training • 3 own bike",
+    147,
+    "GROUP:group"
+   ],
+   [
+    "3:1 Training - 3 bike hire",
+    236.25,
+    "GROUP:hire"
+   ],
+   [
+    "3:1 Training • 1 own bike and 2 bike hire",
+    210,
+    "GROUP:hire"
+   ],
+   [
+    "3:1 Training • 2 own bike and 1 bike hire",
+    178.5,
+    "GROUP:hire"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 115.5,
+  "anchorLabel": "1:1 Training • own bike",
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "party-size: floor label/note carries no unit wording (1:1 Training • own bike)"
+ },
+ {
+  "pk": 250529,
+  "name": "First Class Return Travel with Afternoon Tea",
+  "stored": 74.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "First Class Travel with Afternoon Tea for Two People",
+    74.2,
+    "GROUP:for two"
+   ],
+   [
+    "First Class Travel with Afternoon Tea for Three People",
+    111.3,
+    "GROUP:three people"
+   ],
+   [
+    "First Class Travel with Afternoon Tea for Four People",
+    148.4,
+    "GROUP:four people"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 74.2,
+  "anchorLabel": "First Class Travel with Afternoon Tea for Two People",
+  "unit": "First Class Travel with Afternoon Tea for Two People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 534350,
+  "name": "Teen's Clay Play @ Nottingham City Centre",
+  "stored": 23.32,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Teen Crafternoon | 13-17 y/old",
+    23.32,
+    "NAME_NEVER"
+   ],
+   [
+    "Crafternoon with Teen's Afternoon Tea",
+    40.28,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "child-audience (s49)",
+  "anchor": 23.32,
+  "anchorLabel": "Teen Crafternoon | 13-17 y/old",
+  "unit": "Teen Crafternoon | 13-17 y/old",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 246536,
+  "name": "One Hour Private Charter",
+  "stored": 159,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Whole Boat Charter",
+    159,
+    "GROUP:whole"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 159,
+  "anchorLabel": "Whole Boat Charter",
+  "unit": "Whole Boat Charter",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270586,
+  "name": "Derry Girls Taxi Tour",
+  "stored": 220,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    220,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 220,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372653,
+  "name": "Heathrow Airport to/from Cotswolds",
+  "stored": 267.46,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    267.46,
+    "GROUP:vehicle"
+   ],
+   [
+    "Estate Vehicle",
+    318.78,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    361.64,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    398.48,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 267.46,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372655,
+  "name": "London to Cotswolds Day Tour",
+  "stored": 724.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    724.5,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    984.11,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    1135.05,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 724.5,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372657,
+  "name": "London to / from The Cotswolds Transfers",
+  "stored": 301.87,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    301.87,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    416.59,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    470.92,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 301.87,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372719,
+  "name": "London to Paultons Park Home of Peppa Pig World Transfers",
+  "stored": 295.84,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    295.84,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    374.32,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    398.48,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 295.84,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372746,
+  "name": "London Gatwick Airport to/from Central London",
+  "stored": 126.19,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    126.19,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    160,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    179.92,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 126.19,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 423569,
+  "name": "4 Day  Canoe Adventure",
+  "stored": 424,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Boat",
+    424,
+    "GROUP:boat"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 424,
+  "anchorLabel": "Boat",
+  "unit": "Boat",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 472992,
+  "name": "Private transfers between London & Bath",
+  "stored": 374.32,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    374.32,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    487.22,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    558.47,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 374.32,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 532843,
+  "name": "Bespoke London Half Day Driving Tour",
+  "stored": 235.46,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    235.46,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    289.8,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    326.02,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 235.46,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 536992,
+  "name": "London to Cambridge Transfers",
+  "stored": 422.63,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    422.63,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    579.6,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    652.05,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 422.63,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 584028,
+  "name": "Full Day Private Guided Tour",
+  "stored": 397.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1",
+    397.5,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 2",
+    439.9,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 3",
+    482.3,
+    "GROUP:private"
+   ],
+   [
+    "Private Group up to 4",
+    524.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 397.5,
+  "anchorLabel": "Private Group of 1",
+  "unit": "Private Group of 1",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 598142,
+  "name": "Teen's Mini Garden Crafternoon",
+  "stored": 36.04,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Teen Crafternoon | 13-17 y/old",
+    36.04,
+    "NAME_NEVER"
+   ],
+   [
+    "Crafternoon with Teen's Afternoon Tea",
+    50.88,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "child-audience (s49)",
+  "anchor": 36.04,
+  "anchorLabel": "Teen Crafternoon | 13-17 y/old",
+  "unit": "Teen Crafternoon | 13-17 y/old",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 609756,
+  "name": "Teens Plate Decorating Crafternoon @ Nottingham City Centre",
+  "stored": 12.72,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Teen Crafternoon | 13-17 y/old",
+    12.72,
+    "NAME_NEVER"
+   ],
+   [
+    "Teen's Afternoon Tea",
+    29.68,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "child-audience (s49)",
+  "anchor": 12.72,
+  "anchorLabel": "Teen Crafternoon | 13-17 y/old",
+  "unit": "Teen Crafternoon | 13-17 y/old",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621887,
+  "name": "Private Chester Walking Tour",
+  "stored": 238.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    238.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 238.5,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271406,
+  "name": "Downton Abbey Walking Tour of London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 302009,
+  "name": "Midsomer Murders Tour from Oxford or London with Private Guide",
+  "stored": 600,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour from London (Holland Park Station pickup)",
+    675,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour from London (Zone 1 Hotel pickup)",
+    750,
+    "GROUP:private"
+   ],
+   [
+    "Private Tours from Oxford City",
+    625,
+    "GROUP:private"
+   ],
+   [
+    "Private Tours from Oxfordshire (Non-Oxford City)",
+    600,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 600,
+  "anchorLabel": "Private Tours from Oxfordshire (Non-Oxford City)",
+  "unit": "Private Tours from Oxfordshire (Non-Oxford City)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 353303,
+  "name": "Gavin and Stacey Tour • Private [OFFICIAL]",
+  "stored": 985.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    985.8,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 985.8,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 590029,
+  "name": "History of HERstory - The Invisible Women in the City of London • Private Tour",
+  "stored": 212,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    212,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 212,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 614760,
+  "name": "Private 1-1 or 2-1 SUP Progression Lesson",
+  "stored": 58.3,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private 1:1 Lesson For 1 Hour",
+    58.3,
+    "GROUP:private"
+   ],
+   [
+    "Private 1:1 • 2 Hour Session",
+    68.9,
+    "GROUP:private"
+   ],
+   [
+    "Private 2:1 Lesson For 1 Hour",
+    95.4,
+    "GROUP:private"
+   ],
+   [
+    "Private 2:1 • 2 Hour Session",
+    116.6,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 58.3,
+  "anchorLabel": "Private 1:1 Lesson For 1 Hour",
+  "unit": "Private 1:1 Lesson For 1 Hour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218945,
+  "name": "Cotswolds, Blenheim Palace, Oxford",
+  "stored": 630.7,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    630.7,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    689,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 630.7,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 268180,
+  "name": "Winston Churchill Tour",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270918,
+  "name": "Kingsman Filming Locations Tour by London Taxi",
+  "stored": 399.01,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    399.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 399.01,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271405,
+  "name": "Doctor Who London Walking Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271412,
+  "name": "James Bond Film Locations Walking Tour in London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271416,
+  "name": "Mary Poppins Small Group Tour of London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 369044,
+  "name": "Call the Midwife Tour • Private",
+  "stored": 295,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    295,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 295,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372641,
+  "name": "London to Stonehenge Day Transfers",
+  "stored": 627.9,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    627.9,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    869.4,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    1044.49,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 627.9,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 430866,
+  "name": "Game of Thrones Tour from Belfast with Giant's Causeway • Private",
+  "stored": 662.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group (1-53 people)",
+    662.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 662.5,
+  "anchorLabel": "Private Group (1-53 people)",
+  "unit": "Private Group (1-53 people)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 441949,
+  "name": "Shakespeare London Walk • Private",
+  "stored": 305.28,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group of 1 - 15 people",
+    318,
+    "GROUP:private"
+   ],
+   [
+    "Private group of 16 - 35 people",
+    305.28,
+    "GROUP:private"
+   ],
+   [
+    "Private group of 36 - 45 people",
+    610.56,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 305.28,
+  "anchorLabel": "Private group of 16 - 35 people",
+  "unit": "Private group of 16 - 35 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 446410,
+  "name": "Vera Tour of Northumberland Locations • Private",
+  "stored": 1050,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    1050,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 1050,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 478568,
+  "name": "Doctor Who Cardiff City Walking Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group (1-10 people)",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group (11-20 people)",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private Group (21-30 people)",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group (1-10 people)",
+  "unit": "Private Group (1-10 people)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621921,
+  "name": "A Wizard's Tale at Alnwick Castle",
+  "stored": 556.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    556.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 556.5,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 625796,
+  "name": "Electric Picnic Boat - 8 Seater",
+  "stored": 110.25,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Four Hours",
+    110.25,
+    "GROUP:boat"
+   ],
+   [
+    "Six Hours",
+    147,
+    "GROUP:boat"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 110.25,
+  "anchorLabel": "Four Hours",
+  "unit": "Price per Boat • Maximum 8 people per boat with a maximum load capacity of 890kg (1962lbs)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 625835,
+  "name": "Electric Picnic Boat - 12 Seater",
+  "stored": 141.75,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Four Hours",
+    141.75,
+    "GROUP:boat"
+   ],
+   [
+    "Six Hours",
+    173.25,
+    "GROUP:boat"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 141.75,
+  "anchorLabel": "Four Hours",
+  "unit": "Price per Boat •  Maximum 12 people per boat with a maximum load capacity of 1020kg (2249lbs)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 625858,
+  "name": "Electric Day Boat - 6 Seater",
+  "stored": 78.75,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Four Hours",
+    78.75,
+    "GROUP:boat"
+   ],
+   [
+    "Six Hours",
+    99.75,
+    "GROUP:boat"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 78.75,
+  "anchorLabel": "Four Hours",
+  "unit": "Price per Boat •  Maximum 6 people per boat with a maximum load capacity of 600kg (1322lbs).",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 625867,
+  "name": "Diesel Day Boat - 7 Seater",
+  "stored": 68.25,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Four Hours",
+    68.25,
+    "GROUP:boat"
+   ],
+   [
+    "Six Hours",
+    89.25,
+    "GROUP:boat"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 68.25,
+  "anchorLabel": "Four Hours",
+  "unit": "Price per Boat • Maximum 7 people per boat with a maximum load capacity of 750kg (1653lbs).",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270614,
+  "name": "Harry Potter Taxi Tour of London",
+  "stored": 399.01,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group (1-5 people)",
+    399.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 399.01,
+  "anchorLabel": "Private Group (1-5 people)",
+  "unit": "Private Group (1-5 people)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270888,
+  "name": "Carry on Film Locations Tour • Private",
+  "stored": 990,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    990,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 990,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270908,
+  "name": "Trainspotting Walking Tour of Edinburgh Locations • Private",
+  "stored": 260,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    260,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 260,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270921,
+  "name": "The Crown Walking Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270924,
+  "name": "Paddington Locations Tour by London Taxi",
+  "stored": 399.01,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    399.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 399.01,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270926,
+  "name": "Poirot Tour of London by Black Taxi • Private",
+  "stored": 399.01,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    399.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 399.01,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270929,
+  "name": "Poldark Tour of Cornwall • Private",
+  "stored": 650,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    650,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 650,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271403,
+  "name": "Bridget Jones Walking Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271407,
+  "name": "Harry Potter Locations Walking Tour of London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271419,
+  "name": "Paddington Walking Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271420,
+  "name": "Sherlock Holmes Walking Tour of London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271614,
+  "name": "Downton Abbey Town and Country Tour • Private",
+  "stored": 819.99,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "One to two People",
+    819.99,
+    "GROUP:two people"
+   ],
+   [
+    "Three People",
+    840,
+    "VOLUME"
+   ],
+   [
+    "Four People",
+    860,
+    "VOLUME"
+   ],
+   [
+    "Five People",
+    880,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-total floor (s49)",
+  "anchor": 819.99,
+  "anchorLabel": "One to two People",
+  "unit": "One to two People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271619,
+  "name": "Doctor Who Tour of London by Black Taxi • Private",
+  "stored": 399.01,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    399.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 399.01,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 315644,
+  "name": "Line of Duty Tour • Private",
+  "stored": 90,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Groups 1-10 persons",
+    90,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 90,
+  "anchorLabel": "Private Groups 1-10 persons",
+  "unit": "Private Groups 1-10 persons",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 331743,
+  "name": "London Film Walk • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 336014,
+  "name": "Monty Python Tour of London Locations • Private",
+  "stored": 235,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group (1-4 people)",
+    235,
+    "GROUP:private"
+   ],
+   [
+    "Private Group (5-8 People)",
+    275,
+    "GROUP:private"
+   ],
+   [
+    "Private Group (9-12 People)",
+    310,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 235,
+  "anchorLabel": "Private Group (1-4 people)",
+  "unit": "Private Group (1-4 people)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 341289,
+  "name": "Inspector Morse Tour of Oxford • Private",
+  "stored": 250,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 14 people",
+    250,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 250,
+  "anchorLabel": "Private group up to 14 people",
+  "unit": "Private group up to 14 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 342210,
+  "name": "Doc Martin Tour • Private",
+  "stored": 120,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    120,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 120,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 356036,
+  "name": "Grantchester Tour • Private tour",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 542673,
+  "name": "Celebrity Houses in London Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1-10 People",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 11-20 People",
+    190.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group of 1-10 People",
+  "unit": "Private Group of 1-10 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 547426,
+  "name": "Good Omens Tour of London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621922,
+  "name": "Private Hadrian's Wall & Durham Dales Tour",
+  "stored": 842.7,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    842.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 842.7,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 700036,
+  "name": "River Rafting Safari (Private Raft)",
+  "stored": 381.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Raft",
+    381.6,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 381.6,
+  "anchorLabel": "Private Raft",
+  "unit": "Private Raft",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 245358,
+  "name": "Swan & Flamingo Pedalo Hire",
+  "stored": 21.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Craft",
+    21.2,
+    "GROUP:up to 4"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 21.2,
+  "anchorLabel": "Craft",
+  "unit": "Ages 18+ • Up to 4 Passengers",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 268714,
+  "name": "Beatles Classic Liverpool Taxi Tour",
+  "stored": 185.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Cab",
+    185.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185.5,
+  "anchorLabel": "Private Cab",
+  "unit": "Private Cab",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270887,
+  "name": "Sherlock London Tour by Black Taxi",
+  "stored": 399.01,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    399.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 399.01,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270902,
+  "name": "Harry Potter England Tour",
+  "stored": 899,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    899,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 899,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270920,
+  "name": "Outlander 1 Day Private Tour from Edinburgh",
+  "stored": 699,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group (1-2 People)",
+    699,
+    "GROUP:private"
+   ],
+   [
+    "Private Group (3-4 People)",
+    1149,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 699,
+  "anchorLabel": "Private Group (1-2 People)",
+  "unit": "Private Group (1-2 People)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270925,
+  "name": "Peaky Blinders Taxi Tour",
+  "stored": 450,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    450,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 450,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 339341,
+  "name": "Beatles Classic Tour of Liverpool by Private Taxi",
+  "stored": 185.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Cab",
+    185.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185.5,
+  "anchorLabel": "Private Cab",
+  "unit": "Private Cab",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 340097,
+  "name": "Vera Tour of Newcastle Filming Locations • Private",
+  "stored": 730,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    730,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 730,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 439215,
+  "name": "Manchester Music Taxi Tour",
+  "stored": 275.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Cab",
+    275.6,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 275.6,
+  "anchorLabel": "Private Cab",
+  "unit": "Private Cab",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 479037,
+  "name": "Beyond Paradise Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 531386,
+  "name": "Rolling Stones Tour of London with Private Guide",
+  "stored": 625.4,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    625.4,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 625.4,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 700890,
+  "name": "Private Boat Charter • MARLOW",
+  "stored": 318,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour • 1 hrs",
+    318,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour • 2 hrs",
+    450.5,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour • 3 hrs",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour • 4 hrs",
+    715.5,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour • 5 hrs",
+    848,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 318,
+  "anchorLabel": "Private Tour • 1 hrs",
+  "unit": "Private Tour • 1 hrs",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 138219,
+  "name": "Heathrow to Hotel + London Tour",
+  "stored": 480,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    480,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 480,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 268169,
+  "name": "Charles Dickens London Walking Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1-10 People",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 11-20 People",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 21-30 People",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group of 1-10 People",
+  "unit": "Private Group of 1-10 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 268179,
+  "name": "London Underground Walking Tour",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 268181,
+  "name": "Ian Fleming Tour of London",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270338,
+  "name": "Agatha Christie London Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1-10 People",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 11-20 People",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 21-30 People",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group of 1-10 People",
+  "unit": "Private Group of 1-10 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270615,
+  "name": "Quadrophenia Tour of Brighton with Private Guide",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group (1-5 people)",
+    185,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group (1-5 people)",
+  "unit": "Private Group (1-5 people)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270692,
+  "name": "Love Actually Private Black Taxi Tour with Classic Rom-Com Sites",
+  "stored": 450,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-5 people",
+    450,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 450,
+  "anchorLabel": "Private Group 1-5 people",
+  "unit": "Private Group 1-5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270893,
+  "name": "Doctor Who Cardiff Private Tour",
+  "stored": 593.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    593.6,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 593.6,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 398745,
+  "name": "Ted Lasso Tour • Private",
+  "stored": 285,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group (1-2 People)",
+    285,
+    "GROUP:private"
+   ],
+   [
+    "Private Group (3-4 People)",
+    355,
+    "GROUP:private"
+   ],
+   [
+    "Private Group (5-6 People)",
+    395,
+    "GROUP:private"
+   ],
+   [
+    "Private Group (7-8 People)",
+    350,
+    "GROUP:private"
+   ],
+   [
+    "Private Group (9-10 People)",
+    498.99,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 285,
+  "anchorLabel": "Private Group (1-2 People)",
+  "unit": "Private Group (1-2 People)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 433476,
+  "name": "Liverpool Music Icons Tour with Keith Mullin from The Farm • Private",
+  "stored": 371,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group 1 to 6 people",
+    371,
+    "GROUP:group"
+   ],
+   [
+    "Group 7 - 12 people",
+    742,
+    "GROUP:group"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 371,
+  "anchorLabel": "Group 1 to 6 people",
+  "unit": "Group 1 to 6 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 433479,
+  "name": "Liverpool Music Icons Tour with Pete Hooton from The Farm • Private",
+  "stored": 371,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group 1 to 6 people",
+    371,
+    "GROUP:group"
+   ],
+   [
+    "Group 7 - 12 people",
+    742,
+    "GROUP:group"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 371,
+  "anchorLabel": "Group 1 to 6 people",
+  "unit": "Group 1 to 6 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 459032,
+  "name": "Charlie Chaplin Walking Tour of London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1-10 People",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 11-20 People",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 21-30 People",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group of 1-10 People",
+  "unit": "Private Group of 1-10 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 518441,
+  "name": "Jack the Ripper Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1-10 People",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 11-20 People",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 21-30 People",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group of 1-10 People",
+  "unit": "Private Group of 1-10 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 569469,
+  "name": "Book a private hire session at Inflatable Land",
+  "stored": 807.14,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "One Hour Private Hire",
+    807.14,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 807.14,
+  "anchorLabel": "One Hour Private Hire",
+  "unit": "One Hour Private Hire",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 569528,
+  "name": "Oxford Group Walking Tour",
+  "stored": 160,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "1 Hour Small Group",
+    160,
+    "GROUP:group"
+   ],
+   [
+    "1 Hour Large Group",
+    220,
+    "GROUP:group"
+   ],
+   [
+    "2 Hours Small Group",
+    230,
+    "GROUP:group"
+   ],
+   [
+    "2 Hours Large Group",
+    295,
+    "GROUP:group"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 160,
+  "anchorLabel": "1 Hour Small Group",
+  "unit": "1 Hour Small Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 585856,
+  "name": "Private Farm Tour",
+  "stored": 63.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1 to 6 people",
+    63.6,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 63.6,
+  "anchorLabel": "Private Group of 1 to 6 people",
+  "unit": "Private Group of 1 to 6 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621912,
+  "name": "Private Durham Highlights Walking Tour",
+  "stored": 238.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    238.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 238.5,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 642617,
+  "name": "Bridget Jones London Tour by Black Taxi",
+  "stored": 410,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    410,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 410,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 699041,
+  "name": "Tour Panorámico por Londres",
+  "stored": 529.99,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Tour - 4 hours",
+    529.99,
+    "GROUP:vehículo"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 529.99,
+  "anchorLabel": "Tour - 4 hours",
+  "unit": "Vehículo privado para hasta 7 pasajeros",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 699055,
+  "name": "Blenheim Palace & Shakespeares – Excursión privada desde Londres",
+  "stored": 1796.69,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Clase Busines",
+    1796.69,
+    "GROUP:vehículo"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 1796.69,
+  "anchorLabel": "Clase Busines",
+  "unit": "Vehículo privado para hasta 7 pasajeros",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218904,
+  "name": "Windsor, Eton & Hampton Court Tours",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218908,
+  "name": "Lake District Tours",
+  "stored": 477,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    477,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    503.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 477,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218914,
+  "name": "Classic Tour of London",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218920,
+  "name": "London Art Deco Tour",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218923,
+  "name": "Tours of Sussex",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218926,
+  "name": "Windsor Castle, Stonehenge, Bath",
+  "stored": 689,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    689,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    689,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 689,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218928,
+  "name": "Leeds Castle, Canterbury, White Cliffs of Dover",
+  "stored": 630.7,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    630.7,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 630.7,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218932,
+  "name": "The Cotswolds Tour",
+  "stored": 630.7,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    630.7,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    662.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 630.7,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218934,
+  "name": "Tours to Stonehenge & Oxford",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218938,
+  "name": "Harry Potter Tour",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218939,
+  "name": "Downton Abbey Tour",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218940,
+  "name": "Stonehenge & Windsor Tours",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218948,
+  "name": "Stonehenge & Bath Tours",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218978,
+  "name": "Stratford-upon-Avon, Warwick Castle",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218979,
+  "name": "Avebury Circle, West Kennet, Silbury Hill",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218981,
+  "name": "Cruise Ship Pickup Tour",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218984,
+  "name": "Durdle Door, Corfe Castle, New Forest",
+  "stored": 689,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    689,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    715.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 689,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 218985,
+  "name": "Brighton, Arundel Castle, Sussex Downs",
+  "stored": 583,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-4",
+    583,
+    "GROUP:private"
+   ],
+   [
+    "Private Group 5-8",
+    630.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 583,
+  "anchorLabel": "Private Group 1-4",
+  "unit": "Private Group 1-4",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 268182,
+  "name": "Jane Austen Tour of Bath plus City Highlights",
+  "stored": 320,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    320,
+    "GROUP:private"
+   ],
+   [
+    "Private Group up to 20 people",
+    420,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 320,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 268187,
+  "name": "Beatles London Tour by Black Taxi",
+  "stored": 360,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group 1-5",
+    360,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 360,
+  "anchorLabel": "Private Group 1-5",
+  "unit": "Private Group 1-5",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 268190,
+  "name": "Black Cab Tour of London",
+  "stored": 399.01,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Cab",
+    399.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 399.01,
+  "anchorLabel": "Private Cab",
+  "unit": "Private Cab",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270626,
+  "name": "Superhero Tour of London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 270640,
+  "name": "Killing Eve Filming Locations Tour of London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 271617,
+  "name": "Da Vinci Code London Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group up to 10 people",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 20 people",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private group up to 30 people",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private group up to 10 people",
+  "unit": "Private group up to 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 306107,
+  "name": "Beatles London Taxi Tour",
+  "stored": 339.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour 1-5 people",
+    339.2,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 339.2,
+  "anchorLabel": "Private Tour 1-5 people",
+  "unit": "Private Tour 1-5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 306110,
+  "name": "George Michael London Taxi Tour • Private",
+  "stored": 413.4,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    413.4,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 413.4,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 306121,
+  "name": "Jazz Tour of London • Private",
+  "stored": 196.1,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "1- 10 people",
+    196.1,
+    "GROUP:10 people"
+   ],
+   [
+    "10 - 20 people",
+    217.3,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-total floor (s49)",
+  "anchor": 196.1,
+  "anchorLabel": "1- 10 people",
+  "unit": "1- 10 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 309565,
+  "name": "Iconic Album Covers of London Taxi Tour",
+  "stored": 413.4,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    413.4,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 413.4,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 337350,
+  "name": "4x4 Off Road Driving",
+  "stored": 47.25,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Driver",
+    47.25,
+    "GROUP:4 people"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 47.25,
+  "anchorLabel": "Driver",
+  "unit": "Minimum billing of 4 people. 10yrs+ and able to reach pedals and see out of the windscreen",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 339346,
+  "name": "Full Day Private Moors, Whitby & The Yorkshire Steam Railway Tour",
+  "stored": 540.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour for up to 4 People",
+    540.6,
+    "GROUP:private"
+   ],
+   [
+    "Private tour for up to 8 People",
+    540.6,
+    "GROUP:private"
+   ],
+   [
+    "Private tour for up to 16 People",
+    662.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 540.6,
+  "anchorLabel": "Private Tour for up to 4 People",
+  "unit": "Private Tour for up to 4 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372372,
+  "name": "London to Windsor Castle Transfers",
+  "stored": 223.39,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    223.39,
+    "GROUP:vehicle"
+   ],
+   [
+    "Estate Vehicle",
+    262.09,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    319.99,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    410.55,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 223.39,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372375,
+  "name": "London to Blenheim Palace Day Transfers",
+  "stored": 495.08,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    495.08,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    664.12,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    802.99,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 495.08,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372639,
+  "name": "London to Oxford & Blenheim Palace Day Tour",
+  "stored": 561.49,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    561.49,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    621.86,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    760.72,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 561.49,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372663,
+  "name": "London to Oxford Day Tour",
+  "stored": 525.26,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    525.26,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    706.39,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    845.25,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 525.26,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372692,
+  "name": "London to Bath Transfers",
+  "stored": 917.7,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    917.7,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    1177.31,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    1201.46,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 917.7,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372698,
+  "name": "Stonehenge & Windsor Castle",
+  "stored": 724.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    724.5,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    784.88,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    905.62,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 724.5,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372701,
+  "name": "London to Highclere Castle Transfers",
+  "stored": 579.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    579.6,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    784.88,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    984.11,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 579.6,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372703,
+  "name": "London to Hever Castle Transfers",
+  "stored": 289.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    289.8,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    386.4,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    543.38,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 289.8,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372707,
+  "name": "Leeds Castle, Dover & Canterbury Day Tour",
+  "stored": 748.65,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    748.65,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    953.92,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    1050.52,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 748.65,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372708,
+  "name": "London to Bicester Village Transfers",
+  "stored": 229.42,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    229.42,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    307.91,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    398.48,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 229.42,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372716,
+  "name": "London to Legoland Private Transfers",
+  "stored": 223.39,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    223.39,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    319.99,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    410.55,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 223.39,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372734,
+  "name": "Private Transfers between London & Harry Potter Warner Bros. Studio",
+  "stored": 217.35,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    217.35,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    301.87,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    410.55,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 217.35,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372736,
+  "name": "London to Stonehenge & Bath Day Tour",
+  "stored": 972.04,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    972.04,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    1207.5,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    1279.95,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 972.04,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372789,
+  "name": "London to Tilbury Port (London Cruise Terminal) Transfers",
+  "stored": 108.68,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    108.68,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    150.94,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    199.24,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 108.68,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372794,
+  "name": "London to Southampton Cruise Port Transfers",
+  "stored": 289.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    289.8,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    386.4,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    470.92,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 289.8,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372799,
+  "name": "London to The Port of Dover Transfers",
+  "stored": 289.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    289.8,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    386.4,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    446.77,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 289.8,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 372804,
+  "name": "London to Harwich International Port",
+  "stored": 483,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    483,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    664.12,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    796.95,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 483,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 430116,
+  "name": "Sex Pistols and Punk Music Walking Tour • Private",
+  "stored": 307.4,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    307.4,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 307.4,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 445499,
+  "name": "Belfast Music Walking Tour",
+  "stored": 233.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group 1 to 6 people",
+    233.2,
+    "GROUP:group"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 233.2,
+  "anchorLabel": "Group 1 to 6 people",
+  "unit": "Group 1 to 6 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 461604,
+  "name": "Notting Hill Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1-10 People",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 11-20 People",
+    190.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group of 1-10 People",
+  "unit": "Private Group of 1-10 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 472986,
+  "name": "London to Harry Potter Warner Bros. Studio Transfers (one way)",
+  "stored": 108.68,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    108.68,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    150.94,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    205.28,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 108.68,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 472988,
+  "name": "London to Southampton Cruise Port Transfers (return basis)",
+  "stored": 579.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    579.6,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    772.8,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    941.85,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 579.6,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 480682,
+  "name": "Heathrow to Southampton Cruise Port Transfers (return basis)",
+  "stored": 579.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    579.6,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    772.8,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    748.65,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 579.6,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 480683,
+  "name": "Heathrow to Southampton Cruise Port Transfers",
+  "stored": 235.46,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Saloon Vehicle",
+    235.46,
+    "GROUP:vehicle"
+   ],
+   [
+    "MPV Vehicle",
+    291.01,
+    "GROUP:vehicle"
+   ],
+   [
+    "Minivan 8 Seater",
+    353.8,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 235.46,
+  "anchorLabel": "Saloon Vehicle",
+  "unit": "Saloon Vehicle",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 302013,
+  "name": "Full Day Charter with Skipper for up to 12 people",
+  "stored": 472.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Charter",
+    472.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 472.5,
+  "anchorLabel": "Private Charter",
+  "unit": "Private Charter",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 302978,
+  "name": "Sailing - 2 hours",
+  "stored": 50,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Topaz",
+    50,
+    "GROUP:2 people"
+   ],
+   [
+    "Wayfarer",
+    70,
+    "GROUP:4 adults"
+   ],
+   [
+    "Bahia",
+    60,
+    "GROUP:3adults"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 50,
+  "anchorLabel": "Topaz",
+  "unit": "1-2 people • Max weight 150kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 302981,
+  "name": "Sailing - 3 hours",
+  "stored": 65,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Topaz",
+    65,
+    "GROUP:2 people"
+   ],
+   [
+    "Wayfarer",
+    90,
+    "GROUP:4 adults"
+   ],
+   [
+    "Bahia",
+    80,
+    "GROUP:3adults"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 65,
+  "anchorLabel": "Topaz",
+  "unit": "1-2 people • Max weight 150kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 306552,
+  "name": "2 hour Charter With Skipper for 2 to 12 Passengers",
+  "stored": 157.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Charter",
+    157.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 157.5,
+  "anchorLabel": "Private Charter",
+  "unit": "Private Charter",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621932,
+  "name": "Private Raby Castle by Royal Appointment",
+  "stored": 556.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    556.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 556.5,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 698893,
+  "name": "Castillo de Windsor – Excursión Privada desde Londres",
+  "stored": 1757.47,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Clase Busines",
+    1757.47,
+    "GROUP:vehículo"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 1757.47,
+  "anchorLabel": "Clase Busines",
+  "unit": "Vehículo privado para hasta 7 pasajeros",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 699034,
+  "name": "Oxford City – Excursión Privada desde Londres",
+  "stored": 1737.33,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Clase Busines",
+    1737.33,
+    "GROUP:vehículo"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 1737.33,
+  "anchorLabel": "Clase Busines",
+  "unit": "Vehículo privado para hasta 7 pasajeros",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 699050,
+  "name": "Magical Cotswolds – Excursión Privada desde Londres",
+  "stored": 1695.99,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Clase Busines",
+    1695.99,
+    "GROUP:vehículo"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 1695.99,
+  "anchorLabel": "Clase Busines",
+  "unit": "Vehículo privado para hasta 7 pasajeros",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 699059,
+  "name": "Canterbury, Dover & Leeds Castle – Excursión privada desde Londres",
+  "stored": 1797.75,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Clase Busines",
+    1797.75,
+    "GROUP:vehículo"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 1797.75,
+  "anchorLabel": "Clase Busines",
+  "unit": "Vehículo privado para hasta 7 pasajeros",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 699065,
+  "name": "Brighton & Royal Pavilion – Excursión privada desde Londres",
+  "stored": 1720.37,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Clase Busines",
+    1720.37,
+    "GROUP:vehículo"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 1720.37,
+  "anchorLabel": "Clase Busines",
+  "unit": "Vehículo privado para hasta 7 pasajeros",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 699150,
+  "name": "Warner Bross. Studios",
+  "stored": 241.67,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Clase Busines",
+    241.67,
+    "GROUP:vehículo"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 241.67,
+  "anchorLabel": "Clase Busines",
+  "unit": "Vehículo privado para hasta 7 pasajeros",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 713616,
+  "name": "Self Drive Full Day Boat Hire",
+  "stored": 267.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    267.5,
+    "GROUP:private"
+   ],
+   [
+    "Private tour with Skipper",
+    481.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 267.5,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 720668,
+  "name": "Half Day Charter With Skipper",
+  "stored": 214,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    214,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 214,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 511714,
+  "name": "Greenwich Day Trip",
+  "stored": 560,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    560,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 560,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 423566,
+  "name": "5 Day Canoe Adventure",
+  "stored": 530,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Boat",
+    530,
+    "GROUP:boat"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 530,
+  "anchorLabel": "Boat",
+  "unit": "Boat",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 518130,
+  "name": "Canoe Hire",
+  "stored": 53,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Two-person canoe",
+    53,
+    "GROUP:canoe"
+   ],
+   [
+    "Three-person canoe",
+    63.6,
+    "GROUP:canoe"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 53,
+  "anchorLabel": "Two-person canoe",
+  "unit": "Two-person canoe",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 543697,
+  "name": "Half Day Canoe Hire (5 Miles)",
+  "stored": 74.67,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Two-Seater",
+    74.67,
+    "GROUP:seater"
+   ],
+   [
+    "Three-Seater",
+    112,
+    "GROUP:seater"
+   ],
+   [
+    "Family Raft for 4 people",
+    149.33,
+    "NAME_NEVER"
+   ],
+   [
+    "Family Raft for 6 people",
+    224,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 74.67,
+  "anchorLabel": "Two-Seater",
+  "unit": "Two-Seater",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 543748,
+  "name": "Full-day Canoe Hire (12 miles)",
+  "stored": 96,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Two-Seater",
+    96,
+    "GROUP:seater"
+   ],
+   [
+    "Three-Seater",
+    144,
+    "GROUP:seater"
+   ],
+   [
+    "Family Raft for 4 people",
+    192,
+    "NAME_NEVER"
+   ],
+   [
+    "Family Raft for 6 people",
+    288,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 96,
+  "anchorLabel": "Two-Seater",
+  "unit": "Two-Seater",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 543756,
+  "name": "2-day Canoeing expedition from Hay to Hereford",
+  "stored": 213.33,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Two-Seater",
+    213.33,
+    "GROUP:seater"
+   ],
+   [
+    "Three-Seater",
+    320,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 213.33,
+  "anchorLabel": "Two-Seater",
+  "unit": "Two-Seater",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 543764,
+  "name": "3-day Canoeing expedition from Hay to Hoarwithy",
+  "stored": 320,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Two-Seater",
+    320,
+    "GROUP:seater"
+   ],
+   [
+    "Three-Seater",
+    480,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 320,
+  "anchorLabel": "Two-Seater",
+  "unit": "Two-Seater",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 543767,
+  "name": "4-day Canoeing expedition from Hay to Ross",
+  "stored": 426.67,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Two-Seater",
+    426.67,
+    "GROUP:seater"
+   ],
+   [
+    "Three-Seater",
+    640,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 426.67,
+  "anchorLabel": "Two-Seater",
+  "unit": "Two-Seater",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 543771,
+  "name": "6-day Canoeing expedition from Hay to Monmouth",
+  "stored": 640,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Two-Seater",
+    640,
+    "GROUP:seater"
+   ],
+   [
+    "Three-Seater",
+    960,
+    "GROUP:seater"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 640,
+  "anchorLabel": "Two-Seater",
+  "unit": "Two-Seater",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 544490,
+  "name": "Comedy Legends Tour of London • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1-10 People",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 11-20 People",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 21-30 People",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group of 1-10 People",
+  "unit": "Private Group of 1-10 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 547001,
+  "name": "Bespoke Private Tour",
+  "stored": 159,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Couple",
+    159,
+    "GROUP:couple"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 159,
+  "anchorLabel": "Couple",
+  "unit": "Couple",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 599829,
+  "name": "Forgotten London Tour • Private",
+  "stored": 185,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1-10 People",
+    185,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 11-20 People",
+    190.01,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 21-30 People",
+    240.01,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 185,
+  "anchorLabel": "Private Group of 1-10 People",
+  "unit": "Private Group of 1-10 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 617122,
+  "name": "Carnival Playground",
+  "stored": 42,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Room Booking (up to 20 people)",
+    42,
+    "GROUP:room"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 42,
+  "anchorLabel": "Room Booking (up to 20 people)",
+  "unit": "Room Booking (up to 20 people)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 580278,
+  "name": "London Historic Pub Tour for Small Groups • Private",
+  "stored": 200,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    200,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 200,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 614829,
+  "name": "Angels TV & Film Costume Tour • Private",
+  "stored": 600,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Groups 1-10 persons",
+    600,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 600,
+  "anchorLabel": "Private Groups 1-10 persons",
+  "unit": "Private Groups 1-10 persons",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 635692,
+  "name": "Gel Blaster",
+  "stored": 210,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group ages 7+",
+    210,
+    "GROUP:group"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 210,
+  "anchorLabel": "Group ages 7+",
+  "unit": "Group ages 7+",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 665453,
+  "name": "Diamond DA40 • 1-hour Flight Experience / Trial Lesson",
+  "stored": 334.95,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Flight",
+    334.95,
+    "GROUP:2 passengers"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 334.95,
+  "anchorLabel": "Flight",
+  "unit": "For 1 or 2 passengers",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 301527,
+  "name": "Adult Watersports",
+  "stored": 26.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Student",
+    26.5,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "none",
+  "anchor": null,
+  "anchorLabel": null,
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "never-only ladder, not a child-audience product (Student)"
+ },
+ {
+  "pk": 302687,
+  "name": "Canoeing - 2 hours",
+  "stored": 36,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Hou 14",
+    36,
+    "GROUP:capacity"
+   ],
+   [
+    "Prospector",
+    45,
+    "GROUP:2 adults"
+   ],
+   [
+    "Chieftan",
+    54,
+    "GROUP:3 adults"
+   ],
+   [
+    "Small Raft",
+    63,
+    "GROUP:raft"
+   ],
+   [
+    "Large Raft",
+    81,
+    "GROUP:raft"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 36,
+  "anchorLabel": "Hou 14",
+  "unit": "Single Hander, or 1A1C or 2A • Capacity 200kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 302694,
+  "name": "Canoeing - 3 hours",
+  "stored": 45,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Hou 14",
+    45,
+    "GROUP:capacity"
+   ],
+   [
+    "Prospector",
+    58.5,
+    "GROUP:2 adults"
+   ],
+   [
+    "Chieftan",
+    72,
+    "GROUP:3 adults"
+   ],
+   [
+    "Small Raft",
+    81,
+    "GROUP:raft"
+   ],
+   [
+    "Large Raft",
+    108,
+    "GROUP:raft"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 45,
+  "anchorLabel": "Hou 14",
+  "unit": "Single Hander, or 1A1C or 2A • Capacity 200kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 302953,
+  "name": "Canoeing - 4 hours",
+  "stored": 54,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Hou 14",
+    54,
+    "GROUP:capacity"
+   ],
+   [
+    "Prospector",
+    72,
+    "GROUP:2 adults"
+   ],
+   [
+    "Chieftan",
+    90,
+    "GROUP:3 adults"
+   ],
+   [
+    "Small Raft",
+    99,
+    "GROUP:raft"
+   ],
+   [
+    "Large Raft",
+    135,
+    "GROUP:raft"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 54,
+  "anchorLabel": "Hou 14",
+  "unit": "Single Hander, or 1A1C or 2A • Capacity 200kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 302955,
+  "name": "Canoeing - 5 hours",
+  "stored": 58.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Hou 14",
+    58.5,
+    "GROUP:capacity"
+   ],
+   [
+    "Prospector",
+    79.2,
+    "GROUP:2 adults"
+   ],
+   [
+    "Chieftan",
+    99,
+    "GROUP:3 adults"
+   ],
+   [
+    "Small Raft",
+    108,
+    "GROUP:raft"
+   ],
+   [
+    "Large Raft",
+    148.5,
+    "GROUP:raft"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 58.5,
+  "anchorLabel": "Hou 14",
+  "unit": "Single Hander, or 1A1C or 2A • Capacity 200kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 302956,
+  "name": "Canoeing - 6 hours",
+  "stored": 63,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Hou 14",
+    63,
+    "GROUP:capacity"
+   ],
+   [
+    "Prospector",
+    86.4,
+    "GROUP:2 adults"
+   ],
+   [
+    "Chieftan",
+    108,
+    "GROUP:3 adults"
+   ],
+   [
+    "Small Raft",
+    117,
+    "GROUP:raft"
+   ],
+   [
+    "Large Raft",
+    162,
+    "GROUP:raft"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 63,
+  "anchorLabel": "Hou 14",
+  "unit": "Single Hander, or 1A1C or 2A • Capacity 200kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 302986,
+  "name": "Sailing - 5 hours",
+  "stored": 95,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Topaz",
+    95,
+    "GROUP:2 people"
+   ],
+   [
+    "Wayfarer",
+    130,
+    "GROUP:4 adults"
+   ],
+   [
+    "Bahia",
+    120,
+    "GROUP:3adults"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 95,
+  "anchorLabel": "Topaz",
+  "unit": "1-2 people • Max weight 150kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 306114,
+  "name": "Beatles Filming Locations Tour of West London",
+  "stored": 477,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private group",
+    477,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 477,
+  "anchorLabel": "Private group",
+  "unit": "Private group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 310508,
+  "name": "Canoeing - 1.5 Hours",
+  "stored": 30.15,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Hou 14",
+    30.15,
+    "GROUP:capacity"
+   ],
+   [
+    "Prospector",
+    37.35,
+    "GROUP:2 adults"
+   ],
+   [
+    "Chieftan",
+    45,
+    "GROUP:3 adults"
+   ],
+   [
+    "Small Raft",
+    52.65,
+    "GROUP:raft"
+   ],
+   [
+    "Large Raft",
+    67.5,
+    "GROUP:raft"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 30.15,
+  "anchorLabel": "Hou 14",
+  "unit": "Single Hander, or 1A1C or 2A • Capacity 200kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 310510,
+  "name": "Canoeing - 1 Hour",
+  "stored": 24.3,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Hou 14",
+    24.3,
+    "GROUP:capacity"
+   ],
+   [
+    "Prospector",
+    29.7,
+    "GROUP:2 adults"
+   ],
+   [
+    "Chieftan",
+    36,
+    "GROUP:3 adults"
+   ],
+   [
+    "Small Raft",
+    42.3,
+    "GROUP:raft"
+   ],
+   [
+    "Large Raft",
+    54,
+    "GROUP:raft"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 24.3,
+  "anchorLabel": "Hou 14",
+  "unit": "Single Hander, or 1A1C or 2A • Capacity 200kg",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 333047,
+  "name": "WTT Ultimate Experience | Private Bike",
+  "stored": 795,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Bike - 1 Hour Tour",
+    795,
+    "GROUP:private"
+   ],
+   [
+    "Private Bike - 2 Hour Tour",
+    1590,
+    "GROUP:private"
+   ],
+   [
+    "Private Bike - 3 Hour Tour",
+    2385,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 795,
+  "anchorLabel": "Private Bike - 1 Hour Tour",
+  "unit": "Private Bike - 1 Hour Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 335708,
+  "name": "Lambeth Black Tour",
+  "stored": 16.96,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Youth",
+    16.96,
+    "NAME_NEVER"
+   ],
+   [
+    "Child",
+    37.1,
+    "NAME_NEVER"
+   ],
+   [
+    "Child",
+    0,
+    "NAME_NEVER"
+   ],
+   [
+    "Family",
+    106,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "none",
+  "anchor": null,
+  "anchorLabel": null,
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "never-only ladder, not a child-audience product (Child, Family, Youth)"
+ },
+ {
+  "pk": 565361,
+  "name": "Rock and Roll London Taxi Tour",
+  "stored": 413.4,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour 1-5 people",
+    413.4,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 413.4,
+  "anchorLabel": "Private Tour 1-5 people",
+  "unit": "Private Tour 1-5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 608194,
+  "name": "Half Day Private Guided Tour",
+  "stored": 259.7,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group of 1",
+    259.7,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 2",
+    291.5,
+    "GROUP:private"
+   ],
+   [
+    "Private Group of 3",
+    323.3,
+    "GROUP:private"
+   ],
+   [
+    "Private Group up to 4",
+    355.1,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 259.7,
+  "anchorLabel": "Private Group of 1",
+  "unit": "Private Group of 1",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 611400,
+  "name": "Mackeral Fishing Handlines - Sole Venture",
+  "stored": 31.44,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "1Handline",
+    31.44,
+    "GROUP:2 people"
+   ],
+   [
+    "Family Ticket",
+    52.4,
+    "NAME_NEVER"
+   ],
+   [
+    "Boat",
+    167.68,
+    "GROUP:boat"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 31.44,
+  "anchorLabel": "1Handline",
+  "unit": "(Max 2 People)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 625127,
+  "name": "Outdoor Kayaking Party in Studland Bay",
+  "stored": 416,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Childen's Party Group",
+    416,
+    "GROUP:party"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 416,
+  "anchorLabel": "Childen's Party Group",
+  "unit": "Childen's Party Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 625876,
+  "name": "Canoe - 3 Seater",
+  "stored": 42,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Three Hours",
+    42,
+    "GROUP:canoe"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 42,
+  "anchorLabel": "Three Hours",
+  "unit": "Price per Canoe • Max 3 people per canoe with a maximum load capacity of 300kg (661lbs)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 636794,
+  "name": "Whole boat Private Diving Charter",
+  "stored": 954,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Boat - One Day Hire",
+    954,
+    "GROUP:private"
+   ],
+   [
+    "Private Boat - Two Day Hire",
+    1908,
+    "GROUP:private"
+   ],
+   [
+    "Private Boat - Three Day Hire",
+    2862,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 954,
+  "anchorLabel": "Private Boat - One Day Hire",
+  "unit": "Private Boat - One Day Hire",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 637540,
+  "name": "Giants Causeway and Carrick-a-Rede Ropebridge Tour",
+  "stored": 450.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    450.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 450.5,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 637545,
+  "name": "Black Taxi Style Tour: Murals, Peace Walls & City Highlights",
+  "stored": 159,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    159,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 159,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 637571,
+  "name": "Belfast - Derry 'Causeway Coast' Transfer Tour",
+  "stored": 530,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    530,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 530,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 637818,
+  "name": "Galway - Belfast 'Hidden Heartlands' Transfer Tour",
+  "stored": 636,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    636,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 636,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 637863,
+  "name": "Offshore Reef Fishing",
+  "stored": 742,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Boat - One Day Hire",
+    742,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 742,
+  "anchorLabel": "Private Boat - One Day Hire",
+  "unit": "Private Boat - One Day Hire",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272886,
+  "name": "British Museum and National Gallery Museum Tour",
+  "stored": 212,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    212,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 212,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272951,
+  "name": "Private Guided Tour: Tower of London",
+  "stored": 265,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    265,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 265,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272952,
+  "name": "London in 1 day by car Tour",
+  "stored": 689,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    689,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 689,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272960,
+  "name": "Stratford upon Avon private tour from London",
+  "stored": 848,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    848,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 848,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272989,
+  "name": "Private London 4 hours tour by car",
+  "stored": 477,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    477,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 477,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272990,
+  "name": "Private VIP Tour of London with personal guide",
+  "stored": 614.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    614.8,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 614.8,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272993,
+  "name": "Private Chauffeured Minivan at Your Disposal in London",
+  "stored": 689,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    689,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 689,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 593357,
+  "name": "Indoor Party Room Hire",
+  "stored": 64,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Room Hire • 1 Hour",
+    64,
+    "GROUP:room"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 64,
+  "anchorLabel": "Room Hire • 1 Hour",
+  "unit": "Room Hire • 1 Hour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 254662,
+  "name": "Make a mosaic heart with fizz and cake - group sessions",
+  "stored": 330.75,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of 6-15 People",
+    330.75,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 330.75,
+  "anchorLabel": "Group of 6-15 People",
+  "unit": "Group of 6-15 People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 269656,
+  "name": "Bespoke Event",
+  "stored": 630,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour - Large Group",
+    630,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 630,
+  "anchorLabel": "Private Tour - Large Group",
+  "unit": "Private Tour - Large Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272866,
+  "name": "Private walking tour of London",
+  "stored": 233.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    233.2,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 233.2,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272884,
+  "name": "Windsor Castle Private Tour",
+  "stored": 265,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    265,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 265,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272905,
+  "name": "Edinburgh private walking tour",
+  "stored": 371,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    371,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 371,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272958,
+  "name": "Oxford and Cotswolds Private Tour",
+  "stored": 901,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    901,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 901,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 272987,
+  "name": "Private tour of London by car full day",
+  "stored": 901,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of up to 5 people",
+    901,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 901,
+  "anchorLabel": "Group of up to 5 people",
+  "unit": "Group of up to 5 people",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 343526,
+  "name": "Archery & Axe Throwing - Private activity",
+  "stored": 45,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Person in a Private Group (up to 10 people)",
+    0,
+    "BASE_HEAD"
+   ],
+   [
+    "Additional person",
+    45,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "none",
+  "anchor": null,
+  "anchorLabel": null,
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "never-only ladder, not a child-audience product (Additional person)"
+ },
+ {
+  "pk": 343730,
+  "name": "Canyoning - Private Experience",
+  "stored": 75,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Person in a Private Group (up to 8 people)",
+    0,
+    "BASE_HEAD"
+   ],
+   [
+    "Additional person",
+    75,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "none",
+  "anchor": null,
+  "anchorLabel": null,
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "never-only ladder, not a child-audience product (Additional person)"
+ },
+ {
+  "pk": 343738,
+  "name": "River Tubing - Private Experience",
+  "stored": 60,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Person in a Private Group (up to 10 people)",
+    0,
+    "BASE_HEAD"
+   ],
+   [
+    "Additional person (Off-Peak)",
+    60,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "none",
+  "anchor": null,
+  "anchorLabel": null,
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "never-only ladder, not a child-audience product (Additional person (Off-Peak))"
+ },
+ {
+  "pk": 375972,
+  "name": "Private Group Lesson (min of 2 people)",
+  "stored": 73.14,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "People with Kayaks",
+    73.14,
+    "NAME_GROUP:private"
+   ],
+   [
+    "People with SUP Boards",
+    73.14,
+    "NAME_GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 73.14,
+  "anchorLabel": "People with Kayaks",
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "party-size: floor label/note carries no unit wording (People with Kayaks)"
+ },
+ {
+  "pk": 450546,
+  "name": "Coastal Tour",
+  "stored": 24.15,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "1-2 riders",
+    30.97,
+    "GROUP:2 riders"
+   ],
+   [
+    "Group of 3-5 riders",
+    28.35,
+    "VOLUME"
+   ],
+   [
+    "Group of 6-11 riders",
+    26.25,
+    "VOLUME"
+   ],
+   [
+    "Group of 12+ riders",
+    24.15,
+    "VOLUME"
+   ]
+  ],
+  "rule": "s48-R1 per-head rate ladder",
+  "anchor": 24.15,
+  "anchorLabel": "Group of 12+ riders",
+  "unit": "Group of 12+ riders",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 450644,
+  "name": "Kayak",
+  "stored": 19.08,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Kayak • Single Kayak",
+    19.08,
+    "GROUP:kayak"
+   ],
+   [
+    "Kayak • Double seated",
+    26.5,
+    "GROUP:kayak"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 19.08,
+  "anchorLabel": "Kayak • Single Kayak",
+  "unit": "Kayak • Single Kayak",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 477905,
+  "name": "Rafting Safari",
+  "stored": 325.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Entire Raft",
+    325.5,
+    "GROUP:raft"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 325.5,
+  "anchorLabel": "Entire Raft",
+  "unit": "Entire Raft",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 614027,
+  "name": "Mountain Biking Party",
+  "stored": 199.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Basic Party",
+    199.8,
+    "GROUP:party"
+   ],
+   [
+    "Premium Party",
+    243,
+    "GROUP:party"
+   ],
+   [
+    "Luxury Party",
+    297,
+    "GROUP:party"
+   ],
+   [
+    "Additional Person • Premium",
+    10.8,
+    "NAME_NEVER"
+   ],
+   [
+    "Additional Person",
+    8.1,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 199.8,
+  "anchorLabel": "Basic Party",
+  "unit": "Basic Party",
+  "bucket": "NEEDS-RULING",
+  "blocker": "add-on-shaped anchor tier (abort)"
+ },
+ {
+  "pk": 616195,
+  "name": "London: 2.5 Hour Sightseeing Tour By London Black Cab.",
+  "stored": 333.9,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group of Six",
+    333.9,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 333.9,
+  "anchorLabel": "Group of Six",
+  "unit": "Group of Six",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621590,
+  "name": "Private Kitesurfing Lessons",
+  "stored": 79.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "One Hour Lesson",
+    79.5,
+    "NAME_GROUP:private"
+   ],
+   [
+    "Two Hours Lesson",
+    159,
+    "GROUP:for 2"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 79.5,
+  "anchorLabel": "One Hour Lesson",
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "party-size: floor label/note carries no unit wording (One Hour Lesson)"
+ },
+ {
+  "pk": 621603,
+  "name": "2:1 Kitesurfing Lessons",
+  "stored": 106,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "One Hour Lesson",
+    106,
+    "GROUP:for 2"
+   ],
+   [
+    "Two Hours Lesson",
+    212,
+    "GROUP:for 2"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 106,
+  "anchorLabel": "One Hour Lesson",
+  "unit": "1 Hour Lesson for 2 Students",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621605,
+  "name": "Private Boat Kitesurfing Lessons",
+  "stored": 106,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "One Hour Lesson",
+    106,
+    "NAME_GROUP:private"
+   ],
+   [
+    "Two Hours Lesson",
+    212,
+    "GROUP:for 2"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 106,
+  "anchorLabel": "One Hour Lesson",
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "boat: floor label/note carries no unit wording (One Hour Lesson)"
+ },
+ {
+  "pk": 621609,
+  "name": "Wingfoiling",
+  "stored": 159,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Lesson 1:1",
+    159,
+    "GROUP:private"
+   ],
+   [
+    "Lesson 2:1",
+    212,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 159,
+  "anchorLabel": "Lesson 1:1",
+  "unit": "Private Lesson • From 12 years old",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621614,
+  "name": "Private Wingsurfing & Wingfoiling Lessons",
+  "stored": 79.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "One Hour Lesson",
+    79.5,
+    "NAME_GROUP:private"
+   ],
+   [
+    "Two Hours Lesson",
+    159,
+    "GROUP:for 2"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 79.5,
+  "anchorLabel": "One Hour Lesson",
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "party-size: floor label/note carries no unit wording (One Hour Lesson)"
+ },
+ {
+  "pk": 621625,
+  "name": "Kayak Hire – Explore at Your Own Pace",
+  "stored": 15.9,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Kayak",
+    15.9,
+    "GROUP:kayak"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 15.9,
+  "anchorLabel": "Kayak",
+  "unit": "Kayak",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 626205,
+  "name": "Private York Walking Tour",
+  "stored": 238.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    238.5,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 238.5,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 651561,
+  "name": "Private Charter - Suzy II (Oxford)",
+  "stored": 296.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour • 1 Hrs",
+    296.8,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour • 2 Hrs",
+    402.8,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour • 3 Hrs",
+    508.8,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour • 4 Hrs",
+    614.8,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour • 5 Hrs",
+    720.8,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 296.8,
+  "anchorLabel": "Private Tour • 1 Hrs",
+  "unit": "Private Tour • 1 Hrs",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 657473,
+  "name": "3 hour: Magic to Nobel",
+  "stored": 360.4,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    360.4,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 360.4,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 658520,
+  "name": "2 Hour: Oxford University and City Highlights Walking Tour",
+  "stored": 233.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "2 hour Private group - up to 19 participants",
+    233.2,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 233.2,
+  "anchorLabel": "2 hour Private group - up to 19 participants",
+  "unit": "2 hour Private group - up to 19 participants",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 663493,
+  "name": "Private Nottingham Dark Side Tour",
+  "stored": 104.94,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group",
+    104.94,
+    "GROUP:group"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 104.94,
+  "anchorLabel": "Group",
+  "unit": "Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 666383,
+  "name": "Full day Bespoke tour",
+  "stored": 508.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    508.8,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 508.8,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 666461,
+  "name": "Oxford - découvrez son université et son patrimoine culturel avec un guide conférencier professionnel agréé",
+  "stored": 190.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    190.8,
+    "GROUP:private"
+   ],
+   [
+    "2 hour Private group - up to 19 participants",
+    233.2,
+    "GROUP:private"
+   ],
+   [
+    "Private group - up to 19 participants - 3 hr.",
+    275.6,
+    "GROUP:private"
+   ],
+   [
+    "Private Group - up to 19 participants - 4 hr.",
+    381.6,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 190.8,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 668360,
+  "name": "Christ Church: Legends and Reality – Explore Oxford’s City & University",
+  "stored": 233.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    233.2,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 233.2,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 669365,
+  "name": "Balade historique et culturelle d’Oxford – 2 heures",
+  "stored": 190.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    190.8,
+    "GROUP:private"
+   ],
+   [
+    "2 hour Private group - up to 19 participants",
+    233.2,
+    "GROUP:private"
+   ],
+   [
+    "Private group - up to 19 participants - 3 hr.",
+    275.6,
+    "GROUP:private"
+   ],
+   [
+    "Private Group - up to 19 participants - 4 hr.",
+    381.6,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 190.8,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 669381,
+  "name": "Oxford et Christ Church : visite historique privée inspirée de Harry Potter",
+  "stored": 233.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    233.2,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 233.2,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 683677,
+  "name": "Harry Potter Lite with University Legends and City Highlights",
+  "stored": 233.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    233.2,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 233.2,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 684000,
+  "name": "Virtual Reality Parties",
+  "stored": 36.75,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Party Smash Point",
+    36.75,
+    "GROUP:party"
+   ],
+   [
+    "Party VR Escape Room",
+    42,
+    "GROUP:party"
+   ],
+   [
+    "Party Your Choice",
+    42,
+    "GROUP:party"
+   ],
+   [
+    "Party Free Roam Hero Zone",
+    47.25,
+    "GROUP:party"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 36.75,
+  "anchorLabel": "Party Smash Point",
+  "unit": "Party Smash Point",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 687793,
+  "name": "Christ Church Legends Tour - 3 hours",
+  "stored": 275.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    275.6,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 275.6,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 303752,
+  "name": "Little Tunas",
+  "stored": 18.55,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Student",
+    18.55,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "none",
+  "anchor": null,
+  "anchorLabel": null,
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "never-only ladder, not a child-audience product (Student)"
+ },
+ {
+  "pk": 365215,
+  "name": "60 Min - GROUP - Booking",
+  "stored": 106,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Group",
+    106,
+    "GROUP:group"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 106,
+  "anchorLabel": "Group",
+  "unit": "Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 421749,
+  "name": "Pirates - KS1",
+  "stored": 8.48,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Student",
+    8.48,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "none",
+  "anchor": null,
+  "anchorLabel": null,
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "never-only ladder, not a child-audience product (Student)"
+ },
+ {
+  "pk": 575986,
+  "name": "Canoe Hire - 3 Hour Hire",
+  "stored": 53,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Canoe Hire",
+    53,
+    "GROUP:canoe"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 53,
+  "anchorLabel": "Canoe Hire",
+  "unit": "Canoe Hire",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 585564,
+  "name": "In the Footsteps of Jack London",
+  "stored": 220.5,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour for Two",
+    220.5,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour - Small Group",
+    0,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour - Medium Group",
+    0,
+    "GROUP:private"
+   ],
+   [
+    "Private Tour - Large Group",
+    409.5,
+    "GROUP:private"
+   ],
+   [
+    "School Group (students under 18yrs old) 30 ppl max",
+    0,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 220.5,
+  "anchorLabel": "Private Tour for Two",
+  "unit": "Private Tour for Two",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 594941,
+  "name": "Ted Lasso Tour from London with private driver guide",
+  "stored": 620.1,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "One to two People",
+    620.1,
+    "GROUP:two people"
+   ],
+   [
+    "Three People",
+    620.1,
+    "VOLUME"
+   ],
+   [
+    "Four People",
+    726.1,
+    "VOLUME"
+   ],
+   [
+    "Five People",
+    726.1,
+    "VOLUME"
+   ]
+  ],
+  "rule": "D-614 party-total floor (s49)",
+  "anchor": 620.1,
+  "anchorLabel": "One to two People",
+  "unit": "One to two People",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 614000,
+  "name": "Nerf Party",
+  "stored": 199.8,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Basic Party",
+    199.8,
+    "GROUP:party"
+   ],
+   [
+    "Premium Party",
+    243,
+    "GROUP:party"
+   ],
+   [
+    "Additional Person • Premium",
+    21.6,
+    "NAME_NEVER"
+   ],
+   [
+    "Additional Person",
+    17.28,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 199.8,
+  "anchorLabel": "Basic Party",
+  "unit": "Basic Party",
+  "bucket": "NEEDS-RULING",
+  "blocker": "add-on-shaped anchor tier (abort)"
+ },
+ {
+  "pk": 637542,
+  "name": "Giants Causeway and Belfast City Tour",
+  "stored": 477,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    477,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 477,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 637582,
+  "name": "Dublin - Galway 'Northern Icons' Transfer Tour",
+  "stored": 1272,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    1272,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 1272,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 543098,
+  "name": "Crocodile Electric Boat",
+  "stored": 116.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Two Hours",
+    116.6,
+    "NAME_GROUP:boat"
+   ],
+   [
+    "Three Hour",
+    169.6,
+    "GROUP:rental"
+   ],
+   [
+    "Full Day",
+    275.6,
+    "NAME_GROUP:boat"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 116.6,
+  "anchorLabel": "Two Hours",
+  "unit": "NOT-DERIVABLE",
+  "bucket": "NEEDS-RULING",
+  "blocker": "boat: floor label/note carries no unit wording (Two Hours)"
+ },
+ {
+  "pk": 572917,
+  "name": "Private - British Museum Highlights Tour with Expert Guide",
+  "stored": 422.94,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    422.94,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 422.94,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 598234,
+  "name": "Cray - Cruiser Stern Style - 47 FT Holiday Hire",
+  "stored": 612.15,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "3 Nights",
+    612.15,
+    "GROUP:nights"
+   ],
+   [
+    "4 Nights",
+    700.35,
+    "GROUP:nights"
+   ],
+   [
+    "5 Nights",
+    787.5,
+    "GROUP:nights"
+   ],
+   [
+    "6 Nights",
+    874.65,
+    "GROUP:nights"
+   ],
+   [
+    "7 Nights",
+    962.85,
+    "GROUP:nights"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 612.15,
+  "anchorLabel": "3 Nights",
+  "unit": "3 Nights",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 619122,
+  "name": "Cotswolds Tour",
+  "stored": 683.7,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    683.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 683.7,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 619127,
+  "name": "Stonehenge Tour",
+  "stored": 482.3,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    482.3,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 482.3,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 619129,
+  "name": "The Windsor Tour",
+  "stored": 471.7,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    471.7,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 471.7,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 619131,
+  "name": "Stonehenge and Bath Tour",
+  "stored": 847.47,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    847.47,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 847.47,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 619132,
+  "name": "Highlights Tour",
+  "stored": 222.6,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Tour",
+    222.6,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 222.6,
+  "anchorLabel": "Private Tour",
+  "unit": "Private Tour",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 621992,
+  "name": "Adventure Pirate Kid’s Holiday Club",
+  "stored": 24.84,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Child - Half Day",
+    24.84,
+    "NAME_NEVER"
+   ],
+   [
+    "Child - Full Day",
+    37.8,
+    "NAME_NEVER"
+   ]
+  ],
+  "rule": "child-audience (s49)",
+  "anchor": 24.84,
+  "anchorLabel": "Child - Half Day",
+  "unit": "Child - Half Day",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 629761,
+  "name": "Private Charter",
+  "stored": 210,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Ninety Minute Charter",
+    210,
+    "GROUP:charter"
+   ],
+   [
+    "Three Hour Charter",
+    420,
+    "GROUP:charter"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 210,
+  "anchorLabel": "Ninety Minute Charter",
+  "unit": "Ninety Minute Charter",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 634863,
+  "name": "Pedalos",
+  "stored": 21.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Pedalo",
+    21.2,
+    "GROUP:group"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 21.2,
+  "anchorLabel": "Pedalo",
+  "unit": "For up to a group of 4 (2 adults & 2 children under 16, 2 adults only or 1 adult & 1 children)",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 682100,
+  "name": "London: Slow Horses Private Walking Tour of The City of London (unofficial)",
+  "stored": 180.2,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Group",
+    180.2,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-614 party-size ladder floor",
+  "anchor": 180.2,
+  "anchorLabel": "Private Group",
+  "unit": "Private Group",
+  "bucket": "DECIDED",
+  "blocker": null
+ },
+ {
+  "pk": 686116,
+  "name": "OA Full Day Expedition",
+  "stored": 875,
+  "stamp": "2026-08-25",
+  "ladder": [
+   [
+    "Private Boat Charter",
+    875,
+    "GROUP:private"
+   ]
+  ],
+  "rule": "D-621 whole-boat",
+  "anchor": 875,
+  "anchorLabel": "Private Boat Charter",
+  "unit": "Private Boat Charter",
+  "bucket": "DECIDED",
+  "blocker": null
+ }
+]
