@@ -1,0 +1,60 @@
+{
+ "withUnit_after": "From £120<small>per boat · up to 6 people</small>",
+ "withUnit_before": "From £120",
+ "noUnit_after": "From £120",
+ "noUnit_before": "From £120",
+ "noUnit_fullcard_identical": true,
+ "withUnit_escaped": "From £120<small>&lt;b&gt;x&lt;/b&gt;</small>",
+ "nonstring_unit": "",
+ "blank_unit": "",
+ "no_uf": "",
+ "formatPrice_src_identical": true,
+ "formatPrice_samples": [
+  [
+   [
+    120,
+    "high",
+    "GBP"
+   ],
+   "From £120",
+   "From £120"
+  ],
+  [
+   [
+    120,
+    "high",
+    "EUR"
+   ],
+   "From €120",
+   "From €120"
+  ],
+  [
+   [
+    120,
+    "high",
+    "XXX"
+   ],
+   "Price on request",
+   "Price on request"
+  ],
+  [
+   [
+    120,
+    "low",
+    "GBP"
+   ],
+   "Price on request",
+   "Price on request"
+  ],
+  [
+   [
+    0,
+    "high",
+    "GBP"
+   ],
+   "Price on request",
+   "Price on request"
+  ]
+ ],
+ "PASS": true
+}
