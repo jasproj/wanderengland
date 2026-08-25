@@ -32,11 +32,14 @@
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; line-height: 1.6; color: #222; background: #fff; }
   .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-  header { background: #a0173a; color: white; padding: 16px 20px; }
+  /* s49-weng-design: header carries the site logo on a white band (network rule); the navy
+     logo art clashes with the former crimson band, so the band matches the site header. */
+  header { background: #fff; color: #1c3055; padding: 12px 20px; border-bottom: 1px solid #e5e7eb; }
   header .nav-wrap { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-  header a { color: white; text-decoration: none; }
-  header .logo { font-weight: 700; font-size: 1.2rem; }
-  header nav a { margin-left: 18px; opacity: 0.9; }
+  header a { color: #1c3055; text-decoration: none; }
+  header .logo { display: inline-flex; align-items: center; }
+  header .logo-img { height: 80px; width: auto; vertical-align: middle; }
+  header nav a { margin-left: 18px; font-weight: 600; opacity: 0.9; }
   header nav a:hover { opacity: 1; text-decoration: underline; }
   .page-hero { background: linear-gradient(135deg, #a0173a 0%, #1c3055 100%); color: white; padding: 80px 20px; text-align: center; }
   .page-hero h1 { font-size: 2.5rem; margin: 0 0 12px 0; }
@@ -67,6 +70,7 @@
   @media (max-width: 600px) {
     .page-hero h1 { font-size: 1.8rem; }
     .page-hero { padding: 50px 20px; }
+    header .logo-img { height: 60px; }
     header nav a { display: none; }
     header nav a:first-child { display: inline; }
   }
@@ -77,7 +81,12 @@
 <body>
 <header>
   <div class="nav-wrap">
-    <a href="/" class="logo">WanderEngland</a>
+    <a href="/" class="logo" aria-label="WanderEngland home">
+      <picture>
+        <source type="image/webp" srcset="/images/logo-160.webp 160w, /images/logo-320.webp 320w, /images/logo-480.webp 480w" sizes="(max-width: 768px) 150px, 200px">
+        <img src="/images/logo.png" alt="WanderEngland" class="logo-img" loading="eager" decoding="async" width="200" height="80">
+      </picture>
+    </a>
     <nav>
       <a href="/">Home</a>
       <a href="/faq.html">FAQ</a>
@@ -93,13 +102,195 @@
   </div>
 </section>
 
+<section class="intro">
+  <div class="container">
+    <h2>About Cambridge</h2>
+    <p>Cambridge is a 50-minute train ride from London King's Cross. The University of Cambridge has 31 colleges (vs Oxford's 38), with most of the famous ones — King's, Trinity, St. John's, Queens' — sitting along the River Cam in a stretch known as 'the Backs' that you can punt past in a single 45-minute trip. King's College Chapel, with its Tudor fan-vaulted ceiling, is the most-photographed building in the city.<br><br>The best Cambridge half-day is the standard pattern: a 90-minute punting tour past the colleges (lots of operators on Quayside or Mill Lane), then a walking tour of the central colleges, then a wander to the Fitzwilliam Museum (free entry, collection). Cambridge feels smaller and more compact than Oxford — most things are within a 15-minute walk of Market Square. The market itself is open daily and is good for lunch.</p>
+  </div>
+</section>
+
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+      <li>50 minutes by train from London King&#x27;s Cross — slightly faster than Oxford</li>
+<li>31 colleges; King&#x27;s, Trinity, St. John&#x27;s, and Queens&#x27; are the highlights</li>
+<li>King&#x27;s College Chapel is the most-photographed building in the city</li>
+<li>Punting on the Cam runs year-round, but May-September is the prime season</li>
+<li>The Fitzwilliam Museum has a collection and is free</li>
+<li>Walkable city center — most colleges within 10 min of Market Square</li>
+    </ul>
+  </div>
+</section>
+
+<section class="tours">
+  <div class="container">
+    <h2>Cambridge tours (12 available)</h2>
+    <div class="tours-grid">
+      <article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/RXdCK8AWSgGsbE4lOJSf" alt="Shared • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £60</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Shared • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College</h3>
+        <p class="tour-desc">Discover the very best of Cambridge with this combined walking and punting tour, offering a complete introduction to the city’s history, colleges,…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/67511/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="67511" data-tour-name="Shared • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/iITCkuyeT6iRApBlcXBr" alt="Private • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Private • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College</h3>
+        <p class="tour-desc">Experience Cambridge in the most complete and refined way with this private walking and punting combination tour, designed for guests who value…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/214981/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="214981" data-tour-name="Private • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/XGCvzLUoSzKixzSr2oOz" alt="Shared • Cambridge Walking Tour &amp; Optional King&#x27;s College" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £28</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Shared • Cambridge Walking Tour &amp; Optional King&#x27;s College</h3>
+        <p class="tour-desc">Discover the historic heart of Cambridge on a professionally guided walking tour led by University alumni and academically trained guides.…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/67435/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="67435" data-tour-name="Shared • Cambridge Walking Tour &amp; Optional King&#x27;s College">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/qDquOgPXTTKbScGEHRBJ" alt="Private • Cambridge Walking Tour &amp; Optional King&#x27;s College" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Private • Cambridge Walking Tour &amp; Optional King&#x27;s College</h3>
+        <p class="tour-desc">Experience Cambridge with complete flexibility on a private walking tour led by University alumni and academically trained guides. Designed for…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/67508/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="67508" data-tour-name="Private • Cambridge Walking Tour &amp; Optional King&#x27;s College">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/7nqWv689S9Sh5dDqtel0" alt="Private • Cambridge University Punting Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Private • Cambridge University Punting Tour</h3>
+        <p class="tour-desc">Experience Cambridge’s most iconic tradition in complete comfort and privacy on a private punting tour along the River Cam, operated by…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/67510/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="67510" data-tour-name="Private • Cambridge University Punting Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/OyjAj6nrRxWPY6Npx3gk" alt="Shared • Cambridge University Punting Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Price on request</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Shared • Cambridge University Punting Tour</h3>
+        <p class="tour-desc">Discover one of Cambridge’s most celebrated traditions in comfort on a punting tour along the River Cam, operated by Scudamores, the oldest…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/70684/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="70684" data-tour-name="Shared • Cambridge University Punting Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/Kpk4PixpT0afS79aINj9" alt="Private • Cambridge University Ghost Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Private • Cambridge University Ghost Tour</h3>
+        <p class="tour-desc">Explore one of the most haunted cities in the country and uncover the chilling history of Cambridge on our 60-minute ghost tour. Wander through…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/354861/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="354861" data-tour-name="Private • Cambridge University Ghost Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/OL5v3iTLWsOZzCFCG01w" alt="Shared • Cambridge University Ghost Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £25</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Shared • Cambridge University Ghost Tour</h3>
+        <p class="tour-desc">Cambridge has stood for over 800 years. Within its ancient colleges and narrow medieval lanes lie stories far darker than the peaceful postcard…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/354862/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="354862" data-tour-name="Shared • Cambridge University Ghost Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/hIROtyQVQVCSmLCCGcSA" alt="剑桥校友伴你行 - 剑桥大学步行导览 &amp; 康河撑篙游船之旅（私人小团）" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">剑桥校友伴你行 - 剑桥大学步行导览 &amp; 康河撑篙游船之旅（私人小团）</h3>
+        <p class="tour-desc">通过这项结合 步行导览与康河撑篙体验 的行程，从多个角度探索剑桥，全面了解这座城市的历史、学院与传统。 行程首先由剑桥大学学子或具有学术背景的专业导游带领进行步行导览。沿着剑桥历史悠久的街道前行时，您的导游将介绍剑桥大学独特的学院制度，并分享学生生活、著名校友、学院竞争以及延续 800…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/609776/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="609776" data-tour-name="剑桥校友伴你行 - 剑桥大学步行导览 &amp; 康河撑篙游船之旅（私人小团）">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/6m1JUIAcRm6o13ETxkda" alt="Visit the tower of Great St. Mary’s Church." loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Visit the tower of Great St. Mary’s Church.</h3>
+        <p class="tour-desc">Would you like to admire the city center of Cambridge from its beating heart? Climb the staircase of the Tower of Great St. Mary’s, the Church of…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/617603/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="617603" data-tour-name="Visit the tower of Great St. Mary’s Church.">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/nR2NAW8SSW3D6ehalsKp" alt="剑桥校友伴你行 - 剑桥大学怪谈之旅（私人小团）" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">剑桥校友伴你行 - 剑桥大学怪谈之旅（私人小团）</h3>
+        <p class="tour-desc">剑桥已有 800 多年历史。在古老的学院建筑和狭窄的中世纪街巷之间，隐藏着和那些明信片宁静景色完全相反的故事。 我们的剑桥怪谈之旅是一场经过研究整理的夜间步行导览，带您探索真实记录的灵异传闻、历史悲剧以及在大学中流传数百年的传说。 讲解员由剑桥大学毕业校友或在读学生担任。 …</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/609778/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="609778" data-tour-name="剑桥校友伴你行 - 剑桥大学怪谈之旅（私人小团）">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/XwH9Yf8CSqyBOjH9wfwk" alt="Private Spanish • Cambridge University Ghost Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Private Spanish • Cambridge University Ghost Tour</h3>
+        <p class="tour-desc">Online Reservations Recommended Explore one of the most haunted cities in the country and find out about the gruesome things that happened long…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/609779/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="609779" data-tour-name="Private Spanish • Cambridge University Ghost Tour">Check Availability →</a>
+    </div>
+</article>
+    </div>
+  </div>
+</section>
+
+<section class="related">
+  <div class="container">
+    <h3>More on WanderEngland</h3>
+    <a href="/">All tours</a>
+    <a href="/faq.html">FAQ</a>
+    <a href="/blog/">Travel guides</a>
+  </div>
+</section>
+
 <!-- @include partials/weather-cambridge.html -->
 <!--
   WENG Weather Widget — Cambridge.
   Sources: Open-Meteo (current conditions, Celsius), Windy.com (radar iframe).
   Coordinates: Cambridge (52.2053, 0.1218). No API keys required. No tide block (inland-friendly default).
   Self-contained: includes scoped CSS in <style> and JS in <script>.
-  Inject between </section> close of hero and <section class="intro">.
+  Placed at the bottom of the page (network rule, s49-weng-design).
 -->
 <!-- WEATHER WIDGET START -->
 <section class="weng-weather" id="weather" aria-labelledby="weng-weather-heading">
@@ -298,188 +489,6 @@
 })();
 </script>
 <!-- WEATHER WIDGET END -->
-
-<section class="intro">
-  <div class="container">
-    <h2>About Cambridge</h2>
-    <p>Cambridge is a 50-minute train ride from London King's Cross. The University of Cambridge has 31 colleges (vs Oxford's 38), with most of the famous ones — King's, Trinity, St. John's, Queens' — sitting along the River Cam in a stretch known as 'the Backs' that you can punt past in a single 45-minute trip. King's College Chapel, with its Tudor fan-vaulted ceiling, is the most-photographed building in the city.<br><br>The best Cambridge half-day is the standard pattern: a 90-minute punting tour past the colleges (lots of operators on Quayside or Mill Lane), then a walking tour of the central colleges, then a wander to the Fitzwilliam Museum (free entry, collection). Cambridge feels smaller and more compact than Oxford — most things are within a 15-minute walk of Market Square. The market itself is open daily and is good for lunch.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-      <li>50 minutes by train from London King&#x27;s Cross — slightly faster than Oxford</li>
-<li>31 colleges; King&#x27;s, Trinity, St. John&#x27;s, and Queens&#x27; are the highlights</li>
-<li>King&#x27;s College Chapel is the most-photographed building in the city</li>
-<li>Punting on the Cam runs year-round, but May-September is the prime season</li>
-<li>The Fitzwilliam Museum has a collection and is free</li>
-<li>Walkable city center — most colleges within 10 min of Market Square</li>
-    </ul>
-  </div>
-</section>
-
-<section class="tours">
-  <div class="container">
-    <h2>Cambridge tours (12 available)</h2>
-    <div class="tours-grid">
-      <article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/RXdCK8AWSgGsbE4lOJSf" alt="Shared • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £60</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Shared • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College</h3>
-        <p class="tour-desc">Discover the very best of Cambridge with this combined walking and punting tour, offering a complete introduction to the city’s history, colleges,…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/67511/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="67511" data-tour-name="Shared • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/iITCkuyeT6iRApBlcXBr" alt="Private • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Check availability</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Private • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College</h3>
-        <p class="tour-desc">Experience Cambridge in the most complete and refined way with this private walking and punting combination tour, designed for guests who value…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/214981/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="214981" data-tour-name="Private • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/XGCvzLUoSzKixzSr2oOz" alt="Shared • Cambridge Walking Tour &amp; Optional King&#x27;s College" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £28</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Shared • Cambridge Walking Tour &amp; Optional King&#x27;s College</h3>
-        <p class="tour-desc">Discover the historic heart of Cambridge on a professionally guided walking tour led by University alumni and academically trained guides.…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/67435/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="67435" data-tour-name="Shared • Cambridge Walking Tour &amp; Optional King&#x27;s College">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/qDquOgPXTTKbScGEHRBJ" alt="Private • Cambridge Walking Tour &amp; Optional King&#x27;s College" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Check availability</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Private • Cambridge Walking Tour &amp; Optional King&#x27;s College</h3>
-        <p class="tour-desc">Experience Cambridge with complete flexibility on a private walking tour led by University alumni and academically trained guides. Designed for…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/67508/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="67508" data-tour-name="Private • Cambridge Walking Tour &amp; Optional King&#x27;s College">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/7nqWv689S9Sh5dDqtel0" alt="Private • Cambridge University Punting Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Check availability</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Private • Cambridge University Punting Tour</h3>
-        <p class="tour-desc">Experience Cambridge’s most iconic tradition in complete comfort and privacy on a private punting tour along the River Cam, operated by…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/67510/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="67510" data-tour-name="Private • Cambridge University Punting Tour">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/OyjAj6nrRxWPY6Npx3gk" alt="Shared • Cambridge University Punting Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Price on request</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Shared • Cambridge University Punting Tour</h3>
-        <p class="tour-desc">Discover one of Cambridge’s most celebrated traditions in comfort on a punting tour along the River Cam, operated by Scudamores, the oldest…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/70684/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="70684" data-tour-name="Shared • Cambridge University Punting Tour">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/Kpk4PixpT0afS79aINj9" alt="Private • Cambridge University Ghost Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Check availability</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Private • Cambridge University Ghost Tour</h3>
-        <p class="tour-desc">Explore one of the most haunted cities in the country and uncover the chilling history of Cambridge on our 60-minute ghost tour. Wander through…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/354861/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="354861" data-tour-name="Private • Cambridge University Ghost Tour">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/OL5v3iTLWsOZzCFCG01w" alt="Shared • Cambridge University Ghost Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £25</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Shared • Cambridge University Ghost Tour</h3>
-        <p class="tour-desc">Cambridge has stood for over 800 years. Within its ancient colleges and narrow medieval lanes lie stories far darker than the peaceful postcard…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/354862/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="354862" data-tour-name="Shared • Cambridge University Ghost Tour">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/hIROtyQVQVCSmLCCGcSA" alt="剑桥校友伴你行 - 剑桥大学步行导览 &amp; 康河撑篙游船之旅（私人小团）" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Check availability</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">剑桥校友伴你行 - 剑桥大学步行导览 &amp; 康河撑篙游船之旅（私人小团）</h3>
-        <p class="tour-desc">通过这项结合 步行导览与康河撑篙体验 的行程，从多个角度探索剑桥，全面了解这座城市的历史、学院与传统。 行程首先由剑桥大学学子或具有学术背景的专业导游带领进行步行导览。沿着剑桥历史悠久的街道前行时，您的导游将介绍剑桥大学独特的学院制度，并分享学生生活、著名校友、学院竞争以及延续 800…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/609776/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="609776" data-tour-name="剑桥校友伴你行 - 剑桥大学步行导览 &amp; 康河撑篙游船之旅（私人小团）">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/6m1JUIAcRm6o13ETxkda" alt="Visit the tower of Great St. Mary’s Church." loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Check availability</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Visit the tower of Great St. Mary’s Church.</h3>
-        <p class="tour-desc">Would you like to admire the city center of Cambridge from its beating heart? Climb the staircase of the Tower of Great St. Mary’s, the Church of…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/617603/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="617603" data-tour-name="Visit the tower of Great St. Mary’s Church.">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/nR2NAW8SSW3D6ehalsKp" alt="剑桥校友伴你行 - 剑桥大学怪谈之旅（私人小团）" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Check availability</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">剑桥校友伴你行 - 剑桥大学怪谈之旅（私人小团）</h3>
-        <p class="tour-desc">剑桥已有 800 多年历史。在古老的学院建筑和狭窄的中世纪街巷之间，隐藏着和那些明信片宁静景色完全相反的故事。 我们的剑桥怪谈之旅是一场经过研究整理的夜间步行导览，带您探索真实记录的灵异传闻、历史悲剧以及在大学中流传数百年的传说。 讲解员由剑桥大学毕业校友或在读学生担任。 …</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/609778/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="609778" data-tour-name="剑桥校友伴你行 - 剑桥大学怪谈之旅（私人小团）">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/XwH9Yf8CSqyBOjH9wfwk" alt="Private Spanish • Cambridge University Ghost Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Check availability</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Private Spanish • Cambridge University Ghost Tour</h3>
-        <p class="tour-desc">Online Reservations Recommended Explore one of the most haunted cities in the country and find out about the gruesome things that happened long…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/609779/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="609779" data-tour-name="Private Spanish • Cambridge University Ghost Tour">Check Availability →</a>
-    </div>
-</article>
-    </div>
-  </div>
-</section>
-
-<section class="related">
-  <div class="container">
-    <h3>More on WanderEngland</h3>
-    <a href="/">All tours</a>
-    <a href="/faq.html">FAQ</a>
-    <a href="/blog/">Travel guides</a>
-  </div>
-</section>
 
 <footer class="footer">
         <div class="container">
