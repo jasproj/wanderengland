@@ -1,0 +1,21 @@
+{
+ "stampedAt": "2026-08-25",
+ "population": 1056,
+ "shortnames": 232,
+ "resolvedShortnames": 231,
+ "written": 1054,
+ "sameValueRewrites": 4,
+ "untouched": [
+  {
+   "pk": 602841,
+   "sn": "brightonbeyondtours",
+   "status": 404
+  },
+  {
+   "pk": 634487,
+   "sn": "brightonbeyondtours",
+   "status": 404
+  }
+ ],
+ "rowsChanged": 1054
+}

@@ -1,0 +1,3265 @@
+{
+ "startedAt": "2026-08-25T16:32:36.284380+00:00",
+ "endpoint": "https://fareharbor.com/api/v1/companies/{sn}/",
+ "populationRows": 1056,
+ "attempted": 232,
+ "requests": 232,
+ "retries": [],
+ "perShortname": {
+  "60sbus": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Swinging 60s Bus Tours",
+   "companyPk": 118480,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20306
+   }
+  },
+  "adrenalinjungle": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Adrenalin Jungle",
+   "companyPk": 129195,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23170
+   }
+  },
+  "adventurepirate": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Adventure Pirate",
+   "companyPk": 125625,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21678
+   }
+  },
+  "adventurerutland": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Adventure Nene Ltd",
+   "companyPk": 56291,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20979
+   }
+  },
+  "adventuresports": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Adventure Sports",
+   "companyPk": 75604,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 26730
+   }
+  },
+  "akwildlifecruises": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "AK Wildlife Cruises",
+   "companyPk": 94740,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21060
+   }
+  },
+  "alehunters": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Ale Hunters",
+   "companyPk": 103611,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20826
+   }
+  },
+  "amigotoursuk": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Amigo Tours Europe - UK",
+   "companyPk": 30553,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20574
+   }
+  },
+  "amitylux": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Amitylux",
+   "companyPk": 55380,
+   "currency": "eur",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20278
+   }
+  },
+  "annielilford-designs": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Annie Designs",
+   "companyPk": 127509,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20483
+   }
+  },
+  "aquatic-quays": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Aquatic Windermere",
+   "companyPk": 112497,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22136
+   }
+  },
+  "aquatour": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Aquatour",
+   "companyPk": 122113,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22265
+   }
+  },
+  "astimegoesbylondon": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "As Time Goes By London",
+   "companyPk": 121518,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20858
+   }
+  },
+  "babyloncitytours-london": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Babylon Tours London",
+   "companyPk": 23741,
+   "currency": "eur",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20957
+   }
+  },
+  "bathaquaglass": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Bath Aqua Glass",
+   "companyPk": 60361,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20535
+   }
+  },
+  "bearcreekadventures": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Bear Creek Adventures",
+   "companyPk": 95223,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20991
+   }
+  },
+  "beardedmenadventures": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Bearded Men Adventures",
+   "companyPk": 76740,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24089
+   }
+  },
+  "bigbluesurfschool": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Big Blue Surf School",
+   "companyPk": 136312,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 29470
+   }
+  },
+  "blackboxsauna": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Black Box Sauna",
+   "companyPk": 127168,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22141
+   }
+  },
+  "blackwateralpacas": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Blackwater Alpacas & Pygmy Goats",
+   "companyPk": 120832,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 49247
+   }
+  },
+  "bmphotowalks": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Photoexploring",
+   "companyPk": 34713,
+   "currency": "eur",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22239
+   }
+  },
+  "bobholidays": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "BOBH - Day Trips from York",
+   "companyPk": 50142,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22988
+   }
+  },
+  "boulderadventures": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Boulder Adventures",
+   "companyPk": 141263,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20631
+   }
+  },
+  "bountyproject": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Blue Environment",
+   "companyPk": 96031,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23656
+   }
+  },
+  "brewerybustoursliverpool": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Brewery Bus Tours Liverpool",
+   "companyPk": 99615,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23902
+   }
+  },
+  "bridgewatercruises": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Bridgewater Cruises",
+   "companyPk": 52456,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21035
+   }
+  },
+  "brightonbeyondtours": {
+   "attempts": 1,
+   "status": 404,
+   "resolved": false,
+   "shape": {
+    "topKeys": "NoneType",
+    "bytes": 576071
+   },
+   "companyShortnameEcho": null,
+   "bodyHead": "\n\n\n\n\n<!DOCTYPE html>\n<!--\n\n\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u2588\u2588\u2557  \u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2557 \u2588"
+  },
+  "brightonbiketours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Brighton Bike Tours",
+   "companyPk": 95687,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20936
+   }
+  },
+  "briticontours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Brit Icon Tours",
+   "companyPk": 64097,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20350
+   }
+  },
+  "britishroutesholidays": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "British Routes Holidays",
+   "companyPk": 115332,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22037
+   }
+  },
+  "britmovietours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Brit Movie Tours",
+   "companyPk": 64357,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21880
+   }
+  },
+  "britmusictours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Brit Music Tours",
+   "companyPk": 70179,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20244
+   }
+  },
+  "bushexperiences": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Bush Experiences UK",
+   "companyPk": 108581,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 28116
+   }
+  },
+  "cambridge-food-tours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Cambridge Food Tour",
+   "companyPk": 110014,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22002
+   }
+  },
+  "cambridgealumnitours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Alumni Tours",
+   "companyPk": 20034,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23050
+   }
+  },
+  "cannonballbikes": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Cannonball Bikes",
+   "companyPk": 110589,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20697
+   }
+  },
+  "canoehire": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Want to Canoe?",
+   "companyPk": 112763,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 30047
+   }
+  },
+  "carlinboatcharters": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Carlin Boat Charters",
+   "companyPk": 125297,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21275
+   }
+  },
+  "caveclimb": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Cave Climb",
+   "companyPk": 37251,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21725
+   }
+  },
+  "celticdeep": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Celtic Deep",
+   "companyPk": 122312,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21862
+   }
+  },
+  "celticquestcoasteering": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Celtic Quest Coasteering",
+   "companyPk": 19174,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21609
+   }
+  },
+  "centrevr": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Centre VR",
+   "companyPk": 43591,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 35273
+   }
+  },
+  "cherylcade": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Cheryl Cade",
+   "companyPk": 91402,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20866
+   }
+  },
+  "cityexplorerliverpool": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "City Explorer Liverpool",
+   "companyPk": 70293,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21600
+   }
+  },
+  "clarkesfarm": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Clarkes Farm",
+   "companyPk": 123851,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20148
+   }
+  },
+  "coastalplay": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Be Adventurous",
+   "companyPk": 124529,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23679
+   }
+  },
+  "conocelondres": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Conoce Londres Ltd",
+   "companyPk": 103379,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20501
+   }
+  },
+  "copeland-spirits-ltd": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Copeland Spirits LTD",
+   "companyPk": 101565,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22458
+   }
+  },
+  "cornishrocktors": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Cornish Rock Tors",
+   "companyPk": 133520,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21907
+   }
+  },
+  "cornishwave": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Cornish Wave",
+   "companyPk": 52540,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22439
+   }
+  },
+  "cotswoldboat": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Cotswold Boat Hire",
+   "companyPk": 61294,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22186
+   }
+  },
+  "cotswoldcanoehire": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Cotswold Canoe Hire Ltd",
+   "companyPk": 38303,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24867
+   }
+  },
+  "craftydistillery": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Galloway Distillery",
+   "companyPk": 72894,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20132
+   }
+  },
+  "deathlydarktours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Deathly Dark Tours",
+   "companyPk": 121771,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22495
+   }
+  },
+  "debbiebryan": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Debbie Bryan",
+   "companyPk": 74471,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20513
+   }
+  },
+  "deeriverkayaking": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Dee River Kayaking Ltd",
+   "companyPk": 116221,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24725
+   }
+  },
+  "dexterssurfshop": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Dexter\u2019s Surf Shop",
+   "companyPk": 19210,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22195
+   }
+  },
+  "dittishamboathire": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Dittisham Boat Hire",
+   "companyPk": 133510,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22368
+   }
+  },
+  "dolphinsurveyboattrips": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Dolphin Survey Boat Trips",
+   "companyPk": 56472,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20595
+   }
+  },
+  "efoilcornwall": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "E-FOIL CORNWALL",
+   "companyPk": 120846,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24519
+   }
+  },
+  "elementalnomad": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Elemental Nomad",
+   "companyPk": 123798,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21377
+   }
+  },
+  "elementssauna": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Elements Sauna",
+   "companyPk": 137623,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21509
+   }
+  },
+  "embsayboltonabbeyrailway": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Embsay & Bolton Abbey Steam Railway",
+   "companyPk": 60222,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22691
+   }
+  },
+  "escapedungeons": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Three Chimneys",
+   "companyPk": 106341,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 27288
+   }
+  },
+  "everydriver": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Every Driver",
+   "companyPk": 132815,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20543
+   }
+  },
+  "exmooradventures": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Exmoor Adventures Ltd",
+   "companyPk": 51916,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20996
+   }
+  },
+  "experiencecambridge": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Experience Cambridge",
+   "companyPk": 126943,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21114
+   }
+  },
+  "experiencelocaltours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Experience Local Ltd",
+   "companyPk": 109652,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21462
+   }
+  },
+  "experiencenorthtours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Experience North Ltd",
+   "companyPk": 127103,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23555
+   }
+  },
+  "experienceoxfordshire": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Experience Oxfordshire",
+   "companyPk": 20494,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23189
+   }
+  },
+  "explora-londres": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Explora Londres",
+   "companyPk": 125210,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22173
+   }
+  },
+  "explore-4x4": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Explore 4x4",
+   "companyPk": 137563,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20265
+   }
+  },
+  "ezekialbone": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Ezekial Bone",
+   "companyPk": 116504,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21089
+   }
+  },
+  "falmouthuncovered": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Falmouth Uncovered",
+   "companyPk": 132155,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20701
+   }
+  },
+  "fashiontourslondon": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Fashion Tours London",
+   "companyPk": 40317,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21203
+   }
+  },
+  "fofbiketours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "FOF Bike Tours",
+   "companyPk": 144203,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20837
+   }
+  },
+  "foreadventure": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Fore Adventure",
+   "companyPk": 127607,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 27680
+   }
+  },
+  "frisbylakespaddlesports": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Frisby Lakes Paddlesports",
+   "companyPk": 95774,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20497
+   }
+  },
+  "funlondontours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Fun London Tours",
+   "companyPk": 26726,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22433
+   }
+  },
+  "gelblaster-battlezone": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "GelBlaster Battlezone",
+   "companyPk": 130253,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20916
+   }
+  },
+  "getoutandtrek": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Get Out and Trek Ltd",
+   "companyPk": 135716,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21263
+   }
+  },
+  "ghost-walks": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Theatre of Dark Encounters",
+   "companyPk": 68484,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20125
+   }
+  },
+  "goldenhinde": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Golden Hinde",
+   "companyPk": 90408,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21711
+   }
+  },
+  "halaltourismbritain": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Halal Tourism Britain",
+   "companyPk": 61658,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21732
+   }
+  },
+  "hamptoncourtpaddlesports": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Hampton Court Paddle Sports",
+   "companyPk": 81683,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24206
+   }
+  },
+  "herefordkayakcanoe": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Hereford Kayak & Canoe",
+   "companyPk": 126024,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21642
+   }
+  },
+  "hhactivitycentre": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Horsenden Hill Activity Centre",
+   "companyPk": 117837,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22199
+   }
+  },
+  "highwealdwine": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Highweald Wine",
+   "companyPk": 139407,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20157
+   }
+  },
+  "historiclondontours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Historic London Tours",
+   "companyPk": 90760,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20694
+   }
+  },
+  "ilestours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Iles Tours",
+   "companyPk": 63422,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 25511
+   }
+  },
+  "inandbeyondbath": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "In and Beyond Bath",
+   "companyPk": 112288,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22821
+   }
+  },
+  "inchperfecttrials": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Inch Perfect Trials Ltd",
+   "companyPk": 33716,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23398
+   }
+  },
+  "invisible-cities": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Invisible Cities Tours",
+   "companyPk": 47136,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20278
+   }
+  },
+  "jaunt-ebikes": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Jaunt E-Bikes",
+   "companyPk": 125349,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22183
+   }
+  },
+  "jetstreamtours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Jetstream Tours",
+   "companyPk": 74537,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23984
+   }
+  },
+  "john-bull": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "John Bull's World of Rock",
+   "companyPk": 143024,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21150
+   }
+  },
+  "karleythdiving": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Karleyth Diving",
+   "companyPk": 125270,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22247
+   }
+  },
+  "kelseygardens": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Kelsey Lakes and Gardens",
+   "companyPk": 126961,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20135
+   }
+  },
+  "kippfordclassiccarhire": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Kippford Classic Car Hire",
+   "companyPk": 122314,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20737
+   }
+  },
+  "lancashirecanalcruises": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Canal Cruise Lancashire Ltd",
+   "companyPk": 69504,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20579
+   }
+  },
+  "laserguys": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Laserguys Activities",
+   "companyPk": 138687,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20970
+   }
+  },
+  "latualondra": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "La tua Londra",
+   "companyPk": 94739,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20132
+   }
+  },
+  "letzgocitytours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Letz Go City Tours UK",
+   "companyPk": 50468,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20880
+   }
+  },
+  "liverpoolsplashtours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Splash Tours Liverpool",
+   "companyPk": 97352,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20717
+   }
+  },
+  "livinglondonhistory": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Living London History",
+   "companyPk": 131532,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21393
+   }
+  },
+  "llangorselake": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Lakeside Caravan and Camping Park",
+   "companyPk": 119472,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21378
+   }
+  },
+  "londoncabtours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "London Cab Tours",
+   "companyPk": 36842,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21113
+   }
+  },
+  "londoncountrytours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "London Country Tours",
+   "companyPk": 54911,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20123
+   }
+  },
+  "londonguidedwalks": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "London Guided Walks",
+   "companyPk": 23537,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 25267
+   }
+  },
+  "londonguidedwalksprivatetours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "London Guided Walks Private Tours",
+   "companyPk": 60484,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22170
+   }
+  },
+  "londonminicabservice": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "London Minicab Service",
+   "companyPk": 81098,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20452
+   }
+  },
+  "londonmysterywalks": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "London Mystery Walks",
+   "companyPk": 125412,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21808
+   }
+  },
+  "looeandbeyondwalkingtours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Looe and Beyond Walking Tours",
+   "companyPk": 125949,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21596
+   }
+  },
+  "lovenorwichfood": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Love Norwich Food",
+   "companyPk": 119682,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21077
+   }
+  },
+  "lovinglondon": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Loving Travel",
+   "companyPk": 128625,
+   "currency": "eur",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23441
+   }
+  },
+  "lucydanielguide": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Lucy Daniel Guide",
+   "companyPk": 116937,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20319
+   }
+  },
+  "lymebayribcharter": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Lyme Bay RIB Charter",
+   "companyPk": 35824,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23283
+   }
+  },
+  "marlowboating": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Marlow Boating",
+   "companyPk": 112623,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 27874
+   }
+  },
+  "marthamferryboatyard": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Martham Ferry Day Boat Hire",
+   "companyPk": 65521,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 30300
+   }
+  },
+  "maverickboatadventures": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Maverick Boat Adventures",
+   "companyPk": 81500,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21662
+   }
+  },
+  "michael-coates": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Michael Coates Clay Pigeon Shooting",
+   "companyPk": 119486,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20267
+   }
+  },
+  "mkcookeryschool": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Milton Keynes Cookery School",
+   "companyPk": 104457,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22670
+   }
+  },
+  "mychocolate": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "MyChocolate",
+   "companyPk": 74501,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 39079
+   }
+  },
+  "nationalwhitewatercentre": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The National Whitewater Centre",
+   "companyPk": 100902,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 30251
+   }
+  },
+  "newcastlecastle": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Newcastle Castle",
+   "companyPk": 59793,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24038
+   }
+  },
+  "newquayboattrips": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "New Quay Boat Trips",
+   "companyPk": 38413,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 29656
+   }
+  },
+  "nicholend": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Nichol End Marine",
+   "companyPk": 69619,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 26332
+   }
+  },
+  "nickthorn": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Nick Thorn Surf School",
+   "companyPk": 66951,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21698
+   }
+  },
+  "northdevoncoasteering": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "North Devon Coasteering",
+   "companyPk": 137193,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22364
+   }
+  },
+  "oceanhigh": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Ocean High",
+   "companyPk": 125786,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20823
+   }
+  },
+  "oceansportscentre": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Ocean Sports Centre",
+   "companyPk": 52468,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21409
+   }
+  },
+  "odysseyvr": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Odyssey VR",
+   "companyPk": 102914,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 26627
+   }
+  },
+  "omescapelondon": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Omescape London",
+   "companyPk": 67029,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21235
+   }
+  },
+  "one-atlantek": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "One Atlantek",
+   "companyPk": 138225,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22552
+   }
+  },
+  "onetenkitesurfing": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "One Ten Kite & Wing LTD",
+   "companyPk": 127045,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20511
+   }
+  },
+  "onlyinbrighton": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Only in Brighton!",
+   "companyPk": 62320,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20931
+   }
+  },
+  "oskcwatersports": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "OSKC Watersports",
+   "companyPk": 63737,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24040
+   }
+  },
+  "ourdaddysailing": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Our Daddy Sailing",
+   "companyPk": 143146,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20568
+   }
+  },
+  "oxfordhistorytours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Oxford History Tours",
+   "companyPk": 109846,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24887
+   }
+  },
+  "oxfordrivercruises": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Oxford River Cruises",
+   "companyPk": 64810,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22058
+   }
+  },
+  "oysterboatterror": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Oyster Boat Terror",
+   "companyPk": 121572,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24168
+   }
+  },
+  "paddleboardinglondon": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Paddleboarding London",
+   "companyPk": 133408,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 26072
+   }
+  },
+  "paintballhertfordshire": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Paintball Hertfordshire",
+   "companyPk": 75214,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21665
+   }
+  },
+  "parkwoodoutdoors": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Parkwood Outdoors Dolygaer",
+   "companyPk": 71432,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21623
+   }
+  },
+  "pembrokeshireboatcharters": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Pembrokeshire Boat Charters",
+   "companyPk": 129767,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21098
+   }
+  },
+  "plantasiaswansea": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Plantasia Swansea",
+   "companyPk": 71366,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21437
+   }
+  },
+  "playerready-plymouth": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Player Ready VR - Plymouth",
+   "companyPk": 62268,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 27342
+   }
+  },
+  "playerready-truro": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Player Ready VR - Truro",
+   "companyPk": 62271,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 27617
+   }
+  },
+  "pub-tours-ltd": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Pub Tours Ltd",
+   "companyPk": 92812,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 19853
+   }
+  },
+  "pubcrawledinburgh": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Ebrius Edinburgh Pub Crawl",
+   "companyPk": 127894,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23128
+   }
+  },
+  "ramseyisland": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Voyages Of Discovery",
+   "companyPk": 41737,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22164
+   }
+  },
+  "rapidhorizons": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Rapid Horizons Adventures",
+   "companyPk": 111190,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24973
+   }
+  },
+  "ravenglass-eskdale-railway": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Ravenglass Eskdale Railway",
+   "companyPk": 110831,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23483
+   }
+  },
+  "regionaltransport": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Regional Transport Ltd",
+   "companyPk": 124530,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22147
+   }
+  },
+  "rescuewoodenboats": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Rescue Wooden Boats",
+   "companyPk": 128552,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21684
+   }
+  },
+  "rivermedwaycanoes": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "River Medway Canoes",
+   "companyPk": 108192,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24900
+   }
+  },
+  "riverseverncanoes": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "River Severn Canoes",
+   "companyPk": 58238,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 19868
+   }
+  },
+  "rockandrapidadventures": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Rock And Rapid Adventures",
+   "companyPk": 73167,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21961
+   }
+  },
+  "rocknstrolltours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Rock n Stroll Tours",
+   "companyPk": 126747,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 19837
+   }
+  },
+  "rocksolidcoasteering": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Rock Solid Coasteering",
+   "companyPk": 113376,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 25514
+   }
+  },
+  "roryinoxford": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Rory in Oxford",
+   "companyPk": 120870,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23956
+   }
+  },
+  "roundchurchcambridge": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Round Church Cambridge",
+   "companyPk": 117887,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21528
+   }
+  },
+  "royalrendezvous": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Royal Rendezvous",
+   "companyPk": 141420,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 19798
+   }
+  },
+  "rudyardlake": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Rudyard Lake",
+   "companyPk": 141559,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20590
+   }
+  },
+  "sailtortuga": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Sail Tortuga",
+   "companyPk": 115280,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24060
+   }
+  },
+  "salhousebroad": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Salhouse Broad",
+   "companyPk": 119178,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20254
+   }
+  },
+  "salterssteamers": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Salters Steamers",
+   "companyPk": 128944,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20850
+   }
+  },
+  "sasoutdoors": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Whitewater Active",
+   "companyPk": 38925,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24276
+   }
+  },
+  "saxonair": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Saxon Air",
+   "companyPk": 135141,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20887
+   }
+  },
+  "scarboroughsurfschool": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Scarborough Surf School",
+   "companyPk": 80683,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24144
+   }
+  },
+  "seakayakdevon": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Sea Kayak Devon",
+   "companyPk": 58013,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 32294
+   }
+  },
+  "seakayaktorbay": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Sea Kayak Torbay",
+   "companyPk": 116179,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23495
+   }
+  },
+  "secretlondonruns": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Secret London Runs",
+   "companyPk": 97840,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22188
+   }
+  },
+  "seethesightstours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "See The Sights Tours",
+   "companyPk": 59037,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20298
+   }
+  },
+  "seeyourcity": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "See Your City",
+   "companyPk": 96880,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20092
+   }
+  },
+  "sherpafoodtours_uk": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Sherpa Food Tours - UK",
+   "companyPk": 128215,
+   "currency": "usd",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22857
+   }
+  },
+  "shiverpool": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Shiverpool",
+   "companyPk": 35178,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23006
+   }
+  },
+  "shoresports": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "ShoreSports",
+   "companyPk": 68247,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24517
+   }
+  },
+  "silentadventures": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Silent Adventures",
+   "companyPk": 105206,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24347
+   }
+  },
+  "silenttours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Silent Disco Walking Tours",
+   "companyPk": 65388,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20021
+   }
+  },
+  "skybluecitywalks": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Sky Blue City Walks",
+   "companyPk": 122148,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20268
+   }
+  },
+  "snowdonia-adventures": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Snowdonia Adventures",
+   "companyPk": 141396,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21096
+   }
+  },
+  "southwestsup": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "South West SUP",
+   "companyPk": 70623,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 19831
+   }
+  },
+  "spvr-arcade": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "SPVR Arcade",
+   "companyPk": 117301,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21584
+   }
+  },
+  "stratfordtownwalk": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Stratford Town Walk",
+   "companyPk": 89401,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21580
+   }
+  },
+  "suttonstaitheboatyard": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Sutton Staithe Boatyard Ltd",
+   "companyPk": 127797,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20916
+   }
+  },
+  "swbmotorsport": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "SWB Motorsport",
+   "companyPk": 53415,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20803
+   }
+  },
+  "talioleeds": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Talio Leeds",
+   "companyPk": 31061,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22229
+   }
+  },
+  "teaonthethames": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Tea on the Thames",
+   "companyPk": 132482,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22575
+   }
+  },
+  "terrifictourslondon": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Terrific Tours London",
+   "companyPk": 125624,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21226
+   }
+  },
+  "terrortower": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Terror Tower",
+   "companyPk": 99968,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20296
+   }
+  },
+  "thebadofbath": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Bad of Bath",
+   "companyPk": 88615,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20627
+   }
+  },
+  "thebiglondonbakeeast": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Big London Bake East",
+   "companyPk": 138410,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24572
+   }
+  },
+  "thebigmanchesterbake": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Big Manchester Bake",
+   "companyPk": 138820,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24005
+   }
+  },
+  "thecanterburytours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Canterbury Tours",
+   "companyPk": 34471,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20385
+   }
+  },
+  "theclubhousestoke": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Clubhouse Stoke",
+   "companyPk": 57251,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21844
+   }
+  },
+  "theghostwalkpadstow": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Ghost Walk Padstow",
+   "companyPk": 133743,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21995
+   }
+  },
+  "thegreatweekender": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Great Weekender",
+   "companyPk": 106355,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23032
+   }
+  },
+  "theliverpudlian": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Liverpudlian Ltd",
+   "companyPk": 132850,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21813
+   }
+  },
+  "themarlowboatcompanylimited": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Marlow Boat Company Limited",
+   "companyPk": 140463,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 19721
+   }
+  },
+  "theperfumestudio": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Perfume Studio",
+   "companyPk": 87375,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21509
+   }
+  },
+  "thevikinggames": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Viking Games",
+   "companyPk": 124058,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22433
+   }
+  },
+  "torstourofthetor": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Tor's Tour of the Tor",
+   "companyPk": 136191,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21595
+   }
+  },
+  "tourformuggles": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Tour for Muggles",
+   "companyPk": 113777,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 23433
+   }
+  },
+  "toursoftheuk": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Tours of the UK",
+   "companyPk": 72714,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20849
+   }
+  },
+  "toursofwales": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Tours of Wales",
+   "companyPk": 105845,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20483
+   }
+  },
+  "traditionallondontours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Traditional London Tours",
+   "companyPk": 126477,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 19977
+   }
+  },
+  "tregoydriding": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Tregoyd Mountain Riders",
+   "companyPk": 128950,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21605
+   }
+  },
+  "turnipfishtheatre": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Turnip Fish Theatre Company",
+   "companyPk": 126741,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 19934
+   }
+  },
+  "undergrounddonutour": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Underground Donut Tour",
+   "companyPk": 33471,
+   "currency": "usd",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21456
+   }
+  },
+  "universal-tourguide": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Universal Tour Guide",
+   "companyPk": 83617,
+   "currency": "eur",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20212
+   }
+  },
+  "uvacars": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Tour-EN-Londres",
+   "companyPk": 125692,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21064
+   }
+  },
+  "vintagetrains": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Vintage Trains",
+   "companyPk": 82761,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 26620
+   }
+  },
+  "viplondontour": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "VIP London Tour",
+   "companyPk": 64751,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21782
+   }
+  },
+  "vrwarehouse": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "VR Warehouse",
+   "companyPk": 79929,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22031
+   }
+  },
+  "vrxtra-kingston": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "VRXtra Kingston",
+   "companyPk": 122414,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 27725
+   }
+  },
+  "vrxtra-watford": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "VRXtra Watford",
+   "companyPk": 122732,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 27788
+   }
+  },
+  "walkeatlondon": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Walk Eat London",
+   "companyPk": 119175,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20125
+   }
+  },
+  "walkingtoursin": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Walking Tours in the UK",
+   "companyPk": 54904,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20970
+   }
+  },
+  "weetoasttourslondon": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Wee Toast LTD London",
+   "companyPk": 47982,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22034
+   }
+  },
+  "weetours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Wee Tours NI",
+   "companyPk": 129886,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20131
+   }
+  },
+  "westminstertour": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Westminster Tour",
+   "companyPk": 83499,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21590
+   }
+  },
+  "weymouthbayribcharters": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Weymouth Bay Rib Charters",
+   "companyPk": 69885,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20598
+   }
+  },
+  "whatsup-training": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "WHATSUP Training",
+   "companyPk": 113604,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 24763
+   }
+  },
+  "windsorducktours": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Windsor Duck Tours",
+   "companyPk": 35622,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20834
+   }
+  },
+  "wizardwalkofyork": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Wizard Walk of York",
+   "companyPk": 89964,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 21141
+   }
+  },
+  "wolt": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "The Wiltshire Outdoor Learning Team",
+   "companyPk": 24684,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20250
+   }
+  },
+  "worsleydayboats": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "123 Boats Ltd",
+   "companyPk": 142717,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20250
+   }
+  },
+  "x-pilot": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "X-Pilot - Marine A Services",
+   "companyPk": 142542,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 22715
+   }
+  },
+  "yorkgin": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "York Distillery",
+   "companyPk": 137528,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 27452
+   }
+  },
+  "yorkshire-belle": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Yorkshire Belle",
+   "companyPk": 80688,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 28557
+   }
+  },
+  "yorkshireappetite": {
+   "attempts": 1,
+   "status": 200,
+   "resolved": true,
+   "name": "Yorkshire Appetite Food Tours",
+   "companyPk": 76780,
+   "currency": "gbp",
+   "shape": {
+    "topKeys": [
+     "company"
+    ],
+    "bytes": 20332
+   }
+  }
+ },
+ "finishedAt": "2026-08-25T16:38:37.075941+00:00",
+ "reconcile": {
+  "attempted": 232,
+  "succeeded": 232,
+  "resolved": 231,
+  "unresolved": 1,
+  "unresolvedList": [
+   "brightonbeyondtours"
+  ]
+ }
+}

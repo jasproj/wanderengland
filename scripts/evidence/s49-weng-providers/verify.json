@@ -1,0 +1,116 @@
+{
+ "sha_before": {
+  "tours-data.json": "04bdb8a5707a884c8e275a829bf362d9d07e0f787d91a556f40a3c7b300cbf22"
+ },
+ "sha_after": {
+  "tours-data.json": "3a6e1379a40b752a01f29b6d40bc6372a3e4db3a27f0229fadd8a61a8d9ca3da"
+ },
+ "byteRoundTrip": true,
+ "population": 1056,
+ "written": 1054,
+ "untouched": [
+  602841,
+  634487
+ ],
+ "wrongValueOrStamp": [],
+ "untouchedRowsChanged": [],
+ "rowsOutsidePopulationChanged": 0,
+ "fieldsChangedOnWrittenRows": [
+  "company",
+  "providerResolvedAt",
+  "providerSource"
+ ],
+ "providerNameMissingInJsonLd": [],
+ "priceOrOfferDiffs": 0,
+ "nonProviderSchemaDiffs": 0,
+ "cardHtmlDiffsOutsidePopulation": 0,
+ "summary_before": {
+  "loaded": 1424,
+  "visiblePrice": 1128,
+  "jsonLdOffers": 1128,
+  "visibleByCurrency": {
+   "EUR": 19,
+   "GBP": 1101,
+   "USD": 8
+  },
+  "visibleBySymbol": {
+   "$": 8,
+   "\u00a3": 1101,
+   "\u20ac": 19
+  },
+  "offersByPriceCurrency": {
+   "EUR": 19,
+   "GBP": 1101,
+   "USD": 8
+  },
+  "visibleNonGbp": 27,
+  "priceTextButNoOffer": 0
+ },
+ "summary_after": {
+  "loaded": 1424,
+  "visiblePrice": 1128,
+  "jsonLdOffers": 1128,
+  "visibleByCurrency": {
+   "EUR": 19,
+   "GBP": 1101,
+   "USD": 8
+  },
+  "visibleBySymbol": {
+   "$": 8,
+   "\u00a3": 1101,
+   "\u20ac": 19
+  },
+  "offersByPriceCurrency": {
+   "EUR": 19,
+   "GBP": 1101,
+   "USD": 8
+  },
+  "visibleNonGbp": 27,
+  "priceTextButNoOffer": 0
+ },
+ "summary_identical": true,
+ "spotSamples": [
+  [
+   128416,
+   "shiverpool",
+   {
+    "@type": "LocalBusiness",
+    "name": "Shiverpool"
+   }
+  ],
+  [
+   331009,
+   "mychocolate",
+   {
+    "@type": "LocalBusiness",
+    "name": "MyChocolate"
+   }
+  ],
+  [
+   331019,
+   "mychocolate",
+   {
+    "@type": "LocalBusiness",
+    "name": "MyChocolate"
+   }
+  ],
+  [
+   331069,
+   "mychocolate",
+   {
+    "@type": "LocalBusiness",
+    "name": "MyChocolate"
+   }
+  ],
+  [
+   722372,
+   "fofbiketours",
+   {
+    "@type": "LocalBusiness",
+    "name": "FOF Bike Tours"
+   }
+  ]
+ ],
+ "searchFilterPathUnchanged": true,
+ "PASS": true
+}
