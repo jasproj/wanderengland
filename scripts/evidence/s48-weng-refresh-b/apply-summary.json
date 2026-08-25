@@ -1,0 +1,7503 @@
+{
+ "stampedAt": "2026-08-25T15:42:20.919Z",
+ "appliedAt": "2026-08-25T15:42:20.919Z",
+ "population": 217,
+ "rowsChanged": 217,
+ "untouchedInPop": 0,
+ "disposition": {
+  "repriced": 91,
+  "HELD": 76,
+  "unchanged": 26,
+  "UNSAMPLED": 7,
+  "zero_price": 17
+ },
+ "summary": [
+  {
+   "pk": 67511,
+   "name": "Shared • Cambridge Walking & Punting Tour & Optional King's College",
+   "old": 60,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 62,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student",
+     "note": "Youth (Ages 13-17)",
+     "price": 60,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 57,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 60,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult with King's College Ticket",
+     "note": "Ages 18+",
+     "price": 87,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student with King's College Ticket",
+     "note": "Youth (Ages 13-17)",
+     "price": 85,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child with King's College Ticket",
+     "note": "Ages 3-12",
+     "price": 82,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior with King's College Ticket",
+     "note": "Ages 65+",
+     "price": 85,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 62,
+   "label": "Adult"
+  },
+  {
+   "pk": 187120,
+   "name": "Hele Bay Adrenaline Adventure | PREMIER UK COASTEERING",
+   "old": 47,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 17+",
+     "price": 47.7,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8 -16",
+     "price": 47.7,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 47.7,
+   "label": "Adult"
+  },
+  {
+   "pk": 251794,
+   "name": "A Nosey Around Soho",
+   "old": 221,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "Ages 18+ • Up to 6 people",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "Ages 18+ • 7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "Ages 18+ • 16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 288.75,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 251796,
+   "name": "Best of Blackfriars",
+   "old": 221,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 251801,
+   "name": "Bleeding Hearts & Body Parts",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 283386,
+   "name": "Shared • Oxford University Walking Tour & Optional New College",
+   "old": 28,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 30,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student",
+     "note": "Youth (Ages 13-17)",
+     "price": 28,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 25,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 28,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult with New College",
+     "note": "Ages 18+",
+     "price": 50,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student/Concession with New College",
+     "note": "Youth (Ages 13-17)",
+     "price": 48,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child with New College",
+     "note": "Ages 3-12",
+     "price": 45,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior with New College",
+     "note": "Ages 65+",
+     "price": 48,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 30,
+   "label": "Adult"
+  },
+  {
+   "pk": 336773,
+   "name": "Pistol & Rifle Shooting Gallery",
+   "old": 39,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 39.9,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Junior",
+     "note": "Ages 10-15",
+     "price": 39.9,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 39.9,
+   "label": "Adult"
+  },
+  {
+   "pk": 466481,
+   "name": "York: Historical Gems Tour & A Taste of York Chocolate",
+   "old": 17,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 17.85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-15 (Select adult first)",
+     "price": 15.75,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior/Student",
+     "note": "Ages 65+ | Student (Valid ID)",
+     "price": 16.8,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 17.85,
+   "label": "Adult"
+  },
+  {
+   "pk": 502058,
+   "name": "Doctor Who Private Tour",
+   "old": 221,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 67435,
+   "name": "Shared • Cambridge Walking Tour & Optional King's College",
+   "old": 28,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 30,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student",
+     "note": "Youth (Ages 13-17)",
+     "price": 28,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 25,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 28,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult with King's College Ticket",
+     "note": "Ages 18+",
+     "price": 55,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student with King's College Ticket",
+     "note": "Youth (Ages 13-17)",
+     "price": 53,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child with King's College Ticket",
+     "note": "Ages 3-12",
+     "price": 50,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior with King's College Ticket",
+     "note": "Ages 65+",
+     "price": 53,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 30,
+   "label": "Adult"
+  },
+  {
+   "pk": 252056,
+   "name": "A Road to Ruin: Private Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 283.5,
+   "label": "Private Tour - Small Group"
+  },
+  {
+   "pk": 252083,
+   "name": "Private Christmas Lights Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 283.5,
+   "label": "Private Tour - Small Group"
+  },
+  {
+   "pk": 252096,
+   "name": "Private A Christmas Carol Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 283.5,
+   "label": "Private Tour - Small Group"
+  },
+  {
+   "pk": 252104,
+   "name": "Private Victorian Covent Garden Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 288.75,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 283.5,
+   "label": "Private Tour - Small Group"
+  },
+  {
+   "pk": 328939,
+   "name": "Private Secret Spaces in the City",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 336591,
+   "name": "Quad Bike Trekking",
+   "old": 63,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 63,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 63,
+   "label": "Adult"
+  },
+  {
+   "pk": 497665,
+   "name": "All Change at Kings Cross: Private Tour",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "Ages 18+ • Up to 6 people",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "Ages 18+ • 7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "Ages 18+ • 16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 70684,
+   "name": "Shared • Cambridge University Punting Tour",
+   "old": 34,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 3+",
+     "price": 32,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 32,
+   "label": "Person"
+  },
+  {
+   "pk": 208995,
+   "name": "Surfing Lesson | Sells Out Fast!",
+   "old": 43,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 8+",
+     "price": 42,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Group of 8 or more",
+     "note": "",
+     "price": 38.85,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42,
+   "label": "Person"
+  },
+  {
+   "pk": 467520,
+   "name": "Samuel Pepys's London: a Private Tour",
+   "old": 175,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 541117,
+   "name": "Stonehenge Unearthed (Shared, Half-Day)",
+   "old": 152,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "1-2 adults",
+     "note": "18+ • pricing per person",
+     "price": 137.02,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "3-4 adults",
+     "note": "18+ • pricing per person",
+     "price": 118.12,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "5-8 adults",
+     "note": "18+ • pricing per person",
+     "price": 99.22,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "1-2 children",
+     "note": "4-17 Years • pricing per person",
+     "price": 108.68,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "3-4 children",
+     "note": "4-17 Years • pricing per person",
+     "price": 94.5,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant/Toddler",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 137.02,
+   "label": "1-2 adults"
+  },
+  {
+   "pk": 541119,
+   "name": "Quintessential Cotswolds & Tea (Shared, Half-Day)",
+   "old": 131,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "1-2 adults",
+     "note": "18+ • pricing per person",
+     "price": 131.25,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "3-4 adults",
+     "note": "18+ • pricing per person",
+     "price": 115.5,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "5-8 adults",
+     "note": "18+ • pricing per person",
+     "price": 105,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "1-2 children",
+     "note": "4-17 Years • pricing per person",
+     "price": 105,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "3-4 children",
+     "note": "4-17 Years • pricing per person",
+     "price": 78.75,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant/Toddler",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 131.25,
+   "label": "1-2 adults"
+  },
+  {
+   "pk": 602432,
+   "name": "Join a Goat & Sheep Walk",
+   "old": 26,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "17 yrs +",
+     "price": 28.08,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "child",
+     "note": "Ages 8 to 16 yrs",
+     "price": 12.48,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 28.08,
+   "label": "Adult"
+  },
+  {
+   "pk": 689005,
+   "name": "Come Together: Semi-Private Beatles Tour (Shore Excursion)",
+   "old": 68,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Single Guest (1 person only)",
+     "note": "",
+     "price": 106,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Per Person (2+ guests)",
+     "note": "",
+     "price": 68.9,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 68.9,
+   "label": "Per Person (2+ guests)"
+  },
+  {
+   "pk": 252034,
+   "name": "Georgian London Tour",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 252042,
+   "name": "Oliver Twist: a Private Tour",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 252062,
+   "name": "Hampstead Village: Private Tour",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 252064,
+   "name": "Southwark: a Private Tour",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 252081,
+   "name": "Royal London: a Private Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 252100,
+   "name": "Private A Victorian Christmas",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 283.5,
+   "label": "Private Tour - Small Group"
+  },
+  {
+   "pk": 252108,
+   "name": "Street Art in Shoreditch: a Private Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 283.5,
+   "label": "Private Tour - Small Group"
+  },
+  {
+   "pk": 252113,
+   "name": "Private Financial London Tour",
+   "old": 225,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 252115,
+   "name": "Private Roman London Tour",
+   "old": 175,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 296565,
+   "name": "Regent's Canal Private Tour",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 354862,
+   "name": "Shared • Cambridge University Ghost Tour",
+   "old": 25,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+",
+     "price": 25,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student",
+     "note": "Youth (Ages 13-17)",
+     "price": 23,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8-12",
+     "price": 20,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 23,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 25,
+   "label": "Adult"
+  },
+  {
+   "pk": 366736,
+   "name": "Pimlico: a private tour",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 425809,
+   "name": "Beatles Childhood Homes Tour of Liverpool (Excludes National Trust Tickets)",
+   "old": 238,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Cab Childhood Homes Tour - total 5 hours",
+     "note": "5 Hours Tour",
+     "price": 238.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Cab Childhood Homes plus Classic Tour - total 7 hours",
+     "note": "Add Penny Lane cluster, Woolton Village (St Peter's church/Eleanor Rigby's grave), and Strawberry Field for additional 2 Hours",
+     "price": 371,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 238.5,
+   "label": "Private Cab Childhood Homes Tour - total 5 hours"
+  },
+  {
+   "pk": 429847,
+   "name": "London East End Food Tour: 10th Year Anniversary",
+   "old": 95,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 18 years",
+     "price": 95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adolescent",
+     "note": "13-17 years",
+     "price": 85,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years",
+     "price": 75,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 95,
+   "label": "Adult"
+  },
+  {
+   "pk": 429858,
+   "name": "Eating London: Borough Market & London Bridge Food Tour",
+   "old": 85,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 18 years",
+     "price": 79,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adolescent",
+     "note": "13-17 years",
+     "price": 71,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years",
+     "price": 61,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 79,
+   "label": "Adult"
+  },
+  {
+   "pk": 429859,
+   "name": "Eating London: Twilight Soho VIP Food & Drinks Tour",
+   "old": 124,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 18 years",
+     "price": 115,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 115,
+   "label": "Adult"
+  },
+  {
+   "pk": 222217,
+   "name": "Beatles Classic Tour of Liverpool",
+   "old": 185,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Cab - 3 hour Classic tour",
+     "note": "Each cab can hold a max of 6 passengers.",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Cab plus Early Years Tour - total 4.5 Hours",
+     "note": "Add Beatles Early Years saving of 20%. Includes city centre locations",
+     "price": 275.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Cab - Classic + Best of Liverpool  tour - total 7 hours",
+     "note": "Add Beatles Classic Tour of Liverpool plus 1h lunch at Strawberry Field",
+     "price": 381.6,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Cab - 3 hour Classic tour"
+  },
+  {
+   "pk": 222258,
+   "name": "Best of Liverpool Sightseeing Tour by Taxi",
+   "old": 206,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Cab - Best of Liverpool tour - total 3 hours",
+     "note": "Each cab can hold a max of 6 people (i.e. if you selected 2 cabs, you can select max 12 passengers)",
+     "price": 206.7,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Cab - Best of Liverpool + Early Years tour - total 4.5",
+     "note": "Add Beatles Early Years. Includes city centre locations",
+     "price": 265,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Cab - Best of Liverpool  tour - total 7 hours",
+     "note": "Add Beatles Classic tour, plus 1 hour lunch at Strawberry Field",
+     "price": 360.4,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 206.7,
+   "label": "Private Cab - Best of Liverpool tour - total 3 hours"
+  },
+  {
+   "pk": 252119,
+   "name": "Private River Thames Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 330595,
+   "name": "Private Medieval London Tour",
+   "old": 225,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 346300,
+   "name": "Shared • Harry Potter Film Locations Walking Tour & New College",
+   "old": 34,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 34.99,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student",
+     "note": "Youth (Ages 13-17)",
+     "price": 32.99,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 29.99,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 32.99,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 34.99,
+   "label": "Adult"
+  },
+  {
+   "pk": 351721,
+   "name": "Shared • Oxford University Punting Tour",
+   "old": 25,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 25,
+   "probeErrors": []
+  },
+  {
+   "pk": 545882,
+   "name": "Custom Walking Tour of Bath",
+   "old": 262,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Walking Tour Base Rate",
+     "note": "Infants go free • Up to 8 People • Larger groups on request",
+     "price": 262.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Adult",
+     "note": "18+ • Per person costs such as entrances are included here!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Child",
+     "note": "4-17 Years • Per person costs such as entrances are included here!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Infant/Toddler",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 262.5,
+   "label": "Walking Tour Base Rate"
+  },
+  {
+   "pk": 589451,
+   "name": "Jane Austen's Bath: Walking Tour (Private)",
+   "old": 252,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Walking Tour Base Rate",
+     "note": "Infants go free • Up to 8 People • Larger groups on request",
+     "price": 252,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Adult: private walking tour",
+     "note": "16+",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Child: private walking tour",
+     "note": "4-15 (infants go free)",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Infant/Toddler",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 252,
+   "label": "Walking Tour Base Rate"
+  },
+  {
+   "pk": 589462,
+   "name": "Bath's Favourite Filming Locations: Walking Tour (Private)",
+   "old": 252,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Walking Tour Base Rate",
+     "note": "Infants go free • Up to 8 People • Larger groups on request",
+     "price": 252,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Adult: private walking tour",
+     "note": "16+",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Child: private walking tour",
+     "note": "4-15 (infants go free)",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 252,
+   "label": "Walking Tour Base Rate"
+  },
+  {
+   "pk": 589465,
+   "name": "Bath: The History & Highlights Walking Tour (Private)",
+   "old": 252,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Walking Tour Base Rate",
+     "note": "Infants go free • Up to 8 People • Larger groups on request",
+     "price": 252,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Adult: private walking tour",
+     "note": "16+",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Child: private walking tour",
+     "note": "4-15 (infants go free)",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 252,
+   "label": "Walking Tour Base Rate"
+  },
+  {
+   "pk": 683992,
+   "name": "Come Together: Semi-Private Beatles Tour",
+   "old": 58,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Single Guest (1 person only)",
+     "note": "",
+     "price": 100.7,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Per Person (2+ guests)",
+     "note": "",
+     "price": 58.3,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 58.3,
+   "label": "Per Person (2+ guests)"
+  },
+  {
+   "pk": 252068,
+   "name": "Private Haunted London Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 252112,
+   "name": "Private Euston to Kings Cross London Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 252131,
+   "name": "Private Historic Pub Tour: Covent Garden",
+   "old": 315,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "Ages 18+ • Up to 6 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 277170,
+   "name": "West End Musical Tour",
+   "old": 30,
+   "oldLabel": "per adult",
+   "disposition": "UNSAMPLED",
+   "new": 30,
+   "probeErrors": []
+  },
+  {
+   "pk": 351665,
+   "name": "Shared • Oxford Walking & Punting Tour  & Optional New College",
+   "old": 53,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 55,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student",
+     "note": "Youth (Ages 13-17)",
+     "price": 53,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 50,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 53,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult with New College",
+     "note": "Ages 18+",
+     "price": 75,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student/Concession with New College",
+     "note": "Youth (Ages 13-17)",
+     "price": 73,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child with New College",
+     "note": "Ages 3-12",
+     "price": 70,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior with New College",
+     "note": "Ages 65+",
+     "price": 73,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 55,
+   "label": "Adult"
+  },
+  {
+   "pk": 442593,
+   "name": "Craft Launch",
+   "old": 15,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Craft Launch",
+     "note": "2 Hours",
+     "price": 15,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 15,
+   "label": "Craft Launch"
+  },
+  {
+   "pk": 100314,
+   "name": "City Centre Highlights Tour",
+   "old": 29,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16 +",
+     "price": 29,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 14 - 16",
+     "price": 25,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Student",
+     "note": "ID Required",
+     "price": 25,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Private City Centre Highlights tour for up to 6 people",
+     "note": "Children must be 14 or over",
+     "price": 174,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour",
+     "note": "Up to 10 people",
+     "price": 290,
+     "min": 2,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 29,
+   "label": "Adult"
+  },
+  {
+   "pk": 100323,
+   "name": "WALKING City Centre Pub Crawl",
+   "old": 29,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 29,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Tour",
+     "note": "Up to 10 people",
+     "price": 290,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 29,
+   "label": "Adult"
+  },
+  {
+   "pk": 226201,
+   "name": "Craft Hire",
+   "old": 20,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Single Kayak",
+     "note": "Ages 8+",
+     "price": 20,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Double Kayak",
+     "note": "Ages 8+ (5+ with an adult)",
+     "price": 30,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Single Paddleboard",
+     "note": "Ages 8+",
+     "price": 20,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "MEGA SUP",
+     "note": "Ages 8+",
+     "price": 50,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Canoe",
+     "note": "Ages 8+ (5+ with an adult)",
+     "price": 30,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 20,
+   "label": "Single Kayak"
+  },
+  {
+   "pk": 295334,
+   "name": "Oxford University & City Walking Tour",
+   "old": 30,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Morning (ages 18)",
+     "note": "",
+     "price": 30,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Senior Morning (ages 65+)",
+     "note": "",
+     "price": 24,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth Morning (ages 6-17)",
+     "note": "",
+     "price": 19,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Student Morning (Valid ID)",
+     "note": "",
+     "price": 23,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child Morning (ages 0-5)",
+     "note": "",
+     "price": 9,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 30,
+   "label": "Adult Morning (ages 18)"
+  },
+  {
+   "pk": 621898,
+   "name": "Private Newcastle True Crime Tour",
+   "old": 238,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "per party up to 20 guests",
+     "price": 238.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 238.5,
+   "label": "Private Tour"
+  },
+  {
+   "pk": 93882,
+   "name": "Coasteering | Public Group",
+   "old": 50,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Any of your group under 10 years old? Please call free on 0800 188 4860 to book.",
+     "price": 56.6,
+     "min": 3,
+     "cls": "base"
+    },
+    {
+     "singular": "Surf + Coasteer Experience",
+     "note": "Select the number of people you would like to book onto this session. You will receive a code by email to book your surf lesson.",
+     "price": 94.34,
+     "min": 3,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 56.6,
+   "label": "Person"
+  },
+  {
+   "pk": 329705,
+   "name": "Book a School Visit",
+   "old": 30,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 30,
+   "probeErrors": []
+  },
+  {
+   "pk": 336771,
+   "name": "Axe Throwing",
+   "old": 39,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 39.9,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Junior",
+     "note": "Ages 10-15",
+     "price": 39.9,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 39.9,
+   "label": "Adult"
+  },
+  {
+   "pk": 363641,
+   "name": "Beatles 4 ½ hours Classic Tour of Liverpool Plus Early Years",
+   "old": 280,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 280,
+   "probeErrors": []
+  },
+  {
+   "pk": 292940,
+   "name": "Deluxe Beatles Experience Inc. Casbah Coffee Club",
+   "old": 395,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Cab Deluxe Tour - total 6 hours",
+     "note": "Each cab can hold a maximum of 6 passengers",
+     "price": 418.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 418.7,
+   "label": "Private Cab Deluxe Tour - total 6 hours"
+  },
+  {
+   "pk": 695496,
+   "name": "2 hour PRIVATE EVENT BOAT HIRE  Camden to Little Venice & back via Regents Park",
+   "old": 850,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All guests must be aged 18 or over, due to licensing conditions",
+     "price": 850,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 850,
+   "label": "Private Group"
+  },
+  {
+   "pk": 93854,
+   "name": "Surf Lesson - Beginner | Improver",
+   "old": 45,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Select the number of people you wish to book onto this lesson.",
+     "price": 47.17,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Two Lesson Pass",
+     "note": "Select the number of people to book onto this lesson. You will get a code by email to book your additional lessons.",
+     "price": 89.62,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Three Lesson Pass",
+     "note": "Select the number of people to book onto this lesson. You will get a code by email to book your additional lessons.",
+     "price": 130.19,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Five Lesson Pass",
+     "note": "Select the number of people to book onto this lesson. You will get a code by email to book your additional lessons.",
+     "price": 188.68,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "2.5 Day Total Immersion",
+     "note": "Select the number of people to book onto this lesson. You will get a code by email to book your additional lessons.",
+     "price": 188.68,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 47.17,
+   "label": "Person"
+  },
+  {
+   "pk": 216629,
+   "name": "The Original Jack the Ripper Walking Tour with Ripper-Vision",
+   "old": 18,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18 years old and over",
+     "price": 18,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "10-16 years old",
+     "price": 12,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 18,
+   "label": "Adult"
+  },
+  {
+   "pk": 252287,
+   "name": "Private Greenwich Walking Tour",
+   "old": 283,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 365725,
+   "name": "York: Witches & History Old Town Walking Tour",
+   "old": 17,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 17.85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-15 (Select adult first)",
+     "price": 15.75,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior/Student",
+     "note": "Ages 65+ | Student (Valid ID)",
+     "price": 16.8,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "65+",
+     "price": 16.8,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 17.85,
+   "label": "Adult"
+  },
+  {
+   "pk": 407758,
+   "name": "London: Witches & History Bankside Walking Tour",
+   "old": 18,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 18.9,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-15 (Select adult first)",
+     "price": 16.8,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior/Student",
+     "note": "65+, Student with Valid ID",
+     "price": 17.85,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 18.9,
+   "label": "Adult"
+  },
+  {
+   "pk": 455065,
+   "name": "Private Liverpool Dark Side Tour",
+   "old": 99,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 502596,
+   "name": "Private York City Walking Tour",
+   "old": 125,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 535758,
+   "name": "Rapid Kayak Safari",
+   "old": 68,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual",
+     "note": "Minimum age: 12 years",
+     "price": 68.9,
+     "min": 3,
+     "cls": "base"
+    },
+    {
+     "singular": "Under 12s",
+     "note": "Minimum age: 6 years | Must be booked with an adult | Kayaking is tandem only",
+     "price": 58.3,
+     "min": 3,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 68.9,
+   "label": "Individual"
+  },
+  {
+   "pk": 535773,
+   "name": "Intro To Paddleboarding",
+   "old": 47,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Standard",
+     "note": "Minimum age: 9",
+     "price": 58.3,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 58.3,
+   "label": "Standard"
+  },
+  {
+   "pk": 541060,
+   "name": "Hidden Cotswolds & Dark Age England (Shared)",
+   "old": 309,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "1-2 adults",
+     "note": "18+ • pricing per person",
+     "price": 309.75,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "3-4 adults",
+     "note": "18+ • pricing per person",
+     "price": 257.25,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "5-8 adults",
+     "note": "18+ • pricing per person",
+     "price": 204.75,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "1-2 children",
+     "note": "4-17 Years • pricing per person",
+     "price": 204.75,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "3-4 children",
+     "note": "4-17 Years • pricing per person",
+     "price": 152.25,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant/Toddler",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 309.75,
+   "label": "1-2 adults"
+  },
+  {
+   "pk": 541063,
+   "name": "Stonehenge & Beyond (Shared)",
+   "old": 309,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "1-2 adults",
+     "note": "18+ • pricing per person",
+     "price": 309.75,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "3-4 adults",
+     "note": "18+ • pricing per person",
+     "price": 257.25,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "5-8 adults",
+     "note": "18+ • pricing per person",
+     "price": 204.75,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "1-2 children",
+     "note": "4-17 Years • pricing per person",
+     "price": 204.75,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "3-4 children",
+     "note": "4-17 Years • pricing per person",
+     "price": 152.25,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant/Toddler",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 309.75,
+   "label": "1-2 adults"
+  },
+  {
+   "pk": 541064,
+   "name": "Hidden Cotswolds & Dark Age England (Private)",
+   "old": 36,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Base Rate",
+     "note": "Your base costs: Vehicle, taxes, planning & your talented driver-guide",
+     "price": 992.25,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Adult",
+     "note": "18+ • Per person costs such as entrances are included here!",
+     "price": 36.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-17 Years • Per person costs such as entrances are included here!",
+     "price": 26.25,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant/Toddler",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 36.75,
+   "label": "Adult"
+  },
+  {
+   "pk": 541093,
+   "name": "Stonehenge & Beyond (Private)",
+   "old": 36,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Base Rate",
+     "note": "Your base costs: Vehicle, taxes, planning & your talented driver-guide",
+     "price": 992.25,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Adult",
+     "note": "18+ • Per person costs such as entrances are included here!",
+     "price": 36.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-17 Years • Per person costs such as entrances are included here!",
+     "price": 26.25,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant/Toddler",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 36.75,
+   "label": "Adult"
+  },
+  {
+   "pk": 589739,
+   "name": "The Sky Wave Distillery Experience",
+   "old": 26,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Age 18+",
+     "price": 26,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 26,
+   "label": "Person"
+  },
+  {
+   "pk": 693258,
+   "name": "School group: Private Street Art in Shoreditch Tour",
+   "old": 288,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 705240,
+   "name": "Laser Clay Shooting",
+   "old": 39,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Laser Clay Shooter (up to 5 people)",
+     "note": "10yrs +",
+     "price": 39.9,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "Laser Clay Shooter (6 to 10 people)",
+     "note": "10yrs +",
+     "price": 36.75,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "Laser Clay Shooter (11 to 15 people)",
+     "note": "10yrs +",
+     "price": 31.5,
+     "min": 2,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 31.5,
+   "label": "Laser Clay Shooter (11 to 15 people)"
+  },
+  {
+   "pk": 128416,
+   "name": "Hope Street Shivers",
+   "old": 20,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "The Ultimate Shiverpool Tour Ticket",
+     "note": "Includes ticket for all ages & students.PLUS A1 Illustrated GhostMap & GhostCard in Gold Foiled Cover AND Glow in the Dark Pin.",
+     "price": 37.63,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "16+",
+     "price": 20.67,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Concession",
+     "note": "Seniors 65+, Students and Children under 16",
+     "price": 19.61,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Family",
+     "note": "2 Adults & 2 Children",
+     "price": 79.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 20.67,
+   "label": "Adult"
+  },
+  {
+   "pk": 170596,
+   "name": "Adults Two Hour Taster Session",
+   "old": 78,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult with Own Bike",
+     "note": "Bring your own bike, Ages 12+",
+     "price": 78.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult with Bike Hire",
+     "note": "PLEASE NOTE, A MINIMUM HEIGHT RESTRICTION IS IN PLACE FOR THIS SESSION",
+     "price": 114.45,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Rider with Bike Hire ULTIMATE package",
+     "note": "PLEASE NOTE, A MINIMUM HEIGHT RESTRICTION IS IN PLACE FOR THIS SESSION",
+     "price": 156.45,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 78.75,
+   "label": "Adult with Own Bike"
+  },
+  {
+   "pk": 377558,
+   "name": "Secrets of St James's Tour",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 426858,
+   "name": "Private Birmingham Gallows and Ghosts",
+   "old": 99,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 542401,
+   "name": "Darts Golf Combo",
+   "old": 34,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult in a group of 12 - 18 participants",
+     "note": "",
+     "price": 34.65,
+     "min": 12,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 34.65,
+   "label": "Adult in a group of 12 - 18 participants"
+  },
+  {
+   "pk": 574712,
+   "name": "The Pathfinder",
+   "old": 79,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Quad",
+     "note": "For riders over 1.5 meters tall and strong enough to handle the quad",
+     "price": 91,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Quad",
+     "note": "For riders at least 8 years old •  Up to 1.5 meters tall",
+     "price": 91,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 91,
+   "label": "Adult Quad"
+  },
+  {
+   "pk": 361506,
+   "name": "Old Newcastle Walking Tours",
+   "old": 23,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16 - 64",
+     "price": 23.32,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 20.67,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5 - 15",
+     "price": 11.66,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Concessions",
+     "note": "NHS,Police,Fire & Rescue Service,Ambulance,HM Coastguard,RNLI,Armed Force or Veteran.Students. Disabled. Unwaged.",
+     "price": 20.67,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 23.32,
+   "label": "Adult"
+  },
+  {
+   "pk": 539284,
+   "name": "Eating London: Heart of 'The City' Food Tour",
+   "old": 91,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 18 years",
+     "price": 91,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adolescent",
+     "note": "13-17 years",
+     "price": 82,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years",
+     "price": 73,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 91,
+   "label": "Adult"
+  },
+  {
+   "pk": 574697,
+   "name": "The Thrill",
+   "old": 79,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Quad",
+     "note": "Ages 18+ • For riders over 1.5 meters tall and strong enough to handle the quad",
+     "price": 89,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 89,
+   "label": "Adult Quad"
+  },
+  {
+   "pk": 574705,
+   "name": "The Taster",
+   "old": 66,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Quad",
+     "note": "Ages 15+ • For riders over 1.5 meters tall and strong enough to handle the quad",
+     "price": 76,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 76,
+   "label": "Adult Quad"
+  },
+  {
+   "pk": 574716,
+   "name": "The Twister",
+   "old": 79,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Quad",
+     "note": "Ages 15+ • For riders over 1.5 meters tall and strong enough to handle the quad",
+     "price": 91,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 91,
+   "label": "Adult Quad"
+  },
+  {
+   "pk": 589171,
+   "name": "Bottomless Not Brunch",
+   "old": 39,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+",
+     "price": 39.9,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 39.9,
+   "label": "Adult"
+  },
+  {
+   "pk": 596668,
+   "name": "Sea Sauna + Cold Bath | Open + Private Sessions",
+   "old": 60,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Select the number of people you wish to book onto this lesson.",
+     "price": 15,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "10 Sauna Session Pass",
+     "note": "Age 18+",
+     "price": 100,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Sauna Session",
+     "note": "Age 16+ must be accompanied by an adult",
+     "price": 120,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "5 Sauna Session Pass",
+     "note": "Age 18+",
+     "price": 60,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 15,
+   "label": "Person"
+  },
+  {
+   "pk": 611767,
+   "name": "Pedal & Puzzle Escape Game",
+   "old": 65,
+   "oldLabel": "from",
+   "tiers": [
+    {
+     "singular": "E- Step Over Bike",
+     "note": "Step-over frame, retro style.  Suitable for 5\"4-6\"4 | Age 14+",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "E-Step Thru Bike",
+     "note": "Step-through frame, retro style. Suitable for height 5'1 to 6'0. Age 14+",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "E-Family Bike",
+     "note": "Either Ride Alone, add a Child Pillion Rider or add a Child Seat. Step through frame. Suitable for 5\"4-6\"4. Rider age 14+",
+     "price": 65,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "E-Family Bike with Child Seat",
+     "note": "Ride with the addition of a rear Child Seat (Age1-4 max 22kg/110cm tall) Step through frame. Suitable for 5\"4-6\"4. Rider age 14+",
+     "price": 80,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "E-Family Bike with Child Pillion Passenger",
+     "note": "Ride with the addition of Child Pillion (Age 4-10.Inside leg 41cm-66cm. weight max 125kg) Suitable for 5\"4-6\"4. Rider age 14+",
+     "price": 80,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "E-Hybrid Bike Large",
+     "note": "LARGE Hybrid e-bike with a more traditional style. Large frame for riders between 5'11-6\"4.",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "E-Hybrid Bike Small",
+     "note": "SMALL/MED hybrid e-bike with a more traditional style. For riders between 4'11-5'8. Age 14+.",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Childs 26” Bike",
+     "note": "Lightweight hybrid child bike 26\" wheels. Inside leg of between 69-78cm. Approx height 128-145cm (4'6-4'9)",
+     "price": 15,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth Mountain Bike",
+     "note": "5’0-5’6 - (160-168cm)",
+     "price": 20,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Front Basket",
+     "note": "Available as an extra on all adult bikes",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Pannier",
+     "note": "Add on: For Super Monkey E-Bike Only",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Dog Basket",
+     "note": "Suitable for small dogs up to 5kg | For all adult bikes",
+     "price": 15,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 65,
+   "label": "E- Step Over Bike"
+  },
+  {
+   "pk": 718223,
+   "name": "Reverse Steer Snooker",
+   "old": 47,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Driver",
+     "note": "Minimum billing of 4 people",
+     "price": 47.25,
+     "min": 4,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 47.25,
+   "label": "Driver"
+  },
+  {
+   "pk": 214599,
+   "name": "Private Surf Lessons",
+   "old": 140,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "1 Person Private Lesson",
+     "note": "",
+     "price": 132.08,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "2 Person Private Lesson",
+     "note": "",
+     "price": 283.02,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "3 Person Private Lesson",
+     "note": "",
+     "price": 283.02,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "4 Person Private Lesson",
+     "note": "",
+     "price": 283.02,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "5 Person Private Lesson",
+     "note": "",
+     "price": 283.02,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "6 Person Private Lesson",
+     "note": "",
+     "price": 283.02,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "7 Person Private Session",
+     "note": "",
+     "price": 415.09,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "8 Person Private Lesson",
+     "note": "",
+     "price": 566.04,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "9 Person Private Lesson",
+     "note": "",
+     "price": 566.04,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "10 Person Private Lesson",
+     "note": "",
+     "price": 566.04,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "11 Person Private Lesson",
+     "note": "",
+     "price": 566.04,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "12 Person Private Lesson",
+     "note": "",
+     "price": 566.04,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 132.08,
+   "label": "1 Person Private Lesson"
+  },
+  {
+   "pk": 361665,
+   "name": "Private Birmingham City Centre Walking Tour",
+   "old": 99,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 104.94,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 104.94,
+   "label": "Group"
+  },
+  {
+   "pk": 574717,
+   "name": "The Endeavour",
+   "old": 94,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Quad",
+     "note": "Ages 18+ • For riders over 1.5 meters tall and strong enough to handle the quad",
+     "price": 109,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 109,
+   "label": "Adult Quad"
+  },
+  {
+   "pk": 574723,
+   "name": "The Explorer",
+   "old": 149,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Quad",
+     "note": "Ages 18+ • For riders over 1.5 meters tall and strong enough to handle the quad",
+     "price": 179,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 179,
+   "label": "Adult Quad"
+  },
+  {
+   "pk": 666070,
+   "name": "The London Notting Hill Breakfast Tour",
+   "old": 69,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 18 years",
+     "price": 69,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adolescent",
+     "note": "13-17 years",
+     "price": 62,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 69,
+   "label": "Adult"
+  },
+  {
+   "pk": 64525,
+   "name": "Family Canoeing",
+   "old": 35,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 17+",
+     "price": 35.7,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Aged 5-17 years. Must take part with at least one adult",
+     "price": 26.78,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child - Under 5",
+     "note": "Under 5 years old & over 18 months. Must take part with at least one adult.",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 35.7,
+   "label": "Adult"
+  },
+  {
+   "pk": 277399,
+   "name": "BattleZone at Bailey's Hard",
+   "old": 28,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "BattleZone Groups of 1 - 7",
+     "note": "BattleZone Groups Price - Ages 8+",
+     "price": 28.35,
+     "min": 8,
+     "cls": "group"
+    },
+    {
+     "singular": "BattleZone Groups of 8 - 15",
+     "note": "BattleZone Groups Price - Ages 8+",
+     "price": 25.2,
+     "min": 8,
+     "cls": "group"
+    },
+    {
+     "singular": "BattleZone Groups of 16 -24",
+     "note": "BattleZone Group Price - Ages 8+",
+     "price": 23.1,
+     "min": 8,
+     "cls": "group"
+    },
+    {
+     "singular": "BattleZone Groups of 25 +",
+     "note": "BattleZone Group Price - Ages 8+",
+     "price": 21,
+     "min": 8,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 21,
+   "label": "BattleZone Groups of 25 +"
+  },
+  {
+   "pk": 466133,
+   "name": "Churchill and World War II : a Private Tour",
+   "old": 175,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 501705,
+   "name": "A Silent Disco Adventure in Newcastle",
+   "old": 19,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Age 16+",
+     "price": 19.61,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5 to 15 years",
+     "price": 14.84,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group Ticket Promotion",
+     "note": "20% Off - 4 adults",
+     "price": 62.75,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Family Ticket Promotion",
+     "note": "20% Off - 2 adults + 2 kids or 1 adult + 3 kids",
+     "price": 55.12,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 19.61,
+   "label": "Adult"
+  },
+  {
+   "pk": 501721,
+   "name": "A Silent Disco Adventure in Manchester",
+   "old": 19,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Age 16+",
+     "price": 19.61,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5 to 15 years",
+     "price": 14.84,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group Ticket Promotion",
+     "note": "20% Off - 4 adults",
+     "price": 62.75,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Family Ticket Promotion",
+     "note": "20% Off - 2 adults + 2 kids or 1 adult + 3 kids",
+     "price": 55.12,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 19.61,
+   "label": "Adult"
+  },
+  {
+   "pk": 535745,
+   "name": "River Rafting Safari (Individuals)",
+   "old": 68,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Standard",
+     "note": "",
+     "price": 68.9,
+     "min": 3,
+     "cls": "base"
+    },
+    {
+     "singular": "Under 12s",
+     "note": "Minimum age (6 years) | Must be booked with an adult",
+     "price": 58.3,
+     "min": 3,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 68.9,
+   "label": "Standard"
+  },
+  {
+   "pk": 609782,
+   "name": "牛津校友伴你行 - 牛津步行导览 & 撑篙游船之旅（与他人共享导游）",
+   "old": 53,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "成人 | 18岁及以上",
+     "price": 53,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student",
+     "note": "青少年/学生/优惠 | 13-17岁",
+     "price": 51,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "儿童优惠 | 3-12岁",
+     "price": 48,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "老年优惠 | 65岁及以上",
+     "price": 51,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult with New College",
+     "note": "成人 + 新学院 | 18岁及以上",
+     "price": 73,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth/Student/Concession with New College",
+     "note": "青少年/学生/优惠  + 新学院 | 13-17岁",
+     "price": 71,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child with New College",
+     "note": "儿童优惠 + 新学院 | 3-12岁",
+     "price": 68,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior with New College",
+     "note": "老年优惠 + 新学院 | 65岁及以上",
+     "price": 71,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 53,
+   "label": "Adult"
+  },
+  {
+   "pk": 693268,
+   "name": "School group: Private Oliver Twist Tour",
+   "old": 288,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 718851,
+   "name": "Liverpool Beatles Walking Tour",
+   "old": 37,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+ years",
+     "price": 37.1,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-15 years",
+     "price": 15.9,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 37.1,
+   "label": "Adult"
+  },
+  {
+   "pk": 78794,
+   "name": "Private Sail with Lunch or Dinner",
+   "old": 1579,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Yacht",
+     "note": "Up to 8 people",
+     "price": 1579.4,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 1579.4,
+   "label": "Private Yacht"
+  },
+  {
+   "pk": 78857,
+   "name": "Full Day Sail",
+   "old": 2544,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Yacht",
+     "note": "Private Yacht without Catering (lunch ashore)",
+     "price": 2014,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Yacht",
+     "note": "Private Yacht with Lunch",
+     "price": 2332,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Yacht",
+     "note": "Private Yacht with Lobster Hamper",
+     "price": 2544,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 2014,
+   "label": "Private Yacht"
+  },
+  {
+   "pk": 82317,
+   "name": "Bleeding Hearts and Body Parts Walk",
+   "old": 24,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flexible Ticket",
+     "note": "Exchange your booking for a different date up to 24 hours before the start of the walk.",
+     "price": 31.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Standard Ticket",
+     "note": "Non-refundable and non-exchangeable.",
+     "price": 24,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 24,
+   "label": "Standard Ticket"
+  },
+  {
+   "pk": 211710,
+   "name": "Full-Day Private \"All Creatures Great & Small\" Tour",
+   "old": 510,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for up to 4 People",
+     "note": "Group size 1–4",
+     "price": 540.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 8 People",
+     "note": "Group size 1–8",
+     "price": 540.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 16 People",
+     "note": "Group size 7–16 people",
+     "price": 662.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 540.6,
+   "label": "Private Tour for up to 4 People"
+  },
+  {
+   "pk": 226178,
+   "name": "Kids Birthday Parties",
+   "old": 25,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Youth Party",
+     "note": "Ages 8 - 17",
+     "price": 24.99,
+     "min": 6,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 24.99,
+   "label": "Youth Party"
+  },
+  {
+   "pk": 242682,
+   "name": "VR Adventures & Escape Rooms",
+   "old": 25,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Player",
+     "note": "Per Player",
+     "price": 26.5,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 26.5,
+   "label": "Player"
+  },
+  {
+   "pk": 245346,
+   "name": "Your Choice",
+   "old": 15,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "20 Minutes",
+     "note": "Price/h £45",
+     "price": 15.9,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "40 Minutes",
+     "note": "Price/h £37.5",
+     "price": 26.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "60 Minutes",
+     "note": "Price/h £35",
+     "price": 37.1,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "80 Minutes",
+     "note": "Price/h £30",
+     "price": 42.4,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 15.9,
+   "label": "20 Minutes"
+  },
+  {
+   "pk": 270582,
+   "name": "Call the Midwife Tour",
+   "old": 40,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult for Call the Midwife Tour inc. entry to Chatham Dockyard",
+     "note": "5+ years",
+     "price": 40,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 40,
+   "label": "Adult for Call the Midwife Tour inc. entry to Chatham Dockyard"
+  },
+  {
+   "pk": 271623,
+   "name": "Full Day Introductory Private Tour of London",
+   "old": 819,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 275866,
+   "name": "Private Secrets of Belgravia",
+   "old": 220,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 185.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 185.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 315741,
+   "name": "Private Liverpool 3-hour Must Sees Tour!",
+   "old": 165,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 330511,
+   "name": "Afternoon Tea",
+   "old": 26,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Afternoon Tea per person",
+     "note": "",
+     "price": 26.5,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 26.5,
+   "label": "Afternoon Tea per person"
+  },
+  {
+   "pk": 330543,
+   "name": "Glass Painting Crafternoon",
+   "old": 40,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 40.28,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 45.58,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 59.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 57.24,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 40.28,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 330544,
+   "name": "Slate Gilding Crafternoon",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 42.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 63.6,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 47.7,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 59.36,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42.4,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 330550,
+   "name": "Teacup Floristry Crafternoon",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 42.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 63.6,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 47.7,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 59.36,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42.4,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 330551,
+   "name": "Nottingham Lace Embellishment Crafternoon",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 42.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 63.6,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 47.7,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 59.36,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42.4,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 336574,
+   "name": "Nottingham Heritage Embroidery Crafternoon",
+   "old": 40,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 40.28,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 45.58,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 59.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 57.24,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 40.28,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 337389,
+   "name": "Junior Paintball",
+   "old": 31,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Junior Paintball Player",
+     "note": "Minimum billing of 10 people",
+     "price": 31.5,
+     "min": 10,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 31.5,
+   "label": "Junior Paintball Player"
+  },
+  {
+   "pk": 337393,
+   "name": "Paintball",
+   "old": 36,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Paintballer",
+     "note": "Minimum billing of 10 people. 12yrs+",
+     "price": 36.75,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 36.75,
+   "label": "Paintballer"
+  },
+  {
+   "pk": 341243,
+   "name": "1/2 day Bushcraft Fire & Craft in Dorset",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 8+",
+     "price": 42.67,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42.67,
+   "label": "Person"
+  },
+  {
+   "pk": 358116,
+   "name": "Mountain Biking: Private Half Day Ride with a Guide",
+   "old": 136,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 136.5,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 136.5,
+   "label": "Adult"
+  },
+  {
+   "pk": 361645,
+   "name": "Private Liverpool City Centre Walking Tour",
+   "old": 99,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 104.94,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 104.94,
+   "label": "Group"
+  },
+  {
+   "pk": 368162,
+   "name": "Composers of the West End",
+   "old": 220,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 220,
+   "probeErrors": []
+  },
+  {
+   "pk": 416855,
+   "name": "Zombie 3D Archery Dorset",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 10+",
+     "price": 42.67,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42.67,
+   "label": "Person"
+  },
+  {
+   "pk": 426859,
+   "name": "Private Leeds Dark Side Tour",
+   "old": 99,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 457008,
+   "name": "Candle Painting Crafternoon",
+   "old": 40,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 40.28,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 45.58,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 59.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 57.24,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 40.28,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 457372,
+   "name": "Mini Wreath Making Crafternoon",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 42.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 63.6,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 47.7,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 59.36,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42.4,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 457380,
+   "name": "Dried Flower Embroidery Crafternoon",
+   "old": 40,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 40.28,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 45.58,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 59.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 57.24,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 40.28,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 458000,
+   "name": "Plate Painting Crafternoon",
+   "old": 40,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 40.28,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 45.58,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 59.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 57.24,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 40.28,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 473837,
+   "name": "Savoury Grazing Platter",
+   "old": 21,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Per person",
+     "note": "",
+     "price": 21.2,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 21.2,
+   "label": "Per person"
+  },
+  {
+   "pk": 485491,
+   "name": "Clay Play Crafternoon",
+   "old": 44,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Crafternoon with Tea or Coffee •  Sweet Treat",
+     "note": "",
+     "price": 44.52,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Afternoon Tea",
+     "note": "",
+     "price": 65.72,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Cream Tea",
+     "note": "",
+     "price": 49.82,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Savoury Grazing Platter",
+     "note": "",
+     "price": 62.54,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Crafternoon with Sweet Grazing Platter",
+     "note": "",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 44.52,
+   "label": "Crafternoon with Tea or Coffee •  Sweet Treat"
+  },
+  {
+   "pk": 501675,
+   "name": "A Silent Disco Adventure in Liverpool",
+   "old": 19,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Age 16+",
+     "price": 19.61,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5 to 15 years",
+     "price": 14.84,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group Ticket Promotion",
+     "note": "20% Off - 4 adults",
+     "price": 62.75,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Family Ticket Promotion",
+     "note": "20% Off - 2 adults + 2 kids or 1 adult + 3 kids",
+     "price": 55.12,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 19.61,
+   "label": "Adult"
+  },
+  {
+   "pk": 530531,
+   "name": "Oxford On Screen Walking Tour",
+   "old": 35,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 35,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 30,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Student",
+     "note": "Must present valid ID",
+     "price": 30,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth",
+     "note": "Ages 6-17",
+     "price": 26,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 0-5",
+     "price": 10,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 35,
+   "label": "Adult"
+  },
+  {
+   "pk": 534275,
+   "name": "Children's Glass Illustration Crafternoon",
+   "old": 29,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Children's Crafternoon",
+     "note": "",
+     "price": 14.84,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Crafternoon with Children's Afternoon Tea",
+     "note": "Child | 7-12 y/old",
+     "price": 29.68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 14.84,
+   "label": "Children's Crafternoon"
+  },
+  {
+   "pk": 534353,
+   "name": "Children's Personalised Pencil Case Crafternoon",
+   "old": 29,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Children's Crafternoon",
+     "note": "",
+     "price": 14.84,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Crafternoon with Children's Afternoon Tea",
+     "note": "Child | 7-12 y/old",
+     "price": 29.68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 14.84,
+   "label": "Children's Crafternoon"
+  },
+  {
+   "pk": 540222,
+   "name": "Teen's Glass Illustration Crafternoon @ Nottingham City Centre",
+   "old": 33,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Teen Crafternoon | 13-17 y/old",
+     "note": "",
+     "price": 14.84,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Crafternoon with Teen's Afternoon Tea",
+     "note": "13-17 y/old",
+     "price": 33.92,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 14.84,
+   "label": "Teen Crafternoon | 13-17 y/old"
+  },
+  {
+   "pk": 549304,
+   "name": "Private Tour for Muggles",
+   "old": 17,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "",
+     "price": 150,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 150,
+   "label": "Private Group"
+  },
+  {
+   "pk": 565379,
+   "name": "Walking Tour of Fowey",
+   "old": 16,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual Ticket",
+     "note": "Shared Tour",
+     "price": 16.96,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 74.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 6",
+     "note": "",
+     "price": 106,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 8",
+     "note": "",
+     "price": 143.1,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 16.96,
+   "label": "Individual Ticket"
+  },
+  {
+   "pk": 565383,
+   "name": "Dusk Walking Tour of Fowey",
+   "old": 16,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual Ticket",
+     "note": "Shared Tour",
+     "price": 16.96,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 74.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 6",
+     "note": "",
+     "price": 106,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 8",
+     "note": "",
+     "price": 143.1,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 16.96,
+   "label": "Individual Ticket"
+  },
+  {
+   "pk": 565415,
+   "name": "\"Beyond Paradise\" Full Day TV locations tour",
+   "old": 233,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One Adult",
+     "note": "Shared Tour",
+     "price": 233.2,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Two Adults",
+     "note": "Shared Tour",
+     "price": 339.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Three Adults",
+     "note": "Shared Tour",
+     "price": 445.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 551.2,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 233.2,
+   "label": "One Adult"
+  },
+  {
+   "pk": 565423,
+   "name": "Mevagissey Coast & Country circular walk",
+   "old": 31,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual Ticket",
+     "note": "Shared Tour",
+     "price": 31.8,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 137.8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 5",
+     "note": "",
+     "price": 169.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 6",
+     "note": "",
+     "price": 201.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 7",
+     "note": "",
+     "price": 233.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 8",
+     "note": "",
+     "price": 254.4,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 31.8,
+   "label": "Individual Ticket"
+  },
+  {
+   "pk": 565432,
+   "name": "Cornish Clay Country guided walk",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual Ticket",
+     "note": "Shared Tour",
+     "price": 42.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 180.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 5",
+     "note": "",
+     "price": 222.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 6",
+     "note": "",
+     "price": 265,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 7",
+     "note": "",
+     "price": 307.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 8",
+     "note": "",
+     "price": 339.2,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42.4,
+   "label": "Individual Ticket"
+  },
+  {
+   "pk": 565437,
+   "name": "Charlestown South West Coast Path guided walk",
+   "old": 31,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual Ticket",
+     "note": "Shared Tour",
+     "price": 31.8,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 137.8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 5",
+     "note": "",
+     "price": 169.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 6",
+     "note": "",
+     "price": 201.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 7",
+     "note": "",
+     "price": 233.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 8",
+     "note": "",
+     "price": 254.4,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 31.8,
+   "label": "Individual Ticket"
+  },
+  {
+   "pk": 565443,
+   "name": "Lansallos Coast Path guided walk",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual Ticket",
+     "note": "Shared Tour",
+     "price": 42.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 180.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 5",
+     "note": "",
+     "price": 222.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 6",
+     "note": "",
+     "price": 265,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 7",
+     "note": "",
+     "price": 307.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 8",
+     "note": "",
+     "price": 339.2,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42.4,
+   "label": "Individual Ticket"
+  },
+  {
+   "pk": 565448,
+   "name": "Fowey Coast Path guided walk",
+   "old": 47,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual Ticket",
+     "note": "Shared Tour",
+     "price": 47.7,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 201.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 5",
+     "note": "",
+     "price": 249.1,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 6",
+     "note": "",
+     "price": 296.8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 7",
+     "note": "",
+     "price": 344.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 8",
+     "note": "",
+     "price": 392.2,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 47.7,
+   "label": "Individual Ticket"
+  },
+  {
+   "pk": 621896,
+   "name": "Newcastle True Crime Tour",
+   "old": 19,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All guests",
+     "price": 21.2,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 21.2,
+   "label": "Person"
+  },
+  {
+   "pk": 621901,
+   "name": "Private Original Newcastle Pub Tour",
+   "old": 265,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "per party • 18+ years",
+     "price": 265,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 265,
+   "label": "Private Tour"
+  },
+  {
+   "pk": 643718,
+   "name": "Paddleboard (SUP) Hire at the bridge",
+   "old": 30,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "The Quick Spash! One Hour Hire",
+     "note": "",
+     "price": 31.8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "River Explorer - Two Hour Hire - most popular option!",
+     "note": "",
+     "price": 42.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "River Cruise - Three Hour Hire",
+     "note": "",
+     "price": 53,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Half Day - Four Hour Hire",
+     "note": "",
+     "price": 63.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Full Day Hire",
+     "note": "8 hours",
+     "price": 84.8,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 31.8,
+   "label": "The Quick Spash! One Hour Hire"
+  },
+  {
+   "pk": 693215,
+   "name": "School group: Private A Christmas Carol Tour",
+   "old": 288,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 104284,
+   "name": "A Nosey Around Soho Walk",
+   "old": 19,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flexible Ticket",
+     "note": "Exchange your booking for a different date up to 24 hours before the start of the walk.",
+     "price": 31.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Standard Ticket",
+     "note": "Non-refundable and non-exchangeable.",
+     "price": 24,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-14",
+     "price": 18.9,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 24,
+   "label": "Standard Ticket"
+  },
+  {
+   "pk": 125119,
+   "name": "Public Afternoon Tea Cruise",
+   "old": 32,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 32.95,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 1-12",
+     "price": 22.95,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult/Child - No Food",
+     "note": "",
+     "price": 20,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 32.95,
+   "label": "Adult"
+  },
+  {
+   "pk": 207538,
+   "name": "Introduction to Archery",
+   "old": 29,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 8+ | Number of people",
+     "price": 29.4,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 29.4,
+   "label": "Person"
+  },
+  {
+   "pk": 221225,
+   "name": "Multiplayer Shooters",
+   "old": 25,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Multiplayer Shooters (20 Minutes)",
+     "note": "20 Minutes",
+     "price": 15.9,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Multiplayer Shooters (40 Minutes)",
+     "note": "40 Minutes",
+     "price": 26.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Multiplayer Shooters (60 Minutes)",
+     "note": "60 Minutes",
+     "price": 37.1,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 15.9,
+   "label": "Multiplayer Shooters (20 Minutes)"
+  },
+  {
+   "pk": 226167,
+   "name": "Kayaking Adventure",
+   "old": 30,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Youth",
+     "note": "Ages 8 - 17",
+     "price": 24.99,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "Ages 18 - 80",
+     "price": 30,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 30,
+   "label": "Adult"
+  },
+  {
+   "pk": 226172,
+   "name": "Archery Experience",
+   "old": 24,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Youth",
+     "note": "Ages 8 - 17",
+     "price": 20,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "Ages 18 - 80",
+     "price": 24.99,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 24.99,
+   "label": "Adult"
+  },
+  {
+   "pk": 226176,
+   "name": "Axe Throwing Experience",
+   "old": 24,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Youth",
+     "note": "Ages 12 - 17",
+     "price": 20,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "Ages 18 - 80",
+     "price": 24.99,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 24.99,
+   "label": "Adult"
+  },
+  {
+   "pk": 250527,
+   "name": "First Class Return Travel in  Queen Victoria's Carriage  with Afternoon Tea",
+   "old": 125,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "First Class Travel with Afternoon Tea for Two People",
+     "note": "All Ages",
+     "price": 125.08,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "First Class Travel with Afternoon Tea for Three People",
+     "note": "All Ages",
+     "price": 187.62,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "First Class Travel with Afternoon Tea for Four People",
+     "note": "All Ages",
+     "price": 250.16,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 125.08,
+   "label": "First Class Travel with Afternoon Tea for Two People"
+  },
+  {
+   "pk": 455058,
+   "name": "Private Stratford-Upon-Avon Town Tour",
+   "old": 99,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 455062,
+   "name": "Private Windsor Town Tour with Skip-the-Line Windsor Castle Tickets!",
+   "old": 185,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 455064,
+   "name": "Private Manchester City Centre Tour",
+   "old": 99,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 472322,
+   "name": "Children's Ceramic Colouring Crafternoon",
+   "old": 25,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Children's Crafternoon",
+     "note": "",
+     "price": 10.6,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Crafternoon with Children's Afternoon Tea",
+     "note": "2-12 y/olds",
+     "price": 25.44,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 10.6,
+   "label": "Children's Crafternoon"
+  },
+  {
+   "pk": 502597,
+   "name": "Private Nottingham Walking Tour",
+   "old": 99,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 539415,
+   "name": "Teen's Embroidery Crafternoon @ Nottingham City Centre",
+   "old": 16,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Teen Crafternoon | 13-17 y/old",
+     "note": "",
+     "price": 16.96,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Crafternoon with Teen's Afternoon Tea",
+     "note": "13-17 y/old",
+     "price": 36.04,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 16.96,
+   "label": "Teen Crafternoon | 13-17 y/old"
+  },
+  {
+   "pk": 565389,
+   "name": "Looe \"Beyond Paradise\" TV locations guided walk",
+   "old": 21,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual Ticket",
+     "note": "Shared Tour",
+     "price": 21.2,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 95.4,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 5",
+     "note": "",
+     "price": 116.6,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 6",
+     "note": "",
+     "price": 137.8,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 7",
+     "note": "",
+     "price": 159,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 8",
+     "note": "",
+     "price": 180.2,
+     "min": 2,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 21.2,
+   "label": "Individual Ticket"
+  },
+  {
+   "pk": 586126,
+   "name": "250 - Butter Churning in Broadway",
+   "old": 47,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 47.7,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8-15",
+     "price": 39.75,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 47.7,
+   "label": "Adult"
+  },
+  {
+   "pk": 597629,
+   "name": "Explorer Safari",
+   "old": 26,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Kayak",
+     "note": "Minimun age: 12",
+     "price": 47.7,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Double Kayak",
+     "note": "One adult + child aged 6 to 11",
+     "price": 74.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Canoe",
+     "note": "For two people | 12+ | must be booked with an adult",
+     "price": 95.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Under 12s Canoe Seat",
+     "note": "Adds an under 12 as a 3rd place in your canoe",
+     "price": 26.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Paddleboard",
+     "note": "Minimum age: 9",
+     "price": 47.7,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 47.7,
+   "label": "Paddleboard"
+  },
+  {
+   "pk": 707524,
+   "name": "Armstrong and Austen in the Age of Empire: (Re)Inventing Society and Industry at Newcastle and Gibside",
+   "old": 392,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One Adult",
+     "note": "Ages 18+",
+     "price": 392.2,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Two Adults",
+     "note": "Ages 18+ • Price per person",
+     "price": 318,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Three Adults",
+     "note": "Ages 18+ • Price per person",
+     "price": 286.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Adults",
+     "note": "Ages 18+ • Price per person",
+     "price": 254.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Five Adults",
+     "note": "Ages 18+ • Price per person",
+     "price": 222.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Six Adults",
+     "note": "Ages 18+ • Price per person",
+     "price": 212,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Teenager",
+     "note": "Ages 15-18",
+     "price": 159,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 6-14",
+     "price": 84.8,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 392.2,
+   "label": "One Adult"
+  },
+  {
+   "pk": 64540,
+   "name": "Archery",
+   "old": 30,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 17+",
+     "price": 30.45,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8-16 years, under 8's not permitted. Must take part with at least one adult",
+     "price": 23.1,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 30.45,
+   "label": "Adult"
+  },
+  {
+   "pk": 209002,
+   "name": "Couples Surf Lessons",
+   "old": 132,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Couple",
+     "note": "All ages",
+     "price": 138.6,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 138.6,
+   "label": "Couple"
+  },
+  {
+   "pk": 211721,
+   "name": "Full-Day Private Yorkshire Dales National Park Tour",
+   "old": 510,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for up to 4 People",
+     "note": "Group size 1–4",
+     "price": 540.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 8 People",
+     "note": "Group size 1–8",
+     "price": 540.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 16 People",
+     "note": "Group size 7–16 people",
+     "price": 662.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 540.6,
+   "label": "Private Tour for up to 4 People"
+  },
+  {
+   "pk": 226156,
+   "name": "Paddleboarding Adventure",
+   "old": 30,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Youth",
+     "note": "Ages 8 - 17",
+     "price": 24.99,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "Ages 18 - 80",
+     "price": 30,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 30,
+   "label": "Adult"
+  },
+  {
+   "pk": 239749,
+   "name": "Multi Activity Packages",
+   "old": 45,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Youth (Half Day)",
+     "note": "Ages 8 - 17",
+     "price": 35,
+     "min": 6,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult (Half Day)",
+     "note": "Ages 18 - 80",
+     "price": 45,
+     "min": 6,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 45,
+   "label": "Adult (Half Day)"
+  },
+  {
+   "pk": 299376,
+   "name": "London Christmas Lights Tour - With Christmas Music",
+   "old": 30,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18 - 59",
+     "price": 30.97,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Children must be accompanied by at least 1 adult",
+     "price": 22.58,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 60+",
+     "price": 28.88,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 30.97,
+   "label": "Adult"
+  },
+  {
+   "pk": 331009,
+   "name": "The Chocoholic - London (formerly the Original Chocolate Making Workshop)",
+   "old": 63,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Single Adult (With Voucher)",
+     "note": "Please ensure total number of guests matches the guests covered by your vouchers.",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Single Adult Rate",
+     "note": "Ages 17+",
+     "price": 63,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Rate",
+     "note": "8 -16 year old. Children must be accompanied by a full paying adult (18+).",
+     "price": 34.65,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "5 + Guests Group Rate",
+     "note": "Min 5 guests",
+     "price": 57.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 63,
+   "label": "Single Adult Rate"
+  },
+  {
+   "pk": 331019,
+   "name": "The Tipsy Chocoholic (formerly the Luxury Chocolate Making Workshop)",
+   "old": 92,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Single Adult (With Voucher)",
+     "note": "Please ensure total number of guests matches the guests covered by your vouchers.",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Single Adult Rate",
+     "note": "For booking without a voucher.",
+     "price": 92.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "2 - 4 Guests Rate",
+     "note": "Price per Person",
+     "price": 73.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "5 + Guests Group Rate",
+     "note": "Min 5 guests",
+     "price": 62.95,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 92.4,
+   "label": "Single Adult Rate"
+  },
+  {
+   "pk": 331069,
+   "name": "The Chocoholic - Manchester (formerly the Original Chocolate Making Workshop)",
+   "old": 63,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Single Adult (With Voucher)",
+     "note": "Please ensure total number of guests matches the guests covered by your vouchers.",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Single Adult Rate",
+     "note": "Ages 17+",
+     "price": 63,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Rate",
+     "note": "8 -16 year old. Children must be accompanied by a full paying adult (18+).",
+     "price": 34.65,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "5 + Guests Group Rate",
+     "note": "Min 5 guests",
+     "price": 57.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 63,
+   "label": "Single Adult Rate"
+  },
+  {
+   "pk": 426861,
+   "name": "Private Windsor Town Tour",
+   "old": 99,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 455061,
+   "name": "Private 3 Hour Birmingham City & Jewellery Quarter Tour",
+   "old": 165,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 467518,
+   "name": "Samuel Pepys's London Walk",
+   "old": 24,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flexible Ticket",
+     "note": "Exchange your booking for a different date up to 24 hours before the start of the walk.",
+     "price": 31.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Standard Ticket",
+     "note": "Non-refundable and non-exchangeable.",
+     "price": 24,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "5 - 15 yrs old",
+     "price": 18.9,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 24,
+   "label": "Standard Ticket"
+  },
+  {
+   "pk": 472702,
+   "name": "VEX Play - Aldgate",
+   "old": 70,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group of 1 Player",
+     "note": "Please call us if you wish to book for 1 Player",
+     "price": 70,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 2 Players",
+     "note": "Other players may join",
+     "price": 70,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 3 Players",
+     "note": "Other players may join",
+     "price": 100,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 4 Players",
+     "note": "Other players may join",
+     "price": 130,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 5 Players",
+     "note": "Private Booking",
+     "price": 155,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 6 Players",
+     "note": "Private Booking",
+     "price": 180,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 7 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 260,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 8 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 260,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 9 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 285,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 10 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 310,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 11 Players",
+     "note": "Two teams, Private booking",
+     "price": 335,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 12 Players",
+     "note": "Two teams, Private booking",
+     "price": 360,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 13 Players",
+     "note": "Three teams, Private booking",
+     "price": 415,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 14 Players",
+     "note": "Three teams, Private booking",
+     "price": 440,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 15 Players",
+     "note": "Three teams, Private booking",
+     "price": 465,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 16 Players",
+     "note": "Three teams, Private booking",
+     "price": 490,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 17 Players",
+     "note": "Three teams, Private booking",
+     "price": 515,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 18 Players",
+     "note": "Three teams, Private booking",
+     "price": 540,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 70,
+   "label": "Group of 1 Player"
+  },
+  {
+   "pk": 541843,
+   "name": "Teen's Teacup Floristry Crafternoon @ Nottingham City Centre",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Teen Crafternoon | 13-17 y/old",
+     "note": "",
+     "price": 42.4,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Crafternoon with Teen's Afternoon Tea",
+     "note": "13-17 y/old",
+     "price": 61.48,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 42.4,
+   "label": "Teen Crafternoon | 13-17 y/old"
+  },
+  {
+   "pk": 565391,
+   "name": "Fowey Estuary guided walk \"The Hall Walk\"",
+   "old": 42,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Individual Ticket",
+     "note": "Shared Tour",
+     "price": 42.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group up to 4",
+     "note": "",
+     "price": 180.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 5",
+     "note": "",
+     "price": 222.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 6",
+     "note": "",
+     "price": 265,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 7",
+     "note": "",
+     "price": 307.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group up to 8",
+     "note": "",
+     "price": 349.8,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 42.4,
+   "label": "Individual Ticket"
+  },
+  {
+   "pk": 574672,
+   "name": "Arizona Sunshine Zombie Shooting: Remake - Southbank",
+   "old": 80,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group of 1 Player",
+     "note": "Please call us if you wish to book for 1 Player",
+     "price": 80,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 2 Players",
+     "note": "Might be joined by another pair of players",
+     "price": 80,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 3 Players",
+     "note": "One Team, Private Booking",
+     "price": 120,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 4 Players",
+     "note": "One Team, Private Booking",
+     "price": 160,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 5 Players",
+     "note": "One Team, Private Booking, One player on dual wield",
+     "price": 195,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 6 Players",
+     "note": "One Team, Private Booking, Two players on dual wield",
+     "price": 230,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 7 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 280,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 8 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 320,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 9 Players",
+     "note": "Two teams, Private booking, One player on dual wield",
+     "price": 355,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 10 Players",
+     "note": "Two teams, Private booking, Two players on dual wield",
+     "price": 390,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 11 Players",
+     "note": "Two teams, Private booking, Three players on dual wield",
+     "price": 425,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 12 Players",
+     "note": "Two teams, Private booking, Four players on dual wield",
+     "price": 460,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 13 Players",
+     "note": "Three teams, Private booking, One player on dual wield and no vest",
+     "price": 510,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 14 Players",
+     "note": "Three teams, Private booking, Two players on dual wield and no vest",
+     "price": 540,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 15 Players",
+     "note": "Three teams, Private booking, Three players on dual wield and no vest",
+     "price": 570,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 16 Players",
+     "note": "Three teams, Private booking, Four players on dual wield and no vest",
+     "price": 600,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 17 Players",
+     "note": "Three teams, Private booking, Five players on dual wield and no vest",
+     "price": 630,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 18 Players",
+     "note": "Three teams, Private booking, Six players on dual wield and no vest",
+     "price": 660,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 80,
+   "label": "Group of 1 Player"
+  },
+  {
+   "pk": 602444,
+   "name": "Book your own Goat and Sheep Walk",
+   "old": 98,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Private Group Tour for 2 people",
+     "note": "",
+     "price": 72.8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Goat Tour for 4 people",
+     "note": "Max 2 adults (18+ yrs)",
+     "price": 83.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Goat Tour for 5 people",
+     "note": "Max 3 adults (18+ yrs)",
+     "price": 98.8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Goat Tour for 6 people",
+     "note": "Max 4 adults (18+ yrs)",
+     "price": 114.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Goat Tour for 8 people",
+     "note": "Max 6 adults (18+ yrs)",
+     "price": 150.8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Goat Tour for 10 people",
+     "note": "Max 8 adults (18+ yrs)",
+     "price": 187.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Goat Tour for 12 people",
+     "note": "Adults and kids!",
+     "price": 218.4,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 72.8,
+   "label": "Private Group Tour for 2 people"
+  },
+  {
+   "pk": 614746,
+   "name": "Private 1-1 or 2-1 SUP Intro Lesson",
+   "old": 53,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private 1:1 Lesson For 1 Hour",
+     "note": "",
+     "price": 53,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private 1:1 • 2 Hour Session",
+     "note": "1hr lesson + 1hr extra time with the SUP",
+     "price": 63.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private 2:1 Lesson For 1 Hour",
+     "note": "",
+     "price": 84.8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private 2:1 • 2 Hour Session",
+     "note": "1hr lesson + 1hr extra time with the SUP",
+     "price": 106,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 53,
+   "label": "Private 1:1 Lesson For 1 Hour"
+  },
+  {
+   "pk": 667538,
+   "name": "1 Hour Tour",
+   "old": 84,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group up to 5 people",
+     "note": "Price per car • Up to 5 persons per vehicle",
+     "price": 84.8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group up to 6 people",
+     "note": "Price per car • Up to 6 persons per vehicle",
+     "price": 84.8,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 84.8,
+   "label": "Group up to 5 people"
+  },
+  {
+   "pk": 667851,
+   "name": "2 Hour Tour",
+   "old": 116,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group up to 5 people",
+     "note": "Price per car • Up to 5 persons per vehicle",
+     "price": 116.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group up to 6 people",
+     "note": "Price per car • Up to 6 persons per vehicle",
+     "price": 116.6,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 116.6,
+   "label": "Group up to 5 people"
+  },
+  {
+   "pk": 667856,
+   "name": "3 Hour Tour",
+   "old": 148,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group up to 5 people",
+     "note": "Price per car • Up to 5 persons per vehicle",
+     "price": 148.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group up to 6 people",
+     "note": "Price per car • Up to 6 persons per vehicle",
+     "price": 148.4,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 148.4,
+   "label": "Group up to 5 people"
+  },
+  {
+   "pk": 677202,
+   "name": "Gin Tasting",
+   "old": 33,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 18+ years",
+     "price": 33.6,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 33.6,
+   "label": "Person"
+  },
+  {
+   "pk": 705084,
+   "name": "Becoming The Beatles: Semi-Private 2 Hour Tour (Shore Excursion)",
+   "old": 58,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Single Guest (1 person)",
+     "note": "",
+     "price": 90.1,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Per Person (2+ guests)",
+     "note": "",
+     "price": 58.3,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 58.3,
+   "label": "Per Person (2+ guests)"
+  },
+  {
+   "pk": 100320,
+   "name": "The Electric Beatles Tour",
+   "old": 59,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16 +",
+     "price": 59,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 14 - 15 years",
+     "price": 59,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (14 - 15) / Student",
+     "note": "ID Required",
+     "price": 45,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Private Tour up to 6 people",
+     "note": "Private tour up to 6 people",
+     "price": 354,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour",
+     "note": "Up to 10 people",
+     "price": 590,
+     "min": 2,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 59,
+   "label": "Adult"
+  },
+  {
+   "pk": 211719,
+   "name": "Full-Day Private Whitby & The North York Moors Tour",
+   "old": 510,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for up to 4 People",
+     "note": "Group size 1–4",
+     "price": 540.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 8 People",
+     "note": "Group size 1–8",
+     "price": 540.6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 16 People",
+     "note": "Group size 7–16 people",
+     "price": 662.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 540.6,
+   "label": "Private Tour for up to 4 People"
+  },
+  {
+   "pk": 247163,
+   "name": "Half-Day Private North York Moors National Park Tour",
+   "old": 300,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for up to 4 People",
+     "note": "Group size 1–4",
+     "price": 318,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 8 People",
+     "note": "Group size 1–8",
+     "price": 344.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 16 People",
+     "note": "Group size 7–16 people",
+     "price": 418.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 318,
+   "label": "Private Tour for up to 4 People"
+  },
+  {
+   "pk": 295356,
+   "name": "C.S. Lewis & J.R.R. Tolkien Walking Tour",
+   "old": 34,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 34,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 28,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Student",
+     "note": "Must present valid ID",
+     "price": 27,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth",
+     "note": "Ages 6-17",
+     "price": 23,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 0-5",
+     "price": 11,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 34,
+   "label": "Adult"
+  },
+  {
+   "pk": 361658,
+   "name": "Private Leeds City Walking Tour",
+   "old": 99,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 104.94,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 104.94,
+   "label": "Group"
+  },
+  {
+   "pk": 469164,
+   "name": "Ascenders VR - Aldgate",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group of 1 Player",
+     "note": "Please call us if you wish to book for 1 Player",
+     "price": 79,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 2 Players",
+     "note": "Might be joined by another pair",
+     "price": 79,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 3 Players",
+     "note": "One Team, Private Booking",
+     "price": 109,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 4 Players",
+     "note": "One Team, Private Booking",
+     "price": 139,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 5 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 218,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 6 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 218,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 7 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 248,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 8 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 278,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 9 Players",
+     "note": "Three teams, Private booking",
+     "price": 327,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 10 Players",
+     "note": "Three teams, Private booking",
+     "price": 357,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 11 Players",
+     "note": "Three teams, Private booking",
+     "price": 387,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 12 Players",
+     "note": "Three teams, Private booking",
+     "price": 417,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 79,
+   "label": "Group of 1 Player"
+  },
+  {
+   "pk": 469167,
+   "name": "Rotten Apple VR - Aldgate",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Group of 1 Player",
+     "note": "Please call us if you wish to book for 1 Player",
+     "price": 79,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 2 Players",
+     "note": "Might be joined by another pair of players",
+     "price": 79,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 3 Players",
+     "note": "One Team, Private Booking",
+     "price": 109,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 4 Players",
+     "note": "One Team, Private Booking",
+     "price": 139,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 5 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 218,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 6 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 218,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 7 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 248,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 8 Players",
+     "note": "Two Teams, Private Booking",
+     "price": 278,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 9 Players",
+     "note": "Three teams, Private booking",
+     "price": 327,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 10 Players",
+     "note": "Three teams, Private booking",
+     "price": 357,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 11 Players",
+     "note": "Three teams, Private booking",
+     "price": 387,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 12 Players",
+     "note": "Three teams, Private booking",
+     "price": 417,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 79,
+   "label": "Group of 1 Player"
+  },
+  {
+   "pk": 538183,
+   "name": "The Anglo-Saxon World at Bamburgh and Lindisfarne",
+   "old": 201,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "One Adult",
+     "note": "Ages 18+",
+     "price": 392.2,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Two Adults",
+     "note": "Ages 18+ • Price per person",
+     "price": 318,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Three Adults",
+     "note": "Ages 18+ • Price per person",
+     "price": 286.2,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Adults",
+     "note": "Ages 18+ • Price per person",
+     "price": 254.4,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Teenager",
+     "note": "Ages 14-17",
+     "price": 159,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 6-13",
+     "price": 84.8,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 201.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 222.6,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 201.4,
+   "label": "Adult"
+  },
+  {
+   "pk": 614786,
+   "name": "Single Kayak Hire",
+   "old": 15,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Hire - 1 Hour",
+     "note": "",
+     "price": 15.9,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Hire - 1.5 Hour",
+     "note": "",
+     "price": 23.85,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Hire - 2 Hours",
+     "note": "",
+     "price": 26.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 15.9,
+   "label": "Hire - 1 Hour"
+  },
+  {
+   "pk": 637101,
+   "name": "Rewilding Retreat Day - Nature Connections. Mindful archery, bushcraft, fire and drums.",
+   "old": 80,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 80,
+     "min": 4,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Between 8 to 15 years old",
+     "price": 58.67,
+     "min": 4,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 80,
+   "label": "Adult"
+  },
+  {
+   "pk": 235578,
+   "name": "Pay & Play",
+   "old": 31,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult BYOB Full Session",
+     "note": "Ages 13+",
+     "price": 31.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child BYOB Full Session",
+     "note": "Ages 12 and under",
+     "price": 21,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 31.5,
+   "label": "Adult BYOB Full Session"
+  },
+  {
+   "pk": 247162,
+   "name": "Half-Day Private Whitby Trip",
+   "old": 300,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour for up to 4 People",
+     "note": "Group size 1–4",
+     "price": 259.7,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 8 People",
+     "note": "Group size 1–8",
+     "price": 312.7,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private tour for up to 16 People",
+     "note": "Group size 7–16 people",
+     "price": 418.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 259.7,
+   "label": "Private Tour for up to 4 People"
+  },
+  {
+   "pk": 289681,
+   "name": "Family Coasteering",
+   "old": 40,
+   "oldLabel": "per person",
+   "disposition": "UNSAMPLED",
+   "new": 40,
+   "probeErrors": []
+  },
+  {
+   "pk": 343499,
+   "name": "Jungle Hunt",
+   "old": 26,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 26,
+   "probeErrors": []
+  }
+ ]
+}

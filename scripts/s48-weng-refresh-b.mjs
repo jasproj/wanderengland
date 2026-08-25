@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-// s48-weng-refresh-a: 88-day price-stamp refresh, batch A.
-//   Population: priceEnrichmentAt starts with 2026-05-28 MINUS rows carrying priceSource
-//   s47-weng-wholeparty (ruled in #93, untouched). Re-derived in-branch at run time.
+// s48-weng-refresh-b: 88-day price-stamp refresh, batch B — the strictly unstamped legacy rows.
+//   Population: rows carrying NONE of priceEnrichmentAt / priceEnrichmentSource / priceEnrichmentStatus /
+//   priceSource / priceBasis / priceConfidenceSource (the 2 s45-weng-charter-2 rows 374939/553130 carry
+//   priceSource and are therefore excluded). Re-derived in-branch at run time. Same rules as batch A.
 //   Endpoint/batching/join-by-id per the vendored scripts/extract-prices-v7-api.js (D-613
 //   lineage): price-preview/per-item/v2, include_breakdown=yes, ≤20 pks per request,
 //   1 req/s, dated requests (date-validity instrument, D-606).
@@ -11,11 +12,11 @@
 //   Whole-party-only ladders → HELD low with basis (D-621; no priceUnit render path yet).
 //   Absent on every date → UNSAMPLED, low, reason stamped. All-zero ladder → zero_price, low.
 //   Non-GBP live currency → D-620 hold, true currency + amount stamped, low.
-//   usage: node scripts/s48-weng-refresh-a.mjs probe|apply [--dry-run]
+//   usage: node scripts/s48-weng-refresh-b.mjs probe|apply [--dry-run]
 import fs from 'node:fs';
 const FILE = 'tours-data.json';
-const EV = 'scripts/evidence/s48-weng-refresh-a';
-const SOURCE = 's48-weng-refresh';
+const EV = 'scripts/evidence/s48-weng-refresh-b';
+const SOURCE = 's48-weng-refresh-b';
 const STAMP_DAY = '2026-08-25';
 const DATES = ['2026-08-31', '2026-09-14', '2026-09-28', '2026-10-19'];
 const BATCH = 20, RATE_MS = 1000, TIMEOUT_MS = 25000;
@@ -33,10 +34,11 @@ function parseFhUrl(bookingUrl) {   // identical to v7
 }
 const raw = fs.readFileSync(FILE, 'utf8'); const doc = JSON.parse(raw);
 if (JSON.stringify(doc, null, 2) + '\n' !== raw) { console.error('ABORT: no byte round-trip (D-599)'); process.exit(2); }
-const inA = t => typeof t.priceEnrichmentAt === 'string' && t.priceEnrichmentAt.startsWith('2026-05-28');
-const pop = doc.tours.filter(t => inA(t) && t.priceSource !== 's47-weng-wholeparty');
-const excluded = doc.tours.filter(t => inA(t) && t.priceSource === 's47-weng-wholeparty').length;
-console.error(`population A=${doc.tours.filter(inA).length} minus s47=${excluded} -> ${pop.length}`);
+const STAMPS = ['priceEnrichmentAt', 'priceEnrichmentSource', 'priceEnrichmentStatus', 'priceSource', 'priceBasis', 'priceConfidenceSource'];
+const EXCLUDE = new Set([374939, 553130]);   // s45-weng-charter-2 rows — carry priceSource, ruled separately
+const inB = t => !STAMPS.some(k => k in t);
+const pop = doc.tours.filter(t => inB(t) && !EXCLUDE.has(t.pk));
+console.error(`population B_strict=${doc.tours.filter(inB).length} (excluded present in strict set: ${doc.tours.filter(t => inB(t) && EXCLUDE.has(t.pk)).length}) -> ${pop.length}`);
 for (const t of pop) { const p = parseFhUrl(t.bookingUrl); if (!p || p.pk !== t.pk) { console.error('ABORT: bookingUrl pk mismatch', t.pk); process.exit(2); } }
 
 async function get(url, ms) {
@@ -135,7 +137,7 @@ function apply() {
     const rec = { pk: t.pk, name: t.name, old: old.price, oldLabel: old.label };
     const tiersOf = p => p.tiers.map(x => ({ name: x.singular, note: x.note || '', price: u(x.priceCents), minPartySize: x.min ?? null }));
     if (sampled.length === 0) {
-      t.priceConfidence = 'low'; t.priceSource = SOURCE; t.priceEnrichmentAt = ts; t.priceEnrichmentStatus = ok.length ? 'unsampled' : 'probe_error';
+      t.priceConfidence = 'low'; t.priceSource = SOURCE; t.priceEnrichmentSource = 'extract-prices-v7-api'; t.priceEnrichmentAt = ts; t.priceEnrichmentStatus = ok.length ? 'unsampled' : 'probe_error';
       t.priceBasis = `UNSAMPLED: absent from price-preview items[] on ${ok.length}/${DATES.length} dated probes (${DATES.join(', ')})${ok.length < DATES.length ? `, ${DATES.length - ok.length} probe error(s)` : ''}; stored ${old.price == null ? 'null' : '£' + old.price}${old.label ? ` (${old.label})` : ''} retained unpublished pending a live reading`;
       t.priceTiers = (t.priceBreakdown || []).map(x => ({ name: x.singular, note: x.note || '', price: x.price, minPartySize: x.minPartySize ?? null }));
       Object.assign(rec, { disposition: ok.length ? 'UNSAMPLED' : 'PROBE_ERROR', new: t.price, probeErrors: v.probes.filter(p => p.error).map(p => p.error) }); bump(ok.length ? 'UNSAMPLED' : 'PROBE_ERROR'); summary.push(rec); continue;
@@ -150,7 +152,7 @@ function apply() {
     // refresh v7-shaped provenance from the live majority reading
     t.priceBreakdown = maj.tiers.map(c => ({ id: c.id, singular: c.singular, plural: c.plural, note: c.note, priceCents: c.priceCents, price: u(c.priceCents), minPartySize: c.min }));
     t.priceIncludesBookingFees = maj.includeFees; t.priceIncludesTaxes = maj.includeTaxes;
-    t.priceEnrichmentAt = ts; t.priceSource = SOURCE; t.priceTiers = L;
+    t.priceEnrichmentSource = 'extract-prices-v7-api'; t.priceEnrichmentAt = ts; t.priceSource = SOURCE; t.priceTiers = L;
     const classes = maj.tiers.map(x => ({ x, cls: classifyTier(x, t.name) }));
     rec.tiers = classes.map(c => ({ singular: c.x.singular, note: c.x.note || '', price: u(c.x.priceCents), min: c.x.min, cls: c.cls }));
     const base = classes.filter(c => c.cls === 'base').map(c => c.x); const group = classes.filter(c => c.cls === 'group').map(c => c.x);
