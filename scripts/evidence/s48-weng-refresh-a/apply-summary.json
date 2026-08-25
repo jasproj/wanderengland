@@ -681,8 +681,12 @@
     }
    ],
    "disposition": "HELD",
-   "new": 21.2,
-   "label": "Light Floor Add On - 40 Min Party"
+   "new": 26.5,
+   "label": "Players for a 40 Minute VR Party",
+   "floorfix": {
+    "old": 21.2,
+    "oldLabel": "Light Floor Add On - 40 Min Party"
+   }
   },
   {
    "pk": 540806,
@@ -21504,8 +21508,12 @@
     }
    ],
    "disposition": "HELD",
-   "new": 8.1,
-   "label": "Additional Person"
+   "new": 199.8,
+   "label": "Basic Party",
+   "floorfix": {
+    "old": 8.1,
+    "oldLabel": "Additional Person"
+   }
   },
   {
    "pk": 615072,
@@ -22544,8 +22552,12 @@
     }
    ],
    "disposition": "HELD",
-   "new": 6.4,
-   "label": "Additional Adult"
+   "new": 26.67,
+   "label": "One Hour Hire",
+   "floorfix": {
+    "old": 6.4,
+    "oldLabel": "Additional Adult"
+   }
   },
   {
    "pk": 683677,
@@ -22994,8 +23006,12 @@
     }
    ],
    "disposition": "HELD",
-   "new": 5.3,
-   "label": "Overnight Hire"
+   "new": 31.8,
+   "label": "Overnight Hire",
+   "floorfix": {
+    "old": 5.3,
+    "oldLabel": "Overnight Hire"
+   }
   },
   {
    "pk": 707047,
@@ -23083,8 +23099,12 @@
     }
    ],
    "disposition": "HELD",
-   "new": 6.4,
-   "label": "Additional Adult"
+   "new": 37.33,
+   "label": "One Hour Hire",
+   "floorfix": {
+    "old": 6.4,
+    "oldLabel": "Additional Adult"
+   }
   },
   {
    "pk": 712258,
@@ -24844,8 +24864,12 @@
     }
    ],
    "disposition": "HELD",
-   "new": 17.28,
-   "label": "Additional Person"
+   "new": 199.8,
+   "label": "Basic Party",
+   "floorfix": {
+    "old": 17.28,
+    "oldLabel": "Additional Person"
+   }
   },
   {
    "pk": 616109,
@@ -26381,5 +26405,9 @@
    "new": 47.7,
    "label": "Adult"
   }
- ]
+ ],
+ "floorfix": {
+  "changedRows": 6,
+  "rule": "held floor = min over group/base tiers; never-branch (name or add-on note wording) excluded; all non-zero only as fallback"
+ }
 }

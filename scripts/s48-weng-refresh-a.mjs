@@ -98,12 +98,14 @@ const BASE = new RegExp('\\b(' + BASE_WORDS + ')\\b', 'i');
 const BASE_HEAD = new RegExp('^(' + BASE_WORDS + ')\\b', 'i');
 // explicit unit wording in the note settles the unit either way
 const PER_PERSON = /\b(per (person|player|participant|head|adult|guest|rider|passenger|student|pp))\b|\beach person\b|\bpp\b|\b(1|one) (person|student|player)\b(?!\s*(or|to|-|–))/i;
+const NOTE_NEVER = /^\s*extras?\b|\bprice per item\b|\badd[- ]on\b/i;
 const VOLUME = new RegExp('^(' + WORDNUM + '\\s*(people|persons|adults|guests|players|passengers|students)|groups? of)\\b', 'i');
 const NAME_GROUP = /\b(hire|rental|charter|private|boat|narrowboat|cruiser|vessel)\b/i;
 function classifyTier(t, productName) {
   const sing = (t.singular || '').trim(); const note = t.note || '';
   if (!(t.priceCents > 0)) return 'zero';
-  if (NEVER.test(sing) || AGE_RANGE.test(sing)) return 'never';     // never-anchor is decided by the tier NAME only — notes carry age advisories for base tiers too
+  if (NEVER.test(sing) || AGE_RANGE.test(sing)) return 'never';     // never-anchor is decided by the tier NAME — notes carry age advisories for base tiers too …
+  if (NOTE_NEVER.test(note)) return 'never';                          // … except explicit add-on wording in the note ("Extra – Boots (Price Per Item)", s48-weng-floorfix)
   if (VOLUME.test(sing)) return 'group';                              // "Two Adults", "Six Adults", "Three People": group-size variants rank behind the single-person tier
   if (BASE_HEAD.test(sing)) return 'base';                            // head noun decides: "Participant (Groups of 2 - 4)" is per person
   if (BASE.test(sing) && !GROUP.test(sing)) return 'base';
@@ -170,7 +172,10 @@ function apply() {
       Object.assign(rec, { disposition: changed ? 'repriced' : 'unchanged', new: t.price, label: anchor.singular }); bump(changed ? 'repriced' : 'unchanged');
     } else {
       // whole-party-only (or never-anchor-only) ladder → HELD low (D-621; no priceUnit render path)
-      const nz = maj.tiers.filter(x => x.priceCents > 0); const floor = nz.reduce((a, b) => b.priceCents < a.priceCents ? b : a);
+      const nz = maj.tiers.filter(x => x.priceCents > 0);
+      // stored floor never comes from an add-on/child/kit (never-branch) tier — min over group/base tiers, all non-zero only as a fallback
+      const gb = classes.filter(c => (c.cls === 'group' || c.cls === 'base') && c.x.priceCents > 0).map(c => c.x);
+      const floor = (gb.length ? gb : nz).reduce((a, b) => b.priceCents < a.priceCents ? b : a);
       t.currency = 'GBP'; t.priceConfidence = 'low'; t.priceEnrichmentStatus = 'high';
       t.price = u(floor.priceCents); t.priceLabel = floor.singular;
       t.priceBasis = `HELD (${group.length ? 'D-621 whole-party' : 'no adult/base tier'}): live ladder ${nz.map(x => `${x.singular} £${u(x.priceCents)}`).join(' / ')} has no standalone adult/base per-person tier; floor £${t.price} (${floor.singular}) stamped unpublished pending priceUnit port; ${evid}; live GBP`;

@@ -1,0 +1,106 @@
+{
+ "verify": {
+  "sha256_before_originmain": "fc6495bed7b31daa07a9af764d04e96115fb7ada02081c2e2ee819d8bc53764c",
+  "sha256_after": "8dad282143da32af29818286f634a1eb3b5a53754777b697859e3448483ca805",
+  "rows": 1424,
+  "population": 1017,
+  "outOfPopulationRowsChanged": 0,
+  "byteRoundTrip": true,
+  "before": {
+   "visible": 677,
+   "offers": 677
+  },
+  "after": {
+   "visible": 677,
+   "offers": 677,
+   "visibleEqualsOffers": true,
+   "mismatchPks": []
+  },
+  "popSuppressed": 564,
+  "suppressedRenderViolations": [],
+  "nonPopulationRenderDiff": 0,
+  "popVisibleBefore": 453,
+  "popVisibleAfter": 453,
+  "disposition": {
+   "unchanged": 358,
+   "HELD": 348,
+   "repriced": 95,
+   "zero_price": 39,
+   "UNSAMPLED": 175,
+   "PROBE_ERROR": 2
+  },
+  "stampedAt": "2026-08-25T23:10:05.385Z",
+  "appliedAt": "2026-08-24T23:10:05.385Z"
+ },
+ "changes": [
+  {
+   "pk": 412680,
+   "name": "Parties",
+   "old": 21.2,
+   "oldLabel": "Light Floor Add On - 40 Min Party",
+   "new": 26.5,
+   "label": "Players for a 40 Minute VR Party",
+   "excluded": [
+    "Light Floor Add On - 40 Min Party \u00a321.2",
+    "Light Floor Add On - 60 Min Party \u00a321.2"
+   ]
+  },
+  {
+   "pk": 614027,
+   "name": "Mountain Biking Party",
+   "old": 8.1,
+   "oldLabel": "Additional Person",
+   "new": 199.8,
+   "label": "Basic Party",
+   "excluded": [
+    "Additional Person \u2022 Premium \u00a310.8",
+    "Additional Person \u00a38.1"
+   ]
+  },
+  {
+   "pk": 675237,
+   "name": "Fishing Boat Hire",
+   "old": 6.4,
+   "oldLabel": "Additional Adult",
+   "new": 26.67,
+   "label": "One Hour Hire",
+   "excluded": [
+    "Additional Adult \u00a36.4"
+   ]
+  },
+  {
+   "pk": 704549,
+   "name": "Overnight Hire",
+   "old": 5.3,
+   "oldLabel": "Overnight Hire",
+   "new": 31.8,
+   "label": "Overnight Hire",
+   "excluded": [
+    "Overnight Hire \u00a35.3"
+   ]
+  },
+  {
+   "pk": 710857,
+   "name": "Kruger Boat Hire",
+   "old": 6.4,
+   "oldLabel": "Additional Adult",
+   "new": 37.33,
+   "label": "One Hour Hire",
+   "excluded": [
+    "Additional Adult \u00a36.4"
+   ]
+  },
+  {
+   "pk": 614000,
+   "name": "Nerf Party",
+   "old": 17.28,
+   "oldLabel": "Additional Person",
+   "new": 199.8,
+   "label": "Basic Party",
+   "excluded": [
+    "Additional Person \u2022 Premium \u00a321.6",
+    "Additional Person \u00a317.28"
+   ]
+  }
+ ]
+}

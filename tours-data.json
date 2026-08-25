@@ -23217,7 +23217,7 @@
       "name": "Parties",
       "description": "Host an unforgettable party with 50-minute VR adventures, fast-paced arena fun, tasty food options, and party bags. Perfect for groups of 6-12, in a cool, air-conditioned space with easy parking.",
       "location": "Bournemouth",
-      "price": 21.2,
+      "price": 26.5,
       "bookingUrl": "https://fareharbor.com/embeds/book/centrevr/items/412680/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/yqHeRNuxTUeIDDmDZVuL/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
@@ -23233,7 +23233,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "GBP",
-      "priceLabel": "Light Floor Add On - 40 Min Party",
+      "priceLabel": "Players for a 40 Minute VR Party",
       "priceConfidence": "low",
       "priceBreakdown": [
         {
@@ -23310,7 +23310,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (D-621 whole-party): live ladder Players for a 40 Minute VR Party £26.5 / Players for a 60 Minute VR Party £31.8 / Light Floor Add On - 40 Min Party £21.2 / Light Floor Add On - 60 Min Party £21.2 has no standalone adult/base per-person tier; floor £21.2 (Light Floor Add On - 40 Min Party) stamped unpublished pending priceUnit port; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "HELD (D-621 whole-party): live ladder Players for a 40 Minute VR Party £26.5 / Players for a 60 Minute VR Party £31.8 / Light Floor Add On - 40 Min Party £21.2 / Light Floor Add On - 60 Min Party £21.2 has no standalone adult/base per-person tier; floor £26.5 (Players for a 40 Minute VR Party) stamped unpublished pending priceUnit port; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP; floor re-derived by s48-weng-floorfix (add-on/child/kit tiers excluded from the floor)"
     },
     {
       "pk": 535778,
@@ -88117,7 +88117,7 @@
       "name": "Mountain Biking Party",
       "description": "Experience the thrill of mountain biking on diverse forest trails and a unique pump track designed for all skill levels. Whether you're a novice or an expert, enjoy the freedom to choose your path, enhance the track with your own features, and savor delicious campfire treats during unforgettable group parties.",
       "location": "Lytchett Minster",
-      "price": 8.1,
+      "price": 199.8,
       "bookingUrl": "https://fareharbor.com/embeds/book/adventurepirate/items/614027/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/hqERg1DFTFSiPOzundaV/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -88132,7 +88132,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "GBP",
-      "priceLabel": "Additional Person",
+      "priceLabel": "Basic Party",
       "priceConfidence": "low",
       "priceBreakdown": [
         {
@@ -88224,7 +88224,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (D-621 whole-party): live ladder Basic Party £199.8 / Premium Party £243 / Luxury Party £297 / Additional Person • Premium £10.8 / Additional Person £8.1 has no standalone adult/base per-person tier; floor £8.1 (Additional Person) stamped unpublished pending priceUnit port; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "HELD (D-621 whole-party): live ladder Basic Party £199.8 / Premium Party £243 / Luxury Party £297 / Additional Person • Premium £10.8 / Additional Person £8.1 has no standalone adult/base per-person tier; floor £199.8 (Basic Party) stamped unpublished pending priceUnit port; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP; floor re-derived by s48-weng-floorfix (add-on/child/kit tiers excluded from the floor)"
     },
     {
       "pk": 615072,
@@ -91340,7 +91340,7 @@
       "name": "Fishing Boat Hire",
       "description": "Fish on Windermere in open Pioner boats, perfect for catching pike, perch, trout, and more. No boat license needed, easy to steer, with full training provided. Bring your rod and enjoy a relaxing lake day.",
       "location": "Bowness-on-Windermere",
-      "price": 6.4,
+      "price": 26.67,
       "bookingUrl": "https://fareharbor.com/embeds/book/aquatic-quays/items/675237/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/cN7ZIO4ZRV6F45QE5R3l/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -91358,7 +91358,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "GBP",
-      "priceLabel": "Additional Adult",
+      "priceLabel": "One Hour Hire",
       "priceConfidence": "low",
       "priceBreakdown": [
         {
@@ -91465,7 +91465,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (D-621 whole-party): live ladder One Hour Hire £26.67 / Two Hour Hire £53.33 / Three Hour Hire £80 / Four Hour Hire £106.67 / Additional Adult £6.4 has no standalone adult/base per-person tier; floor £6.4 (Additional Adult) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "HELD (D-621 whole-party): live ladder One Hour Hire £26.67 / Two Hour Hire £53.33 / Three Hour Hire £80 / Four Hour Hire £106.67 / Additional Adult £6.4 has no standalone adult/base per-person tier; floor £26.67 (One Hour Hire) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP; floor re-derived by s48-weng-floorfix (add-on/child/kit tiers excluded from the floor)"
     },
     {
       "pk": 683677,
@@ -92417,7 +92417,7 @@
       "name": "Overnight Hire",
       "description": "Rent top-quality wetsuits, boards, or kayaks overnight at South Bay. Feel the thrill of the waves with gear that keeps you warm and ready, all while enjoying flexible options for your perfect water adventure.",
       "location": "Scarborough",
-      "price": 5.3,
+      "price": 31.8,
       "bookingUrl": "https://fareharbor.com/embeds/book/dexterssurfshop/items/704549/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/5Np4XrhqTZeFZOz2Aext/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -92610,7 +92610,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (D-621 whole-party): live ladder Overnight Hire £31.8 / Overnight Hire £53 / Overnight Hire £47.7 / Overnight Hire £42.4 / Overnight Hire £58.3 / Overnight Hire £63.6 / Overnight Hire £53 / Overnight Hire £53 / Overnight Hire £53 / Overnight Hire £37.1 / Overnight Hire £5.3 has no standalone adult/base per-person tier; floor £5.3 (Overnight Hire) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "HELD (D-621 whole-party): live ladder Overnight Hire £31.8 / Overnight Hire £53 / Overnight Hire £47.7 / Overnight Hire £42.4 / Overnight Hire £58.3 / Overnight Hire £63.6 / Overnight Hire £53 / Overnight Hire £53 / Overnight Hire £53 / Overnight Hire £37.1 / Overnight Hire £5.3 has no standalone adult/base per-person tier; floor £31.8 (Overnight Hire) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP; floor re-derived by s48-weng-floorfix (add-on/child/kit tiers excluded from the floor)"
     },
     {
       "pk": 706588,
@@ -92830,7 +92830,7 @@
       "name": "Kruger Boat Hire",
       "description": "Enjoy a laid-back day on Windermere with open Pioner boats—no license needed. Fish, relax, and soak up the lake’s beauty in a spacious, easy-to-control boat perfect for small groups and families.",
       "location": "Bowness-on-Windermere",
-      "price": 6.4,
+      "price": 37.33,
       "bookingUrl": "https://fareharbor.com/embeds/book/aquatic-quays/items/710857/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/cN7ZIO4ZRV6F45QE5R3l/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -92847,7 +92847,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "GBP",
-      "priceLabel": "Additional Adult",
+      "priceLabel": "One Hour Hire",
       "priceConfidence": "low",
       "priceBreakdown": [
         {
@@ -92954,7 +92954,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (D-621 whole-party): live ladder One Hour Hire £37.33 / Two Hour Hire £71.47 / Three Hour Hire £109.87 / Four Hour Hire £122.67 / Additional Adult £6.4 has no standalone adult/base per-person tier; floor £6.4 (Additional Adult) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "HELD (D-621 whole-party): live ladder One Hour Hire £37.33 / Two Hour Hire £71.47 / Three Hour Hire £109.87 / Four Hour Hire £122.67 / Additional Adult £6.4 has no standalone adult/base per-person tier; floor £37.33 (One Hour Hire) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP; floor re-derived by s48-weng-floorfix (add-on/child/kit tiers excluded from the floor)"
     },
     {
       "pk": 712258,
@@ -97997,7 +97997,7 @@
       "name": "Nerf Party",
       "description": "Kids become elite Nerf soldiers in action-packed battles, guided by trained instructors. After safety briefings and team games, they gear up for thrilling missions, ending with fun snacks and celebration. An unforgettable adventure!",
       "location": "Lytchett Minster",
-      "price": 17.28,
+      "price": 199.8,
       "bookingUrl": "https://fareharbor.com/embeds/book/adventurepirate/items/614000/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/hqERg1DFTFSiPOzundaV/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -98015,7 +98015,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "GBP",
-      "priceLabel": "Additional Person",
+      "priceLabel": "Basic Party",
       "priceConfidence": "low",
       "priceBreakdown": [
         {
@@ -98092,7 +98092,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (D-621 whole-party): live ladder Basic Party £199.8 / Premium Party £243 / Additional Person • Premium £21.6 / Additional Person £17.28 has no standalone adult/base per-person tier; floor £17.28 (Additional Person) stamped unpublished pending priceUnit port; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "HELD (D-621 whole-party): live ladder Basic Party £199.8 / Premium Party £243 / Additional Person • Premium £21.6 / Additional Person £17.28 has no standalone adult/base per-person tier; floor £199.8 (Basic Party) stamped unpublished pending priceUnit port; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP; floor re-derived by s48-weng-floorfix (add-on/child/kit tiers excluded from the floor)"
     },
     {
       "pk": 616109,
