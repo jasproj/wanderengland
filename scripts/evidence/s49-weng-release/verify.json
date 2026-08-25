@@ -1,0 +1,85 @@
+{
+ "sha_before": {
+  "tours-data.json": "170c08068b4ea15780f66dc3eb9961d752c92baec1f1c61cb069a86aa5c1e9f1"
+ },
+ "sha_after": {
+  "tours-data.json": "4ce8c7ed0b682552d2ff82f107bea8d0aa99e51beba6db986bab9bb05751c70e"
+ },
+ "byteRoundTrip": true,
+ "population": 155,
+ "released": 147,
+ "held": 8,
+ "tally": {
+  "A": {
+   "released": 11,
+   "held": 3
+  },
+  "B": {
+   "released": 40,
+   "held": 5
+  },
+  "D": {
+   "released": 76,
+   "held": 0
+  },
+  "C": {
+   "released": 20,
+   "held": 0
+  }
+ },
+ "released_render_violations": [],
+ "held_render_violations": [],
+ "nonPopulationRenderDiff": 0,
+ "rowsOutsidePopulationChanged": 0,
+ "before": {
+  "loaded": 1424,
+  "visiblePrice": 703,
+  "jsonLdOffers": 703,
+  "visibleByCurrency": {
+   "EUR": 19,
+   "GBP": 676,
+   "USD": 8
+  },
+  "visibleBySymbol": {
+   "$": 8,
+   "\u00a3": 676,
+   "\u20ac": 19
+  },
+  "offersByPriceCurrency": {
+   "EUR": 19,
+   "GBP": 676,
+   "USD": 8
+  },
+  "visibleNonGbp": 27,
+  "priceTextButNoOffer": 0
+ },
+ "after": {
+  "loaded": 1424,
+  "visiblePrice": 850,
+  "jsonLdOffers": 850,
+  "visibleByCurrency": {
+   "EUR": 19,
+   "GBP": 823,
+   "USD": 8
+  },
+  "visibleBySymbol": {
+   "$": 8,
+   "\u00a3": 823,
+   "\u20ac": 19
+  },
+  "offersByPriceCurrency": {
+   "EUR": 19,
+   "GBP": 823,
+   "USD": 8
+  },
+  "visibleNonGbp": 27,
+  "priceTextButNoOffer": 0
+ },
+ "visible_eq_offers_before": true,
+ "visible_eq_offers_after": true,
+ "small_tags_after": 147,
+ "unit_rows_after": 147,
+ "visible_delta_expected": 147,
+ "visible_delta_actual": 147,
+ "PASS": true
+}

@@ -1,0 +1,1398 @@
+{
+ "stampedAt": "2026-08-25T16:18:54.647Z",
+ "population": 155,
+ "rowsChanged": 155,
+ "tally": {
+  "A": {
+   "released": 11,
+   "held": 3
+  },
+  "B": {
+   "released": 40,
+   "held": 5
+  },
+  "D": {
+   "released": 76,
+   "held": 0
+  },
+  "C": {
+   "released": 20,
+   "held": 0
+  }
+ },
+ "holds": [
+  {
+   "cls": "A",
+   "pk": 685635,
+   "name": "The Shakespeare Pullman - 12:50pm Departure",
+   "reason": "HELD (UNSAMPLED): absent from price-preview items[] on 4/4 dated probes 2026-08-25 (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored £286.2 (Pullman Table for 2 | 2 People) retained unpublished — unsampled is never released; re-stamped 2026-08-25"
+  },
+  {
+   "cls": "A",
+   "pk": 684706,
+   "name": "Soft Play Parties",
+   "reason": "HELD (package-tier unit unresolvable): live ladder Soft Play Dry Hire £262.5 / All Inclusive  Party Package £28.88 — the hire floor is a dry-hire package whose unit cannot be stated honestly; 4/4 dated probes 2026-08-25, 4 date-valid, 2 ladder shape(s), live GBP; re-stamped 2026-08-25"
+  },
+  {
+   "cls": "A",
+   "pk": 706588,
+   "name": "Kate Middleton Immersion - 5hrs",
+   "reason": "HELD (UNSAMPLED): absent from price-preview items[] on 4/4 dated probes 2026-08-25 (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored £344.5 (Adult) retained unpublished — unsampled is never released; re-stamped 2026-08-25"
+  },
+  {
+   "cls": "B",
+   "pk": 335246,
+   "name": "Full Day Paintball",
+   "reason": "HELD (hire/rental rule): floor label \"- No Paintballs\" carries no duration/unit (note \"All equipment hire • No paintballs • No Lunch\"); ladder - No Paintballs £13.77 / - 300 Paintballs £31.8 / - 1000 Paintballs + Smoke £63.6; re-stamped 2026-08-25"
+  },
+  {
+   "cls": "B",
+   "pk": 335247,
+   "name": "Half Day Paintball",
+   "reason": "HELD (hire/rental rule): floor label \"- No Paintballs\" carries no duration/unit (note \"All equipment hire • No paintballs • No Lunch\"); ladder - No Paintballs £13.77 / - 200 Paintballs £26.5 / - 300 Paintballs £31.8 / - 500 Paintballs £42.4; re-stamped 2026-08-25"
+  },
+  {
+   "cls": "B",
+   "pk": 293965,
+   "name": "Windsurf Hire",
+   "reason": "HELD (hire/rental rule): floor label \"Beginner 1-hour\" is a skill grade, not a duration/unit; ladder Beginner 1-hour £18.9 / Beginner 2-hours £37.8 / Intermediate - Advanced 1 hour £26.25 / Intermediate 2-hours £48.3 / Day Hire 9:30am -5:00pm - Beginner Kit £63; re-stamped 2026-08-25"
+  },
+  {
+   "cls": "B",
+   "pk": 621627,
+   "name": "SUP Hire – Glide Across the Water",
+   "reason": "HELD (hire/rental rule): floor label \"Board\" carries no duration/unit (note \"Price for 1 Hour SUP Hire • \"Minimum age: 10 years old (children must be accompanied by an adult)\"); ladder Board £15.9; re-stamped 2026-08-25"
+  },
+  {
+   "cls": "B",
+   "pk": 412789,
+   "name": "University student surf days",
+   "reason": "HELD (hire/rental rule): mixed lessons + rental ladder Wetsuit Rental £10.5 / Wetsuit Boots Rental £5.25 / Wetsuit Gloves Rental £5.25 / Wetsuit Hood Rental £5.25 / Boots/hood/gloves package £10.5 / Surfboard Rental - 2h 30m £15.75 / Surfboard Rental - 3 Hours £15.75 / Surfboard Rental - 4 Hours £18.9 / Surfboard Rental - 5 Hours £18.9 / Surfboard Rental - 6 Hours £18.9 / University students surf  lesson only £31.5 / Uni Full package hire deal (wesuit, board & wetsuit accessories) £21 with an accessory floor — no honest anchor; re-stamped 2026-08-25"
+  }
+ ],
+ "releases": [
+  {
+   "cls": "A",
+   "pk": 568016,
+   "name": "Soft Play, Role Play, Bouncy Castle & Slide",
+   "price": 10.5,
+   "label": "Softplay Session",
+   "unit": "one adult and one child",
+   "rule": "D-624 (tier-note unit, sanctioned)"
+  },
+  {
+   "cls": "A",
+   "pk": 688811,
+   "name": "Private Archery",
+   "price": 175,
+   "label": "Private Group",
+   "unit": "Private Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "A",
+   "pk": 689195,
+   "name": "Private Axe Throwing",
+   "price": 175,
+   "label": "Private Group",
+   "unit": "Private Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "A",
+   "pk": 722804,
+   "name": "Private London Immersive Tour",
+   "price": 424,
+   "label": "2 Adults",
+   "unit": "for two adults",
+   "rule": "D-624 smallest bookable unit (Yellow-Bike lineage)"
+  },
+  {
+   "cls": "A",
+   "pk": 722381,
+   "name": "Private Royal London E-Bike Tour",
+   "price": 318,
+   "label": "2 Adults",
+   "unit": "for two adults",
+   "rule": "D-624 smallest bookable unit (Yellow-Bike lineage)"
+  },
+  {
+   "cls": "A",
+   "pk": 535865,
+   "name": "Rapid Canoe Safari (Full Day)",
+   "price": 180.2,
+   "label": "Canoe",
+   "unit": "Canoe",
+   "rule": "D-621 whole-boat"
+  },
+  {
+   "cls": "A",
+   "pk": 535778,
+   "name": "Rapid Canoe Safari",
+   "price": 137.8,
+   "label": "Canoe",
+   "unit": "Canoe",
+   "rule": "D-621 whole-boat"
+  },
+  {
+   "cls": "A",
+   "pk": 653224,
+   "name": "Sail & Stay Experience | Bounty x Stones & Stars",
+   "price": 312.7,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "D-621 whole-boat"
+  },
+  {
+   "cls": "A",
+   "pk": 452439,
+   "name": "Full-Day Sailing Adventure | Plymouth Sound National Marine Park",
+   "price": 630.7,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "D-621 whole-boat"
+  },
+  {
+   "cls": "A",
+   "pk": 452460,
+   "name": "Full-Day Sailing Expedition | Plymouth Sound to Tamar Valley",
+   "price": 630.7,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "D-621 whole-boat"
+  },
+  {
+   "cls": "A",
+   "pk": 452499,
+   "name": "Sail, Wild Camp & Disconnect | 2-Day Bounty Expedition",
+   "price": 1902.7,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "D-621 whole-boat"
+  },
+  {
+   "cls": "B",
+   "pk": 257828,
+   "name": "DAWNWALKER LARGE CRUISER",
+   "price": 159,
+   "label": "Half Day Rental",
+   "unit": "Half Day Rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 614818,
+   "name": "Paddleboard Hire",
+   "price": 15.9,
+   "label": "Hire - 1 Hour",
+   "unit": "Hire - 1 Hour",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 257824,
+   "name": "MEGAN MEDIUM CRUISER",
+   "price": 148.4,
+   "label": "Half Day Rental",
+   "unit": "Half Day Rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 269534,
+   "name": "MELODY LARGE CRUISER WITH FACILITIES - DAY HIRE & OVERNIGHT STAYS",
+   "price": 344.5,
+   "label": "Day Hire",
+   "unit": "Day Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 317718,
+   "name": "BIG RED & BIG GREY LARGE MOTOR BOATS",
+   "price": 159,
+   "label": "Four Hour Rental",
+   "unit": "Four Hour Rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 257821,
+   "name": "GEORGIA - NEW OPEN WHITE MOTOR BOAT",
+   "price": 47.7,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 266200,
+   "name": "The Super Tanker Party SUP!!",
+   "price": 116.6,
+   "label": "Ten person stand up paddle board 1-hour hire",
+   "unit": "Ten person stand up paddle board 1-hour hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 278480,
+   "name": "Electric Apollo",
+   "price": 160.65,
+   "label": "Half Day Hire",
+   "unit": "Half Day Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 335027,
+   "name": "Electric Comet",
+   "price": 148.05,
+   "label": "Half Day Hire",
+   "unit": "Half Day Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 269920,
+   "name": "Jozel - VERY LARGE CRUISER DAY HIRE OR OVERNIGHT STAYS",
+   "price": 371,
+   "label": "One Day Hire",
+   "unit": "One Day Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 278476,
+   "name": "Diesel Comet",
+   "price": 142.8,
+   "label": "Half Day Hire",
+   "unit": "Half Day Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 278477,
+   "name": "Electric Lady Jean",
+   "price": 142.8,
+   "label": "Half Day Hire",
+   "unit": "Half Day Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 278481,
+   "name": "Electric Rocket 1",
+   "price": 142.8,
+   "label": "Half Day Hire",
+   "unit": "Half Day Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 257823,
+   "name": "TRANQUILLO MEDIUM CRUISER",
+   "price": 148.4,
+   "label": "Half Day Rental",
+   "unit": "Half Day Rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 408553,
+   "name": "Fishing boat - Stellar",
+   "price": 89.25,
+   "label": "One day hire",
+   "unit": "One day hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 661582,
+   "name": "SONYA MEDIUM CRUISER",
+   "price": 148.4,
+   "label": "Half Day Rental",
+   "unit": "Half Day Rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 266226,
+   "name": "The Explorer Family SUP",
+   "price": 58.3,
+   "label": "Stand up paddle board 1-hour hire",
+   "unit": "Stand up paddle board 1-hour hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 466431,
+   "name": "JENNIE - SMALL CRUISER",
+   "price": 159,
+   "label": "All-Day Rental",
+   "unit": "All-Day Rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 561808,
+   "name": "PEDALO Hire",
+   "price": 21,
+   "label": "Half Hour 2  Man Pedalo Hire",
+   "unit": "Half Hour 2  Man Pedalo Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 327645,
+   "name": "Mega Stand Up Paddle-Boarding Hire",
+   "price": 47.25,
+   "label": "Mega Sup - 1 Hour",
+   "unit": "Mega Sup - 1 Hour",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 577473,
+   "name": "Rowing Boat Hire",
+   "price": 25,
+   "label": "Rental - 1 Hour",
+   "unit": "Rental - 1 Hour",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 375960,
+   "name": "Double Sit-On-Top Kayak Hire",
+   "price": 53,
+   "label": "The Quick Spash! One Hour Hire",
+   "unit": "The Quick Spash! One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 375962,
+   "name": "Single Touring Kayak Hire",
+   "price": 37.1,
+   "label": "The Quick Spash! One Hour Hire",
+   "unit": "The Quick Spash! One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 471989,
+   "name": "Double Touring Kayak Hire",
+   "price": 63.6,
+   "label": "The Quick Spash! One Hour Hire",
+   "unit": "The Quick Spash! One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 472693,
+   "name": "Mega SUP Hire",
+   "price": 100.7,
+   "label": "The Quick Spash! One Hour Hire",
+   "unit": "The Quick Spash! One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 645345,
+   "name": "Canoe Hire at the bridge",
+   "price": 53,
+   "label": "The Quick Spash! One Hour Hire",
+   "unit": "The Quick Spash! One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 645346,
+   "name": "Single Sit-On-Top Kayak Hire at the bridge",
+   "price": 31.8,
+   "label": "The Quick Spash! One Hour Hire",
+   "unit": "The Quick Spash! One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 645347,
+   "name": "Double Sit-On-Top Kayak Hire at the bridge",
+   "price": 53,
+   "label": "The Quick Spash! One Hour Hire",
+   "unit": "The Quick Spash! One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 675237,
+   "name": "Fishing Boat Hire",
+   "price": 26.67,
+   "label": "One Hour Hire",
+   "unit": "One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 704549,
+   "name": "Overnight Hire",
+   "price": 31.8,
+   "label": "Overnight Hire",
+   "unit": "Overnight Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 710857,
+   "name": "Kruger Boat Hire",
+   "price": 37.33,
+   "label": "One Hour Hire",
+   "unit": "One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 284266,
+   "name": "Surfboard Rental",
+   "price": 15.9,
+   "label": "2 hour rental",
+   "unit": "2 hour rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 284269,
+   "name": "Bodyboard Rental",
+   "price": 10.6,
+   "label": "2 hour rental",
+   "unit": "2 hour rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 284272,
+   "name": "Wetsuit Rental",
+   "price": 10.6,
+   "label": "2 hour rental",
+   "unit": "2 hour rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 284273,
+   "name": "Surfboard & Wetsuit Rental",
+   "price": 23.32,
+   "label": "2 hour rental",
+   "unit": "2 hour rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 284276,
+   "name": "Bodyboard & Wetsuit Rental",
+   "price": 14.84,
+   "label": "2 hour rental",
+   "unit": "2 hour rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 284278,
+   "name": "Gloves/ Boots Rental",
+   "price": 2.12,
+   "label": "2 hour rental",
+   "unit": "2 hour rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 284281,
+   "name": "XL 6 person SUP Rental",
+   "price": 79.5,
+   "label": "2 hour rental",
+   "unit": "2 hour rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 383416,
+   "name": "SUP Hire",
+   "price": 26.25,
+   "label": "SUP Hire - Two Hours",
+   "unit": "SUP Hire - Two Hours",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "B",
+   "pk": 447100,
+   "name": "Wetsuit Hire",
+   "price": 15.75,
+   "label": "Wetsuit Rental",
+   "unit": "Wetsuit Rental",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 643718,
+   "name": "Paddleboard (SUP) Hire at the bridge",
+   "price": 31.8,
+   "label": "The Quick Spash! One Hour Hire",
+   "unit": "The Quick Spash! One Hour Hire",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 614786,
+   "name": "Single Kayak Hire",
+   "price": 15.9,
+   "label": "Hire - 1 Hour",
+   "unit": "Hire - 1 Hour",
+   "rule": "hire/rental (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 451117,
+   "name": "Manchester Music Walking Tour • Private",
+   "price": 238.5,
+   "label": "Group of 1-10 People",
+   "unit": "Group of 1-10 People",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 707528,
+   "name": "Exploring The Art of the Picts: Power, Propaganda, and Prestige in Early Medieval Scotland",
+   "price": 222.6,
+   "label": "Five Adults",
+   "unit": "Five Adults",
+   "rule": "s48-R1 per-head rate ladder"
+  },
+  {
+   "cls": "C",
+   "pk": 710138,
+   "name": "Mansion Of Death",
+   "price": 68.9,
+   "label": "Two People",
+   "unit": "Two People",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 488369,
+   "name": "HeroZone  • 60 Mins  (MOST POPULAR)",
+   "price": 68.9,
+   "label": "Two People",
+   "unit": "Two People",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 574074,
+   "name": "Arizona Sunshine Zombie Shooting: Legacy - Southbank",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 574666,
+   "name": "After the Fall LBVR Edition - Southbank",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 574669,
+   "name": "Rotten Apple VR - Southbank",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 574674,
+   "name": "Hero Zone VR - Southbank",
+   "price": 70,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 574677,
+   "name": "VEX Play - Southbank",
+   "price": 70,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 574678,
+   "name": "Jumpers VR - Southbank",
+   "price": 89,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 284954,
+   "name": "Huxley 1 VR - Aldgate",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 285209,
+   "name": "Huxley 2 VR - Aldgate",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 285218,
+   "name": "Arizona Sunshine Zombie Shooting: Legacy - Aldgate",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 361398,
+   "name": "The Corsair's Curse - Aldgate",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 404812,
+   "name": "Hero Zone VR - Aldgate",
+   "price": 70,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 424479,
+   "name": "Eclipse VR - Aldgate",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 424480,
+   "name": "After the Fall LBVR Edition - Aldgate",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 492275,
+   "name": "Jumpers VR - Aldgate",
+   "price": 89,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 704211,
+   "name": "Standard Capacity VR Escape Rooms - Aldgate",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "C",
+   "pk": 704215,
+   "name": "Standard Capacity VR Escape Rooms - Southbank",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 472702,
+   "name": "VEX Play - Aldgate",
+   "price": 70,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 574672,
+   "name": "Arizona Sunshine Zombie Shooting: Remake - Southbank",
+   "price": 80,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 469164,
+   "name": "Ascenders VR - Aldgate",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 469167,
+   "name": "Rotten Apple VR - Aldgate",
+   "price": 79,
+   "label": "Group of 1 Player",
+   "unit": "Group of 1 Player",
+   "rule": "D-614 party-total ladder floor (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 251794,
+   "name": "A Nosey Around Soho",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 251796,
+   "name": "Best of Blackfriars",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 251801,
+   "name": "Bleeding Hearts & Body Parts",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 502058,
+   "name": "Doctor Who Private Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252056,
+   "name": "A Road to Ruin: Private Tour",
+   "price": 283.5,
+   "label": "Private Tour - Small Group",
+   "unit": "Private Tour - Small Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252083,
+   "name": "Private Christmas Lights Tour",
+   "price": 283.5,
+   "label": "Private Tour - Small Group",
+   "unit": "Private Tour - Small Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252096,
+   "name": "Private A Christmas Carol Tour",
+   "price": 283.5,
+   "label": "Private Tour - Small Group",
+   "unit": "Private Tour - Small Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252104,
+   "name": "Private Victorian Covent Garden Tour",
+   "price": 283.5,
+   "label": "Private Tour - Small Group",
+   "unit": "Private Tour - Small Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 328939,
+   "name": "Private Secret Spaces in the City",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 497665,
+   "name": "All Change at Kings Cross: Private Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 467520,
+   "name": "Samuel Pepys's London: a Private Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252034,
+   "name": "Georgian London Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252042,
+   "name": "Oliver Twist: a Private Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252062,
+   "name": "Hampstead Village: Private Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252064,
+   "name": "Southwark: a Private Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252081,
+   "name": "Royal London: a Private Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252100,
+   "name": "Private A Victorian Christmas",
+   "price": 283.5,
+   "label": "Private Tour - Small Group",
+   "unit": "Private Tour - Small Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252108,
+   "name": "Street Art in Shoreditch: a Private Tour",
+   "price": 283.5,
+   "label": "Private Tour - Small Group",
+   "unit": "Private Tour - Small Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252113,
+   "name": "Private Financial London Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252115,
+   "name": "Private Roman London Tour",
+   "price": 220.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 296565,
+   "name": "Regent's Canal Private Tour",
+   "price": 185.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 366736,
+   "name": "Pimlico: a private tour",
+   "price": 185.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 425809,
+   "name": "Beatles Childhood Homes Tour of Liverpool (Excludes National Trust Tickets)",
+   "price": 238.5,
+   "label": "Private Cab Childhood Homes Tour - total 5 hours",
+   "unit": "Private Cab Childhood Homes Tour - total 5 hours",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 222217,
+   "name": "Beatles Classic Tour of Liverpool",
+   "price": 185.5,
+   "label": "Private Cab - 3 hour Classic tour",
+   "unit": "Private Cab - 3 hour Classic tour",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 222258,
+   "name": "Best of Liverpool Sightseeing Tour by Taxi",
+   "price": 206.7,
+   "label": "Private Cab - Best of Liverpool tour - total 3 hours",
+   "unit": "Private Cab - Best of Liverpool tour - total 3 hours",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252119,
+   "name": "Private River Thames Tour",
+   "price": 185.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 330595,
+   "name": "Private Medieval London Tour",
+   "price": 185.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 545882,
+   "name": "Custom Walking Tour of Bath",
+   "price": 262.5,
+   "label": "Walking Tour Base Rate",
+   "unit": "Walking Tour Base Rate",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 589451,
+   "name": "Jane Austen's Bath: Walking Tour (Private)",
+   "price": 252,
+   "label": "Walking Tour Base Rate",
+   "unit": "Walking Tour Base Rate",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 589462,
+   "name": "Bath's Favourite Filming Locations: Walking Tour (Private)",
+   "price": 252,
+   "label": "Walking Tour Base Rate",
+   "unit": "Walking Tour Base Rate",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 589465,
+   "name": "Bath: The History & Highlights Walking Tour (Private)",
+   "price": 252,
+   "label": "Walking Tour Base Rate",
+   "unit": "Walking Tour Base Rate",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252068,
+   "name": "Private Haunted London Tour",
+   "price": 185.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252112,
+   "name": "Private Euston to Kings Cross London Tour",
+   "price": 185.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 252131,
+   "name": "Private Historic Pub Tour: Covent Garden",
+   "price": 185.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 621898,
+   "name": "Private Newcastle True Crime Tour",
+   "price": 238.5,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 292940,
+   "name": "Deluxe Beatles Experience Inc. Casbah Coffee Club",
+   "price": 418.7,
+   "label": "Private Cab Deluxe Tour - total 6 hours",
+   "unit": "Private Cab Deluxe Tour - total 6 hours",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 695496,
+   "name": "2 hour PRIVATE EVENT BOAT HIRE  Camden to Little Venice & back via Regents Park",
+   "price": 850,
+   "label": "Private Group",
+   "unit": "Private Group",
+   "rule": "D-621 whole-boat"
+  },
+  {
+   "cls": "D",
+   "pk": 705240,
+   "name": "Laser Clay Shooting",
+   "price": 31.5,
+   "label": "Laser Clay Shooter (11 to 15 people)",
+   "unit": "Laser Clay Shooter (11 to 15 people)",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 377558,
+   "name": "Secrets of St James's Tour",
+   "price": 185.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 718223,
+   "name": "Reverse Steer Snooker",
+   "price": 47.25,
+   "label": "Driver",
+   "unit": "Driver",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 361665,
+   "name": "Private Birmingham City Centre Walking Tour",
+   "price": 104.94,
+   "label": "Group",
+   "unit": "Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 277399,
+   "name": "BattleZone at Bailey's Hard",
+   "price": 21,
+   "label": "BattleZone Groups of 25 +",
+   "unit": "BattleZone Groups of 25 +",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 78794,
+   "name": "Private Sail with Lunch or Dinner",
+   "price": 1579.4,
+   "label": "Private Yacht",
+   "unit": "Private Yacht",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 78857,
+   "name": "Full Day Sail",
+   "price": 2014,
+   "label": "Private Yacht",
+   "unit": "Private Yacht",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 211710,
+   "name": "Full-Day Private \"All Creatures Great & Small\" Tour",
+   "price": 540.6,
+   "label": "Private Tour for up to 4 People",
+   "unit": "Private Tour for up to 4 People",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 226178,
+   "name": "Kids Birthday Parties",
+   "price": 24.99,
+   "label": "Youth Party",
+   "unit": "Youth Party",
+   "rule": "child-audience product (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 275866,
+   "name": "Private Secrets of Belgravia",
+   "price": 185.5,
+   "label": "Private Tour for Two",
+   "unit": "Private Tour for Two",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 337389,
+   "name": "Junior Paintball",
+   "price": 31.5,
+   "label": "Junior Paintball Player",
+   "unit": "Junior Paintball Player",
+   "rule": "child-audience product (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 337393,
+   "name": "Paintball",
+   "price": 36.75,
+   "label": "Paintballer",
+   "unit": "Paintballer",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 361645,
+   "name": "Private Liverpool City Centre Walking Tour",
+   "price": 104.94,
+   "label": "Group",
+   "unit": "Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 534275,
+   "name": "Children's Glass Illustration Crafternoon",
+   "price": 14.84,
+   "label": "Children's Crafternoon",
+   "unit": "Children's Crafternoon",
+   "rule": "child-audience product (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 534353,
+   "name": "Children's Personalised Pencil Case Crafternoon",
+   "price": 14.84,
+   "label": "Children's Crafternoon",
+   "unit": "Children's Crafternoon",
+   "rule": "child-audience product (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 540222,
+   "name": "Teen's Glass Illustration Crafternoon @ Nottingham City Centre",
+   "price": 14.84,
+   "label": "Teen Crafternoon | 13-17 y/old",
+   "unit": "Teen Crafternoon | 13-17 y/old",
+   "rule": "child-audience product (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 549304,
+   "name": "Private Tour for Muggles",
+   "price": 150,
+   "label": "Private Group",
+   "unit": "Private Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 621901,
+   "name": "Private Original Newcastle Pub Tour",
+   "price": 265,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 250527,
+   "name": "First Class Return Travel in  Queen Victoria's Carriage  with Afternoon Tea",
+   "price": 125.08,
+   "label": "First Class Travel with Afternoon Tea for Two People",
+   "unit": "First Class Travel with Afternoon Tea for Two People",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 472322,
+   "name": "Children's Ceramic Colouring Crafternoon",
+   "price": 10.6,
+   "label": "Children's Crafternoon",
+   "unit": "Children's Crafternoon",
+   "rule": "child-audience product (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 539415,
+   "name": "Teen's Embroidery Crafternoon @ Nottingham City Centre",
+   "price": 16.96,
+   "label": "Teen Crafternoon | 13-17 y/old",
+   "unit": "Teen Crafternoon | 13-17 y/old",
+   "rule": "child-audience product (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 209002,
+   "name": "Couples Surf Lessons",
+   "price": 138.6,
+   "label": "Couple",
+   "unit": "Couple",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 211721,
+   "name": "Full-Day Private Yorkshire Dales National Park Tour",
+   "price": 540.6,
+   "label": "Private Tour for up to 4 People",
+   "unit": "Private Tour for up to 4 People",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 541843,
+   "name": "Teen's Teacup Floristry Crafternoon @ Nottingham City Centre",
+   "price": 42.4,
+   "label": "Teen Crafternoon | 13-17 y/old",
+   "unit": "Teen Crafternoon | 13-17 y/old",
+   "rule": "child-audience product (delta)"
+  },
+  {
+   "cls": "D",
+   "pk": 602444,
+   "name": "Book your own Goat and Sheep Walk",
+   "price": 72.8,
+   "label": "Private Group Tour for 2 people",
+   "unit": "Private Group Tour for 2 people",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 614746,
+   "name": "Private 1-1 or 2-1 SUP Intro Lesson",
+   "price": 53,
+   "label": "Private 1:1 Lesson For 1 Hour",
+   "unit": "Private 1:1 Lesson For 1 Hour",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 667538,
+   "name": "1 Hour Tour",
+   "price": 84.8,
+   "label": "Group up to 5 people",
+   "unit": "Group up to 5 people",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 667851,
+   "name": "2 Hour Tour",
+   "price": 116.6,
+   "label": "Group up to 5 people",
+   "unit": "Group up to 5 people",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 667856,
+   "name": "3 Hour Tour",
+   "price": 148.4,
+   "label": "Group up to 5 people",
+   "unit": "Group up to 5 people",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 211719,
+   "name": "Full-Day Private Whitby & The North York Moors Tour",
+   "price": 540.6,
+   "label": "Private Tour for up to 4 People",
+   "unit": "Private Tour for up to 4 People",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 247163,
+   "name": "Half-Day Private North York Moors National Park Tour",
+   "price": 318,
+   "label": "Private Tour for up to 4 People",
+   "unit": "Private Tour for up to 4 People",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 361658,
+   "name": "Private Leeds City Walking Tour",
+   "price": 104.94,
+   "label": "Group",
+   "unit": "Group",
+   "rule": "D-614 party-size ladder floor"
+  },
+  {
+   "cls": "D",
+   "pk": 247162,
+   "name": "Half-Day Private Whitby Trip",
+   "price": 259.7,
+   "label": "Private Tour for up to 4 People",
+   "unit": "Private Tour for up to 4 People",
+   "rule": "D-614 party-size ladder floor"
+  }
+ ]
+}
