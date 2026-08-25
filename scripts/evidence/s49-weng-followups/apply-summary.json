@@ -1,0 +1,45 @@
+{
+ "stampedAt": "2026-08-25",
+ "released": [
+  343526,
+  343730
+ ],
+ "held": [
+  335708,
+  343738
+ ],
+ "rows": [
+  {
+   "pk": 335708,
+   "price": 16.96,
+   "label": "Youth",
+   "conf": "low",
+   "unit": null,
+   "basis": "HELD (inconsistent ladder, re-probed 2026-08-25): 4/4 date-valid readings (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), ladder unchanged — Child 0-7 £37.1 > Youth 8-15 £16.96, duplicate £0 Child tier, no adult tier (Family £106 is a bundle); operator-side data defect, no honest anchor; live ladder Youth £16.96 / Child £37.1 / Child £0 / Family £106; live GBP"
+  },
+  {
+   "pk": 343526,
+   "price": 450,
+   "label": "Person in a Private Group (up to 10 people)",
+   "conf": "high",
+   "unit": "private group up to 10",
+   "basis": "D-614 party-size floor via the item-API headline sanction (delta 2026-08-25: a structured headline anchors ONLY when arithmetically corroborated by the ladder): headline \"From £450 • Age 8+ • 2.5h • For private groups of 10-24 people • Huck an axe at our log!\" — corroborated by add-on rate £45 × included capacity 10 = £450; the £0 \"Person in a Private Group (up to 10 people)\" tier is FareHarbor headcount bookkeeping (note \"Select the number of people in your party. If more than 10 select Additional People\") and the group price is charged outside the price-preview ladder; ladder Person in a Private Group (up to 10 people) £0 / Additional person £45; unit \"private group up to 10\"; item record 2026-08-25, stored ladder (stamp 2026-08-25)"
+  },
+  {
+   "pk": 343730,
+   "price": 600,
+   "label": "Person in a Private Group (up to 8 people)",
+   "conf": "high",
+   "unit": "private group up to 8 people",
+   "basis": "D-614 party-size floor via the item-API headline sanction (delta 2026-08-25: a structured headline anchors ONLY when arithmetically corroborated by the ladder): headline \"From £600 • Age 12+ • 3-4h • For private groups (8-30 people)\" — corroborated by add-on rate £75 × included capacity 8 = £600; the £0 \"Person in a Private Group (up to 8 people)\" tier is FareHarbor headcount bookkeeping (note \"Select the number of people in your party. If more than 8 select Additional People\") and the group price is charged outside the price-preview ladder; ladder Person in a Private Group (up to 8 people) £0 / Additional person £75; unit \"private group up to 8 people\"; item record 2026-08-25, stored ladder (stamp 2026-08-25)"
+  },
+  {
+   "pk": 343738,
+   "price": 60,
+   "label": "Additional person (Off-Peak)",
+   "conf": "low",
+   "unit": null,
+   "basis": "HELD (headline sanction not corroborated, 2026-08-25): headline \"From £550 • Age 12+ • 3h • For private groups (10-27 people)\" vs ladder add-on \"Additional person (Off-Peak)\" £60 × included capacity 10 = £600 ≠ £550 — the off-peak surcharge is unproven, so neither the headline nor the ladder states the first-head price; ladder Person in a Private Group (up to 10 people) £0 / Additional person (Off-Peak) £60; stored ladder (stamp 2026-08-25)"
+  }
+ ]
+}

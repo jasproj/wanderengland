@@ -89635,7 +89635,7 @@
       "imageEnrichmentAt": "2026-05-28T02:04:37.726Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/halaltourismbritain/items/335708/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-weng-wave2",
+      "priceSource": "s49-weng-followups",
       "priceTiers": [
         {
           "name": "Youth",
@@ -89662,7 +89662,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (s49 wave-2 ruling): inconsistent ladder: Child 0-7 £37.1 > Youth 8-15 £16.96; queued for re-probe; ladder Youth £16.96 / Child £37.1 / Family £106; re-stamped 2026-08-25",
+      "priceBasis": "HELD (inconsistent ladder, re-probed 2026-08-25): 4/4 date-valid readings (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), ladder unchanged — Child 0-7 £37.1 > Youth 8-15 £16.96, duplicate £0 Child tier, no adult tier (Family £106 is a bundle); operator-side data defect, no honest anchor; live ladder Youth £16.96 / Child £37.1 / Child £0 / Family £106; live GBP",
       "company": "Halal Tourism Britain",
       "providerSource": "s49-weng-companies-endpoint",
       "providerResolvedAt": "2026-08-25"
@@ -99774,7 +99774,7 @@
       "name": "Archery & Axe Throwing - Private activity",
       "description": "Experience the thrill of archery and axe throwing in the stunning landscapes of rural North Wales. Channel your inner Robin Hood or Viking as you engage in exciting games and challenges, guided by expert staff. Perfect your skills while enjoying a unique, immersive adventure that transports you back in time.",
       "location": "Llangollen",
-      "price": 45,
+      "price": 450,
       "bookingUrl": "https://fareharbor.com/embeds/book/beardedmenadventures/items/343526/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/LMU1GBZsTFjgHf9NPmTy/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -99797,8 +99797,8 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "GBP",
-      "priceLabel": "Additional person",
-      "priceConfidence": "low",
+      "priceLabel": "Person in a Private Group (up to 10 people)",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1221291,
@@ -99829,7 +99829,7 @@
       "imageEnrichmentAt": "2026-05-28T02:25:44.573Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/beardedmenadventures/items/343526/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-weng-wave2",
+      "priceSource": "s49-weng-followups",
       "priceTiers": [
         {
           "name": "Person in a Private Group (up to 10 people)",
@@ -99844,17 +99844,20 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (s49 wave-2 ruling): zero-priced base tier + per-person add-on: first-head pricing is unknowable from the ladder; queued for operator-page check; ladder Additional person £45; re-stamped 2026-08-25",
+      "priceBasis": "D-614 party-size floor via the item-API headline sanction (delta 2026-08-25: a structured headline anchors ONLY when arithmetically corroborated by the ladder): headline \"From £450 • Age 8+ • 2.5h • For private groups of 10-24 people • Huck an axe at our log!\" — corroborated by add-on rate £45 × included capacity 10 = £450; the £0 \"Person in a Private Group (up to 10 people)\" tier is FareHarbor headcount bookkeeping (note \"Select the number of people in your party. If more than 10 select Additional People\") and the group price is charged outside the price-preview ladder; ladder Person in a Private Group (up to 10 people) £0 / Additional person £45; unit \"private group up to 10\"; item record 2026-08-25, stored ladder (stamp 2026-08-25)",
       "company": "Bearded Men Adventures",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "_unknownFields": {
+        "priceUnit": "private group up to 10"
+      }
     },
     {
       "pk": 343730,
       "name": "Canyoning - Private Experience",
       "description": "Tackle the thrilling Prysor canyon with jumps, abseils, and slides down waterfalls. Feel the rush of adrenaline amid stunning Snowdonia scenery, guided safely by expert staff on this unforgettable adventure.",
       "location": "Blaenau Ffestiniog",
-      "price": 75,
+      "price": 600,
       "bookingUrl": "https://fareharbor.com/embeds/book/beardedmenadventures/items/343730/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/LMU1GBZsTFjgHf9NPmTy/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -99876,8 +99879,8 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "GBP",
-      "priceLabel": "Additional person",
-      "priceConfidence": "low",
+      "priceLabel": "Person in a Private Group (up to 8 people)",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1196655,
@@ -99908,7 +99911,7 @@
       "imageEnrichmentAt": "2026-05-28T02:25:54.693Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/beardedmenadventures/items/343730/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-weng-wave2",
+      "priceSource": "s49-weng-followups",
       "priceTiers": [
         {
           "name": "Person in a Private Group (up to 8 people)",
@@ -99923,10 +99926,13 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (s49 wave-2 ruling): zero-priced base tier + per-person add-on: first-head pricing is unknowable from the ladder; queued for operator-page check; ladder Additional person £75; re-stamped 2026-08-25",
+      "priceBasis": "D-614 party-size floor via the item-API headline sanction (delta 2026-08-25: a structured headline anchors ONLY when arithmetically corroborated by the ladder): headline \"From £600 • Age 12+ • 3-4h • For private groups (8-30 people)\" — corroborated by add-on rate £75 × included capacity 8 = £600; the £0 \"Person in a Private Group (up to 8 people)\" tier is FareHarbor headcount bookkeeping (note \"Select the number of people in your party. If more than 8 select Additional People\") and the group price is charged outside the price-preview ladder; ladder Person in a Private Group (up to 8 people) £0 / Additional person £75; unit \"private group up to 8 people\"; item record 2026-08-25, stored ladder (stamp 2026-08-25)",
       "company": "Bearded Men Adventures",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "_unknownFields": {
+        "priceUnit": "private group up to 8 people"
+      }
     },
     {
       "pk": 343737,
@@ -100066,7 +100072,7 @@
       "imageEnrichmentAt": "2026-05-28T02:26:15.012Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/beardedmenadventures/items/343738/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-weng-wave2",
+      "priceSource": "s49-weng-followups",
       "priceTiers": [
         {
           "name": "Person in a Private Group (up to 10 people)",
@@ -100081,7 +100087,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (s49 wave-2 ruling): zero-priced base tier + per-person add-on: first-head pricing is unknowable from the ladder; queued for operator-page check; ladder Additional person (Off-Peak) £60; re-stamped 2026-08-25",
+      "priceBasis": "HELD (headline sanction not corroborated, 2026-08-25): headline \"From £550 • Age 12+ • 3h • For private groups (10-27 people)\" vs ladder add-on \"Additional person (Off-Peak)\" £60 × included capacity 10 = £600 ≠ £550 — the off-peak surcharge is unproven, so neither the headline nor the ladder states the first-head price; ladder Person in a Private Group (up to 10 people) £0 / Additional person (Off-Peak) £60; stored ladder (stamp 2026-08-25)",
       "company": "Bearded Men Adventures",
       "providerSource": "s49-weng-companies-endpoint",
       "providerResolvedAt": "2026-08-25"
