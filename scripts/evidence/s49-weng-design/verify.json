@@ -1,0 +1,119 @@
+{
+ "pages": {
+  "london.html": {
+   "parsed": true,
+   "tags": 375,
+   "localRefs": 11,
+   "unresolvedRefs": [],
+   "jsonLdIdentical": true
+  },
+  "cambridge.html": {
+   "parsed": true,
+   "tags": 267,
+   "localRefs": 10,
+   "unresolvedRefs": [],
+   "jsonLdIdentical": true
+  },
+  "liverpool.html": {
+   "parsed": true,
+   "tags": 375,
+   "localRefs": 10,
+   "unresolvedRefs": [],
+   "jsonLdIdentical": true
+  },
+  "oxford.html": {
+   "parsed": true,
+   "tags": 339,
+   "localRefs": 10,
+   "unresolvedRefs": [],
+   "jsonLdIdentical": true
+  },
+  "tours.html": {
+   "parsed": true,
+   "tags": 322,
+   "localRefs": 11,
+   "unresolvedRefs": [],
+   "jsonLdIdentical": true
+  }
+ },
+ "PASS": true,
+ "cityHeaderSha": {
+  "london.html": "38c3a42ea9574a9b440c054c763412e3cfc6749063160af548b4fbb680248623",
+  "cambridge.html": "38c3a42ea9574a9b440c054c763412e3cfc6749063160af548b4fbb680248623",
+  "liverpool.html": "38c3a42ea9574a9b440c054c763412e3cfc6749063160af548b4fbb680248623",
+  "oxford.html": "38c3a42ea9574a9b440c054c763412e3cfc6749063160af548b4fbb680248623"
+ },
+ "cityHeaderIdentical": true,
+ "cityHeaderHasLogoPicture": true,
+ "cityHeaderCssWhiteBand": true,
+ "hero": {
+  "london.html": {
+   "selector": ".page-hero",
+   "urlInRule": true,
+   "image": "about-mission.jpg",
+   "ok": true,
+   "method": "static cascade (page-local <style>), Chrome dark"
+  },
+  "tours.html": {
+   "selector": ".tours-browse-hero",
+   "urlInRule": true,
+   "image": "hero-photo-1.jpg",
+   "ok": true,
+   "method": "static cascade (page-local <style>), Chrome dark"
+  },
+  "cambridge.html": {
+   "selector": ".page-hero",
+   "urlInRule": false,
+   "skipped": "no local photo in repo \u2014 flagged for sourcing",
+   "unchangedFromMain": true
+  },
+  "liverpool.html": {
+   "selector": ".page-hero",
+   "urlInRule": false,
+   "skipped": "no local photo in repo \u2014 flagged for sourcing",
+   "unchangedFromMain": true
+  },
+  "oxford.html": {
+   "selector": ".page-hero",
+   "urlInRule": false,
+   "skipped": "no local photo in repo \u2014 flagged for sourcing",
+   "unchangedFromMain": true
+  }
+ },
+ "weather": {
+  "london.html": {
+   "bytesIdenticalModuloNote": true,
+   "afterRelatedBeforeFooter": true
+  },
+  "cambridge.html": {
+   "bytesIdenticalModuloNote": true,
+   "afterRelatedBeforeFooter": true
+  },
+  "liverpool.html": {
+   "bytesIdenticalModuloNote": true,
+   "afterRelatedBeforeFooter": true
+  },
+  "oxford.html": {
+   "bytesIdenticalModuloNote": true,
+   "afterRelatedBeforeFooter": true
+  }
+ },
+ "copy": {
+  "heading": true,
+  "perk": true,
+  "bannedHits": []
+ },
+ "dataAndRendererSha": {
+  "tours-data.json": "7ddb0a094df711d173ccb2b1fb3ea21599bc0785125bbd3239117c776df9f44a",
+  "app.js": "f72f597d343cc982960feb2e582306474f30b696bc115a0a6578b1c98c9947e1",
+  "styles.css": "fe47fc0f2047cb02e99d88fc75ef6b7ab819f3e54dcc2e61d59afa600e910f04"
+ },
+ "dataAndRendererUnchanged": true,
+ "sha_after": {
+  "london.html": "cf13ad47897d19d4886848d515ae86c8b3e8c19bb89068c129218527dc7fa65d",
+  "cambridge.html": "9dde51004cf76aa4b5662870f9bc8c94cfba26a1663bf31d08be1b9181b6815d",
+  "liverpool.html": "7584bfa42d204b68f0018cf30027a49e0a8eea822d3ccffb33147aa8c56b781f",
+  "oxford.html": "da35cd61cb2f1c246aa8eac9829f6be333d7265c79ef806fc3f952212efadf03",
+  "tours.html": "81c8291b819729e22a0a2b9ec560cf30ed12eade906bcedc805fda190dea3419"
+ }
+}
