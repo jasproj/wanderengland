@@ -1,0 +1,3275 @@
+{
+ "stampedAt": "2026-08-26T15:12:27.785Z",
+ "appliedAt": "2026-08-26T15:12:27.785Z",
+ "population": 117,
+ "rowsChanged": 117,
+ "untouchedInPop": 0,
+ "disposition": {
+  "HELD": 30,
+  "unchanged": 54,
+  "D-620": 27,
+  "repriced": 6
+ },
+ "summary": [
+  {
+   "pk": 488756,
+   "name": "Power, Profit & Progress Tour: Women in the City",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 527007,
+   "name": "Fleet Street: a Private Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 531733,
+   "name": "Secrets of Spitalfields Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "All ages • Up to 15 in a group",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 590945,
+   "name": "The Deathly Dark Tour of York",
+   "old": 13.65,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+ • Max 8 adults per booking",
+     "price": 13.65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 6-15 • Must book with an adult • Max 5 children per booking",
+     "price": 8.4,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0-5 • Must book with an adult",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 13.65,
+   "label": "Adult"
+  },
+  {
+   "pk": 252118,
+   "name": "Private Great Fire of London Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 658174,
+   "name": "The Beatles walk through Liverpool",
+   "old": 9,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16 +",
+     "price": 9,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Tour (up to 10 people)",
+     "note": "",
+     "price": 89,
+     "min": 2,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 9,
+   "label": "Adult"
+  },
+  {
+   "pk": 83691,
+   "name": "Tate Modern Museum Guided Tour - Semi-Private (ENGLISH)",
+   "old": 95.4,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 79.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 58.3,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 105,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 252106,
+   "name": "Heretics and Horrors: a Private Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 526850,
+   "name": "City Highlights: a Private Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 546217,
+   "name": "Liverpool - Upside Down House",
+   "old": 6.45,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 4+",
+     "price": 6.45,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0 - 3 • Free",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 6.45,
+   "label": "Person"
+  },
+  {
+   "pk": 252125,
+   "name": "Wonders of Whitehall: a Private Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 252046,
+   "name": "Dr Jekyll and Mr Hyde: a Private Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 328940,
+   "name": "Scientific Secrets and Literary Legends Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 602428,
+   "name": "Goat & Sheep Yoga",
+   "old": 28.08,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Min age 11+",
+     "price": 28.08,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 28.08,
+   "label": "Person"
+  },
+  {
+   "pk": 83613,
+   "name": "British Museum Guided Tour - Semi-Private (ENGLISH)",
+   "old": 95.4,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 79.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 58.3,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 105,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 83625,
+   "name": "National Gallery of London Guided Tour - Semi-Private (ENGLISH)",
+   "old": 95.4,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 79.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 58.3,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 105,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 83643,
+   "name": "History of London - City Center Westminster Guided Walking Tour – Semi-Private",
+   "old": 51.94,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 55,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 83653,
+   "name": "Old City of London Guided Walking Tour - Semi-Private (ENGLISH)",
+   "old": 51.94,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 55,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 83668,
+   "name": "East End (Street Art) Guided Walking Tour - Semi-Private (ENGLISH)",
+   "old": 51.94,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 55,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 83670,
+   "name": "London SoHo District Guided Walking Tour - Semi-Private (ENGLISH)",
+   "old": 51.94,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 55,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 83675,
+   "name": "Natural History Museum of London Guided Tour - Semi-Private (ENGLISH)",
+   "old": 95.4,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 79.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 58.3,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 105,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 272549,
+   "name": "Half Day London Highlights Tour",
+   "old": 491.4,
+   "oldLabel": "Private Tour - Small Group",
+   "tiers": [
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 491.4,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 491.4,
+   "label": "Private Tour - Small Group"
+  },
+  {
+   "pk": 333544,
+   "name": "Small Group Intimate Churchill's London & War Rooms Museum Tour",
+   "old": 79,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 79,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "5 – 15 years old",
+     "price": 62,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 79,
+   "label": "Adult"
+  },
+  {
+   "pk": 531451,
+   "name": "Royal Tour w/ Buckingham Palace Entry! Guided Tour - Semi-Private (ENGLISH)",
+   "old": 157.94,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 165.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 104.94,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 79.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 165.5,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 222432,
+   "name": "Brighton - Upside Down House",
+   "old": 7.45,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 4+",
+     "price": 7.45,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Infant",
+     "note": "Children aged 3 and under go free",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Premium Ticket",
+     "note": "Ages 4+ Fast Track entry with exclusive souvenir",
+     "price": 14.95,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 7.45,
+   "label": "Person"
+  },
+  {
+   "pk": 390312,
+   "name": "London Tea and Doughnuts: Borough Market Walking Food Tour (Small Group)",
+   "old": 79,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 11+",
+     "price": 79,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kid",
+     "note": "Ages 10 & Under",
+     "price": 69,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 79,
+   "label": "Adult",
+   "currency": "USD"
+  },
+  {
+   "pk": 479128,
+   "name": "Brighton & The Lanes Doughnut Tour",
+   "old": 65,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 11+",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kid",
+     "note": "Ages 10 & Under",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 65,
+   "label": "Adult",
+   "currency": "USD"
+  },
+  {
+   "pk": 591464,
+   "name": "London's West End Historic Tea & Doughnut Tour",
+   "old": 79,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 11+",
+     "price": 79,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kid",
+     "note": "Ages 10 & Under",
+     "price": 69,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 79,
+   "label": "Adult",
+   "currency": "USD"
+  },
+  {
+   "pk": 354292,
+   "name": "Liverpool with a Local: Walking Tour",
+   "old": 12.72,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 12.72,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "7-15 years old",
+     "price": 8.48,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 12.72,
+   "label": "Adult"
+  },
+  {
+   "pk": 83635,
+   "name": "Combo: British Museum + National Gallery of London Guided Tour - Semi-Private (ENGLISH)",
+   "old": 174.9,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 215,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 147.34,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 111.3,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 215,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 198885,
+   "name": "Herriot & The Yorkshire Dales",
+   "old": 58.3,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "16 years and older",
+     "price": 58.3,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "5–15 years old",
+     "price": 48.76,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 58.3,
+   "label": "Adult"
+  },
+  {
+   "pk": 354307,
+   "name": "Birmingham City Centre Walking Tour",
+   "old": 12.72,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 12.72,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "7-15 years old",
+     "price": 8.48,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 12.72,
+   "label": "Adult"
+  },
+  {
+   "pk": 442906,
+   "name": "Stratford-Upon-Avon Town Walking Tour",
+   "old": 12.72,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 12.72,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "7-15 years old",
+     "price": 8.48,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 12.72,
+   "label": "Adult"
+  },
+  {
+   "pk": 502600,
+   "name": "Manchester City Centre Walking Tour",
+   "old": 12.72,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 12.72,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "7-15 years old",
+     "price": 8.48,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 12.72,
+   "label": "Adult"
+  },
+  {
+   "pk": 666407,
+   "name": "Distillery Tour & Guided Tasting",
+   "old": 31.5,
+   "oldLabel": "Distillery Tour Guest",
+   "tiers": [
+    {
+     "singular": "Distillery Tour Guest",
+     "note": "Age 18+",
+     "price": 31.5,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 31.5,
+   "label": "Distillery Tour Guest"
+  },
+  {
+   "pk": 95766,
+   "name": "Changing the Guard",
+   "old": 19,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 19,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child (5-17 yrs)",
+     "note": "",
+     "price": 16,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Family Tickets",
+     "note": "Buy 4 tickets per family of 4 (2 adults + 2 children)",
+     "price": 18,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 19,
+   "label": "Adult"
+  },
+  {
+   "pk": 471798,
+   "name": "Suffragettes of Westminster Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 599988,
+   "name": "Churchill War Rooms and Wartime London Walk - Semi-Private (ENGLISH)",
+   "old": 165,
+   "oldLabel": "Adult 16+",
+   "tiers": [
+    {
+     "singular": "Adult 16+",
+     "note": "",
+     "price": 165,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 5 - 15)",
+     "note": "",
+     "price": 79.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 0 - 4)",
+     "note": "",
+     "price": 58.3,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 165,
+   "label": "Adult 16+",
+   "currency": "EUR"
+  },
+  {
+   "pk": 689445,
+   "name": "Archery & Axe Throwing",
+   "old": 30,
+   "oldLabel": "People",
+   "tiers": [
+    {
+     "singular": "People",
+     "note": "Ages 10+",
+     "price": 30,
+     "min": 8,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 30,
+   "label": "People"
+  },
+  {
+   "pk": 692616,
+   "name": "School group: Private Wonders of Whitehall Tour",
+   "old": 346.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 346.5,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 692631,
+   "name": "School group: Private Dr Jekyll and Mr Hyde Tour",
+   "old": 346.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 346.5,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 693212,
+   "name": "School group: Private Women in the City of London Tour",
+   "old": 346.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 346.5,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 693244,
+   "name": "School group: Private Heretics and Horrors Tour",
+   "old": 346.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 346.5,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 95770,
+   "name": "Secret London Tour",
+   "old": 19,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 19,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child (5-17 yrs)",
+     "note": "",
+     "price": 16,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 19,
+   "label": "Adult"
+  },
+  {
+   "pk": 441887,
+   "name": "Windsor Town Walking Tour",
+   "old": 12.72,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 12.72,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "7-15 years old",
+     "price": 8.48,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 12.72,
+   "label": "Adult"
+  },
+  {
+   "pk": 528958,
+   "name": "London Historic Walking Food Tour with Tea and Doughnuts",
+   "old": 44,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 11+",
+     "price": 44,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kid",
+     "note": "Ages 10 & Under",
+     "price": 42,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 44,
+   "label": "Adult",
+   "currency": "USD"
+  },
+  {
+   "pk": 611738,
+   "name": "Full Day Bike Hire",
+   "old": 55,
+   "oldLabel": "E- Step Over Bike",
+   "tiers": [
+    {
+     "singular": "E- Step Over Bike",
+     "note": "Step-over frame, retro style.  Suitable for 5\"4-6\"4 | Age 14+",
+     "price": 55,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "E-Step Thru Bike",
+     "note": "Step-through frame, retro style. Suitable for height 5'1 to 6'0. Age 14+",
+     "price": 55,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "E-Family Bike",
+     "note": "Either Ride Alone, add a Child Pillion Rider or add a Child Seat. Step through frame. Suitable for 5\"4-6\"4. Rider age 14+",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "E-Family Bike with Child Seat",
+     "note": "Ride with the addition of a rear Child Seat (Age1-4 max 22kg/110cm tall) Step through frame. Suitable for 5\"4-6\"4. Rider age 14+",
+     "price": 70,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "E-Family Bike with Child Pillion Passenger",
+     "note": "Ride with the addition of Child Pillion (Age 4-10.Inside leg 41cm-66cm. weight max 125kg) Suitable for 5\"4-6\"4. Rider age 14+",
+     "price": 70,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "E-Hybrid Bike Large",
+     "note": "LARGE Hybrid e-bike with a more traditional style. Large frame for riders between 5'11-6\"4.",
+     "price": 55,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "E-Hybrid Bike Small",
+     "note": "SMALL/MED hybrid e-bike with a more traditional style. For riders between 4'11-5'8. Age 14+.",
+     "price": 55,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Childs 26” Bike",
+     "note": "Lightweight hybrid child bike 26\" wheels. Inside leg of between 69-78cm. Approx height 128-145cm (4'6-4'9)",
+     "price": 15,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth Mountain Bike",
+     "note": "5’0-5’6 - (160-168cm)",
+     "price": 20,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Front Basket",
+     "note": "Available as an extra on all adult bikes",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Pannier",
+     "note": "Add on: For Super Monkey E-Bike Only",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Dog Basket",
+     "note": "Suitable for small dogs up to 5kg | For all adult bikes",
+     "price": 15,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 55,
+   "label": "E- Step Over Bike"
+  },
+  {
+   "pk": 660913,
+   "name": "Private • Oxford University Extended Punting Tour",
+   "old": 100,
+   "oldLabel": "Private Tour",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Includes 4 people",
+     "price": 100,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 100,
+   "label": "Private Tour"
+  },
+  {
+   "pk": 689446,
+   "name": "Laser Tag & Archery",
+   "old": 30,
+   "oldLabel": "People",
+   "tiers": [
+    {
+     "singular": "People",
+     "note": "Ages 8+",
+     "price": 30,
+     "min": 8,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 30,
+   "label": "People"
+  },
+  {
+   "pk": 692322,
+   "name": "School group: Private Financial London Tour",
+   "old": 346.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 346.5,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 106154,
+   "name": "Changing of the Guard Guided Walking Tour – Semi-Private (ENGLISH)",
+   "old": 51.94,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 55,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 198863,
+   "name": "Moors, Whitby & The Yorkshire Steam Railway",
+   "old": 58.3,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "16 years and older",
+     "price": 58.3,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "5–15 years old",
+     "price": 48.76,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 58.3,
+   "label": "Adult"
+  },
+  {
+   "pk": 326243,
+   "name": "Upside Down House - Westfield London",
+   "old": 7.45,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 4+",
+     "price": 7.45,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 3 and under go free",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Family Ticket",
+     "note": "This ticket is valid for 4 people, ages 4+",
+     "price": 22.95,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 7.45,
+   "label": "Person"
+  },
+  {
+   "pk": 354306,
+   "name": "Leeds City Centre Walking Tour",
+   "old": 12.72,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 12.72,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "7-15 years old",
+     "price": 8.48,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 12.72,
+   "label": "Adult"
+  },
+  {
+   "pk": 581530,
+   "name": "Quirky Westminster Private Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 688799,
+   "name": "Private Laser Tag",
+   "old": 200,
+   "oldLabel": "Private Group",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "",
+     "price": 200,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 200,
+   "label": "Private Group"
+  },
+  {
+   "pk": 689177,
+   "name": "Open Archery",
+   "old": 20,
+   "oldLabel": "People",
+   "tiers": [
+    {
+     "singular": "People",
+     "note": "Ages 8+",
+     "price": 20,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Add extra 30 minutes",
+     "note": "",
+     "price": 5,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Add 3D Zombie targets",
+     "note": "Price per person",
+     "price": 5,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 20,
+   "label": "People"
+  },
+  {
+   "pk": 689237,
+   "name": "Open Axe Throwing",
+   "old": 20,
+   "oldLabel": "People",
+   "tiers": [
+    {
+     "singular": "People",
+     "note": "Ages 10+",
+     "price": 20,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Add extra 30 minutes",
+     "note": "",
+     "price": 5,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Add Knife Throwing",
+     "note": "Price per person",
+     "price": 5,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 20,
+   "label": "People"
+  },
+  {
+   "pk": 270593,
+   "name": "Downton Abbey and Village Small Group Tour",
+   "old": 160,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "16 years+",
+     "price": 270,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Under 16",
+     "price": 250,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 270,
+   "label": "Adult"
+  },
+  {
+   "pk": 470578,
+   "name": "Private 4 hour tour: Beers, views and history",
+   "old": 99.75,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Up to 2 -6 people",
+     "price": 99.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Charter",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 99.75,
+   "label": "Adult"
+  },
+  {
+   "pk": 502598,
+   "name": "Nottingham City Walking Tour",
+   "old": 12.72,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 12.72,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "7-15 years old",
+     "price": 8.48,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 12.72,
+   "label": "Adult"
+  },
+  {
+   "pk": 516675,
+   "name": "LGBT+ Westminster Private Tour",
+   "old": 220.5,
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 577500,
+   "name": "London: Kensington Palace Gardens Tour & Royal Afternoon Tea Experience",
+   "old": 115,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 115,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4-12",
+     "price": 111,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 115,
+   "label": "Adult"
+  },
+  {
+   "pk": 603897,
+   "name": "Royal London Experience: Iconic Landmarks & Tower of London",
+   "old": 129,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 129,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 124,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 129,
+   "label": "Adult"
+  },
+  {
+   "pk": 606965,
+   "name": "Exclusive VIP Tower of London early Access White Tower Tour & Crown Jewels Experience",
+   "old": 119,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 119,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 114,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 119,
+   "label": "Adult"
+  },
+  {
+   "pk": 627633,
+   "name": "Westminster Abbey, Upper Gallery & Buckingham Palace with Change of the Guard",
+   "old": 159,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 159,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 154,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 159,
+   "label": "Adult"
+  },
+  {
+   "pk": 657985,
+   "name": "Small Group Iconic Westminster, WW2 & Churchill War Rooms Tour",
+   "old": 79,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 79,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "5 – 15 years old",
+     "price": 62,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 79,
+   "label": "Adult"
+  },
+  {
+   "pk": 692609,
+   "name": "School group: Private Fleet Street Tour",
+   "old": 346.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 288.75,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 288.75,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 95779,
+   "name": "Hidden London Tour",
+   "old": 19,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 19,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child (5-17 yrs)",
+     "note": "",
+     "price": 16,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 19,
+   "label": "Adult"
+  },
+  {
+   "pk": 239813,
+   "name": "Paddleboard Guided Trip - Devon",
+   "old": 61.95,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "ages 17+",
+     "price": 57.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "ages 5 to 16",
+     "price": 42,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 57.75,
+   "label": "Adult"
+  },
+  {
+   "pk": 692621,
+   "name": "School group: Private Great Fire of London Tour",
+   "old": 346.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 346.5,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 695049,
+   "name": "History of England Tour in 2 Hours with Royal Thames Cruise",
+   "old": 89,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 89,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 84,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 89,
+   "label": "Adult"
+  },
+  {
+   "pk": 695077,
+   "name": "History of England Tour in 2 Hours with Royal Thames Cruise & Tower of London",
+   "old": 134,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 134,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 129,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 134,
+   "label": "Adult"
+  },
+  {
+   "pk": 70442,
+   "name": "Medieval Trio (Archery, Crossbow, and Axe Throwing) New Forest",
+   "old": 40.53,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 12+",
+     "price": 40.53,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Group of 4 or more",
+     "note": "Price per person",
+     "price": 38.93,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 40.53,
+   "label": "Person"
+  },
+  {
+   "pk": 70444,
+   "name": "Woodland Archery New  Forest",
+   "old": 29.87,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 12+",
+     "price": 29.87,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 11 and under",
+     "price": 21.33,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 29.87,
+   "label": "Person"
+  },
+  {
+   "pk": 70446,
+   "name": "Archery and Crossbows New Forest",
+   "old": 35.2,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 12+",
+     "price": 35.2,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Group of 4 or more",
+     "note": "Price per person",
+     "price": 33.6,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 35.2,
+   "label": "Person"
+  },
+  {
+   "pk": 70452,
+   "name": "Archery and Axe Throwing New Forest",
+   "old": 35.2,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 12+",
+     "price": 35.2,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Group of 4 or more",
+     "note": "Price per person",
+     "price": 33.6,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 35.2,
+   "label": "Person"
+  },
+  {
+   "pk": 70466,
+   "name": "Medieval Trio (Archery, Crossbow, and Axe Throwing) Dorset",
+   "old": 39.47,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 12+",
+     "price": 39.47,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 39.47,
+   "label": "Person"
+  },
+  {
+   "pk": 70469,
+   "name": "Woodland Archery in Dorset",
+   "old": 29.87,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 12+",
+     "price": 29.87,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 11 and under",
+     "price": 21.33,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 29.87,
+   "label": "Person"
+  },
+  {
+   "pk": 70470,
+   "name": "Archery and Crossbows in Dorset",
+   "old": 34.67,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 12+",
+     "price": 34.67,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 34.67,
+   "label": "Person"
+  },
+  {
+   "pk": 70472,
+   "name": "Archery and Axe Throwing in Dorset",
+   "old": 34.67,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 12+",
+     "price": 34.67,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 34.67,
+   "label": "Person"
+  },
+  {
+   "pk": 124430,
+   "name": "Canterbury Hidden City Tour",
+   "old": 26.5,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 18 years old",
+     "price": 26.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Up to 17 years old (Under 6yrs Free of charge must be accompanied by an adult)",
+     "price": 10.6,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Concessions",
+     "note": "Students, Seniors, Unemployed, Single Parent etc. with valid concession card",
+     "price": 21.2,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 26.5,
+   "label": "Adult"
+  },
+  {
+   "pk": 245777,
+   "name": "Open Water Swimming",
+   "old": 8,
+   "oldLabel": "People",
+   "tiers": [
+    {
+     "singular": "People",
+     "note": "Ages 12+",
+     "price": 8,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 8,
+   "label": "People"
+  },
+  {
+   "pk": 247487,
+   "name": "Annual Pass Admission to Newcastle Castle",
+   "old": 14.47,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16 - 64",
+     "price": 14.47,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 12.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5 - 15",
+     "price": 9.49,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 4 and under",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Family",
+     "note": "2 adults 3 Children, or 1 adult 4 children",
+     "price": 40.76,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Concessions",
+     "note": "NHS,Police,Fire & Rescue Service,Ambulance,HM Coastguard,RNLI,Armed Force or Veteran.Students. Disabled. Unwaged.",
+     "price": 12.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group Ticket",
+     "note": "Group is 10 or more persons",
+     "price": 13.02,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 14.47,
+   "label": "Adult"
+  },
+  {
+   "pk": 483129,
+   "name": "London Loo Tour",
+   "old": 19,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 19,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child (5-17 yrs)",
+     "note": "",
+     "price": 16,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 19,
+   "label": "Adult"
+  },
+  {
+   "pk": 569693,
+   "name": "Light Floor Games",
+   "old": 21.2,
+   "oldLabel": "Session for 20 minutes",
+   "tiers": [
+    {
+     "singular": "Session for 20 minutes",
+     "note": "Up to 12 players recommended",
+     "price": 21.2,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 21.2,
+   "label": "Session for 20 minutes"
+  },
+  {
+   "pk": 717789,
+   "name": "Private Changing the Guard Tour",
+   "old": 250,
+   "oldLabel": "Private Group - Up to 4 People",
+   "tiers": [
+    {
+     "singular": "Private Group - Up to 4 People",
+     "note": "",
+     "price": 250,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group - 5 to 8 People",
+     "note": "",
+     "price": 275,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group - 9 to 12 People",
+     "note": "",
+     "price": 300,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group - 13 to 18 People",
+     "note": "",
+     "price": 325,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group - 19 to 25 People",
+     "note": "",
+     "price": 350,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 250,
+   "label": "Private Group - Up to 4 People"
+  },
+  {
+   "pk": 239806,
+   "name": "Young Family Half Day (Kids age 5+)",
+   "old": 61.95,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "ages 17+",
+     "price": 57.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "ages 5 to 16",
+     "price": 42,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 57.75,
+   "label": "Adult"
+  },
+  {
+   "pk": 359860,
+   "name": "Cocktail Cruise - Private",
+   "old": 30.66,
+   "oldLabel": "Passenger",
+   "tiers": [
+    {
+     "singular": "Passenger",
+     "note": "All Ages",
+     "price": 25.37,
+     "min": 8,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 25.37,
+   "label": "Passenger"
+  },
+  {
+   "pk": 374939,
+   "name": "Mediterranean Rib Private Charter Boat Tour",
+   "old": 424,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Two Hour Private Charter",
+     "note": "Up to 11 people",
+     "price": 424,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Hour Private Charter",
+     "note": "Up to 11 people",
+     "price": 848,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 424,
+   "label": "Two Hour Private Charter"
+  },
+  {
+   "pk": 502303,
+   "name": "Best of Westminster Abbey with Upper Gallery Tour & Buckingham Palace",
+   "old": 169,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 169,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 164,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 169,
+   "label": "Adult"
+  },
+  {
+   "pk": 617603,
+   "name": "Visit the tower of Great St. Mary’s Church.",
+   "old": 6,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 6,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 6,
+   "label": "Adult"
+  },
+  {
+   "pk": 628037,
+   "name": "Modern British Flavours London Foodie Adventure: +10 dishes and drinks",
+   "old": 126.14,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 13 years old",
+     "price": 126.14,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "From 2 to 12\tyears old",
+     "price": 121.9,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 126.14,
+   "label": "Adult",
+   "currency": "USD"
+  },
+  {
+   "pk": 239804,
+   "name": "Hidden Devon (Half Day Trip)",
+   "old": 61.95,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "ages 17+",
+     "price": 57.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 12 - 16",
+     "price": 42,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 57.75,
+   "label": "Adult"
+  },
+  {
+   "pk": 318534,
+   "name": "L: VIP Tower of London Highlights with Private Beefeater Experience & Crown Jewels",
+   "old": 112,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 112,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 107,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 112,
+   "label": "Adult"
+  },
+  {
+   "pk": 504091,
+   "name": "Cream Tea",
+   "old": 9.54,
+   "oldLabel": "Per person",
+   "tiers": [
+    {
+     "singular": "Per person",
+     "note": "",
+     "price": 9.54,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 9.54,
+   "label": "Per person"
+  },
+  {
+   "pk": 611848,
+   "name": "Easy Access Tower of London Crown Jewels, Torture & Executions SPANISH",
+   "old": 89,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 89,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 84,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 89,
+   "label": "Adult"
+  },
+  {
+   "pk": 200445,
+   "name": "L: Early Access Tower of London & Tower Bridge Tour",
+   "old": 132,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 132,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 127,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 132,
+   "label": "Adult"
+  },
+  {
+   "pk": 509830,
+   "name": "L: Easy Access Tower Bridge and Engine Room & Scenic Thames Cruise",
+   "old": 69,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+ years old",
+     "price": 69,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years old",
+     "price": 65,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 69,
+   "label": "Adult"
+  },
+  {
+   "pk": 553130,
+   "name": "Rapid Rib Private Charter",
+   "old": 371,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Two Hour Private Charter",
+     "note": "",
+     "price": 371,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Hour Private Charter",
+     "note": "",
+     "price": 742,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 371,
+   "label": "Two Hour Private Charter"
+  },
+  {
+   "pk": 614828,
+   "name": "8 Person Megasup Hire",
+   "old": 10.6,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Maximum 8 people per SUP •  Minimum  2 adults and 2 teenagers to control it!",
+     "price": 10.6,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 10.6,
+   "label": "Person"
+  },
+  {
+   "pk": 692929,
+   "name": "School group: Private Secrets of Spitalfields Tour",
+   "old": 346.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "All ages • Up to 15 in a group",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 346.5,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 692939,
+   "name": "School group: Private Roman London Tour",
+   "old": 346.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 346.5,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 692946,
+   "name": "School group: Private City Highlights Tour",
+   "old": 291.5,
+   "oldLabel": "School Group (students under 18yrs old) 30 ppl max",
+   "tiers": [
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 291.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 291.5,
+   "label": "School Group (students under 18yrs old) 30 ppl max"
+  },
+  {
+   "pk": 198872,
+   "name": "Whitby & The North York Moors",
+   "old": 58.3,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "16 years and older",
+     "price": 58.3,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "5–15 years old",
+     "price": 48.76,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 58.3,
+   "label": "Adult"
+  },
+  {
+   "pk": 212858,
+   "name": "Tank Driving Experience - RUGBY",
+   "old": 208.95,
+   "oldLabel": "Driver",
+   "tiers": [
+    {
+     "singular": "Driver",
+     "note": "Minimum age is 18",
+     "price": 208.95,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 208.95,
+   "label": "Driver"
+  },
+  {
+   "pk": 273702,
+   "name": "Cruise and Dine at The Folly Restaurant",
+   "old": 104.35,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 93.81,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Up to 11 years old",
+     "price": 47.43,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 93.81,
+   "label": "Adult"
+  },
+  {
+   "pk": 630119,
+   "name": "London Highlight Tour",
+   "old": 36.76,
+   "oldLabel": "Erwachsener",
+   "tiers": [
+    {
+     "singular": "Erwachsener",
+     "note": "9 - 99",
+     "price": 36.76,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "4 - 8",
+     "price": 15.76,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Kleinkind",
+     "note": "0-3 Jahre",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 36.76,
+   "label": "Erwachsener",
+   "currency": "EUR"
+  },
+  {
+   "pk": 696479,
+   "name": "Classic British Bites London Foodie Adventure: +10 dishes and drinks",
+   "old": 100.7,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 13 years old",
+     "price": 100.7,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "From 2 to 12\tyears old",
+     "price": 95.4,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 100.7,
+   "label": "Adult",
+   "currency": "USD"
+  },
+  {
+   "pk": 298469,
+   "name": "London City of Lights Tour",
+   "old": 418.7,
+   "oldLabel": "Traveler",
+   "tiers": [
+    {
+     "singular": "Traveler",
+     "note": "Recommended for all ages | 1 - 2 Guests",
+     "price": 418.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 418.7,
+   "label": "Traveler",
+   "currency": "EUR"
+  },
+  {
+   "pk": 298478,
+   "name": "London River City Tour",
+   "old": 630.7,
+   "oldLabel": "Traveler",
+   "tiers": [
+    {
+     "singular": "Traveler",
+     "note": "Recommended for all ages | 1 - 2 Guests",
+     "price": 630.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 630.7,
+   "label": "Traveler",
+   "currency": "EUR"
+  },
+  {
+   "pk": 298484,
+   "name": "East London Day Tour",
+   "old": 630.7,
+   "oldLabel": "Traveler",
+   "tiers": [
+    {
+     "singular": "Traveler",
+     "note": "Recommended for all ages | 1 - 2 Guests",
+     "price": 630.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 630.7,
+   "label": "Traveler",
+   "currency": "EUR"
+  },
+  {
+   "pk": 298488,
+   "name": "London Hidden Gems Tour",
+   "old": 312.7,
+   "oldLabel": "Traveler",
+   "tiers": [
+    {
+     "singular": "Traveler",
+     "note": "Recommended for all ages | 1 - 2 Guests",
+     "price": 312.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 312.7,
+   "label": "Traveler",
+   "currency": "EUR"
+  },
+  {
+   "pk": 298492,
+   "name": "London Famous City Landmarks Tour",
+   "old": 312.7,
+   "oldLabel": "Traveler",
+   "tiers": [
+    {
+     "singular": "Traveler",
+     "note": "Recommended for all ages | 1 - 2 Guests",
+     "price": 312.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 312.7,
+   "label": "Traveler",
+   "currency": "EUR"
+  },
+  {
+   "pk": 386815,
+   "name": "The British Museum of London Guided Tour",
+   "old": 21.6,
+   "oldLabel": "Adult - English Guide",
+   "tiers": [
+    {
+     "singular": "Adult - English Guide",
+     "note": "(Age 16 and up)",
+     "price": 21.6,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth - English Guide",
+     "note": "(Age 4 - 15)",
+     "price": 21.6,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child - English Guide",
+     "note": "(Ages 5 - 17)",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    },
+    {
+     "singular": "British Museum + Cruise",
+     "note": "English",
+     "price": 51.84,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 21.6,
+   "label": "Adult - English Guide",
+   "currency": "EUR"
+  },
+  {
+   "pk": 502943,
+   "name": "London Holiday Walking Food Tour with Tea and Doughnuts",
+   "old": 90,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 11+",
+     "price": 90,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kid",
+     "note": "Ages 10 & Under",
+     "price": 80,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 90,
+   "label": "Adult",
+   "currency": "USD"
+  },
+  {
+   "pk": 502314,
+   "name": "Brighton & The Lanes Holiday Doughnut Tour",
+   "old": 65,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 11+",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kid",
+     "note": "Ages 10 & Under",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 65,
+   "label": "Adult",
+   "currency": "USD"
+  }
+ ]
+}

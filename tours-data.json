@@ -1322,7 +1322,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 100,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -1411,8 +1411,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "502058",
@@ -1550,7 +1584,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 100,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -1638,8 +1672,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 3/4 dated readings (3 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "531733",
@@ -1652,7 +1720,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 100,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -1741,8 +1809,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "All ages • Up to 15 in a group",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "590945",
@@ -1820,8 +1922,30 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 16+ • Max 8 adults per booking",
+          "price": 13.65,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "Ages 6-15 • Must book with an adult • Max 5 children per booking",
+          "price": 8.4,
+          "minPartySize": 1
+        },
+        {
+          "name": "Infant",
+          "note": "Ages 0-5 • Must book with an adult",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £13.65; not anchoring: Child £8.4 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "67435",
@@ -2552,7 +2676,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 99,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -2641,8 +2765,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "328939",
@@ -3068,8 +3226,24 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 16 +",
+          "price": 9,
+          "minPartySize": 2
+        },
+        {
+          "name": "Private Tour (up to 10 people)",
+          "note": "",
+          "price": 89,
+          "minPartySize": 2
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £9; not anchoring: Private Tour (up to 10 people) £89 [group]; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "67510",
@@ -3222,9 +3396,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 95.4,
+      "price": 105,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 98,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -3268,8 +3442,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 9540,
-          "price": 95.4,
+          "priceCents": 10500,
+          "price": 105,
           "minPartySize": 1
         },
         {
@@ -3294,9 +3468,31 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 105,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 79.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 58.3,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 105 (Adult) stamped, unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "208995",
@@ -3389,7 +3585,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 98,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -3477,8 +3673,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "467520",
@@ -3629,7 +3859,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 98,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -3719,8 +3949,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "541117",
@@ -4092,8 +4356,24 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 4+",
+          "price": 6.45,
+          "minPartySize": 1
+        },
+        {
+          "name": "Infant",
+          "note": "Ages 0 - 3 • Free",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £6.45; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "602432",
@@ -5562,7 +5842,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 97,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -5651,8 +5931,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "296565",
@@ -6711,7 +7025,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 96,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -6797,8 +7111,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "252119",
@@ -6950,7 +7298,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 96,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -7037,8 +7385,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "330595",
@@ -7931,8 +8313,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Min age 11+",
+          "price": 28.08,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £28.08; 4/4 dated readings (1 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "683992",
@@ -8032,9 +8424,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 95.4,
+      "price": 105,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -8079,8 +8471,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 9540,
-          "price": 95.4,
+          "priceCents": 10500,
+          "price": 105,
           "minPartySize": 1
         },
         {
@@ -8105,9 +8497,31 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 105,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 79.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 58.3,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 105 (Adult) stamped, unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "83623",
@@ -8184,9 +8598,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 95.4,
+      "price": 105,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -8231,8 +8645,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 9540,
-          "price": 95.4,
+          "priceCents": 10500,
+          "price": 105,
           "minPartySize": 1
         },
         {
@@ -8257,9 +8671,31 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 105,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 79.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 58.3,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 105 (Adult) stamped, unpublished; 4/4 dated readings (2 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "83626",
@@ -8336,9 +8772,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 51.94,
+      "price": 55,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -8382,8 +8818,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -8391,8 +8827,8 @@
           "singular": "Youth (Ages 10 - 17)",
           "plural": "Youth (Ages 10 - 17)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -8400,17 +8836,39 @@
           "singular": "Child (Ages 9 and under)",
           "plural": "Children (Ages 9 and under)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 55 (Adult) stamped, unpublished; 4/4 dated readings (2 date-valid), 2 ladder shape(s)"
     },
     {
       "id": "83646",
@@ -8487,9 +8945,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 51.94,
+      "price": 55,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -8535,8 +8993,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -8544,8 +9002,8 @@
           "singular": "Youth (Ages 10 - 17)",
           "plural": "Youth (Ages 10 - 17)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -8553,17 +9011,39 @@
           "singular": "Child (Ages 9 and under)",
           "plural": "Children (Ages 9 and under)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 55 (Adult) stamped, unpublished; 4/4 dated readings (2 date-valid), 2 ladder shape(s)"
     },
     {
       "id": "83654",
@@ -8641,9 +9121,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 51.94,
+      "price": 55,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -8685,8 +9165,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -8694,8 +9174,8 @@
           "singular": "Youth (Ages 10 - 17)",
           "plural": "Youth (Ages 10 - 17)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -8703,17 +9183,39 @@
           "singular": "Child (Ages 9 and under)",
           "plural": "Children (Ages 9 and under)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 55 (Adult) stamped, unpublished; 4/4 dated readings (4 date-valid), 2 ladder shape(s)"
     },
     {
       "id": "83669",
@@ -8789,9 +9291,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 51.94,
+      "price": 55,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -8837,8 +9339,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -8846,8 +9348,8 @@
           "singular": "Youth (Ages 10 - 17)",
           "plural": "Youth (Ages 10 - 17)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -8855,17 +9357,39 @@
           "singular": "Child (Ages 9 and under)",
           "plural": "Children (Ages 9 and under)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 55 (Adult) stamped, unpublished; 4/4 dated readings (4 date-valid), 2 ladder shape(s)"
     },
     {
       "id": "83675",
@@ -8876,9 +9400,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 95.4,
+      "price": 105,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -8923,8 +9447,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 9540,
-          "price": 95.4,
+          "priceCents": 10500,
+          "price": 105,
           "minPartySize": 1
         },
         {
@@ -8949,9 +9473,31 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 105,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 79.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 58.3,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 105 (Adult) stamped, unpublished; 4/4 dated readings (3 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "252068",
@@ -9318,7 +9864,7 @@
       "island": "london",
       "price": 491.4,
       "priceLabel": "Private Tour - Small Group",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "GBP",
       "duration": "4 hours",
@@ -9370,8 +9916,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 491.4,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour - Small Group £491.4 has no standalone adult/base per-person tier; floor £491.4 (Private Tour - Small Group) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "277170",
@@ -9487,8 +10043,24 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 18+",
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "5 – 15 years old",
+          "price": 62,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £79; not anchoring: Child £62 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "531451",
@@ -9499,9 +10071,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 157.94,
+      "price": 165.5,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "2 hours",
@@ -9547,8 +10119,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 15794,
-          "price": 157.94,
+          "priceCents": 16550,
+          "price": 165.5,
           "minPartySize": 1
         },
         {
@@ -9573,9 +10145,31 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 165.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 104.94,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 79.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 165.5 (Adult) stamped, unpublished; 4/4 dated readings (1 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "222432",
@@ -9658,8 +10252,30 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 4+",
+          "price": 7.45,
+          "minPartySize": 1
+        },
+        {
+          "name": "Infant",
+          "note": "Children aged 3 and under go free",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Premium Ticket",
+          "note": "Ages 4+ Fast Track entry with exclusive souvenir",
+          "price": 14.95,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £7.45 of 2 base tiers (D-625); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "351665",
@@ -9851,7 +10467,7 @@
       "island": "london",
       "price": 79,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 94,
       "currency": "USD",
       "duration": "2 hours",
@@ -9909,9 +10525,25 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:USD",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 11+",
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "name": "Kid",
+          "note": "Ages 10 & Under",
+          "price": 69,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency USD ≠ site GBP; true amount USD 79 (Adult) stamped, unpublished; 4/4 dated readings (0 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "442593",
@@ -9998,7 +10630,7 @@
       "island": "brighton-and-hove",
       "price": 65,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 94,
       "currency": "USD",
       "duration": "2 hours",
@@ -10055,9 +10687,25 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:USD",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 11+",
+          "price": 65,
+          "minPartySize": 1
+        },
+        {
+          "name": "Kid",
+          "note": "Ages 10 & Under",
+          "price": 55,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency USD ≠ site GBP; true amount USD 65 (Adult) stamped, unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "591464",
@@ -10070,7 +10718,7 @@
       "island": "london",
       "price": 79,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 94,
       "currency": "USD",
       "duration": "2 hours",
@@ -10126,9 +10774,25 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:USD",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 11+",
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "name": "Kid",
+          "note": "Ages 10 & Under",
+          "price": 69,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency USD ≠ site GBP; true amount USD 79 (Adult) stamped, unpublished; 4/4 dated readings (0 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "611756",
@@ -10831,8 +11495,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 12.72,
+          "minPartySize": 2
+        },
+        {
+          "name": "Child",
+          "note": "7-15 years old",
+          "price": 8.48,
+          "minPartySize": 2
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £12.72; not anchoring: Child £8.48 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "621898",
@@ -10919,9 +11599,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 174.9,
+      "price": 215,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 92,
       "currency": "EUR",
       "duration": "5.5 hours",
@@ -10967,8 +11647,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 17490,
-          "price": 174.9,
+          "priceCents": 21500,
+          "price": 215,
           "minPartySize": 1
         },
         {
@@ -10993,9 +11673,31 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 215,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 147.34,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 111.3,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 215 (Adult) stamped, unpublished; 4/4 dated readings (2 date-valid), 2 ladder shape(s)"
     },
     {
       "id": "83636",
@@ -11733,8 +12435,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "16 years and older",
+          "price": 58.3,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "5–15 years old",
+          "price": 48.76,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £58.3; not anchoring: Child £48.76 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "292940",
@@ -11974,8 +12692,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 12.72,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "7-15 years old",
+          "price": 8.48,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £12.72; not anchoring: Child £8.48 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "442906",
@@ -12046,8 +12780,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 12.72,
+          "minPartySize": 2
+        },
+        {
+          "name": "Child",
+          "note": "7-15 years old",
+          "price": 8.48,
+          "minPartySize": 2
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £12.72; not anchoring: Child £8.48 [never]; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "502600",
@@ -12117,8 +12867,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 12.72,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "7-15 years old",
+          "price": 8.48,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £12.72; not anchoring: Child £8.48 [never]; 4/4 dated readings (2 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "666407",
@@ -12180,8 +12946,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Distillery Tour Guest",
+          "note": "Age 18+",
+          "price": 31.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Distillery Tour Guest £31.5; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "695496",
@@ -12467,8 +13243,30 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 18+",
+          "price": 19,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (5-17 yrs)",
+          "note": "",
+          "price": 16,
+          "minPartySize": 1
+        },
+        {
+          "name": "Family Tickets",
+          "note": "Buy 4 tickets per family of 4 (2 adults + 2 children)",
+          "price": 18,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £19; not anchoring: Child (5-17 yrs) £16 [never], Family Tickets £18 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "216629",
@@ -12983,7 +13781,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 90,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -13069,8 +13867,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "502596",
@@ -14014,7 +14846,7 @@
       "island": "london",
       "price": 165,
       "priceLabel": "Adult 16+",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 90,
       "currency": "EUR",
       "duration": "2.5 hours",
@@ -14080,9 +14912,31 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult 16+",
+          "note": "",
+          "price": 165,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 5 - 15)",
+          "note": "",
+          "price": 79.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 0 - 4)",
+          "note": "",
+          "price": 58.3,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 165 (Adult 16+) stamped, unpublished; 4/4 dated readings (4 date-valid), 2 ladder shape(s)"
     },
     {
       "id": "599989",
@@ -14446,8 +15300,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "People",
+          "note": "Ages 10+",
+          "price": 30,
+          "minPartySize": 8
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier People £30; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "692616",
@@ -14460,7 +15324,7 @@
       "island": "london",
       "price": 346.5,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 90,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -14507,8 +15371,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £346.5 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "692631",
@@ -14521,7 +15395,7 @@
       "island": "london",
       "price": 346.5,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 90,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -14568,8 +15442,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £346.5 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 4/4 dated readings (3 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "693212",
@@ -14582,7 +15466,7 @@
       "island": "london",
       "price": 346.5,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 90,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -14629,8 +15513,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £346.5 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "693244",
@@ -14643,7 +15537,7 @@
       "island": "london",
       "price": 346.5,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 90,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -14690,8 +15584,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £346.5 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "693258",
@@ -14937,8 +15841,24 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 18+",
+          "price": 19,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (5-17 yrs)",
+          "note": "",
+          "price": 16,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £19; not anchoring: Child (5-17 yrs) £16 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "128416",
@@ -15467,8 +16387,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 12.72,
+          "minPartySize": 2
+        },
+        {
+          "name": "Child",
+          "note": "7-15 years old",
+          "price": 8.48,
+          "minPartySize": 2
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £12.72; not anchoring: Child £8.48 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "528958",
@@ -15481,7 +16417,7 @@
       "island": "london",
       "price": 44,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 89,
       "currency": "USD",
       "duration": "2 hours",
@@ -15541,9 +16477,25 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:USD",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 11+",
+          "price": 44,
+          "minPartySize": 1
+        },
+        {
+          "name": "Kid",
+          "note": "Ages 10 & Under",
+          "price": 42,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency USD ≠ site GBP; true amount USD 44 (Adult) stamped, unpublished; 4/4 dated readings (0 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "542401",
@@ -15717,7 +16669,7 @@
       "island": "milford-on-sea",
       "price": 55,
       "priceLabel": "E- Step Over Bike",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 89,
       "currency": "GBP",
       "duration": null,
@@ -15866,8 +16818,84 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "E- Step Over Bike",
+          "note": "Step-over frame, retro style.  Suitable for 5\"4-6\"4 | Age 14+",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "E-Step Thru Bike",
+          "note": "Step-through frame, retro style. Suitable for height 5'1 to 6'0. Age 14+",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "E-Family Bike",
+          "note": "Either Ride Alone, add a Child Pillion Rider or add a Child Seat. Step through frame. Suitable for 5\"4-6\"4. Rider age 14+",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "E-Family Bike with Child Seat",
+          "note": "Ride with the addition of a rear Child Seat (Age1-4 max 22kg/110cm tall) Step through frame. Suitable for 5\"4-6\"4. Rider age 14+",
+          "price": 70,
+          "minPartySize": 1
+        },
+        {
+          "name": "E-Family Bike with Child Pillion Passenger",
+          "note": "Ride with the addition of Child Pillion (Age 4-10.Inside leg 41cm-66cm. weight max 125kg) Suitable for 5\"4-6\"4. Rider age 14+",
+          "price": 70,
+          "minPartySize": 1
+        },
+        {
+          "name": "E-Hybrid Bike Large",
+          "note": "LARGE Hybrid e-bike with a more traditional style. Large frame for riders between 5'11-6\"4.",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "E-Hybrid Bike Small",
+          "note": "SMALL/MED hybrid e-bike with a more traditional style. For riders between 4'11-5'8. Age 14+.",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Childs 26” Bike",
+          "note": "Lightweight hybrid child bike 26\" wheels. Inside leg of between 69-78cm. Approx height 128-145cm (4'6-4'9)",
+          "price": 15,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth Mountain Bike",
+          "note": "5’0-5’6 - (160-168cm)",
+          "price": 20,
+          "minPartySize": 1
+        },
+        {
+          "name": "Front Basket",
+          "note": "Available as an extra on all adult bikes",
+          "price": 5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Pannier",
+          "note": "Add on: For Super Monkey E-Bike Only",
+          "price": 5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Dog Basket",
+          "note": "Suitable for small dogs up to 5kg | For all adult bikes",
+          "price": 15,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder E- Step Over Bike £55 / E-Step Thru Bike £55 / E-Family Bike £55 / E-Family Bike with Child Seat £70 / E-Family Bike with Child Pillion Passenger £70 / E-Hybrid Bike Large £55 / E-Hybrid Bike Small £55 / Childs 26” Bike £15 / Youth Mountain Bike £20 / Front Basket £5 / Pannier £5 / Dog Basket £15 has no standalone adult/base per-person tier; floor £55 (E- Step Over Bike) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "660913",
@@ -15880,7 +16908,7 @@
       "island": "oxford",
       "price": 100,
       "priceLabel": "Private Tour",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 89,
       "currency": "GBP",
       "duration": "1 hour",
@@ -15928,8 +16956,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "Includes 4 people",
+          "price": 100,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour £100 has no standalone adult/base per-person tier; floor £100 (Private Tour) stamped unpublished pending priceUnit port; 3/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "689446",
@@ -15992,8 +17030,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "People",
+          "note": "Ages 8+",
+          "price": 30,
+          "minPartySize": 8
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier People £30; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "692322",
@@ -16006,7 +17054,7 @@
       "island": "london",
       "price": 346.5,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 89,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -16053,8 +17101,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £346.5 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "106154",
@@ -16065,9 +17123,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 51.94,
+      "price": 55,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 88,
       "currency": "EUR",
       "duration": "2 hours",
@@ -16113,8 +17171,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -16122,8 +17180,8 @@
           "singular": "Youth (Ages 10 - 17)",
           "plural": "Youth (Ages 10 - 17)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         },
         {
@@ -16131,17 +17189,39 @@
           "singular": "Child (Ages 9 and under)",
           "plural": "Children (Ages 9 and under)",
           "note": "",
-          "priceCents": 5194,
-          "price": 51.94,
+          "priceCents": 5500,
+          "price": 55,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Youth (Ages 10 - 17)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (Ages 9 and under)",
+          "note": "",
+          "price": 55,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 55 (Adult) stamped, unpublished; 4/4 dated readings (3 date-valid), 2 ladder shape(s)"
     },
     {
       "id": "198863",
@@ -16211,8 +17291,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "16 years and older",
+          "price": 58.3,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "5–15 years old",
+          "price": 48.76,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £58.3; not anchoring: Child £48.76 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "295340",
@@ -16333,8 +17429,30 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 4+",
+          "price": 7.45,
+          "minPartySize": 1
+        },
+        {
+          "name": "Infant",
+          "note": "Ages 3 and under go free",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Family Ticket",
+          "note": "This ticket is valid for 4 people, ages 4+",
+          "price": 22.95,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £7.45; not anchoring: Family Ticket £22.95 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "354306",
@@ -16404,8 +17522,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 12.72,
+          "minPartySize": 2
+        },
+        {
+          "name": "Child",
+          "note": "7-15 years old",
+          "price": 8.48,
+          "minPartySize": 2
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £12.72; not anchoring: Child £8.48 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "361506",
@@ -16851,7 +17985,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 88,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -16935,8 +18069,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (3 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "589171",
@@ -17375,7 +18543,7 @@
       "island": "blandford-forum",
       "price": 200,
       "priceLabel": "Private Group",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 88,
       "currency": "GBP",
       "duration": "1 hr & 30 mins",
@@ -17425,8 +18593,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Group",
+          "note": "",
+          "price": 200,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Group £200 has no standalone adult/base per-person tier; floor £200 (Private Group) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "688811",
@@ -17599,8 +18777,30 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "People",
+          "note": "Ages 8+",
+          "price": 20,
+          "minPartySize": 2
+        },
+        {
+          "name": "Add extra 30 minutes",
+          "note": "",
+          "price": 5,
+          "minPartySize": 2
+        },
+        {
+          "name": "Add 3D Zombie targets",
+          "note": "Price per person",
+          "price": 5,
+          "minPartySize": 2
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier People £20; not anchoring: Add extra 30 minutes £5 [never], Add 3D Zombie targets £5 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "689195",
@@ -17773,8 +18973,30 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "People",
+          "note": "Ages 10+",
+          "price": 20,
+          "minPartySize": 2
+        },
+        {
+          "name": "Add extra 30 minutes",
+          "note": "",
+          "price": 5,
+          "minPartySize": 2
+        },
+        {
+          "name": "Add Knife Throwing",
+          "note": "Price per person",
+          "price": 5,
+          "minPartySize": 2
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier People £20; not anchoring: Add extra 30 minutes £5 [never], Add Knife Throwing £5 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "718223",
@@ -18100,7 +19322,7 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 160,
+      "price": 270,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 87,
@@ -18144,8 +19366,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "16 years+",
-          "priceCents": 16000,
-          "price": 160,
+          "priceCents": 27000,
+          "price": 270,
           "minPartySize": 1
         },
         {
@@ -18153,16 +19375,32 @@
           "singular": "Child",
           "plural": "Children",
           "note": "Under 16",
-          "priceCents": 13000,
-          "price": 130,
+          "priceCents": 25000,
+          "price": 250,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "16 years+",
+          "price": 270,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "Under 16",
+          "price": 250,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £270; not anchoring: Child £250 [never]; 4/4 dated readings (1 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "361665",
@@ -18305,8 +19543,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Up to 2 -6 people",
+          "price": 99.75,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Charter",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £99.75; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "502598",
@@ -18378,8 +19632,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "",
+          "price": 12.72,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "7-15 years old",
+          "price": 8.48,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £12.72; not anchoring: Child £8.48 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "516675",
@@ -18392,7 +19662,7 @@
       "island": "london",
       "price": 220.5,
       "priceLabel": "Private Tour for Two",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 87,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -18478,8 +19748,42 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Tour for Two",
+          "note": "A Tour for two",
+          "price": 220.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Small Group",
+          "note": "6 people max",
+          "price": 283.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Medium Group",
+          "note": "7 to 15 people",
+          "price": 346.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour - Large Group",
+          "note": "16 to 30 people",
+          "price": 409.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (3 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "574717",
@@ -18691,8 +19995,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 13+",
+          "price": 115,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "Ages 4-12",
+          "price": 111,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £115; not anchoring: Child £111 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "603897",
@@ -18762,8 +20082,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 129,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 124,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £129; not anchoring: Child £124 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "606965",
@@ -18833,8 +20169,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 119,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 114,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £119; not anchoring: Child £114 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "627633",
@@ -18904,8 +20256,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 159,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 154,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £159; not anchoring: Child £154 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "654760",
@@ -19108,8 +20476,24 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 18+",
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "5 – 15 years old",
+          "price": 62,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £79; not anchoring: Child £62 [never]; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "666070",
@@ -19222,9 +20606,9 @@
       "category": "",
       "location": "United Kingdom/England/London",
       "island": "london",
-      "price": 346.5,
+      "price": 288.75,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 87,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -19263,16 +20647,26 @@
           "singular": "School Group (students under 18yrs old) 30 ppl max",
           "plural": "School Groups (students under 18yrs old) 30 ppl max",
           "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
-          "priceCents": 34650,
-          "price": 346.5,
+          "priceCents": 28875,
+          "price": 288.75,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 288.75,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £288.75 has no standalone adult/base per-person tier; floor £288.75 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 3/4 dated readings (3 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "715264",
@@ -19498,8 +20892,24 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 18+",
+          "price": 19,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (5-17 yrs)",
+          "note": "",
+          "price": 16,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £19; not anchoring: Child (5-17 yrs) £16 [never]; 4/4 dated readings (2 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "239813",
@@ -19510,7 +20920,7 @@
       "category": "",
       "location": "United Kingdom/England/Dartmouth",
       "island": "dartmouth",
-      "price": 61.95,
+      "price": 57.75,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 86,
@@ -19553,8 +20963,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "ages 17+",
-          "priceCents": 6195,
-          "price": 61.95,
+          "priceCents": 5775,
+          "price": 57.75,
           "minPartySize": 1
         },
         {
@@ -19562,16 +20972,32 @@
           "singular": "Child",
           "plural": "Children",
           "note": "ages 5 to 16",
-          "priceCents": 4410,
-          "price": 44.1,
+          "priceCents": 4200,
+          "price": 42,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "ages 17+",
+          "price": 57.75,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "ages 5 to 16",
+          "price": 42,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £57.75; not anchoring: Child £42 [never]; 2/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "252283",
@@ -20366,7 +21792,7 @@
       "island": "london",
       "price": 346.5,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 86,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -20413,8 +21839,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £346.5 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "693268",
@@ -20555,8 +21991,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 89,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 84,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £89; not anchoring: Child £84 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "695077",
@@ -20626,8 +22078,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 134,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 129,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £134; not anchoring: Child £129 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "718851",
@@ -20789,8 +22257,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 12+",
+          "price": 40.53,
+          "minPartySize": 1
+        },
+        {
+          "name": "Group of 4 or more",
+          "note": "Price per person",
+          "price": 38.93,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £40.53; not anchoring: Group of 4 or more £38.93 [group]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "70444",
@@ -20861,8 +22345,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 12+",
+          "price": 29.87,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "Ages 11 and under",
+          "price": 21.33,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £29.87; not anchoring: Child £21.33 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "70446",
@@ -20933,8 +22433,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 12+",
+          "price": 35.2,
+          "minPartySize": 1
+        },
+        {
+          "name": "Group of 4 or more",
+          "note": "Price per person",
+          "price": 33.6,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £35.2; not anchoring: Group of 4 or more £33.6 [group]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "70452",
@@ -21005,8 +22521,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 12+",
+          "price": 35.2,
+          "minPartySize": 1
+        },
+        {
+          "name": "Group of 4 or more",
+          "note": "Price per person",
+          "price": 33.6,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £35.2; not anchoring: Group of 4 or more £33.6 [group]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "70466",
@@ -21068,8 +22600,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 12+",
+          "price": 39.47,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £39.47; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "70469",
@@ -21140,8 +22682,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 12+",
+          "price": 29.87,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "Ages 11 and under",
+          "price": 21.33,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £29.87; not anchoring: Child £21.33 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "70470",
@@ -21203,8 +22761,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 12+",
+          "price": 34.67,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £34.67; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "70472",
@@ -21266,8 +22834,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Ages 12+",
+          "price": 34.67,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £34.67; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "78794",
@@ -21579,7 +23157,7 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "high",
       "priceBreakdown": [
         {
@@ -21611,7 +23189,29 @@
         }
       ],
       "priceIncludesBookingFees": true,
-      "priceIncludesTaxes": true
+      "priceIncludesTaxes": true,
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "From 18 years old",
+          "price": 26.5,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "Up to 17 years old (Under 6yrs Free of charge must be accompanied by an adult)",
+          "price": 10.6,
+          "minPartySize": 1
+        },
+        {
+          "name": "Concessions",
+          "note": "Students, Seniors, Unemployed, Single Parent etc. with valid concession card",
+          "price": 21.2,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £26.5; not anchoring: Child £10.6 [never], Concessions £21.2 [never]; 3/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "211710",
@@ -22066,8 +23666,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "People",
+          "note": "Ages 12+",
+          "price": 8,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier People £8; 1/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "247487",
@@ -22181,8 +23791,54 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 16 - 64",
+          "price": 14.47,
+          "minPartySize": 1
+        },
+        {
+          "name": "Senior",
+          "note": "Ages 65+",
+          "price": 12.99,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "Ages 5 - 15",
+          "price": 9.49,
+          "minPartySize": 1
+        },
+        {
+          "name": "Infant",
+          "note": "Ages 4 and under",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Family",
+          "note": "2 adults 3 Children, or 1 adult 4 children",
+          "price": 40.76,
+          "minPartySize": 1
+        },
+        {
+          "name": "Concessions",
+          "note": "NHS,Police,Fire & Rescue Service,Ambulance,HM Coastguard,RNLI,Armed Force or Veteran.Students. Disabled. Unwaged.",
+          "price": 12.99,
+          "minPartySize": 1
+        },
+        {
+          "name": "Group Ticket",
+          "note": "Group is 10 or more persons",
+          "price": 13.02,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £14.47; not anchoring: Senior £12.99 [never], Child £9.49 [never], Family £40.76 [never], Concessions £12.99 [never], Group Ticket £13.02 [group]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "270582",
@@ -24492,22 +26148,29 @@
           "priceCents": 1600,
           "price": 16,
           "minPartySize": 1
-        },
-        {
-          "id": 204276,
-          "singular": "Family Tickets",
-          "plural": "Family Tickets",
-          "note": "Buy 4 tickets per family of 4",
-          "priceCents": 1500,
-          "price": 15,
-          "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 18+",
+          "price": 19,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child (5-17 yrs)",
+          "note": "",
+          "price": 16,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £19; not anchoring: Child (5-17 yrs) £16 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "485491",
@@ -26374,7 +28037,7 @@
       "island": "bournemouth",
       "price": 21.2,
       "priceLabel": "Session for 20 minutes",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "GBP",
       "duration": "20 Minutes",
@@ -26414,8 +28077,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Session for 20 minutes",
+          "note": "Up to 12 players recommended",
+          "price": 21.2,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Session for 20 minutes £21.2 has no standalone adult/base per-person tier; floor £21.2 (Session for 20 minutes) stamped unpublished pending priceUnit port; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "588967",
@@ -26846,7 +28519,7 @@
       "island": "london",
       "price": 250,
       "priceLabel": "Private Group - Up to 4 People",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "GBP",
       "duration": "2 Hours",
@@ -26923,8 +28596,42 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Private Group - Up to 4 People",
+          "note": "",
+          "price": 250,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Group - 5 to 8 People",
+          "note": "",
+          "price": 275,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Group - 9 to 12 People",
+          "note": "",
+          "price": 300,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Group - 13 to 18 People",
+          "note": "",
+          "price": 325,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Group - 19 to 25 People",
+          "note": "",
+          "price": 350,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Group - Up to 4 People £250 / Private Group - 5 to 8 People £275 / Private Group - 9 to 12 People £300 / Private Group - 13 to 18 People £325 / Private Group - 19 to 25 People £350 has no standalone adult/base per-person tier; floor £250 (Private Group - Up to 4 People) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "104284",
@@ -27638,7 +29345,7 @@
       "category": "",
       "location": "United Kingdom/England/Dartmouth",
       "island": "dartmouth",
-      "price": 61.95,
+      "price": 57.75,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 84,
@@ -27682,8 +29389,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "ages 17+",
-          "priceCents": 6195,
-          "price": 61.95,
+          "priceCents": 5775,
+          "price": 57.75,
           "minPartySize": 1
         },
         {
@@ -27691,16 +29398,32 @@
           "singular": "Child",
           "plural": "Children",
           "note": "ages 5 to 16",
-          "priceCents": 4410,
-          "price": 44.1,
+          "priceCents": 4200,
+          "price": 42,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "ages 17+",
+          "price": 57.75,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "ages 5 to 16",
+          "price": 42,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £57.75; not anchoring: Child £42 [never]; 4/4 dated readings (3 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "250527",
@@ -27919,7 +29642,7 @@
       "category": "",
       "location": "United Kingdom/England/Oxford",
       "island": "oxford",
-      "price": 30.66,
+      "price": 25.37,
       "priceLabel": "Passenger",
       "priceConfidence": "high",
       "qualityScore": 84,
@@ -27952,7 +29675,7 @@
       "lastUpdated": "",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "high",
       "priceBreakdown": [
         {
@@ -27960,13 +29683,23 @@
           "singular": "Passenger",
           "plural": "Passengers",
           "note": "All Ages",
-          "priceCents": 3066,
-          "price": 30.66,
+          "priceCents": 2537,
+          "price": 25.37,
           "minPartySize": 8
         }
       ],
       "priceIncludesBookingFees": true,
-      "priceIncludesTaxes": true
+      "priceIncludesTaxes": true,
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Passenger",
+          "note": "All Ages",
+          "price": 25.37,
+          "minPartySize": 8
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Passenger £25.37; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "374939",
@@ -27978,8 +29711,8 @@
       "location": "United Kingdom/England/Newhaven",
       "island": "newhaven",
       "price": 424,
-      "priceLabel": "charter",
-      "priceConfidence": "high",
+      "priceLabel": "Two Hour Private Charter",
+      "priceConfidence": "low",
       "qualityScore": 84,
       "currency": "GBP",
       "duration": null,
@@ -28015,8 +29748,8 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "gallery": [],
-      "priceSource": "s45-weng-charter-2",
-      "priceBasis": "D-597 live floor of the ladder (Two Hour Private Charter); the Math.max ceiling (£848) was rejected under D-600 — product names neither tier; 6 date-valid + 1 re-anchored (D-606) readings",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Two Hour Private Charter £424 / Four Hour Private Charter £848 has no standalone adult/base per-person tier; floor £424 (Two Hour Private Charter) stamped unpublished pending priceUnit port; 3/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP",
       "tiers": [
         {
           "name": "Two Hour Private Charter",
@@ -28030,7 +29763,45 @@
           "price": 848,
           "minPartySize": 1
         }
-      ]
+      ],
+      "priceBreakdown": [
+        {
+          "id": 823303,
+          "singular": "Two Hour Private Charter",
+          "plural": "Two Hour Private Charter",
+          "note": "Up to 11 people",
+          "priceCents": 42400,
+          "price": 424,
+          "minPartySize": 1
+        },
+        {
+          "id": 823304,
+          "singular": "Four Hour Private Charter",
+          "plural": "Four Hour Private Charter",
+          "note": "Up to 11 people",
+          "priceCents": 84800,
+          "price": 848,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": true,
+      "priceIncludesTaxes": true,
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceTiers": [
+        {
+          "name": "Two Hour Private Charter",
+          "note": "Up to 11 people",
+          "price": 424,
+          "minPartySize": 1
+        },
+        {
+          "name": "Four Hour Private Charter",
+          "note": "Up to 11 people",
+          "price": 848,
+          "minPartySize": 1
+        }
+      ],
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "455058",
@@ -28458,8 +30229,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 169,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 164,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £169; not anchoring: Child £164 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "502597",
@@ -29056,8 +30843,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 18+",
+          "price": 6,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £6; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "628037",
@@ -29070,7 +30867,7 @@
       "island": "london",
       "price": 126.14,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 84,
       "currency": "USD",
       "duration": "3 hours & 30 minutes",
@@ -29129,9 +30926,25 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:USD",
-      "priceConfidenceSource": "s46-weng-currency"
+      "priceConfidenceSource": "s46-weng-currency",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "From 13 years old",
+          "price": 126.14,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "From 2 to 12\tyears old",
+          "price": 121.9,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency USD ≠ site GBP; true amount USD 126.14 (Adult) stamped, unpublished; 4/4 dated readings (2 date-valid), 2 ladder shape(s)"
     },
     {
       "id": "707524",
@@ -29803,7 +31616,7 @@
       "category": "",
       "location": "United Kingdom/England/Dartmouth",
       "island": "dartmouth",
-      "price": 61.95,
+      "price": 57.75,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 83,
@@ -29846,8 +31659,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "ages 17+",
-          "priceCents": 6195,
-          "price": 61.95,
+          "priceCents": 5775,
+          "price": 57.75,
           "minPartySize": 1
         },
         {
@@ -29855,16 +31668,32 @@
           "singular": "Child",
           "plural": "Children",
           "note": "Ages 12 - 16",
-          "priceCents": 4410,
-          "price": 44.1,
+          "priceCents": 4200,
+          "price": 42,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "ages 17+",
+          "price": 57.75,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "Ages 12 - 16",
+          "price": 42,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £57.75; not anchoring: Child £42 [never]; 3/4 dated readings (3 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "299376",
@@ -30037,8 +31866,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 112,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 107,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £112; not anchoring: Child £107 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "331009",
@@ -31016,8 +32861,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Per person",
+          "note": "",
+          "price": 9.54,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Per person £9.54; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "541843",
@@ -31811,8 +33666,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 89,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 84,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £89; not anchoring: Child £84 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "614746",
@@ -32557,8 +34428,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 132,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 127,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £132; not anchoring: Child £127 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "211719",
@@ -33547,8 +35434,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "13+ years old",
+          "price": 69,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "4-12 years old",
+          "price": 65,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £69; not anchoring: Child £65 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "538183",
@@ -33728,8 +35631,8 @@
       "location": "United Kingdom/England/Newhaven",
       "island": "newhaven",
       "price": 371,
-      "priceLabel": "charter",
-      "priceConfidence": "high",
+      "priceLabel": "Two Hour Private Charter",
+      "priceConfidence": "low",
       "qualityScore": 82,
       "currency": "GBP",
       "duration": null,
@@ -33756,8 +35659,8 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "gallery": [],
-      "priceSource": "s45-weng-charter-2",
-      "priceBasis": "D-597 live floor of the ladder (Two Hour Private Charter); the Math.max ceiling (£742) was rejected under D-600 — product names neither tier; 6 date-valid + 1 re-anchored (D-606) readings",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Two Hour Private Charter £371 / Four Hour Private Charter £742 has no standalone adult/base per-person tier; floor £371 (Two Hour Private Charter) stamped unpublished pending priceUnit port; 3/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP",
       "tiers": [
         {
           "name": "Two Hour Private Charter",
@@ -33771,7 +35674,45 @@
           "price": 742,
           "minPartySize": 1
         }
-      ]
+      ],
+      "priceBreakdown": [
+        {
+          "id": 749269,
+          "singular": "Two Hour Private Charter",
+          "plural": "Two Hour Private Charter",
+          "note": "",
+          "priceCents": 37100,
+          "price": 371,
+          "minPartySize": 1
+        },
+        {
+          "id": 823304,
+          "singular": "Four Hour Private Charter",
+          "plural": "Four Hour Private Charter",
+          "note": "",
+          "priceCents": 74200,
+          "price": 742,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": true,
+      "priceIncludesTaxes": true,
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceTiers": [
+        {
+          "name": "Two Hour Private Charter",
+          "note": "",
+          "price": 371,
+          "minPartySize": 1
+        },
+        {
+          "name": "Four Hour Private Charter",
+          "note": "",
+          "price": 742,
+          "minPartySize": 1
+        }
+      ],
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "602451",
@@ -34353,8 +36294,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Person",
+          "note": "Maximum 8 people per SUP •  Minimum  2 adults and 2 teenagers to control it!",
+          "price": 10.6,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Person £10.6; 3/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "637101",
@@ -34451,7 +36402,7 @@
       "island": "london",
       "price": 346.5,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 82,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -34498,8 +36449,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "All ages • Up to 15 in a group",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £346.5 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "692939",
@@ -34512,7 +36473,7 @@
       "island": "london",
       "price": 346.5,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 82,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -34559,8 +36520,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 346.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £346.5 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "692946",
@@ -34573,7 +36544,7 @@
       "island": "london",
       "price": 291.5,
       "priceLabel": "School Group (students under 18yrs old) 30 ppl max",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 82,
       "currency": "GBP",
       "duration": "90 minutes",
@@ -34620,8 +36591,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "School Group (students under 18yrs old) 30 ppl max",
+          "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+          "price": 291.5,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: HELD (no adult/base tier): live ladder School Group (students under 18yrs old) 30 ppl max £291.5 has no standalone adult/base per-person tier; floor £291.5 (School Group (students under 18yrs old) 30 ppl max) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "711433",
@@ -34809,8 +36790,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "16 years and older",
+          "price": 58.3,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "5–15 years old",
+          "price": 48.76,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £58.3; not anchoring: Child £48.76 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "212858",
@@ -34857,7 +36854,7 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "high",
       "priceBreakdown": [
         {
@@ -34871,7 +36868,17 @@
         }
       ],
       "priceIncludesBookingFees": true,
-      "priceIncludesTaxes": true
+      "priceIncludesTaxes": true,
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Driver",
+          "note": "Minimum age is 18",
+          "price": 208.95,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Driver £208.95; 3/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "235578",
@@ -35072,7 +37079,7 @@
       "category": "",
       "location": "United Kingdom/England/Oxford",
       "island": "oxford",
-      "price": 104.35,
+      "price": 93.81,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 81,
@@ -35116,8 +37123,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "12+",
-          "priceCents": 10435,
-          "price": 104.35,
+          "priceCents": 9381,
+          "price": 93.81,
           "minPartySize": 1
         },
         {
@@ -35133,8 +37140,24 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "12+",
+          "price": 93.81,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "Up to 11 years old",
+          "price": 47.43,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s51-weng-tiers-backfill: D-624 cheapest adult/base per-person tier Adult £93.81; not anchoring: Child £47.43 [never]; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "289681",
@@ -35680,7 +37703,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Erwachsener",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1108131,
@@ -35713,7 +37736,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
       "image": "https://cdn.filestackcontent.com/WuZomlY0QMmG7twLNoky/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -35723,7 +37746,29 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Loving Travel",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Erwachsener",
+          "note": "9 - 99",
+          "price": 36.76,
+          "minPartySize": 1
+        },
+        {
+          "name": "Kind",
+          "note": "4 - 8",
+          "price": 15.76,
+          "minPartySize": 1
+        },
+        {
+          "name": "Kleinkind",
+          "note": "0-3 Jahre",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 36.76 (Erwachsener) stamped, unpublished; 4/4 dated readings (2 date-valid), 1 ladder shape(s)"
     },
     {
       "pk": 696479,
@@ -35761,7 +37806,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1104433,
@@ -35785,7 +37830,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:USD",
       "image": "https://cdn.filestackcontent.com/oOhtdirKRX6VoOPwOnW2/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -35795,7 +37840,23 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Sherpa Food Tours - UK",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "From 13 years old",
+          "price": 100.7,
+          "minPartySize": 1
+        },
+        {
+          "name": "Child",
+          "note": "From 2 to 12\tyears old",
+          "price": 95.4,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency USD ≠ site GBP; true amount USD 100.7 (Adult) stamped, unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s)"
     },
     {
       "pk": 533571,
@@ -43513,7 +45574,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -43528,7 +45589,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
       "image": "https://cdn.filestackcontent.com/NRHKKOGSR6ir3Qsmr0lK/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -43538,7 +45599,17 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Photoexploring",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Traveler",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "price": 418.7,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 418.7 (Traveler) stamped, unpublished; 4/4 dated readings (4 date-valid), 2 ladder shape(s)"
     },
     {
       "pk": 298478,
@@ -43566,7 +45637,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -43581,7 +45652,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
       "image": "https://cdn.filestackcontent.com/NRHKKOGSR6ir3Qsmr0lK/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -43591,7 +45662,17 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Photoexploring",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Traveler",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "price": 630.7,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 630.7 (Traveler) stamped, unpublished; 4/4 dated readings (4 date-valid), 2 ladder shape(s)"
     },
     {
       "pk": 298484,
@@ -43615,7 +45696,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -43630,7 +45711,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
       "image": "https://cdn.filestackcontent.com/NRHKKOGSR6ir3Qsmr0lK/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -43640,7 +45721,17 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Photoexploring",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Traveler",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "price": 630.7,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 630.7 (Traveler) stamped, unpublished; 4/4 dated readings (4 date-valid), 2 ladder shape(s)"
     },
     {
       "pk": 298488,
@@ -43666,7 +45757,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -43681,7 +45772,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
       "image": "https://cdn.filestackcontent.com/NRHKKOGSR6ir3Qsmr0lK/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -43691,7 +45782,17 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Photoexploring",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Traveler",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "price": 312.7,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 312.7 (Traveler) stamped, unpublished; 4/4 dated readings (4 date-valid), 2 ladder shape(s)"
     },
     {
       "pk": 298492,
@@ -43717,7 +45818,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Traveler",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 263181,
@@ -43732,7 +45833,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
       "image": "https://cdn.filestackcontent.com/NRHKKOGSR6ir3Qsmr0lK/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -43742,7 +45843,17 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Photoexploring",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Traveler",
+          "note": "Recommended for all ages | 1 - 2 Guests",
+          "price": 312.7,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 312.7 (Traveler) stamped, unpublished; 4/4 dated readings (4 date-valid), 2 ladder shape(s)"
     },
     {
       "pk": 316706,
@@ -57577,7 +59688,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Adult - English Guide",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 697431,
@@ -57619,7 +59730,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
       "image": "https://cdn.filestackcontent.com/OUdTRfYsTJS8POC2eReV/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -57629,7 +59740,35 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Universal Tour Guide",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult - English Guide",
+          "note": "(Age 16 and up)",
+          "price": 21.6,
+          "minPartySize": 2
+        },
+        {
+          "name": "Youth - English Guide",
+          "note": "(Age 4 - 15)",
+          "price": 21.6,
+          "minPartySize": 2
+        },
+        {
+          "name": "Child - English Guide",
+          "note": "(Ages 5 - 17)",
+          "price": 0,
+          "minPartySize": 2
+        },
+        {
+          "name": "British Museum + Cruise",
+          "note": "English",
+          "price": 51.84,
+          "minPartySize": 2
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 21.6 (Adult - English Guide) stamped, unpublished; 4/4 dated readings (3 date-valid), 1 ladder shape(s)"
     },
     {
       "pk": 422968,
@@ -70175,7 +72314,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 253063,
@@ -70199,7 +72338,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:USD",
       "image": "https://cdn.filestackcontent.com/7UC0WbSWQfq85Y000poV/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -70209,7 +72348,23 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Underground Donut Tour",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 11+",
+          "price": 90,
+          "minPartySize": 1
+        },
+        {
+          "name": "Kid",
+          "note": "Ages 10 & Under",
+          "price": 80,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency USD ≠ site GBP; true amount USD 90 (Adult) stamped, unpublished; 4/4 dated readings (0 date-valid), 1 ladder shape(s)"
     },
     {
       "pk": 507820,
@@ -73406,7 +75561,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 253063,
@@ -73430,7 +75585,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
+      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
       "priceEnrichmentStatus": "non_gbp_currency:USD",
       "image": "https://cdn.filestackcontent.com/7UC0WbSWQfq85Y000poV/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -73440,7 +75595,23 @@
       "priceConfidenceSource": "s46-weng-currency",
       "company": "Underground Donut Tour",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "priceSource": "s51-weng-tiers-backfill",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "Ages 11+",
+          "price": 65,
+          "minPartySize": 1
+        },
+        {
+          "name": "Kid",
+          "note": "Ages 10 & Under",
+          "price": 55,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "HELD (D-620): live details.currency USD ≠ site GBP; true amount USD 65 (Adult) stamped, unpublished; 4/4 dated readings (0 date-valid), 1 ladder shape(s)"
     },
     {
       "pk": 502801,
