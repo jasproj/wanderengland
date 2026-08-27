@@ -1,0 +1,261 @@
+pool (emitting population): 1073 of 1424 rows; baseline emitted a bare Offer.price on all 1073
+
+state 1 per-person asserted      : 561 rows, face £37,095.63 -> bare Offer.price, byte-identical
+state 2 non-per-person asserted  : 453 rows, face £131,647.42
+  2a card unit mirrored          : 380 rows, face £127,150.54 -> UnitPriceSpecification, unitText = card string verbatim
+  2b no mirrorable card unit     : 73 rows, face £4,496.88 -> no price emitted
+state 3 no unit evidence         : 59 rows, face £6,034.98 -> no price emitted
+
+== deciding evidence strings, state per-person (63 distinct) ==
+  308  Adult
+   87  Person
+   11  Individual Ticket
+   10  One Adult
+   10  Participant
+    8  Teen Crafternoon | 13-17 y/old
+    8  Adulto
+    6  People
+    6  Standard Ticket
+    6  Adult - Standard Train Ticket
+    5  Ticket for One
+    4  1-2 adults
+    4  Individual
+    4  Driver
+    4  Player
+    4  Per person
+    4  Children's Crafternoon
+    4  Single Adult Rate
+    4  Half Day £45 per person
+    4  General Admission
+    4  Participant (Groups of 7 - 10)
+    3  Per Person (2+ guests)
+    3  Passenger
+    3  One Person
+    3  Student
+    2  First Class Travel with Afternoon Tea for Two People
+    2  for two adults
+    2  Guest
+    2  Two People
+    2  Per Player
+    2  Adult (Off-Peak)
+    1  Adult Morning (ages 18)
+    1  Distillery Tour Guest
+    1  one adult and one child
+    1  Youth Party
+    1  Adult for Call the Midwife Tour inc. entry to Chatham Dockyard
+    1  Afternoon Tea per person
+    1  Junior Paintball Player
+    1  Paintballer
+    1  Adult (Half Day)
+    1  Adult BYOB Full Session
+    1  Players for a 40 Minute VR Party
+    1  Ticket for Two
+    1  Children's Afternoon Tea
+    1  Cost of Living Crisis Ticket all ages
+    1  Intro lesson 1 hour per person
+    1  Adult Train Ticket
+    1  成人
+    1  Walk on Player
+    1  Adult Day Ticket
+    1  Adult (12+)
+    1  Five Adults
+    1  Laser Tag Player
+    1  Adult 16+
+    1  Individual Seat - 1 Hour Tour
+    1  Adult Tour & Taste (excludes booking fee)
+    1  Sub 5:30 marathon goal time ticket
+    1  Adult (Group)
+    1  1 Hour Lesson for 2 Students
+    1  Visitor
+    1  Adult Membership 16+
+    1  Child - Half Day
+    1  Person • 30 clays
+
+== deciding evidence strings, state non-per-person (135 distinct) ==
+   35  Private Tour
+   30  Saloon Vehicle
+   26  Private Tour for Two
+   20  Group of 1 Player
+   20  Private group up to 10 people
+   19  Private group
+   19  Private Group 1-4
+   15  Private Group
+   12  Group of up to 5 people
+    9  Single Kayak
+    8  Private Tour for up to 4 People
+    8  The Quick Spash! One Hour Hire
+    8  Private Group of 1-10 People
+    8  Vehículo privado para hasta 7 pasajeros
+    7  Single Kayak for beginners (MAKAO)
+    7  2 hour rental
+    6  Private Tour - Small Group
+    6  Adult Quad
+    6  Standard Bike
+    6  Private Charter
+    6  Two-Seater
+    6  Single Paddleboard
+    6  Two Hour Hire
+    6  No. of Pitches
+    5  E- Step Over Bike
+    5  Group
+    5  Half Day Hire
+    4  Half Day Rental
+    4  Group of 3 - 9 persons.
+    4  Private Cab
+    3  Group up to 5 people
+    3  Group 1 to 6 people
+    3  1-2 people • Max weight 150kg
+    2  Private Yacht
+    2  Couple
+    2  Private 1:1 Lesson For 1 Hour
+    2  Hire - 1 Hour
+    2  Canoe
+    2  Boat
+    2  Private Group of 1
+    2  Private Group (1-5 people)
+    2  One to two People
+    2  Private Groups 1-10 persons
+    2  Private Group (1-2 People)
+    2  Private Tour 1-5 people
+    2  Single person kayak
+    2  Private Boat - One Day Hire
+    2  for 10 people
+    2  One Hour Hire
+    1  Private Cab Childhood Homes Tour - total 5 hours
+    1  Private Cab - 3 hour Classic tour
+    1  Private Cab - Best of Liverpool tour - total 3 hours
+    1  Private Cab Deluxe Tour - total 6 hours
+    1  Laser Clay Shooter (11 to 15 people)
+    1  Adult with Own Bike
+    1  Adult in a group of 12 - 18 participants
+    1  1 Person Private Lesson
+    1  Paddleboard
+    1  Private Group Tour for 2 people
+    1  Rider with Own Bike
+    1  Private Training (1 Hour)
+    1  Day Hire
+    1  Four Hour Rental
+    1  One Hour Rental
+    1  Booking for 1-5 people
+    1  Whole Boat Charter
+    1  Ten person stand up paddle board 1-hour hire
+    1  One Day Hire
+    1  Private Tours from Oxfordshire (Non-Oxford City)
+    1  Private Group (1-53 people)
+    1  Private group of 16 - 35 people
+    1  Private Group (1-10 people)
+    1  Price per Boat • Maximum 8 people per boat with a maximum load capacity of 890kg (1962lbs)
+    1  Price per Boat •  Maximum 12 people per boat with a maximum load capacity of 1020kg (2249lbs)
+    1  Price per Boat •  Maximum 6 people per boat with a maximum load capacity of 600kg (1322lbs).
+    1  Price per Boat • Maximum 7 people per boat with a maximum load capacity of 750kg (1653lbs).
+    1  Private Group (1-4 people)
+    1  Private group up to 14 people
+    1  Private Raft
+    1  Ages 18+ • Up to 4 Passengers
+    1  Private Tour • 1 hrs
+    1  Person with own paddle board
+    1  Private Group 1-5 people
+    1  One day hire
+    1  Group of 1-10 People
+    1  One Hour Private Hire
+    1  Private Group of 1 to 6 people
+    1  Private Group 1-5
+    1  1- 10 people
+    1  Minimum billing of 4 people. 10yrs+ and able to reach pedals and see out of the windscreen
+    1  Stand up paddle board 1-hour hire
+    1  Single person kayak hire 2 Hrs
+    1  All-Day Rental
+    1  Paddle board
+    1  Two-person canoe
+    1  Half Hour 2  Man Pedalo Hire
+    1  Room Booking (up to 20 people)
+    1  Group ages 7+
+    1  For 1 or 2 passengers
+    1  Single Kayak - One Hour
+    1  SUP Board - Hour Hire
+    1  Mega Sup - 1 Hour
+    1  Private Bike - 1 Hour Tour
+    1  Rental - 1 Hour
+    1  Open Canadian Canoe - Half Day Rental
+    1  (Max 2 People)
+    1  Price per Canoe • Max 3 people per canoe with a maximum load capacity of 300kg (661lbs)
+    1  Group lesson • (2 people)
+    1  Room Hire • 1 Hour
+    1  Adult Paddleboard
+    1  Group of 6-15 People
+    1  Private Tour - Large Group
+    1  private group up to 10
+    1  private group up to 8 people
+    1  Group of 12+ riders
+    1  Kayak • Single Kayak
+    1  Entire Raft
+    1  Group of Six
+    1  Private Kitesurfing Lessons
+    1  per boat lesson
+    1  Private Lesson • From 12 years old
+    1  Private Wingsurfing & Wingfoiling Lessons
+    1  Kayak
+    1  Private Tour • 1 Hrs
+    1  2 hour Private group - up to 19 participants
+    1  Overnight Hire
+    1  Group size 4 to 12
+    1  Group size 6 to 24
+    1  SUP Hire - Two Hours
+    1  Wetsuit Rental
+    1  Canoe Hire
+    1  per boat, two hours
+    1  Ninety Minute Charter
+    1  For up to a group of 4 (2 adults & 2 children under 16, 2 adults only or 1 adult & 1 children)
+    1  Private Boat Charter
+
+== deciding evidence strings, state none (32 distinct) ==
+   10  Crafternoon with Tea or Coffee •  Sweet Treat
+    7  Hou 14
+    4  Walking Tour Base Rate
+    4  Gold Experience
+    3  Standard
+    3  Flight
+    2  30 Minutes
+    2  One on One Session
+    1  Craft Launch
+    1  BattleZone Groups of 25 +
+    1  20 Minutes
+    1  Multiplayer Shooters (20 Minutes)
+    1  20 Shots
+    1  4 hour self guided
+    1  Triple Target Place
+    1  Full Moon Sauna & Swim
+    1  Finnish Style Sauna Session
+    1  1 Hour Small Group
+    1  60 Minutes
+    1  85 Minutes
+    1  Ring Workshop for One
+    1  Single handers - 1 hour
+    1  1-1
+    1  Childen's Party Group
+    1  One to One Session
+    1  Gold Experience - Venue supplied by customer
+    1  Party Smash Point
+    1  Shipyard Tour
+    1  Basic
+    1  1 Guided Dive
+    1  3 Nights
+    1  Gin Flight (3 gins & paired mixers)
+
+=== fixture: perPerson — pk 67511 "Shared • Cambridge Walking & Punting Tour & Optional King's College" price GBP62 ===
+  evidence: priceUnit="" priceLabel="Adult" anchorSingular="Adult"
+  before offers: {"@type":"Offer","price":62,"priceCurrency":"GBP","url":"https://fareharbor.com/embeds/book/cambridgealumnitours/items/67511/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no","availability":"https://schema.org/InStock"}
+  after  offers: {"@type":"Offer","price":62,"priceCurrency":"GBP","url":"https://fareharbor.com/embeds/book/cambridgealumnitours/items/67511/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no","availability":"https://schema.org/InStock"}
+  full schema byte-identical to baseline: true
+
+=== fixture: wholeUnit — pk 251794 "A Nosey Around Soho" price GBP220.5 ===
+  evidence: priceUnit="Private Tour for Two" priceLabel="Private Tour for Two" anchorSingular="Private Tour for Two"
+  before offers: {"@type":"Offer","price":220.5,"priceCurrency":"GBP","url":"https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/251794/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no","availability":"https://schema.org/InStock"}
+  after  offers: {"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":220.5,"priceCurrency":"GBP","unitText":"Private Tour for Two"},"url":"https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/251794/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no","availability":"https://schema.org/InStock"}
+
+=== fixture: noEvidence — pk 545882 "Custom Walking Tour of Bath" price GBP262.5 ===
+  evidence: priceUnit="Walking Tour Base Rate" priceLabel="Walking Tour Base Rate" anchorSingular="Walking Tour Base Rate"
+  before offers: {"@type":"Offer","price":262.5,"priceCurrency":"GBP","url":"https://fareharbor.com/embeds/book/inandbeyondbath/items/545882/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no","availability":"https://schema.org/InStock"}
+  after  offers: null
+
+all assertions passed: partition exact, state-1 byte-identical, state-2a verbatim card unitText + no bare price, state-2b/3 no price key
