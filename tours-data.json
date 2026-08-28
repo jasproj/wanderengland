@@ -281,7 +281,7 @@
       "location": "United Kingdom/England/Cambridge",
       "island": "cambridge",
       "price": null,
-      "priceLabel": "Private Tour",
+      "priceLabel": null,
       "priceConfidence": "low",
       "qualityScore": 100,
       "currency": "GBP",
@@ -362,8 +362,36 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour with King's College Entry",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour for Prospective Students",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Prospective Student Tour with Kings College",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour / Private Tour with King's College Entry / Private Tour for Prospective Students / Private Prospective Student Tour with Kings College); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "251794",
@@ -1049,8 +1077,36 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour with New College Entry",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour for Prospective Students",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Prospective Student Tour With New College",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour / Private Tour with New College Entry / Private Tour for Prospective Students / Private Prospective Student Tour With New College); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "336773",
@@ -1202,8 +1258,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "Includes 4 people",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "466481",
@@ -1411,9 +1477,9 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s51-weng-tiers-backfill",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Private Tour for Two",
@@ -1446,7 +1512,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
+      "priceBasis": "s54-weng-reprice-29: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "502058",
@@ -1672,9 +1738,9 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s51-weng-tiers-backfill",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Private Tour for Two",
@@ -1707,7 +1773,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 3/4 dated readings (3 date-valid), 2 ladder shape(s); live GBP"
+      "priceBasis": "s54-weng-reprice-29: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "531733",
@@ -1809,9 +1875,9 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s51-weng-tiers-backfill",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Private Tour for Two",
@@ -1844,7 +1910,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
+      "priceBasis": "s54-weng-reprice-29: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "590945",
@@ -2188,9 +2254,27 @@
           "minPartySize": 1
         },
         {
+          "id": 682426,
+          "singular": "Private Tour with King's College Entry",
+          "plural": "Private Tour with King's College Entry",
+          "note": "",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
           "id": 1135804,
           "singular": "Private Tour for Prospective Students",
           "plural": "Private Tour for Prospective Students",
+          "note": "",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1172087,
+          "singular": "Private Prospective Student Tour with Kings College",
+          "plural": "Private Prospective Student Tour with Kings College",
           "note": "",
           "priceCents": 0,
           "price": 0,
@@ -2200,8 +2284,36 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour with King's College Entry",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour for Prospective Students",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Prospective Student Tour with Kings College",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour / Private Tour with King's College Entry / Private Tour for Prospective Students / Private Prospective Student Tour with Kings College); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "252056",
@@ -2765,9 +2877,9 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s51-weng-tiers-backfill",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Private Tour for Two",
@@ -2800,7 +2912,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "s54-weng-reprice-29: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "328939",
@@ -3309,8 +3421,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "70684",
@@ -3468,10 +3590,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "non_gbp_currency:EUR",
       "priceConfidenceSource": "s46-weng-currency",
-      "priceSource": "s51-weng-tiers-backfill",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Adult",
@@ -3492,7 +3614,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 105 (Adult) stamped, unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s)"
+      "priceBasis": "s54-weng-reprice-29: HELD (D-620): live details.currency EUR ≠ site GBP; true amount EUR 105 (Adult) stamped, unpublished; 4/4 dated readings (3 date-valid), 1 ladder shape(s)"
     },
     {
       "id": "208995",
@@ -3673,9 +3795,9 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s51-weng-tiers-backfill",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Private Tour for Two",
@@ -3708,7 +3830,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "s54-weng-reprice-29: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "467520",
@@ -3949,9 +4071,9 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s51-weng-tiers-backfill",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Private Tour for Two",
@@ -3984,7 +4106,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
+      "priceBasis": "s54-weng-reprice-29: HELD (D-621 whole-party): live ladder Private Tour for Two £220.5 / Private Tour - Small Group £283.5 / Private Tour - Medium Group £346.5 / Private Tour - Large Group £409.5 / School Group (students under 18yrs old) 30 ppl max £346.5 has no standalone adult/base per-person tier; floor £220.5 (Private Tour for Two) stamped unpublished; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "541117",
@@ -4614,8 +4736,18 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "Please verify guest count & make sure it's accurate!",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live EUR"
     },
     {
       "id": "252034",
@@ -6153,8 +6285,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "354862",
@@ -7620,8 +7762,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "346300",
@@ -7788,11 +7940,11 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "priceSource": "s48-weng-refresh-b",
+      "priceSource": "s54-weng-reprice-29",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T15:42:20.919Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "unsampled",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored £25 (unknown) retained unpublished pending a live reading",
+      "priceBasis": "s54-weng-reprice-29: UNSAMPLED (not DEAD — v1 item detail is live, not archived/unlisted): absent from price-preview items[] on 4/4 dated probes (2026-09-04, 2026-09-18, 2026-10-02, 2026-10-23); stored £25 (unknown) retained unpublished pending a live reading",
       "priceTiers": []
     },
     {
@@ -12168,11 +12320,11 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "gallery": [],
-      "priceSource": "s48-weng-refresh-b",
+      "priceSource": "s54-weng-reprice-29",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T15:42:20.919Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "unsampled",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored £280 (unknown) retained unpublished pending a live reading",
+      "priceBasis": "s54-weng-reprice-29: UNSAMPLED (not DEAD — v1 item detail is live, not archived/unlisted): absent from price-preview items[] on 4/4 dated probes (2026-09-04, 2026-09-18, 2026-10-02, 2026-10-23); stored £280 (unknown) retained unpublished pending a live reading",
       "priceTiers": []
     },
     {
@@ -12621,8 +12773,36 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour with New College Entry",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour for Prospective Students",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Prospective Student Tour With New College",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour / Private Tour with New College Entry / Private Tour for Prospective Students / Private Prospective Student Tour With New College); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "354307",
@@ -13757,8 +13937,8 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T15:42:20.919Z",
-      "priceSource": "s48-weng-refresh-b",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Group",
@@ -13768,7 +13948,7 @@
         }
       ],
       "priceEnrichmentStatus": "zero_price",
-      "priceBasis": "zero_price: every live tier is £0 on the majority reading (Group); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Group); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "471798",
@@ -15086,8 +15266,36 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "独享一位导游",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour with King's College Entry",
+          "note": "独享一位导游 + 国王学院",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour for Prospective Students",
+          "note": "潜在牛剑学生 · 配独享导游",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Prospective Student Tour with Kings College",
+          "note": "潜在牛剑学生 + 国王学院 · 配独享导游",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour / Private Tour with King's College Entry / Private Tour for Prospective Students / Private Prospective Student Tour with Kings College); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP"
     },
     {
       "id": "611770",
@@ -16956,9 +17164,9 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T15:12:27.785Z",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s51-weng-tiers-backfill",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Private Tour",
@@ -16967,7 +17175,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "s51-weng-tiers-backfill: HELD (D-621 whole-party): live ladder Private Tour £100 has no standalone adult/base per-person tier; floor £100 (Private Tour) stamped unpublished pending priceUnit port; 3/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "s54-weng-reprice-29: HELD (D-621 whole-party): live ladder Private Tour £100 has no standalone adult/base per-person tier; floor £100 (Private Tour) stamped unpublished; 2/4 dated readings (2 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "689446",
@@ -17319,11 +17527,11 @@
       "category": "",
       "location": "United Kingdom/England/Oxford",
       "island": "oxford",
-      "price": null,
-      "priceLabel": null,
+      "price": 160,
+      "priceLabel": "1 Hour Private Tour (Small)",
       "priceConfidence": "low",
       "qualityScore": 88,
-      "currency": "USD",
+      "currency": "GBP",
       "duration": null,
       "durationText": "",
       "description": "Personalise your walking tour of Oxford with your own private guide. We arrange themed tailor-made tours based on your interests. This is the perfect solution for everyone from couples looking for a personalised experience to small groups of friends and families for up to 20 guests.\nWhat's included\nAccessible Oxford\n\nThe city centre of Oxford is relatively flat and our easy paced tours can be tailored for most visitors.\n\nHighlights\n\nWe have a wide range of tour guides with an excellent knowledge of the city, some with very specialised knowledge. Our award-winning service comes highly commended and covers a plethora of themes. You can choose from:\n\nOxford Past & Present – Our most popular private tour exploring the city’s history\nC.S. Lewis & J.R.R. Tolkien – their lives in Oxford\nHarry Potter Highlights\nAlice in Wonderland, created in Oxford\nInspector Morse, Lewis, & Endeavour\nLiterary Greats\nOxford On Screen\nPhilip Pullman’s Oxford\nOxford Ghosts\nReligion at Oxford – 1000 years of Christianity\nWoodstock, the village around Blenheim Palace\nN.B. Our tours do not include college or library entries but can be arranged on request.",
@@ -17350,8 +17558,76 @@
       "lastUpdated": "",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "unsampled_currency_unverified"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "high",
+      "priceBreakdown": [
+        {
+          "id": 1013259,
+          "singular": "1 Hour Private Tour (Small)",
+          "plural": "1 Hour Private Tour (Small)",
+          "note": "Up to 10 people",
+          "priceCents": 16000,
+          "price": 160,
+          "minPartySize": 1
+        },
+        {
+          "id": 1013260,
+          "singular": "1 Hour Private Tour (Large)",
+          "plural": "1 Hour Private Tour (Large)",
+          "note": "Up to 20 people",
+          "priceCents": 22000,
+          "price": 220,
+          "minPartySize": 1
+        },
+        {
+          "id": 1013261,
+          "singular": "2 Hours Private Tour (Small)",
+          "plural": "2 Hours Private Tour (Small)",
+          "note": "Up to 10 people",
+          "priceCents": 23000,
+          "price": 230,
+          "minPartySize": 1
+        },
+        {
+          "id": 1013262,
+          "singular": "2 Hours Private Tour (Large)",
+          "plural": "2 Hours Private Tour (Large)",
+          "note": "Up to 20 people",
+          "priceCents": 29500,
+          "price": 295,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "1 Hour Private Tour (Small)",
+          "note": "Up to 10 people",
+          "price": 160,
+          "minPartySize": 1
+        },
+        {
+          "name": "1 Hour Private Tour (Large)",
+          "note": "Up to 20 people",
+          "price": 220,
+          "minPartySize": 1
+        },
+        {
+          "name": "2 Hours Private Tour (Small)",
+          "note": "Up to 10 people",
+          "price": 230,
+          "minPartySize": 1
+        },
+        {
+          "name": "2 Hours Private Tour (Large)",
+          "note": "Up to 20 people",
+          "price": 295,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: HELD (D-621 whole-party): live ladder 1 Hour Private Tour (Small) £160 / 1 Hour Private Tour (Large) £220 / 2 Hours Private Tour (Small) £230 / 2 Hours Private Tour (Large) £295 has no standalone adult/base per-person tier; floor £160 (1 Hour Private Tour (Small)) stamped unpublished; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "326243",
@@ -24162,8 +24438,8 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T15:42:20.919Z",
-      "priceSource": "s48-weng-refresh-b",
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceSource": "s54-weng-reprice-29",
       "priceTiers": [
         {
           "name": "Group",
@@ -24173,7 +24449,7 @@
         }
       ],
       "priceEnrichmentStatus": "zero_price",
-      "priceBasis": "zero_price: every live tier is £0 on the majority reading (Group); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Group); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "325488",
@@ -34794,11 +35070,11 @@
       "category": "",
       "location": "United Kingdom/England/Oxford",
       "island": "oxford",
-      "price": null,
-      "priceLabel": null,
-      "priceConfidence": "low",
+      "price": 104.35,
+      "priceLabel": "Adult",
+      "priceConfidence": "high",
       "qualityScore": 82,
-      "currency": "USD",
+      "currency": "GBP",
       "duration": "45 Minutes",
       "durationText": "",
       "description": "Combine a serene river cruise with an exquisite meal at one of Oxford's finest restaurants.\n\nYour experience begins boarding our elegant Edwardian Gentleman's River Launches for a 45 minute private cruise taking in the highlights of river life in Oxford. Each launch carries up to 12 people. We see Folly Bridge, Christchurch Meadows, the University boat houses and part of the Regatta course whilst a complementary glass of Prosecco is served.\n\nWe disembark at The Folly restaurant where your exquisite meal will be served in charming surroundings either inside the restaurant or, if the weather allows, on the floating river terrace. Larger groups can use the restaurants private dining space on request. The Folly's a la carte menu offers relaxed fine dining and there is a comprehensive wine list available to complement your meal.\n\nWhat's included\n45 minute private cruise\nComplimentary glass of prosecco",
@@ -34827,8 +35103,46 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "unsampled_currency_unverified"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "high",
+      "priceBreakdown": [
+        {
+          "id": 509174,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "12+",
+          "priceCents": 10435,
+          "price": 104.35,
+          "minPartySize": 6
+        },
+        {
+          "id": 509175,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Up to 11 years old",
+          "priceCents": 4743,
+          "price": 47.43,
+          "minPartySize": 6
+        }
+      ],
+      "priceIncludesBookingFees": true,
+      "priceIncludesTaxes": true,
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Adult",
+          "note": "12+",
+          "price": 104.35,
+          "minPartySize": 6
+        },
+        {
+          "name": "Child",
+          "note": "Up to 11 years old",
+          "price": 47.43,
+          "minPartySize": 6
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: D-624 cheapest adult/base per-person tier Adult £104.35; not anchoring: Child £47.43 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "361658",
@@ -35823,8 +36137,18 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "独享一位导游",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "609779",
@@ -35871,8 +36195,10 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "unsampled_currency_unverified"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "unsampled",
+      "priceSource": "s54-weng-reprice-29",
+      "priceBasis": "s54-weng-reprice-29: UNSAMPLED (not DEAD — v1 item detail is live, not archived/unlisted): absent from price-preview items[] on 4/4 dated probes (2026-09-04, 2026-09-18, 2026-10-02, 2026-10-23); stored null retained unpublished pending a live reading"
     },
     {
       "id": "609788",
@@ -35960,8 +36286,36 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "独享一位导游",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour with New College Entry",
+          "note": "独享一位导游 + 新学院",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour for Prospective Students",
+          "note": "潜在牛剑学生 · 配独享导游",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Prospective Student Tour With New College",
+          "note": "潜在牛剑学生 + 新学院 · 配独享导游",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour / Private Tour with New College Entry / Private Tour for Prospective Students / Private Prospective Student Tour With New College); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "609789",
@@ -36048,8 +36402,36 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour with New College Entry",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour for Prospective Students",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Prospective Student Tour With New College",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour / Private Tour with New College Entry / Private Tour for Prospective Students / Private Prospective Student Tour With New College); 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "609804",
@@ -36136,8 +36518,36 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
-      "priceEnrichmentStatus": "zero_price"
+      "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
+      "priceEnrichmentStatus": "zero_price",
+      "priceSource": "s54-weng-reprice-29",
+      "priceTiers": [
+        {
+          "name": "Private Tour",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour with New College Entry",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Tour for Prospective Students",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "name": "Private Prospective Student Tour With New College",
+          "note": "",
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceBasis": "s54-weng-reprice-29: zero_price (not DEAD — v1 item detail is live): every live tier is £0 on the majority reading (Private Tour / Private Tour with New College Entry / Private Tour for Prospective Students / Private Prospective Student Tour With New College); 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP"
     },
     {
       "id": "614786",
