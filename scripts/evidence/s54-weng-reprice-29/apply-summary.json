@@ -1,0 +1,902 @@
+{
+ "stampedAt": "2026-08-28T18:30:03.686Z",
+ "appliedAt": "2026-08-28T18:30:03.686Z",
+ "population": 29,
+ "rowsChanged": 29,
+ "disposition": {
+  "zero_price": 16,
+  "HELD": 8,
+  "D-620": 1,
+  "UNSAMPLED": 3,
+  "repriced": 1
+ },
+ "summary": [
+  {
+   "pk": 214981,
+   "name": "Private • Cambridge Walking & Punting Tour & Optional King's College",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": "Private Tour",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour with King's College Entry",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour for Prospective Students",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Prospective Student Tour with Kings College",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 283390,
+   "name": "Private • Oxford University Walking Tour  & Optional New College",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour with New College Entry",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour for Prospective Students",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Prospective Student Tour With New College",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 351641,
+   "name": "Private • Oxford University Punting Tour",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Includes 4 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 488756,
+   "name": "Power, Profit & Progress Tour: Women in the City",
+   "old": 220.5,
+   "oldCurrency": "GBP",
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 527007,
+   "name": "Fleet Street: a Private Tour",
+   "old": 220.5,
+   "oldCurrency": "GBP",
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 531733,
+   "name": "Secrets of Spitalfields Tour",
+   "old": 220.5,
+   "oldCurrency": "GBP",
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "All ages • Up to 15 in a group",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 67508,
+   "name": "Private • Cambridge Walking Tour & Optional King's College",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour with King's College Entry",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour for Prospective Students",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Prospective Student Tour with Kings College",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 252118,
+   "name": "Private Great Fire of London Tour",
+   "old": 220.5,
+   "oldCurrency": "GBP",
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 67510,
+   "name": "Private • Cambridge University Punting Tour",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 83691,
+   "name": "Tate Modern Museum Guided Tour - Semi-Private (ENGLISH)",
+   "old": 105,
+   "oldCurrency": "EUR",
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth (Ages 10 - 17)",
+     "note": "",
+     "price": 79.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child (Ages 9 and under)",
+     "note": "",
+     "price": 58.3,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-620",
+   "new": 105,
+   "label": "Adult",
+   "currency": "EUR"
+  },
+  {
+   "pk": 252106,
+   "name": "Heretics and Horrors: a Private Tour",
+   "old": 220.5,
+   "oldCurrency": "GBP",
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 526850,
+   "name": "City Highlights: a Private Tour",
+   "old": 220.5,
+   "oldCurrency": "GBP",
+   "oldLabel": "Private Tour for Two",
+   "tiers": [
+    {
+     "singular": "Private Tour for Two",
+     "note": "A Tour for two",
+     "price": 220.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Small Group",
+     "note": "6 people max",
+     "price": 283.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Medium Group",
+     "note": "7 to 15 people",
+     "price": 346.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour - Large Group",
+     "note": "16 to 30 people",
+     "price": 409.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "School Group (students under 18yrs old) 30 ppl max",
+     "note": "Primary, Secondary & A level students, for students under 18yrs old. 30 ppl max",
+     "price": 346.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 220.5,
+   "label": "Private Tour for Two"
+  },
+  {
+   "pk": 83692,
+   "name": "Tate Modern Museum Guided Tour - Private (ENGLISH)",
+   "old": null,
+   "oldCurrency": "EUR",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 354861,
+   "name": "Private • Cambridge University Ghost Tour",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 346084,
+   "name": "Private • Harry Potter Film Locations Walking Tour & New College",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 351721,
+   "name": "Shared • Oxford University Punting Tour",
+   "old": 25,
+   "oldCurrency": "GBP",
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 25,
+   "probeErrors": []
+  },
+  {
+   "pk": 363641,
+   "name": "Beatles 4 ½ hours Classic Tour of Liverpool Plus Early Years",
+   "old": 280,
+   "oldCurrency": "GBP",
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 280,
+   "probeErrors": []
+  },
+  {
+   "pk": 351692,
+   "name": "Private • Oxford Walking & Punting Tour  & Optional New College",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour with New College Entry",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour for Prospective Students",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Prospective Student Tour With New College",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 455065,
+   "name": "Private Liverpool Dark Side Tour",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 609776,
+   "name": "剑桥校友伴你行 - 剑桥大学步行导览 & 康河撑篙游船之旅（私人小团）",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "独享一位导游",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour with King's College Entry",
+     "note": "独享一位导游 + 国王学院",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour for Prospective Students",
+     "note": "潜在牛剑学生 · 配独享导游",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Prospective Student Tour with Kings College",
+     "note": "潜在牛剑学生 + 国王学院 · 配独享导游",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 660913,
+   "name": "Private • Oxford University Extended Punting Tour",
+   "old": 100,
+   "oldCurrency": "GBP",
+   "oldLabel": "Private Tour",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Includes 4 people",
+     "price": 100,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 100,
+   "label": "Private Tour"
+  },
+  {
+   "pk": 295340,
+   "name": "Private & Specialist Tour",
+   "old": null,
+   "oldCurrency": "USD",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "1 Hour Private Tour (Small)",
+     "note": "Up to 10 people",
+     "price": 160,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "1 Hour Private Tour (Large)",
+     "note": "Up to 20 people",
+     "price": 220,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "2 Hours Private Tour (Small)",
+     "note": "Up to 10 people",
+     "price": 230,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "2 Hours Private Tour (Large)",
+     "note": "Up to 20 people",
+     "price": 295,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 160,
+   "label": "1 Hour Private Tour (Small)"
+  },
+  {
+   "pk": 315741,
+   "name": "Private Liverpool 3-hour Must Sees Tour!",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 352851,
+   "name": "Cruise and Dine at The Folly - Private",
+   "old": null,
+   "oldCurrency": "USD",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 104.35,
+     "min": 6,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Up to 11 years old",
+     "price": 47.43,
+     "min": 6,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 104.35,
+   "label": "Adult"
+  },
+  {
+   "pk": 609778,
+   "name": "剑桥校友伴你行 - 剑桥大学怪谈之旅（私人小团）",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "独享一位导游",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 609779,
+   "name": "Private Spanish • Cambridge University Ghost Tour",
+   "old": null,
+   "oldCurrency": "USD",
+   "oldLabel": null,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 609788,
+   "name": "牛津校友伴你行 - 牛津大学步行导览 & 撑篙体验（私人小团）",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "独享一位导游",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour with New College Entry",
+     "note": "独享一位导游 + 新学院",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour for Prospective Students",
+     "note": "潜在牛剑学生 · 配独享导游",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Prospective Student Tour With New College",
+     "note": "潜在牛剑学生 + 新学院 · 配独享导游",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 609789,
+   "name": "Private Spanish • Oxford Walking & Punting Tour & Optional New College",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour with New College Entry",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour for Prospective Students",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Prospective Student Tour With New College",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 609804,
+   "name": "Private Spanish • Oxford University Walking Tour & Optional New College",
+   "old": null,
+   "oldCurrency": "GBP",
+   "oldLabel": null,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour with New College Entry",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour for Prospective Students",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Prospective Student Tour With New College",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  }
+ ]
+}
