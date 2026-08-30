@@ -286,6 +286,16 @@ ul, ol { list-style: none; }
     overflow-x: hidden;
 }
 
+/* Mobile: compact hero so tours visible in 1 scroll */
+@media (max-width: 768px) {
+    .hero {
+        min-height: auto;
+        padding: 80px var(--space-md) 20px;
+    }
+    .hero h1 { font-size: 1.2rem; }
+    .hero p { font-size: 0.85rem; margin-bottom: 8px; }
+}
+
 .hero-bg {
     position: absolute;
     inset: 0;
