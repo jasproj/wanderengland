@@ -31,12 +31,7 @@
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; line-height: 1.6; color: #222; background: #fff; }
   .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-  header { background: #a0173a; color: white; padding: 16px 20px; }
-  header .nav-wrap { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-  header a { color: white; text-decoration: none; }
-  header .logo { font-weight: 700; font-size: 1.2rem; }
-  header nav a { margin-left: 18px; opacity: 0.9; }
-  .page-hero { background: linear-gradient(135deg, #a0173a 0%, #1c3055 100%); color: white; padding: 60px 20px; text-align: center; }
+.page-hero { background: linear-gradient(135deg, #a0173a 0%, #1c3055 100%); color: white; padding: 60px 20px; text-align: center; }
   .page-hero h1 { font-size: 2.2rem; margin: 0 0 12px 0; }
   .post-list { padding: 50px 0; }
   .post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 28px; }
@@ -52,15 +47,34 @@
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
-<header>
-  <div class="nav-wrap">
-    <a href="/" class="logo">WanderEngland</a>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/faq.html">FAQ</a>
-      <a href="/blog/">Blog</a>
+<header class="header">
+    <div class="header-container">
+        <div class="logo-group">
+            <a href="/" class="logo">
+                <picture>
+                    <source type="image/webp" srcset="/images/logo-160.webp 160w, /images/logo-320.webp 320w, /images/logo-480.webp 480w" sizes="(max-width: 768px) 150px, 200px">
+                    <img src="/images/logo.png" alt="WanderEngland" class="logo-img" loading="eager" decoding="async">
+                </picture>
+            </a>
+        </div>
+        <nav class="nav-desktop">
+            <a href="/#tours-section">Tours</a>
+            <a href="/#islands">Cities</a>
+            <a href="/blog/">Blog</a>
+            <a href="/about.html">About</a>
+            <a href="/faq.html">FAQs</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <nav class="nav-mobile">
+        <a href="/#tours-section">Tours</a>
+        <a href="/#islands">Cities</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/faq.html">FAQs</a>
     </nav>
-  </div>
 </header>
 
 <section class="page-hero">

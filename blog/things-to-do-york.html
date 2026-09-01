@@ -113,12 +113,34 @@
 </head>
 <body>
 
-<header style="background: #1c3055; color: white; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center;">
-  <a href="/" style="color: white; text-decoration: none; font-size: 1.4rem; font-weight: 700;">WanderEngland</a>
-  <nav>
-    <a href="/" style="color: #ccc; text-decoration: none; margin-left: 18px;">Home</a>
-    <a href="/blog/" style="color: #ccc; text-decoration: none; margin-left: 18px;">Blog</a>
-  </nav>
+<header class="header">
+    <div class="header-container">
+        <div class="logo-group">
+            <a href="/" class="logo">
+                <picture>
+                    <source type="image/webp" srcset="/images/logo-160.webp 160w, /images/logo-320.webp 320w, /images/logo-480.webp 480w" sizes="(max-width: 768px) 150px, 200px">
+                    <img src="/images/logo.png" alt="WanderEngland" class="logo-img" loading="eager" decoding="async">
+                </picture>
+            </a>
+        </div>
+        <nav class="nav-desktop">
+            <a href="/#tours-section">Tours</a>
+            <a href="/#islands">Cities</a>
+            <a href="/blog/">Blog</a>
+            <a href="/about.html">About</a>
+            <a href="/faq.html">FAQs</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <nav class="nav-mobile">
+        <a href="/#tours-section">Tours</a>
+        <a href="/#islands">Cities</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/faq.html">FAQs</a>
+    </nav>
 </header>
 
 <main class="blog-body">
