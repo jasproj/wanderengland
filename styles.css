@@ -1257,6 +1257,13 @@ section { padding: var(--space-3xl) 0; }
 
 .footer-links a:hover { color: var(--ocean-light); }
 
+.footer-network { text-align: center; padding: 1.5rem 0 0.5rem; }
+.footer-network h4 { color: var(--white); font-weight: 600; margin-bottom: var(--space-md); }
+.footer-network ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 24px; }
+.footer-network a { font-size: 0.9375rem; transition: color var(--transition-fast); }
+.footer-network a:hover { color: var(--ocean-light); }
+
+
 .footer-bottom {
     padding-top: var(--space-xl);
     border-top: 1px solid var(--gray-700);
