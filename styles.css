@@ -314,26 +314,30 @@ ul, ol { list-style: none; }
 
 .hero-slide:nth-child(1) {
     /* Hawaiian beach sunset */
-    background-image: url('images/hero-photo-1.jpg');
+    background-image: url('images/hero-photo-1-1600.webp');
+    background-image: image-set(url('images/hero-photo-1-1600.webp') type('image/webp'), url('images/hero-photo-1.jpg') type('image/jpeg'));
     animation-delay: 0s;
     opacity: 1;
 }
 
 .hero-slide:nth-child(2) {
     /* Snorkeling with fish */
-    background-image: url('images/hero-photo-2.jpg');
+    background-image: url('images/hero-photo-2-1600.webp');
+    background-image: image-set(url('images/hero-photo-2-1600.webp') type('image/webp'), url('images/hero-photo-2.jpg') type('image/jpeg'));
     animation-delay: 6s;
 }
 
 .hero-slide:nth-child(3) {
     /* Tropical landscape */
-    background-image: url('images/hero-photo-3.jpg');
+    background-image: url('images/hero-photo-3-1600.webp');
+    background-image: image-set(url('images/hero-photo-3-1600.webp') type('image/webp'), url('images/hero-photo-3.jpg') type('image/jpeg'));
     animation-delay: 12s;
 }
 
 .hero-slide:nth-child(4) {
     /* Sunset cruise */
-    background-image: url('images/hero-photo-1.jpg');
+    background-image: url('images/hero-photo-1-1600.webp');
+    background-image: image-set(url('images/hero-photo-1-1600.webp') type('image/webp'), url('images/hero-photo-1.jpg') type('image/jpeg'));
     animation-delay: 18s;
 }
 
