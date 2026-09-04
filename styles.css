@@ -2634,3 +2634,16 @@ section { padding: var(--space-3xl) 0; }
     padding: 10px;
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
 }
+
+/* Visually hidden but available to screen readers and crawlers.
+   Matches the definition already used on floridasandbartours. */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
