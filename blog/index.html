@@ -42,7 +42,13 @@
   .post-card p { font-size: 0.95rem; color: #555; margin: 0 0 14px 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .post-card-cta { color: #1c3055; font-weight: 600; }
   footer { background: #222; color: #ccc; padding: 30px 20px; text-align: center; font-size: 0.9rem; }
-</style>
+
+        /* .page-hero here carries 60px of its own padding, less than the fixed
+           header, so the h1 rendered behind it. The city pages using the same
+           class carry 140px and are already clear, which is why the site-wide
+           rule does not name it. */
+        body header + .page-hero { margin-top: var(--header-h); }
+    </style>
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
 </head>

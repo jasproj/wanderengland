@@ -2647,3 +2647,44 @@ section { padding: var(--space-3xl) 0; }
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
+/* ============================================
+   HEADER CLEARANCE
+   ============================================ */
+
+/* .header is position:fixed, so it is out of flow and the first in-flow
+   element starts at y=0 -- underneath it. On the pages listed below that
+   element is the article or hero that carries the h1, so the headline was
+   rendering behind the header: partly on most pages, entirely on some.
+   Measured in-browser: 113px at >=769px and 77px at <=768px.
+
+   margin-top, not padding-top, so each element keeps whatever internal
+   padding its own design gives it and is simply pushed below the header.
+   Selectors are direct siblings of <header>, so a page whose first element
+   already clears the header (its hero carries its own >=header padding) is
+   not matched and does not move. */
+:root { --header-h: 113px; }
+@media (max-width: 768px) { :root { --header-h: 77px; } }
+
+/* Wrapped in :is() so the whole list carries the specificity of its most
+   specific member (0,1,1). Page-level rules like `.blog-post { margin-top: 0 }`
+   sit at (0,1,0) and beat a bare `header + article` at (0,0,2). */
+header + :is(article,
+             h1,
+             main.blog-body,
+             div.article-header,
+             div.blog-post,
+             div.container,
+             section.advertise-hero,
+             section.page-banner) { margin-top: var(--header-h); }
+
+/* .activity-hero is the exception: its photo background runs up under the
+   header and its own padding puts the h1 clear of the 113px desktop header, so
+   it looks right at >=769px and adding clearance there would only insert an
+   empty band. At <=768px the header is 77px and that same padding leaves the h1
+   at y=48, behind it. Measured on all 44 of these pages: overlapping at 390px,
+   not overlapping at 1280px. */
+@media (max-width: 768px) {
+    header + section.activity-hero { margin-top: var(--header-h); }
+}
+

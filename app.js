@@ -131,6 +131,11 @@ const TOURS_PER_PAGE = 24;
 
 // Load tours data
 async function loadTours() {
+    // advertise.html loads app.js but has no #tours-grid. It was downloading the
+    // whole of tours-data.json -- megabytes -- rendering none of it, and then
+    // throwing in the catch below because there was no grid to write the error
+    // into. Nothing to fill, nothing to fetch.
+    if (!document.getElementById('tours-grid')) return;
     try {
         console.log('🔄 Fetching tours-data.json...');
         const response = await fetch('tours-data.json');
@@ -159,7 +164,8 @@ async function loadTours() {
         console.log('✅ Tours rendered successfully');
     } catch (error) {
         console.error('❌ Error loading tours:', error.message);
-        document.getElementById('tours-grid').innerHTML = `
+        const grid = document.getElementById('tours-grid');
+        if (grid) grid.innerHTML = `
             <div class="error-state">
                 <p>⚠️ Unable to load tours. Please refresh the page.</p>
                 <p style="font-size: 12px; color: #666;">Error: ${error.message}</p>
