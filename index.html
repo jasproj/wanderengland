@@ -441,6 +441,8 @@
                     <form class="guide-form" id="guide-form" action="https://formspree.io/f/mbdwyjdb" method="POST">
                         <input type="hidden" name="source" value="wanderengland-trip-planner">
                         <input type="email" name="email" placeholder="Enter your email" required>
+                        <!-- Honeypot spam protection - bots fill this, humans don't see it -->
+                        <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
                         <button type="submit">Send Me the Free Guide</button>
                     </form>
                     <p class="guide-privacy">🔒 No spam, ever. Unsubscribe anytime.</p>

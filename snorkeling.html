@@ -389,6 +389,8 @@
                 </div>
                 <form class="signup-form" action="https://formspree.io/f/mbdwyjdb" method="POST">
                     <input type="email" name="email" placeholder="Enter your email" required>
+                    <!-- Honeypot spam protection - bots fill this, humans don't see it -->
+                    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
                     <button type="submit">Get the Guide</button>
                 </form>
             </div>
