@@ -2503,30 +2503,6 @@ section { padding: var(--space-3xl) 0; }
     transform: translateY(0);
 }
 
-/* ============================================
-   STICKY MOBILE CTA BAR
-   ============================================ */
-.sticky-cta-bar {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 48px;
-    background: var(--teal);
-    border-top: 1px solid rgba(42, 157, 143, 0.2);
-    z-index: 999;
-    padding: 0 var(--space-md);
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
-    animation: slideUp 300ms ease-out;
-}
-
-.sticky-cta-bar.visible {
-    display: flex;
-}
-
 @keyframes slideUp {
     from {
         transform: translateY(100%);
@@ -2538,27 +2514,7 @@ section { padding: var(--space-3xl) 0; }
     }
 }
 
-.sticky-cta-bar button {
-    background: white;
-    color: var(--teal);
-    padding: 12px 24px;
-    border-radius: var(--radius-full);
-    font-weight: 600;
-    font-size: 14px;
-    width: 100%;
-    max-width: 300px;
-    transition: all var(--transition-fast);
-}
-
-.sticky-cta-bar button:active {
-    transform: scale(0.98);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
 @media (min-width: 769px) {
-    .sticky-cta-bar {
-        display: none !important;
-    }
 }
 
 /* ============================================
