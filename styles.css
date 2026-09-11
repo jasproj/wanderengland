@@ -144,6 +144,7 @@ ul, ol { list-style: none; }
     height: 160px;
     width: auto;
     max-width: 100%;
+    object-fit: contain;
 }
 
 /* Logo Group with Tagline */
