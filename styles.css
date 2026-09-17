@@ -1216,79 +1216,149 @@ section { padding: var(--space-3xl) 0; }
 /* ============================================
    FOOTER - CONSISTENT LOGO
    ============================================ */
+/* Footer — the Key West Sandbar Tours design, ported s61.
+
+   The previous footer was --gray-900 (#171717). USVI and England ship their
+   wordmark as an opaque image with a white background, so on a phone the logo
+   read as a white rectangle stuck on a black panel; New Zealand's and
+   Amsterdam's marks are transparent navy line art, which on that same panel
+   nearly vanished. A cream panel with navy art is the fix for both, and KWST
+   already has it, so the design is copied rather than reinvented. Colours are
+   KWST's cream/border/navy with this network's own teal (--ocean-mid) standing
+   in for KWST's. */
 .footer {
-    background: var(--gray-900);
-    color: var(--gray-300);
-    padding: var(--space-3xl) 0 var(--space-xl);
+    background: #FDF5E6;
+    color: #1B3A57;
+    border-top: 1px solid #E8DFD0;
+    padding: 0;
+    margin-top: var(--space-3xl);
 }
 
 .footer-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: var(--space-2xl);
-    margin-bottom: var(--space-2xl);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 0;
+    padding: 44px 0 24px;
 }
 
-.footer-brand .logo { margin-bottom: var(--space-sm); }
+.footer-brand {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+/* width:auto because 404.html styles a bare .logo { width: 120px } for its own
+   page mark, which otherwise squashes the footer wordmark to 120px wide. */
+.footer-brand .logo { display: block; width: auto; margin-bottom: 12px; }
+
+/* the mark is a block-level <img>, so text-align on the brand column does
+   not centre it — auto margins do, the way KWST centres its own. */
+.footer-brand .footer-logo-img { display: block; margin: 0 auto; }
 
 .footer-platform-tagline {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: var(--gray-500);
+    color: #888;
     margin-bottom: var(--space-md);
 }
 
-/* Footer logo text - white for visibility on dark background */
-.footer .logo-text { color: var(--white); }
+.footer .logo-text { color: #1B3A57; }
 
 .footer-brand p {
-    font-size: 0.9375rem;
+    color: #555;
+    font-size: 0.9rem;
     line-height: 1.7;
-    margin-bottom: var(--space-sm);
+    margin: 0 0 8px;
 }
 
-.footer-tagline { color: var(--sunset-gold); }
+.footer-tagline { color: #088395; }
+
+.footer-links { text-align: left; }
 
 .footer-links h4 {
-    color: var(--white);
-    font-weight: 600;
-    margin-bottom: var(--space-md);
+    color: #088395;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
 }
 
-.footer-links ul li { margin-bottom: var(--space-sm); }
+.footer-links ul { list-style: none; margin: 0; padding: 0; }
+
+.footer-links ul li { margin-bottom: 9px; }
 
 .footer-links a {
-    font-size: 0.9375rem;
+    color: #555;
+    font-size: 0.92rem;
+    text-decoration: none;
     transition: color var(--transition-fast);
 }
 
-.footer-links a:hover { color: var(--ocean-light); }
+.footer-links a:hover { color: #088395; }
 
-.footer-network { text-align: center; padding: 1.5rem 0 0.5rem; }
-.footer-network h4 { color: var(--white); font-weight: 600; margin-bottom: var(--space-md); }
-.footer-network ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 24px; }
-.footer-network a { font-size: 0.9375rem; transition: color var(--transition-fast); }
-.footer-network a:hover { color: var(--ocean-light); }
+.footer-network {
+    text-align: center;
+    padding: 0 0 24px;
+}
 
+.footer-network h4 {
+    color: #088395;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.footer-network ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 24px;
+}
+
+.footer-network a {
+    color: #555;
+    font-size: 0.88rem;
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.footer-network a:hover { color: #088395; }
 
 .footer-bottom {
-    padding-top: var(--space-xl);
-    border-top: 1px solid var(--gray-700);
+    padding: 16px 0 30px;
+    border-top: 1px solid #E8DFD0;
     text-align: center;
 }
 
 .footer-bottom p {
-    font-size: 0.875rem;
-    margin-bottom: var(--space-sm);
+    margin: 0 0 6px;
+    font-size: 0.85rem;
+    color: #888;
 }
+
+.footer-bottom a { color: #888; text-decoration: none; }
+
+.footer-bottom a:hover { color: #088395; }
 
 @media (max-width: 768px) {
-    .footer-grid { grid-template-columns: 1fr 1fr; gap: var(--space-xl); }
-    .footer-brand { grid-column: 1 / -1; }
+    .footer-grid { gap: 40px; padding: 32px 0 16px; }
 }
 
-@media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+/* Phone: KWST lets the three columns wrap where they fall, which leaves the
+   third one hanging half-indented under the other two. Giving each column half
+   the row keeps that wrap tidy — two columns, then the third centred. */
+@media (max-width: 600px) {
+    .footer-grid { gap: 28px 20px; }
+    .footer-links { flex: 0 0 calc(50% - 10px); text-align: center; }
+}
 
 /* ============================================
    MOBILE CTA
@@ -1835,42 +1905,18 @@ section { padding: var(--space-3xl) 0; }
         font-size: 0.9rem;
     }
     
-    /* Footer Mobile */
-    .footer {
-        padding: var(--space-2xl) 0 var(--space-lg);
-    }
-    
-    .footer-grid {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: var(--space-xl);
-    }
-    
-    .footer-brand {
-        text-align: center;
-    }
-    
-    .footer-brand .logo {
-        justify-content: center;
-    }
-    
-    .footer-platform-tagline {
-        text-align: center;
-    }
-    
-    .footer-links ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: var(--space-sm) var(--space-md);
-    }
-    
-    .footer-bottom {
-        flex-direction: column;
-        gap: var(--space-sm);
-        text-align: center;
-    }
-    
+    /* Footer Mobile — KWST behaviour: the link columns simply wrap and the
+       brand block centres. The old rules flattened each column into a centred
+       row of links, which is why "St. Thomas  St. John  St. Croix" ran
+       together under one heading on a phone. */
+    .footer-brand { text-align: center; }
+
+    .footer-brand .logo { justify-content: center; }
+
+    .footer-platform-tagline { text-align: center; }
+
+    .footer-bottom { text-align: center; }
+
     /* Why Section Mobile */
     .why-card {
         text-align: center;
