@@ -120,4 +120,44 @@
             island: detectRegion()
         });
     });
+    /* ATTRIBUTION ENRICHMENT (2026-09-22) — every booking_click, whichever code
+       emits it, is stamped with what FareHarbor's booking report can be joined on:
+         fh_company  operator shortname from the href  (/book/<company>/)
+         fh_item     item pk from the href             (/items/<pk>/)
+         price_shown the price on the card at click time, as a number
+         page_path   location.pathname
+         site        this site's slug
+       A capture-phase click listener records the clicked FareHarbor anchor
+       before any inline onclick runs; a gtag wrapper merges those fields into
+       the next booking_click within 3s. Nothing else about the event changes,
+       so the existing GA4 conversion keeps counting. */
+    var SITE_SLUG = 'eng';
+    var _lastFH = null;
+    function _priceFrom(link) {
+        var card = link.closest && (link.closest('.tour-card') || link.closest('article') || link.closest('.card') || link.parentElement);
+        var txt = (link.dataset.price || (card && ((card.querySelector('.tour-price, .price, [data-price]') || {}).textContent || (card.querySelector('[data-price]') || {dataset:{}}).dataset.price)) || '');
+        var m = /(\d[\d,]*(?:\.\d+)?)/.exec(String(txt).replace(/,/g, ''));
+        return m ? Number(m[1]) : undefined;
+    }
+    document.addEventListener('click', function (e) {
+        var link = e.target && e.target.closest && e.target.closest('a[href*="fareharbor.com"]');
+        if (!link) return;
+        var href = link.getAttribute('href') || '';
+        var co = /\/(?:embeds\/)?book\/([^\/?#]+)/.exec(href), pk = /\/items\/(\d+)/.exec(href);
+        _lastFH = { fh_company: co ? co[1] : undefined, fh_item: pk ? pk[1] : undefined, price_shown: _priceFrom(link), page_path: location.pathname, site: SITE_SLUG, t: Date.now() };
+    }, true);
+    (function installEnricher() {
+        var real = window.gtag;
+        if (typeof real !== 'function' || real.__enriched) return;
+        var wrapped = function () {
+            if (arguments[0] === 'event' && arguments[1] === 'booking_click') {
+                var p = (arguments[2] && typeof arguments[2] === 'object') ? arguments[2] : {};
+                var extra = (_lastFH && Date.now() - _lastFH.t < 3000) ? _lastFH : { page_path: location.pathname, site: SITE_SLUG };
+                for (var k in extra) if (k !== 't' && extra[k] !== undefined && p[k] === undefined) p[k] = extra[k];
+                arguments[2] = p; arguments.length = Math.max(arguments.length, 3);
+            }
+            return real.apply(this, arguments);
+        };
+        wrapped.__enriched = true; window.gtag = wrapped;
+    })();
 })();
