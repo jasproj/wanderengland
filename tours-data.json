@@ -3310,11 +3310,11 @@
       "timeOfDay": "",
       "capacity": 10,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 213787,
@@ -7935,11 +7935,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceSource": "s54-weng-reprice-29",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
@@ -10113,11 +10113,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceSource": "s48-weng-refresh-b",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T15:42:20.919Z",
@@ -10166,11 +10166,11 @@
       "timeOfDay": "",
       "capacity": 1,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceBreakdown": [
         {
@@ -10738,11 +10738,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceBreakdown": [
         {
@@ -11264,11 +11264,11 @@
       "timeOfDay": "",
       "capacity": 10,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceBreakdown": [
         {
@@ -11353,11 +11353,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 430163,
@@ -12177,11 +12177,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceSource": "s48-weng-refresh-b",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T15:42:20.919Z",
@@ -14891,11 +14891,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 1020885,
@@ -16325,11 +16325,11 @@
       "timeOfDay": "",
       "capacity": 15,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
       "priceEnrichmentStatus": "unsampled_currency_unverified"
@@ -21308,11 +21308,11 @@
       "timeOfDay": "",
       "capacity": 15,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
       "priceEnrichmentStatus": "unsampled_currency_unverified"
@@ -23164,11 +23164,11 @@
       "timeOfDay": "",
       "capacity": 10,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 171771,
@@ -23922,11 +23922,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceBreakdown": [
         {
@@ -24484,11 +24484,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
       "priceEnrichmentStatus": "unsampled_currency_unverified"
@@ -26736,11 +26736,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:07:03.655Z",
       "priceEnrichmentStatus": "unsampled_currency_unverified"
@@ -29223,11 +29223,11 @@
       "timeOfDay": "",
       "capacity": 1,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceBreakdown": [
         {
@@ -29847,11 +29847,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 696020,
@@ -36189,11 +36189,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-28T18:30:03.686Z",
       "priceEnrichmentStatus": "unsampled",
@@ -37658,11 +37658,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceSource": "s48-weng-refresh-b",
       "priceEnrichmentSource": "extract-prices-v7-api",
@@ -40478,7 +40478,11 @@
       ],
       "company": "Inch Perfect Trials Ltd",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456986,
@@ -42162,7 +42166,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Adult £30; not anchoring: Child (5-17 yrs) £25 [never], Family Tickets £18 [never]; 1/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "Fun London Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 725354,
@@ -42256,7 +42264,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 725356,
@@ -42350,7 +42362,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 121106,
@@ -43366,7 +43382,11 @@
       ],
       "company": "Fore Adventure",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 642628,
@@ -43664,7 +43684,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 250529,
@@ -45672,7 +45696,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier One Adult £265; not anchoring: Two Adults £212 [group], Three Adults £190.8 [group], Four Adults £169.6 [group], Five Adults £148.4 [group], Six Adults £143.1 [group], Teenager £79.5 [never], Child £53 [never]; 2/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "Iles Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 266200,
@@ -48469,7 +48497,11 @@
       ],
       "company": "Cotswold Canoe Hire Ltd",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 569748,
@@ -50747,7 +50779,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 714734,
@@ -51492,7 +51528,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 590029,
@@ -51949,7 +51989,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 707070,
@@ -53238,7 +53282,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456278,
@@ -53423,7 +53471,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456299,
@@ -53514,7 +53566,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456324,
@@ -53607,7 +53663,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456326,
@@ -53700,7 +53760,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 478568,
@@ -53976,7 +54040,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier E- Step Over Bike £80 of 4 base tiers (D-625); not anchoring: E-Family Bike £80 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "Jaunt E-Bikes",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 621859,
@@ -55046,7 +55114,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Person £37.1; 3/4 dated readings (2 date-valid), 1 ladder shape(s); live GBP",
       "company": "Ocean Sports Centre",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 266295,
@@ -56646,7 +56718,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Adult £15; not anchoring: Child £10 [never]; 1/4 dated readings (1 date-valid), 1 ladder shape(s); live GBP",
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456274,
@@ -56829,7 +56905,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456280,
@@ -57212,7 +57292,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456288,
@@ -57303,7 +57387,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456328,
@@ -57396,7 +57484,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456336,
@@ -57474,7 +57566,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456339,
@@ -57567,7 +57663,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 500673,
@@ -57718,7 +57818,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 522868,
@@ -57810,7 +57914,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 522869,
@@ -57903,7 +58011,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 522870,
@@ -57994,7 +58106,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 522871,
@@ -58087,7 +58203,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 542673,
@@ -58541,7 +58661,11 @@
       "priceTiers": [],
       "company": "Brewery Bus Tours Liverpool",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 706086,
@@ -59200,7 +59324,11 @@
       ],
       "company": "Windsor Duck Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 140430,
@@ -61513,7 +61641,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 679681,
@@ -63047,7 +63179,11 @@
       ],
       "company": "Shiverpool",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 306104,
@@ -65421,7 +65557,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 661582,
@@ -69477,7 +69617,11 @@
       ],
       "company": "Inch Perfect Trials Ltd",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 280186,
@@ -71509,7 +71653,11 @@
       },
       "company": "London Minicab Service",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 372736,
@@ -72383,7 +72531,11 @@
       },
       "company": "London Minicab Service",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 472988,
@@ -72975,7 +73127,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Adult £42.4; not anchoring: Child £29.68 [never], OAP £36.04 [never], Family £127.2 [never]; 2/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "Jetstream Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 608130,
@@ -73409,7 +73565,11 @@
       },
       "company": "Blue Environment",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 657893,
@@ -73500,7 +73660,11 @@
       ],
       "company": "Dittisham Boat Hire",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 688802,
@@ -73711,7 +73875,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 130615,
@@ -73840,7 +74008,11 @@
       ],
       "company": "Windsor Duck Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 147424,
@@ -75168,7 +75340,11 @@
       },
       "company": "Nichol End Marine",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 302981,
@@ -75261,7 +75437,11 @@
       },
       "company": "Nichol End Marine",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 306552,
@@ -75530,7 +75710,11 @@
       "priceTiers": [],
       "company": "Vintage Trains",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 452439,
@@ -75639,7 +75823,11 @@
       },
       "company": "Blue Environment",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456270,
@@ -76552,7 +76740,11 @@
       },
       "company": "Blue Environment",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 466431,
@@ -76726,7 +76918,11 @@
       "priceTiers": [],
       "company": "Player Ready VR - Truro",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 567241,
@@ -76979,7 +77175,11 @@
       ],
       "company": "Blackwater Alpacas & Pygmy Goats",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 593941,
@@ -77706,7 +77906,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Adult £12.6; not anchoring: Senior £11.03 [never], Child £5.25 [never], Private Tour £168.07 [group]; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live GBP",
       "company": "Get Out and Trek Ltd",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 673592,
@@ -77932,7 +78136,11 @@
       ],
       "company": "Vintage Trains",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 697105,
@@ -78009,7 +78217,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 698893,
@@ -78682,7 +78894,11 @@
       ],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 705719,
@@ -80515,7 +80731,11 @@
       ],
       "company": "Scarborough Surf School",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 387903,
@@ -80644,7 +80864,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Person £15.9; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "The Bad of Bath",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 413846,
@@ -80689,7 +80913,11 @@
       "priceTiers": [],
       "company": "Player Ready VR - Plymouth",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 414363,
@@ -80724,7 +80952,11 @@
       "priceTiers": [],
       "company": "Experience Oxfordshire",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 419167,
@@ -80967,7 +81199,11 @@
       ],
       "company": "Historic London Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 423861,
@@ -81675,7 +81911,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Person £42.4; not anchoring: Child £31.8 [never]; 1/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "WHATSUP Training",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 423566,
@@ -83164,7 +83404,11 @@
       "priceTiers": [],
       "company": "Lucy Daniel Guide",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 568015,
@@ -83245,7 +83489,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Per Player £27.3; not anchoring: Private Game £147 [group]; 3/4 dated readings (3 date-valid), 2 ladder shape(s); live GBP",
       "company": "SPVR Arcade",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 573643,
@@ -83627,7 +83875,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Adult £16.96; not anchoring: Child £10.6 [never], Senior or Student £14.84 [never], Family 2+2 £37.1 [never], Wheelchair User £14.84 [never]; 1/4 dated readings (1 date-valid), 1 ladder shape(s); live GBP",
       "company": "Regional Transport Ltd",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 610479,
@@ -85501,7 +85753,11 @@
       "priceTiers": [],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 580278,
@@ -87287,7 +87543,11 @@
       "priceTiers": [],
       "company": "Elements Sauna",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 684706,
@@ -87369,7 +87629,11 @@
       ],
       "company": "SPVR Arcade",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 687464,
@@ -90430,7 +90694,11 @@
       },
       "company": "Nichol End Marine",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 304382,
@@ -91978,7 +92246,11 @@
       "priceTiers": [],
       "company": "MyChocolate",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 333044,
@@ -92472,7 +92744,11 @@
       ],
       "company": "VR Warehouse",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 365212,
@@ -93227,7 +93503,11 @@
       ],
       "company": "Jetstream Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 557066,
@@ -93327,7 +93607,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Adult £21.2; not anchoring: Child £13.78 [never], OAP £16.96 [never], Family £58.3 [never]; 1/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "Jetstream Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 557769,
@@ -95555,7 +95839,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier One Adult £212; not anchoring: Two Adults £254.4 [group], Three Adults £296.8 [group], Private Group up to 4 £339.2 [group]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "Lucy Daniel Guide",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 608194,
@@ -95828,7 +96116,11 @@
       ],
       "company": "Alumni Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 611400,
@@ -96005,7 +96297,11 @@
       "priceTiers": [],
       "company": "Fore Adventure",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 625043,
@@ -96075,7 +96371,11 @@
       "priceTiers": [],
       "company": "Fore Adventure",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 625051,
@@ -96110,7 +96410,11 @@
       "priceTiers": [],
       "company": "Fore Adventure",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 625054,
@@ -96197,7 +96501,11 @@
       ],
       "company": "Fore Adventure",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 625057,
@@ -96319,7 +96627,11 @@
       "priceTiers": [],
       "company": "Fore Adventure",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 625127,
@@ -96379,7 +96691,11 @@
       },
       "company": "Fore Adventure",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 625453,
@@ -96414,7 +96730,11 @@
       "priceTiers": [],
       "company": "Fore Adventure",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 625457,
@@ -96449,7 +96769,11 @@
       "priceTiers": [],
       "company": "Fore Adventure",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 625876,
@@ -98762,7 +99086,11 @@
       "priceTiers": [],
       "company": "Fun London Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 516659,
@@ -98795,7 +99123,11 @@
       "priceTiers": [],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 532001,
@@ -99052,7 +99384,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Per Player £20.67; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live GBP",
       "company": "SPVR Arcade",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 574751,
@@ -99721,7 +100057,11 @@
       "priceTiers": [],
       "company": "The Deathly Dark Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 609741,
@@ -99823,7 +100163,11 @@
       ],
       "company": "Alumni Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 613573,
@@ -100270,7 +100614,11 @@
       "priceTiers": [],
       "company": "Ocean High",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 620700,
@@ -101018,7 +101366,11 @@
       "priceTiers": [],
       "company": "Iles Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 265364,
@@ -101067,7 +101419,11 @@
       "priceTiers": [],
       "company": "Iles Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 265365,
@@ -101118,7 +101474,11 @@
       "priceTiers": [],
       "company": "Iles Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 265373,
@@ -101161,7 +101521,11 @@
       "priceTiers": [],
       "company": "Iles Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 265381,
@@ -101204,7 +101568,11 @@
       "priceTiers": [],
       "company": "Iles Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 265384,
@@ -101253,7 +101621,11 @@
       "priceTiers": [],
       "company": "Iles Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 269656,
@@ -101505,7 +101877,11 @@
       "priceTiers": [],
       "company": "Cornish Wave",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 272905,
@@ -101724,7 +102100,11 @@
       "priceTiers": [],
       "company": "Amigo Tours Europe - UK",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 285218,
@@ -101985,7 +102365,11 @@
       "priceTiers": [],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 309206,
@@ -102234,7 +102618,11 @@
       "priceBasis": "zero_price: every live tier is £0 on the majority reading (Volunteer Open Day); 2/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 321512,
@@ -102348,7 +102736,11 @@
       "priceTiers": [],
       "company": "Fashion Tours London",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 343526,
@@ -103021,7 +103413,11 @@
       "priceTiers": [],
       "company": "Exmoor Adventures Ltd",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 365200,
@@ -103094,7 +103490,11 @@
       "priceTiers": [],
       "company": "Halal Tourism Britain",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 369472,
@@ -103142,7 +103542,11 @@
       "priceTiers": [],
       "company": "Scarborough Surf School",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 372822,
@@ -103760,7 +104164,11 @@
       ],
       "company": "Hampton Court Paddle Sports",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 375979,
@@ -103826,7 +104234,11 @@
       ],
       "company": "Hampton Court Paddle Sports",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 390656,
@@ -103878,7 +104290,11 @@
       "priceTiers": [],
       "company": "Nichol End Marine",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 392349,
@@ -103920,7 +104336,11 @@
       "priceTiers": [],
       "company": "Nichol End Marine",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 393732,
@@ -104569,7 +104989,11 @@
       ],
       "company": "Brit Music Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 424479,
@@ -105390,7 +105814,11 @@
       "priceTiers": [],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456629,
@@ -105429,7 +105857,11 @@
       "priceTiers": [],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 465745,
@@ -105544,7 +105976,11 @@
       "priceTiers": [],
       "company": "Secret London Runs",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 468461,
@@ -106439,7 +106875,11 @@
       "priceTiers": [],
       "company": "Adventure Nene Ltd",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 489675,
@@ -106900,7 +107340,11 @@
       "priceTiers": [],
       "company": "Ale Hunters",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 497140,
@@ -106933,7 +107377,11 @@
       "priceTiers": [],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 497691,
@@ -107085,7 +107533,11 @@
       "priceTiers": [],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 498420,
@@ -107125,7 +107577,11 @@
       "priceTiers": [],
       "company": "Ale Hunters",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 498426,
@@ -107203,7 +107659,11 @@
       ],
       "company": "Ale Hunters",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 498428,
@@ -107278,7 +107738,11 @@
       ],
       "company": "Ale Hunters",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 498435,
@@ -107320,7 +107784,11 @@
       "priceTiers": [],
       "company": "Ale Hunters",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 505691,
@@ -107377,7 +107845,11 @@
       "priceTiers": [],
       "company": "Letz Go City Tours UK",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 508138,
@@ -107421,7 +107893,11 @@
       "priceTiers": [],
       "company": "Milton Keynes Cookery School",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 509856,
@@ -107481,7 +107957,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Sub 5:30 marathon goal time ticket £29.68; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "Secret London Runs",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 511965,
@@ -107540,7 +108020,11 @@
       ],
       "company": "Secret London Runs",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 527431,
@@ -107908,7 +108392,11 @@
       "priceTiers": [],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 616130,
@@ -109112,7 +109600,11 @@
       ],
       "company": "Oxford River Cruises",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 645345,
@@ -110171,7 +110663,11 @@
       "priceBasis": "zero_price: every live tier is £0 on the majority reading (Person); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live GBP",
       "company": "Paddleboarding London",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 658520,
@@ -111484,7 +111980,11 @@
       },
       "company": "SPVR Arcade",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 687793,
@@ -112597,7 +113097,11 @@
       ],
       "company": "Royal Rendezvous",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 707047,
@@ -112894,7 +113398,11 @@
       "priceTiers": [],
       "company": "X-Pilot - Marine A Services",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 712260,
@@ -112935,7 +113443,11 @@
       "priceTiers": [],
       "company": "X-Pilot - Marine A Services",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 713602,
@@ -113292,7 +113804,11 @@
       ],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 82298,
@@ -113781,7 +114297,11 @@
       "priceTiers": [],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 270633,
@@ -114686,7 +115206,11 @@
       },
       "company": "Dexter’s Surf Shop",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 306138,
@@ -115038,7 +115562,11 @@
       "priceTiers": [],
       "company": "Exmoor Adventures Ltd",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 369424,
@@ -115143,7 +115671,11 @@
       ],
       "company": "Yorkshire Belle",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 383416,
@@ -116449,7 +116981,11 @@
       },
       "company": "Blue Environment",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456302,
@@ -116490,7 +117026,11 @@
       "priceTiers": [],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456321,
@@ -116532,7 +117072,11 @@
       "priceTiers": [],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 456322,
@@ -116573,7 +117117,11 @@
       "priceTiers": [],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 458323,
@@ -116759,7 +117307,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Shipyard Tour £10.6; 1/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "The Golden Hinde",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 491913,
@@ -116908,7 +117460,11 @@
       "priceTiers": [],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 516641,
@@ -116941,7 +117497,11 @@
       "priceTiers": [],
       "company": "Embsay & Bolton Abbey Steam Railway",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 528713,
@@ -117206,7 +117766,11 @@
       "priceTiers": [],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 563751,
@@ -117411,7 +117975,11 @@
       "priceTiers": [],
       "company": "Scarborough Surf School",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 577518,
@@ -117753,7 +118321,11 @@
       },
       "company": "Brit Movie Tours",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 595964,
@@ -119902,7 +120474,11 @@
       "priceTiers": [],
       "company": "See Your City",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 565136,
@@ -120604,7 +121180,11 @@
       "priceTiers": [],
       "company": "Rory in Oxford",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 590066,
@@ -120866,7 +121446,11 @@
       ],
       "company": "Elemental Nomad",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 601466,
@@ -121071,7 +121655,11 @@
       "priceTiers": [],
       "company": "Lyme Bay RIB Charter",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 606140,
@@ -121108,7 +121696,11 @@
       "priceTiers": [],
       "company": "Inch Perfect Trials Ltd",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 614031,
@@ -122185,7 +122777,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Adulto £84; not anchoring: Bambino £52.5 [never], Neonato £15.75 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "La tua Londra",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 629761,
@@ -122400,7 +122996,11 @@
       "priceTiers": [],
       "company": "Frisby Lakes Paddlesports",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 658160,
@@ -122575,7 +123175,11 @@
       "priceTiers": [],
       "company": "Rock And Rapid Adventures",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 678411,
@@ -122617,7 +123221,11 @@
       "priceTiers": [],
       "company": "Living London History",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 680685,
@@ -122709,7 +123317,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Gin Flight (3 gins & paired mixers) £15.75 of 2 base tiers (D-625); 4/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "York Distillery",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 681528,
@@ -122993,7 +123605,11 @@
       "priceBasis": "D-624 cheapest adult/base per-person tier Standard Ticket £24; 1/4 dated readings (0 date-valid), 1 ladder shape(s); live GBP",
       "company": "London Guided Walks",
       "providerSource": "s49-weng-companies-endpoint",
-      "providerResolvedAt": "2026-08-25"
+      "providerResolvedAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 702308,
