@@ -6,7 +6,15 @@
 // Local + Pexels-licensed; images/ATTRIBUTION.md records source slug
 // "white-cliffs-of-dover-under-overcast-sky-36100295",
 // which verifies the region from the source URL, not from our own caption.
-const FALLBACK_IMAGE = '/images/hero-photo-1.jpg';
+const FALLBACK_IMAGE = '/images/hero-photo-1-800.webp';
+
+// Card images: a bare Filestack handle serves the full upload (PSI measured a
+// 2.5 MB card image on the homepage). Ask the CDN for an 800px WebP instead;
+// the spotlight pages already use this transform.
+function cardImage(url) {
+    const m = /^https:\/\/cdn\.filestackcontent\.com\/([A-Za-z0-9]{15,25})(?:\/convert\?.*)?$/.exec(url || '');
+    return m ? `https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/${m[1]}` : url;
+}
 
 let toursData = [];
 
@@ -477,7 +485,7 @@ function createTourCard(tour) {
         <article class="tour-card" data-id="${escapeHtml(tourKey(tour))}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
-                <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="${cardImage(tour.image) || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
                 ${qualityBadge}
             </div>
             <div class="tour-content">
@@ -647,7 +655,10 @@ function executeHeroSearch() {
 
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
-    loadTours();
+    // tours-data.json is 6 MB; the grid is baked into the page, so fetch it
+    // after first paint instead of competing with the hero (PSI LCP 22 s).
+    const startTours = () => setTimeout(loadTours, 300);
+    if (document.readyState === 'complete') startTours(); else window.addEventListener('load', startTours, { once: true });
     
     // Filter change listeners
     document.getElementById('island-filter')?.addEventListener('change', () => {
