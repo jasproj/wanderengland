@@ -24,7 +24,9 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fonts load without blocking first paint (Lighthouse: 753 ms render-blocking on mobile) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"></noscript>
     
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQZ30LYN94"></script>
@@ -36,8 +38,8 @@
     </script>
     
     <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high">
-    <link rel="preload" as="image" href="images/hero-photo-1-800.webp" type="image/webp" media="(max-width: 768px)">
-    <link rel="preload" as="image" href="images/hero-photo-1-1600.webp" type="image/webp" media="(min-width: 769px)">
+    <link rel="preload" as="image" href="images/hero-photo-1-800.webp" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
+    <link rel="preload" as="image" href="images/hero-photo-1-1600.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
     <link rel="stylesheet" href="styles.css">
     
     <script type="application/ld+json">
@@ -107,7 +109,8 @@
 }
 </script>
 <script src="/tracking.js" defer></script>
-    <link rel="stylesheet" href="/sponsor-slot.css">
+    <link rel="stylesheet" href="/sponsor-slot.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/sponsor-slot.css"></noscript>
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
