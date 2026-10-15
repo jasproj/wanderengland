@@ -303,7 +303,7 @@ ul, ol { list-style: none; }
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: url('images/hero-photo-1.jpg') center/cover no-repeat;
+    background: #1a2f23;
 }
 
 .hero-slide {
@@ -352,6 +352,13 @@ ul, ol { list-style: none; }
     29% { opacity: 0; transform: scale(1); }
     100% { opacity: 0; transform: scale(1.05); }
 }
+/* Mobile LCP: one 800px slide, no crossfade. Placed after the slide rules so it wins the cascade. */
+@media (max-width: 768px) {
+    .hero-slide { animation: none; transform: none; }
+    .hero-slide:nth-child(1) { background-image: url('images/hero-photo-1-800.webp'); opacity: 1; }
+    .hero-slide:nth-child(2), .hero-slide:nth-child(3), .hero-slide:nth-child(4) { display: none; }
+}
+
 
 .hero-overlay {
     position: absolute;
