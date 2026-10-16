@@ -37,7 +37,6 @@
         /*ga-gate*/(function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}if(navigator.webdriver||/HeadlessChrome/.test(navigator.userAgent))return;var c=function(){gtag('config','G-QQZ30LYN94')};if(!/^Asia\/(Singapore|Shanghai|Hong_Kong|Chongqing|Harbin|Urumqi)$/.test(tz)){c();return;}var d=false,ev=['pointermove','touchstart','scroll','keydown'];function go(){if(d)return;d=true;ev.forEach(function(e){removeEventListener(e,go)});c()}ev.forEach(function(e){addEventListener(e,go,{passive:true})})})();
     </script>
     
-    <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high">
     <link rel="preload" as="image" href="images/hero-photo-1-800.webp" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
     <link rel="preload" as="image" href="images/hero-photo-1-1600.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
     <link rel="stylesheet" href="styles.css">
@@ -161,7 +160,7 @@
             <div class="hero-logo-pill">
                 <div class="hero-logo">
                     <picture>
-                        <source srcset="/images/hero-banner.webp" type="image/webp">
+                        <source srcset="/images/hero-banner-480.webp" type="image/webp">
                         <img src="images/hero-banner.png" alt="WanderEngland" class="hero-logo-img" width="1024" height="1024" fetchpriority="high">
                     </picture>
                 </div>
@@ -292,7 +291,7 @@
     <!-- TOURS -->
     <section class="tours-section" id="tours-section">
         <div class="tours-hero-banner">
-            <img src="/images/hero-photo-2-1600.webp" alt="Aerial view of the Cornish coastline and farmland, England" width="1920" height="1080">
+            <img src="/images/hero-photo-2-1600.webp" srcset="/images/hero-photo-2-800.webp 800w, /images/hero-photo-2-1600.webp 1600w" sizes="100vw" alt="Aerial view of the Cornish coastline and farmland, England" width="1920" height="1080" loading="lazy" decoding="async">
             <div class="tours-hero-overlay"></div>
             <div class="tours-hero-content">
                 <h2>Find Your Perfect Adventure</h2>
@@ -1095,13 +1094,13 @@
     <script src="app.js?v=20260919"></script>
     <!-- FareHarbor Embed for modal bookings -->
     <script>
-      (function(w,d,s){
+      // s65: embed.js is 742 KB. Load it after first paint, not before it.
+      (function(w,d){
         w.FareHarborAPI=w.FareHarborAPI||{};
-        var j=d.createElement(s),p=d.scripts[d.scripts.length-1];
-        j.src='https://fareharbor.com/api/embed-builder/embed.js';
-        j.async=true;
-        p.parentNode.insertBefore(j,p);
-      })(window,document,'script');
+        function load(){ var j=d.createElement('script'); j.src='https://fareharbor.com/api/embed-builder/embed.js'; j.async=true; d.body.appendChild(j); }
+        function go(){ if (w.requestIdleCallback) w.requestIdleCallback(load,{timeout:3000}); else setTimeout(load,1500); }
+        if (d.readyState==='complete') go(); else w.addEventListener('load',go,{once:true});
+      })(window,document);
     </script>
     
 </body>
