@@ -28,5 +28,124 @@
     "title": "Top Day Trips from London by Train",
     "description": "The best day-trips reachable from central London by train \u2014 Oxford, Cambridge, Bath, Brighton, Stonehenge, and more, with travel times and operator picks.",
     "tag": "Top Picks"
+  },
+  {
+    "url": "/blog/stonehenge-solstice.html",
+    "title": "Stonehenge & the Summer Solstice",
+    "description": "Stonehenge has stood on Salisbury Plain for roughly 5,000 years. What it is, why it matters, what the solstice crowds look like, and how to visit without the chaos.",
+    "image": "/images/og-image.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/roman-baths-bath.html",
+    "title": "The Roman Baths: Bath's Ancient Heart",
+    "description": "The Roman Baths are among the best-preserved Roman religious and bathing complexes in the world — fed by a spring that delivers 1.17 million litres of water a day at 45°C.",
+    "image": "/images/og-image.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/tower-of-london-ravens.html",
+    "title": "Tower of London: Ravens, Crown Jewels, and 1,000 Years of History",
+    "description": "The White Tower, the Crown Jewels, the Yeoman Warders, and the ravens whose departure is said to herald the fall of the kingdom.",
+    "image": "/images/og-image.jpg",
+    "tag": "London"
+  },
+  {
+    "url": "/blog/hadrians-wall.html",
+    "title": "Hadrian's Wall: England's Roman Frontier",
+    "description": "Built from 122 CE, this 73-mile wall from the Solway Firth to the River Tyne is the most dramatic Roman monument in Britain.",
+    "image": "/images/og-image.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/beatles-liverpool-cavern.html",
+    "title": "The Beatles & the Cavern Club: Liverpool's Music History",
+    "description": "The Cavern Club on Mathew Street is where the Beatles played around 292 performances between 1961 and 1963. A guide to Liverpool's Beatles landmarks.",
+    "image": "/images/og-image.jpg",
+    "tag": "Liverpool"
+  },
+  {
+    "url": "/blog/oxford-dreaming-spires.html",
+    "title": "Oxford's Dreaming Spires: Bodleian, Colleges, and Harry Potter Country",
+    "description": "The Bodleian Library, Radcliffe Camera, Christ Church, and the streets that inspired Tolkien, C.S. Lewis, and the Harry Potter films.",
+    "image": "/images/og-image.jpg",
+    "tag": "Oxford"
+  },
+  {
+    "url": "/blog/cambridge-kings-college.html",
+    "title": "Cambridge: King's College Chapel, Punting, and the Backs",
+    "description": "King's College Chapel took 70 years to build and contains one of the finest Gothic fan-vaulted ceilings in the world. What to see in Cambridge and how to do it justice.",
+    "image": "/images/og-image.jpg",
+    "tag": "Cambridge"
+  },
+  {
+    "url": "/blog/tintagel-king-arthur.html",
+    "title": "Tintagel Castle: The Legend of King Arthur in Cornwall",
+    "description": "Tintagel's clifftop ruins have been linked to the Arthurian legend since Geoffrey of Monmouth's 12th-century writings. What archaeology shows — and why it's still spectacular.",
+    "image": "/images/og-image.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/jurassic-coast-durdle-door.html",
+    "title": "Jurassic Coast & Durdle Door: Dorset's UNESCO Coastline",
+    "description": "The Jurassic Coast stretches 95 miles from Devon to Dorset — and Durdle Door's natural limestone arch is its most photographed landmark.",
+    "image": "/images/og-image.jpg",
+    "tag": "Walking"
+  },
+  {
+    "url": "/blog/avebury-stone-circle.html",
+    "title": "Avebury: England's Largest Stone Circle",
+    "description": "Avebury's Neolithic henge is roughly 14 times larger than Stonehenge. You can walk among the stones — and a village sits inside the monument.",
+    "image": "/images/og-image.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/glastonbury-tor-avalon.html",
+    "title": "Glastonbury Tor & the Legend of Avalon",
+    "description": "The Tor rises 158 metres above the Somerset Levels, linked to Avalon, the Holy Grail, and early Celtic Christianity since at least medieval times.",
+    "image": "/images/og-image.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/whitby-abbey-dracula.html",
+    "title": "Whitby Abbey & Dracula: Bram Stoker's Gothic Inspiration",
+    "description": "Bram Stoker stayed in Whitby in 1890 and set key scenes of Dracula here. The ruined abbey, the 199 steps, and St Mary's churchyard are all real — and still eerie.",
+    "image": "/images/og-image.jpg",
+    "tag": "Ghost Tour"
+  },
+  {
+    "url": "/blog/warwick-castle.html",
+    "title": "Warwick Castle: England's Greatest Medieval Fortress",
+    "description": "Warwick Castle has stood on a sandstone cliff above the River Avon since William the Conqueror ordered its construction in 1068.",
+    "image": "/images/og-image.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/white-cliffs-dover.html",
+    "title": "The White Cliffs of Dover: England's Symbolic Shoreline",
+    "description": "The White Cliffs rise up to around 350 feet above the English Channel — England's first and last view for travellers crossing for centuries.",
+    "image": "/images/og-image.jpg",
+    "tag": "Walking"
+  },
+  {
+    "url": "/blog/angel-of-the-north.html",
+    "title": "The Angel of the North: Gormley's Steel Giant",
+    "description": "Antony Gormley's Angel of the North stands 20 metres tall with a wingspan of 54 metres. Since 1998 it has become the defining landmark of the North East.",
+    "image": "/images/og-image.jpg",
+    "tag": "Art"
+  },
+  {
+    "url": "/blog/scafell-pike-lake-district.html",
+    "title": "Scafell Pike & Wordsworth Country: The Lake District's Greatest Peaks and Poets",
+    "description": "England's highest mountain at 978 metres, Wordsworth's Dove Cottage at Grasmere, and Windermere — the landscape that launched the Romantic movement.",
+    "image": "/images/og-image.jpg",
+    "tag": "Walking"
+  },
+  {
+    "url": "/blog/chatsworth-house.html",
+    "title": "Chatsworth House: Derbyshire's Palace and the Real Pemberley",
+    "description": "The seat of the Dukes of Devonshire in the Derbyshire Dales starred as Mr Darcy's Pemberley in the 2005 Pride & Prejudice. Gardens by Capability Brown, fountains by Paxton.",
+    "image": "/images/og-image.jpg",
+    "tag": "History"
   }
 ]
