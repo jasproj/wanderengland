@@ -312,4 +312,40 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+    <url>
+        <loc>https://wanderengland.com/blog/things-to-do-the-cotswolds.html</loc>
+        <lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wanderengland.com/blog/things-to-do-cornwall.html</loc>
+        <lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wanderengland.com/blog/things-to-do-oxford.html</loc>
+        <lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wanderengland.com/blog/things-to-do-cambridge.html</loc>
+        <lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wanderengland.com/blog/things-to-do-liverpool.html</loc>
+        <lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wanderengland.com/blog/things-to-do-manchester.html</loc>
+        <lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
