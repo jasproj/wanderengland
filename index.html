@@ -146,6 +146,20 @@
     </header>
 
     <!-- HERO -->
+    <style>
+      /* Mobile audit 2026-10-26: hero had no visible headline and clipped at 290px. */
+      .hero-h1{color:#fff;font-size:clamp(1.7rem,5vw,2.75rem);font-weight:800;line-height:1.15;margin:14px auto 10px;max-width:720px;text-shadow:0 2px 10px rgba(0,0,0,.65)}
+      .hero .hero-overlay{background:linear-gradient(180deg,rgba(5,20,35,.25) 0%,rgba(5,20,35,.5) 45%,rgba(5,20,35,.85) 100%)}
+      @media (max-width:768px){
+        .hero{min-height:460px;max-height:none;height:auto;overflow:visible;padding:95px 16px 28px;justify-content:flex-start}
+        .hero-content .hero-h1{font-size:1.6rem;margin:10px 0 8px}
+        .hero-logo-img{height:64px}
+        .hero-subtitle{display:block;color:#fff;font-size:.95rem;margin:0 0 16px;text-shadow:0 1px 4px rgba(0,0,0,.7)}
+        .hero-subtitle br{display:none}
+        .hero-subtitle br::after{content:" "}
+        .hero-search{margin-top:4px}
+      }
+    </style>
     <section class="hero">
         <div class="hero-bg">
             <div class="hero-slide"></div>
@@ -156,8 +170,7 @@
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <p class="hero-tagline">Book Local. Support Local.</p>
-            <h1 class="sr-only">England tours, day trips and guided walks</h1>
-            <div class="hero-logo-pill">
+                        <div class="hero-logo-pill">
                 <div class="hero-logo">
                     <picture>
                         <source srcset="/images/hero-banner-480.webp" type="image/webp">
@@ -165,12 +178,13 @@
                     </picture>
                 </div>
             </div>
-            <p class="hero-subtitle">Handpicked tours across England.<br>Book direct with local tour guides and support local.</p>
+            <h1 class="hero-h1">England Tours &amp; Day Trips, Booked Direct</h1>
+            <p class="hero-subtitle">Handpicked tours across England. <br>Book direct with local tour guides and support local.</p>
             
             <div class="hero-search">
                 <div class="search-input-wrap">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="hero-search" placeholder="Search snorkeling, whale watching, helicopters..." autocomplete="off">
+                    <input type="text" id="hero-search" placeholder="Search tours, cities..." autocomplete="off">
                 </div>
                 <button class="search-btn" onclick="executeHeroSearch()">Find Tours</button>
             </div>
@@ -178,42 +192,34 @@
             <!-- Scrolling Category Tags -->
             <div class="quick-tags-wrapper">
                 <div class="quick-tags">
-                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
-                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
-                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
-                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
-                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
-                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
-                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
-                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
-                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
-                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
-                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
+                    <button onclick="quickFilter('walking')">🚶 Walking Tours</button>
+                    <button onclick="quickFilter('history')">🏛️ History Tours</button>
+                    <button onclick="quickFilter('london')">🎡 London</button>
+                    <button onclick="quickFilter('day trip')">🚆 Day Trips</button>
                     <button onclick="quickFilter('food')">🍽️ Food Tours</button>
-                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
-                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
+                    <button onclick="quickFilter('museum')">🖼️ Museums</button>
+                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
+                    <button onclick="quickFilter('pub')">🍺 Pub & Brewery</button>
+                    <button onclick="quickFilter('ghost')">👻 Ghost Tours</button>
+                    <button onclick="quickFilter('harry potter')">🪄 Harry Potter</button>
                     <button onclick="quickFilter('private')">✨ Private Tours</button>
-                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
-                    <button onclick="quickFilter('fishing')">🎣 Fishing</button>
+                    <button onclick="quickFilter('workshop')">🎨 Workshops</button>
+                    <button onclick="quickFilter('axe')">🪓 Axe Throwing</button>
                     <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
                     <!-- Duplicate for seamless loop -->
-                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
-                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
-                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
-                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
-                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
-                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
-                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
-                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
-                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
-                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
-                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
+                    <button onclick="quickFilter('walking')">🚶 Walking Tours</button>
+                    <button onclick="quickFilter('history')">🏛️ History Tours</button>
+                    <button onclick="quickFilter('london')">🎡 London</button>
+                    <button onclick="quickFilter('day trip')">🚆 Day Trips</button>
                     <button onclick="quickFilter('food')">🍽️ Food Tours</button>
-                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
-                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
+                    <button onclick="quickFilter('museum')">🖼️ Museums</button>
+                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
+                    <button onclick="quickFilter('pub')">🍺 Pub & Brewery</button>
+                    <button onclick="quickFilter('ghost')">👻 Ghost Tours</button>
+                    <button onclick="quickFilter('harry potter')">🪄 Harry Potter</button>
                     <button onclick="quickFilter('private')">✨ Private Tours</button>
-                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
-                    <button onclick="quickFilter('fishing')">🎣 Fishing</button>
+                    <button onclick="quickFilter('workshop')">🎨 Workshops</button>
+                    <button onclick="quickFilter('axe')">🪓 Axe Throwing</button>
                     <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
                 </div>
             </div>
