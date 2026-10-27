@@ -282,6 +282,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -304,9 +328,56 @@
                 <div class="hero-stat"><span class="hero-stat-number">4+</span><span class="hero-stat-label">Cities</span></div>
                 <div class="hero-stat"><span class="hero-stat-number">2-4 hrs</span><span class="hero-stat-label">Avg Duration</span></div>
             </div>
-        </div>
+        
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a></div>
+</div>
     </section>
-    <section class="tours" id="tours">
+<section class="top-picks" aria-label="Top picks">
+  <div class="container">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/rwc7bkDPQPuIUZWndvki" alt="York: Historical Gems Tour &amp; A Taste of York Chocolate" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £17.85</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Enthral Experiences</div>
+        <h3 class="tour-title">York: Historical Gems Tour &amp; A Taste of York Chocolate</h3>
+        <p class="tour-desc">Want to see the best of York? You are in for a cultural (and tasty) treat! Join your eccentric character guide and get an up-close…</p>
+        <a href="https://fareharbor.com/embeds/book/witchestour/items/466481/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="466481" data-tour-name="York: Historical Gems Tour &amp; A Taste of York Chocolate">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/RXdCK8AWSgGsbE4lOJSf" alt="Shared • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £62</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Shared • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College</h3>
+        <p class="tour-desc">Discover the very best of Cambridge with this combined walking and punting tour, offering a complete introduction to the city’s history,…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/67511/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="67511" data-tour-name="Shared • Cambridge Walking &amp; Punting Tour &amp; Optional King&#x27;s College">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/8wqj7QvRUCQKXuSr2v1w" alt="City Highlights: a Private Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Price on request</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">London Guided Walks Private Tours</div>
+        <h3 class="tour-title">City Highlights: a Private Tour</h3>
+        <p class="tour-desc">Explore Two Millennia of London’s History in the Square Mile Step into the heart of the City of London and uncover the extraordinary…</p>
+        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/526850/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="526850" data-tour-name="City Highlights: a Private Tour">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 12 tours ↓</a>
+  </div>
+</section>
+
+<section class="tours" id="tours">
       <div class="container">
         <h2>Book England History Tours &amp; Heritage Experiences (12 available)</h2>
         <div class="tours-grid">
@@ -457,6 +528,8 @@
         </div>
       </div>
     </section>
+
+
 
 
     <section class="types-section">

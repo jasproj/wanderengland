@@ -411,6 +411,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -445,33 +469,58 @@
 
 <section class="page-hero">
   <div class="container">
-    <h1>Oxford Tours: Walking Tours, Colleges &amp; Day Trips from London</h1>
+    <h1>Oxford Tours &amp; Day Trips from London</h1>
     <p>The 38 colleges of Oxford University, plus river punting on the Cherwell. Easy day-trip from London.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">19 tours</span><span class="hub-chip">From £28</span><span class="hub-chip">England</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About Oxford</h2>
-    <p>Oxford is a 1-hour train ride from London Paddington, which is why most of the tour bookings on this site are day-trips. The University of Oxford is made up of 38 individual colleges scattered across the city center, several of which double as filming locations (Christ Church for Harry Potter's Great Hall, Bodleian Library for the Hogwarts library). The standard tour format is a 2-hour walking tour that visits 3-4 colleges plus the Bodleian, Radcliffe Camera, and the Sheldonian Theatre.<br><br>Punting on the River Cherwell — a flat-bottomed boat propelled with a long pole — is the other classic Oxford activity. Magdalen Bridge Boathouse (May-September) and Cherwell Boathouse rent for self-punt or guided trips. Most of our partners offer combined walking + punting half-days, which is the best one-day Oxford pattern. Avoid mid-June for matriculation/exam-season closures of some colleges; September is the sweet spot.</p>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/BFJiSN4ES6CUCYbOcv8Y" alt="Shared • Oxford University Walking Tour &amp; Optional New College" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £28</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Shared • Oxford University Walking Tour &amp; Optional New College</h3>
+        <p class="tour-desc">Discover the historic heart of Oxford on a professionally guided walking tour led by Oxford graduates and academically trained guides. Designed…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/283386/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="283386" data-tour-name="Shared • Oxford University Walking Tour &amp; Optional New College">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/LaWvyHgSHCde4TxJ7mT9" alt="Private • Oxford University Walking Tour &amp; Optional New College" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Private • Oxford University Walking Tour &amp; Optional New College</h3>
+        <p class="tour-desc">Experience Oxford with complete flexibility on a private walking tour led by University alumni and academically trained guides. Designed for…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/283390/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="283390" data-tour-name="Private • Oxford University Walking Tour &amp; Optional New College">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/ikEvkohTpKr2AZBIrZIH" alt="Private • Oxford University Punting Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alumni Tours</div>
+        <h3 class="tour-title">Private • Oxford University Punting Tour</h3>
+        <p class="tour-desc">Discover one of Oxford’s most traditional experiences on a private chauffeured punting tour along the River Cherwell. This relaxing river journey…</p>
+        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/351641/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="351641" data-tour-name="Private • Oxford University Punting Tour">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 19 tours ↓</a>
   </div>
 </section>
 
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-      <li>1 hour by train from London Paddington — easiest UK university day-trip</li>
-<li>38 colleges, but most tours visit 3-4 (typically Christ Church, New College, Magdalen)</li>
-<li>Punting season runs May through September; off-season tours are walking-only</li>
-<li>College access can be restricted during exam periods (May-June) — confirm on tour page</li>
-<li>Combined walking + punting half-days (4 hrs) are the best one-day pattern</li>
-<li>Most tours start at the Bodleian Library or Radcliffe Camera — easy meeting points</li>
-    </ul>
-  </div>
-</section>
-
-<section class="tours">
+<section class="tours" id="tours">
   <div class="container">
     <h2>Oxford tours (20 available)</h2>
     <div class="tours-grid">
@@ -706,6 +755,26 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About Oxford</h2>
+    <p>Oxford is a 1-hour train ride from London Paddington, which is why most of the tour bookings on this site are day-trips. The University of Oxford is made up of 38 individual colleges scattered across the city center, several of which double as filming locations (Christ Church for Harry Potter's Great Hall, Bodleian Library for the Hogwarts library). The standard tour format is a 2-hour walking tour that visits 3-4 colleges plus the Bodleian, Radcliffe Camera, and the Sheldonian Theatre.<br><br>Punting on the River Cherwell — a flat-bottomed boat propelled with a long pole — is the other classic Oxford activity. Magdalen Bridge Boathouse (May-September) and Cherwell Boathouse rent for self-punt or guided trips. Most of our partners offer combined walking + punting half-days, which is the best one-day Oxford pattern. Avoid mid-June for matriculation/exam-season closures of some colleges; September is the sweet spot.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+      <li>1 hour by train from London Paddington — easiest UK university day-trip</li>
+<li>38 colleges, but most tours visit 3-4 (typically Christ Church, New College, Magdalen)</li>
+<li>Punting season runs May through September; off-season tours are walking-only</li>
+<li>College access can be restricted during exam periods (May-June) — confirm on tour page</li>
+<li>Combined walking + punting half-days (4 hrs) are the best one-day pattern</li>
+<li>Most tours start at the Bodleian Library or Radcliffe Camera — easy meeting points</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="tours" id="from-london">
   <div class="container">

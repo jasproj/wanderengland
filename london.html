@@ -524,6 +524,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -560,31 +584,56 @@
   <div class="container">
     <h1>London Tours, Walking Tours &amp; Day Trips</h1>
     <p>Walking tours, themed private guides, river cruises — the deepest selection of city-tour inventory anywhere on the site.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">24 tours</span><span class="hub-chip">From £175</span><span class="hub-chip">England</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About London</h2>
-    <p>London is the largest market on this site, with more than 130 listed tours covering everything from blue-badge guided walks of the City and Westminster to themed private tours (Doctor Who, Jack the Ripper, Harry Potter filming locations, the women's history of the City). The strongest operators we work with are the small-group private outfits — companies like London Guided Walks Private Tours and London Walks — rather than the big bus-tour operators, which have their own booking infrastructure outside FareHarbor.<br><br>If you've never been to London before, the standard first-day itinerary is a 2-hour Westminster walking tour (Big Ben, Westminster Abbey, the Houses of Parliament) followed by an afternoon at the British Museum. For a second visit, the East End walks (Spitalfields, Whitechapel, Brick Lane) and the Maritime Greenwich half-day are stronger picks. London tours are mostly weather-flexible — operators reschedule for heavy rain — and run year-round, with the highest density of departures from May through September.</p>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/cXoaNTOUTKu0f7XMKEQb" alt="A Nosey Around Soho" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Price on request</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">London Guided Walks Private Tours</div>
+        <h3 class="tour-title">A Nosey Around Soho</h3>
+        <p class="tour-desc">Step into the quirky and colourful world of Soho on this 90-minute guided walk, where history, art, and urban legends come to life. Discover…</p>
+        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/251794/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="251794" data-tour-name="A Nosey Around Soho">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/D5w0tBuUQjsHpQ8ZD5q0" alt="Best of Blackfriars" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">London Guided Walks Private Tours</div>
+        <h3 class="tour-title">Best of Blackfriars</h3>
+        <p class="tour-desc">Step back in time and explore the fascinating past of Blackfriars, where Roman, Medieval, Tudor, and Victorian London intertwine. This 90-minute…</p>
+        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/251796/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="251796" data-tour-name="Best of Blackfriars">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/EUVDApyTRqazHYU0FTbE" alt="Bleeding Hearts &amp; Body Parts" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Price on request</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">London Guided Walks Private Tours</div>
+        <h3 class="tour-title">Bleeding Hearts &amp; Body Parts</h3>
+        <p class="tour-desc">London’s history is steeped in blood, betrayal, and mystery. Join us on a journey through Farringdon and Smithfield, where the echoes of public…</p>
+        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/251801/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="251801" data-tour-name="Bleeding Hearts &amp; Body Parts">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 24 tours ↓</a>
   </div>
 </section>
 
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-      <li>Highest tour density on the site — 130+ listed across walking, themed, and private formats</li>
-<li>Best months: May-September (long daylight, festival season). Worst: late January-February</li>
-<li>Most walking tours include 4-6 km of walking on uneven streets — wear comfortable shoes</li>
-<li>Private themed tours (Doctor Who, Harry Potter, Jack the Ripper) typically run 2-3 hours</li>
-<li>Tube + walking is faster than taxi for most central London tour pickups</li>
-<li>Free reschedule policies vary — confirm 24-72 hour windows on the operator page</li>
-    </ul>
-  </div>
-</section>
-
-<section class="tours">
+<section class="tours" id="tours">
   <div class="container">
     <h2>London tours (139 available)</h2>
     <div class="tours-grid">
@@ -879,6 +928,26 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About London</h2>
+    <p>London is the largest market on this site, with more than 130 listed tours covering everything from blue-badge guided walks of the City and Westminster to themed private tours (Doctor Who, Jack the Ripper, Harry Potter filming locations, the women's history of the City). The strongest operators we work with are the small-group private outfits — companies like London Guided Walks Private Tours and London Walks — rather than the big bus-tour operators, which have their own booking infrastructure outside FareHarbor.<br><br>If you've never been to London before, the standard first-day itinerary is a 2-hour Westminster walking tour (Big Ben, Westminster Abbey, the Houses of Parliament) followed by an afternoon at the British Museum. For a second visit, the East End walks (Spitalfields, Whitechapel, Brick Lane) and the Maritime Greenwich half-day are stronger picks. London tours are mostly weather-flexible — operators reschedule for heavy rain — and run year-round, with the highest density of departures from May through September.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+      <li>Highest tour density on the site — 130+ listed across walking, themed, and private formats</li>
+<li>Best months: May-September (long daylight, festival season). Worst: late January-February</li>
+<li>Most walking tours include 4-6 km of walking on uneven streets — wear comfortable shoes</li>
+<li>Private themed tours (Doctor Who, Harry Potter, Jack the Ripper) typically run 2-3 hours</li>
+<li>Tube + walking is faster than taxi for most central London tour pickups</li>
+<li>Free reschedule policies vary — confirm 24-72 hour windows on the operator page</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="related">
   <div class="container">

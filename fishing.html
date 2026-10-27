@@ -239,6 +239,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -263,9 +287,56 @@
                 <div class="hero-stat"><span class="hero-stat-number">4</span><span class="hero-stat-label">Cities</span></div>
                 <div class="hero-stat"><span class="hero-stat-number">Year-Round</span><span class="hero-stat-label">Season</span></div>
             </div>
-        </div>
+        
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a></div>
+</div>
     </section>
-    <section class="tours" id="tours">
+<section class="top-picks" aria-label="Top picks">
+  <div class="container">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/ozYWmVaRtCCWqqiGigf5/convert?cache=true&amp;compress=true&amp;quality=90&amp;w=604&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Fishing boat - Stellar" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £89.25 One day hire</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Martham Ferry Day Boat Hire</div>
+        <h3 class="tour-title">Fishing boat - Stellar</h3>
+        <p class="tour-desc">Experience a thrilling day of inland fishing in a uniquely designed boat that combines stability and easy steering. With access to…</p>
+        <a href="https://fareharbor.com/embeds/book/marthamferryboatyard/items/408553/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="408553" data-tour-name="Fishing boat - Stellar">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/uaEcgi8QK6qzJoOnKQrF/convert?cache=true&amp;compress=true&amp;quality=90&amp;format=webp&amp;rotate=exif&amp;h=250&amp;fit=max" alt="Mackeral Fishing Handlines - Sole Venture" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £31.44 (Max 2 People)</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Carlin Boat Charters</div>
+        <h3 class="tour-title">Mackeral Fishing Handlines - Sole Venture</h3>
+        <p class="tour-desc">Try your hand at mackerel fishing on a family-friendly trip! Catch fish, learn handlining basics, and enjoy views of Weymouth Harbour…</p>
+        <a href="https://fareharbor.com/embeds/book/carlinboatcharters/items/611400/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="611400" data-tour-name="Mackeral Fishing Handlines - Sole Venture">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/VoXlG9VeSMuN7DVZzHpl/convert?cache=true&amp;compress=true&amp;quality=90&amp;h=692&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Offshore Reef Fishing" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £742 Private Boat - One Day Hire</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Pembrokeshire Boat Charters</div>
+        <h3 class="tour-title">Offshore Reef Fishing</h3>
+        <p class="tour-desc">Embark on a fishing adventure in the Celtic Deep, where you&#x27;ll target prized catches like codling and pollack in…</p>
+        <a href="https://fareharbor.com/embeds/book/pembrokeshireboatcharters/items/637863/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="637863" data-tour-name="Offshore Reef Fishing">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 6 tours ↓</a>
+  </div>
+</section>
+
+<section class="tours" id="tours">
       <div class="container">
         <h2>Book 🎣 England Fishing Charters (6 available)</h2>
         <div class="tours-grid">
@@ -344,6 +415,8 @@
         </div>
       </div>
     </section>
+
+
 
 
     <section class="types-section">
