@@ -320,6 +320,19 @@
   .hub-fold{margin-top:14px}
 }
 </style>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -347,21 +360,9 @@
 </div>
     </section>
 <section class="top-picks" aria-label="Top picks">
-  <div class="container">
+  <div class="tp-wrap">
     <h2>Top picks</h2>
     <div class="tours-grid top-picks-grid">
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/priVXLNRaijokhWDaybs" alt="A Road to Ruin: Private Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £283.5 Private Tour - Small Group</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">London Guided Walks Private Tours</div>
-        <h3 class="tour-title">A Road to Ruin: Private Tour</h3>
-        <p class="tour-desc">Embark on A Road to Ruin Walk: Londoners and Their Alcohol, a guided journey through London&#x27;s historic streets, uncovering tales of…</p>
-        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/252056/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="252056" data-tour-name="A Road to Ruin: Private Tour">Check Availability →</a>
-    </div>
-</article>
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/Ym13mrmT7yPY6vVZEStQ" alt="Distillery Tour &amp; Guided Tasting" loading="eager" style="width:100%; height:200px; object-fit:cover;">
@@ -376,7 +377,7 @@
 </article>
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/SRpLDpgMTvd7hHFHomEF" alt="New Forest Food Safari with Beer Tasting" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/SRpLDpgMTvd7hHFHomEF" alt="New Forest Food Safari with Beer Tasting" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
         <div class="tour-price">From £70</div>
     </div>
     <div class="tour-content">
@@ -386,10 +387,23 @@
         <a href="https://fareharbor.com/embeds/book/jaunt-ebikes/items/611770/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="611770" data-tour-name="New Forest Food Safari with Beer Tasting">Check Availability →</a>
     </div>
 </article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/abyUFDHTQB2tD7QuFprV" alt="The Sky Wave Distillery Experience" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £26</div>
     </div>
-    <a class="top-picks-more" href="#tours">All 10 tours ↓</a>
+    <div class="tour-content">
+        <div class="tour-company">The Sky Wave Distilling Company</div>
+        <h3 class="tour-title">The Sky Wave Distillery Experience</h3>
+        <p class="tour-desc">Immerse yourself in Gin Heaven at our boutique distillery, the Home of the World’s Best Contemporary Gin. Hear the stories and drink…</p>
+        <a href="https://fareharbor.com/embeds/book/skywavegin/items/589739/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="589739" data-tour-name="The Sky Wave Distillery Experience">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">See all tours ↓</a>
   </div>
 </section>
+
 
 <section class="tours" id="tours">
       <div class="container">
@@ -443,18 +457,7 @@
         <a href="https://fareharbor.com/embeds/book/skywavegin/items/589739/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="589739" data-tour-name="The Sky Wave Distillery Experience">Check Availability →</a>
     </div>
 </article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/FUFHovQAQYJA6HHaFBtr/convert?cache=true&amp;compress=true&amp;quality=90&amp;h=692&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Brewery Bus Tour Day out  - Welsh Adventure" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £84</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Brewery Bus Tours Liverpool</div>
-        <h3 class="tour-title">Brewery Bus Tour Day out  - Welsh Adventure</h3>
-        <p class="tour-desc">Join a scenic North Wales brewery and distillery tour with tastings, views, and expert insights. Sip craft beers, whiskey, and…</p>
-        <a href="https://fareharbor.com/embeds/book/brewerybustoursliverpool/items/500673/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="500673" data-tour-name="Brewery Bus Tour Day out  - Welsh Adventure">Check Availability →</a>
-    </div>
-</article>
+
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/kpJP8K2CTROV9ifiuoTV" alt="Private Original Newcastle Pub Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
@@ -494,7 +497,7 @@
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/rLtSQ8uReidDcpEdvEAd" alt="Public Afternoon Tea Cruise" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £32.95</div>
+        <div class="tour-price">From £25.60</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">Skipton Boat Trips</div>

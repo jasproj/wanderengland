@@ -340,6 +340,19 @@
   .hub-fold{margin-top:14px}
 }
 </style>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -369,49 +382,50 @@
 </div>
     </section>
 <section class="top-picks" aria-label="Top picks">
-  <div class="container">
+  <div class="tp-wrap">
     <h2>Top picks</h2>
     <div class="tours-grid top-picks-grid">
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/mHQJTVOqR56iDQjdZNQ8" alt="Family Canoeing" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £35.7</div>
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/nokmxo16TS6Jp5g9R0Fn" alt="Single Kayak Hire" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £15.9 Hire - 1 Hour</div>
     </div>
     <div class="tour-content">
-        <div class="tour-company">New Forest Activities</div>
-        <h3 class="tour-title">Family Canoeing</h3>
-        <p class="tour-desc">Join our top-selling Family Canoeing session, where history, wildlife, and family fun come together! Suitable for all ages, this guided…</p>
-        <a href="https://fareharbor.com/embeds/book/newforestactivities/items/64525/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="64525" data-tour-name="Family Canoeing">Check Availability →</a>
+        <div class="tour-company">Ocean High</div>
+        <h3 class="tour-title">Single Kayak Hire</h3>
+        <p class="tour-desc">Kayaking is a beautiful way to explore Mounts Bay and get up close to St Michael&#x27;s Mount. We offer kayaking rental by the hour in…</p>
+        <a href="https://fareharbor.com/embeds/book/oceanhigh/items/614786/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="614786" data-tour-name="Single Kayak Hire">Check Availability →</a>
     </div>
 </article>
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/XzMuPy9TEef885eltwAw" alt="Paddleboard (SUP) Hire at the bridge" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £31.8 The Quick Spash! One Hour Hire</div>
+        <img src="https://cdn.filestackcontent.com/ikPfMgmGS9ESih8ST0Gm/convert?cache=true&amp;compress=true&amp;quality=90&amp;w=1868&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Paddle board" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £19.08</div>
     </div>
     <div class="tour-content">
-        <div class="tour-company">Hampton Court Paddle Sports</div>
-        <h3 class="tour-title">Paddleboard (SUP) Hire at the bridge</h3>
-        <p class="tour-desc">Hire a board at Hampton Court Bridge and explore a beautiful stretch of the non-tidal River Thames. About You can easily paddle across…</p>
-        <a href="https://fareharbor.com/embeds/book/hamptoncourtpaddlesports/items/643718/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="643718" data-tour-name="Paddleboard (SUP) Hire at the bridge">Check Availability →</a>
+        <div class="tour-company">Frisby Lakes Paddlesports</div>
+        <h3 class="tour-title">Paddle board</h3>
+        <p class="tour-desc">Experience the serene beauty of Frisby Lakes with an hour of paddling on a picturesque open water lake. Choose from a variety of kayaks,…</p>
+        <a href="https://fareharbor.com/embeds/book/frisbylakespaddlesports/items/450637/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="450637" data-tour-name="Paddle board">Check Availability →</a>
     </div>
 </article>
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/VMm69uobQjWDwTM2NDbu" alt="Explorer Safari" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £47.7</div>
+        <img src="https://cdn.filestackcontent.com/92u8ZEE8TZCbQd9mJ1z2/convert?cache=true&amp;compress=true&amp;quality=90&amp;h=692&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Kayak Tour - Private Group" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £57.75</div>
     </div>
     <div class="tour-content">
-        <div class="tour-company">Rapid Horizons Adventures</div>
-        <h3 class="tour-title">Explorer Safari</h3>
-        <p class="tour-desc">Take in scenery as you navigate your Outlaw Kayak or Venture Canoe along the twists and turns of the River Derwent. This journey takes…</p>
-        <a href="https://fareharbor.com/embeds/book/rapidhorizons/items/597629/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="597629" data-tour-name="Explorer Safari">Check Availability →</a>
+        <div class="tour-company">Boulder Adventures</div>
+        <h3 class="tour-title">Kayak Tour - Private Group</h3>
+        <p class="tour-desc">Paddle through sheltered lagoons and open waters of Llyn Padarn, soaking in Snowdonia views like Snowdon. Perfect for all skill…</p>
+        <a href="https://fareharbor.com/embeds/book/boulderadventures/items/705719/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="705719" data-tour-name="Kayak Tour - Private Group">Check Availability →</a>
     </div>
 </article>
     </div>
-    <a class="top-picks-more" href="#tours">All 11 tours ↓</a>
+    <a class="top-picks-more" href="#tours">See all tours ↓</a>
   </div>
 </section>
+
 
 <section class="tours" id="tours">
       <div class="container">

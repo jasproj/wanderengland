@@ -548,6 +548,19 @@
   .hub-fold{margin-top:14px}
 }
 </style>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -589,7 +602,7 @@
 </div>
 </section>
 <section class="top-picks" aria-label="Top picks">
-  <div class="container">
+  <div class="tp-wrap">
     <h2>Top picks</h2>
     <div class="tours-grid top-picks-grid">
 <article class="tour-card">
@@ -606,32 +619,33 @@
 </article>
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/D5w0tBuUQjsHpQ8ZD5q0" alt="Best of Blackfriars" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/pPIhR5RySZIUmKGbyFqw" alt="Power, Profit &amp; Progress Tour: Women in the City" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
         <div class="tour-price">Check availability</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">London Guided Walks Private Tours</div>
-        <h3 class="tour-title">Best of Blackfriars</h3>
-        <p class="tour-desc">Step back in time and explore the fascinating past of Blackfriars, where Roman, Medieval, Tudor, and Victorian London intertwine. This 90-minute…</p>
-        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/251796/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="251796" data-tour-name="Best of Blackfriars">Check Availability →</a>
+        <h3 class="tour-title">Power, Profit &amp; Progress Tour: Women in the City</h3>
+        <p class="tour-desc">This engaging and thought-provoking tour takes you through the historic streets of the City of London, revealing the untold histories of…</p>
+        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/488756/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="488756" data-tour-name="Power, Profit &amp; Progress Tour: Women in the City">Check Availability →</a>
     </div>
 </article>
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/EUVDApyTRqazHYU0FTbE" alt="Bleeding Hearts &amp; Body Parts" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/YfS2BjrS0245D9gLoNIw" alt="Doctor Who Private Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
         <div class="tour-price">Price on request</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">London Guided Walks Private Tours</div>
-        <h3 class="tour-title">Bleeding Hearts &amp; Body Parts</h3>
-        <p class="tour-desc">London’s history is steeped in blood, betrayal, and mystery. Join us on a journey through Farringdon and Smithfield, where the echoes of public…</p>
-        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/251801/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="251801" data-tour-name="Bleeding Hearts &amp; Body Parts">Check Availability →</a>
+        <h3 class="tour-title">Doctor Who Private Tour</h3>
+        <p class="tour-desc">Are you a Doctor Who fan eager to explore the real-world locations that have shaped the show’s legacy? Join David Turnbull—renowned sci-fi writer,…</p>
+        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/502058/?asn=fhdn-gbp&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="502058" data-tour-name="Doctor Who Private Tour">Check Availability →</a>
     </div>
 </article>
     </div>
-    <a class="top-picks-more" href="#tours">All 24 tours ↓</a>
+    <a class="top-picks-more" href="#tours">See all tours ↓</a>
   </div>
 </section>
+
 
 <section class="tours" id="tours">
   <div class="container">
@@ -832,7 +846,7 @@
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/xf3XbXWATuaWfwR2jWtU" alt="Samuel Pepys&#x27;s London: a Private Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £175</div>
+        <div class="tour-price">From £220.50</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">London Guided Walks Private Tours</div>
