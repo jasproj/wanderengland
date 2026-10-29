@@ -313,6 +313,19 @@
   .hub-fold{margin-top:14px}
 }
 </style>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -340,7 +353,7 @@
 </div>
     </section>
 <section class="top-picks" aria-label="Top picks">
-  <div class="container">
+  <div class="tp-wrap">
     <h2>Top picks</h2>
     <div class="tours-grid top-picks-grid">
 <article class="tour-card">
@@ -357,32 +370,33 @@
 </article>
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/xBBn5CpMTWynIqFsiyzE" alt="Regent&#x27;s Canal Private Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £185.5 Private Tour for Two</div>
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/Ym13mrmT7yPY6vVZEStQ" alt="Distillery Tour &amp; Guided Tasting" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £31.5</div>
     </div>
     <div class="tour-content">
-        <div class="tour-company">London Guided Walks Private Tours</div>
-        <h3 class="tour-title">Regent&#x27;s Canal Private Tour</h3>
-        <p class="tour-desc">Join Susan for a captivating 90-minute walking tour along a lesser-known stretch of Regent’s Canal, from Islington to Hackney. This…</p>
-        <a href="https://fareharbor.com/embeds/book/londonguidedwalksprivatetours/items/296565/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="296565" data-tour-name="Regent&#x27;s Canal Private Tour">Check Availability →</a>
+        <div class="tour-company">The Conker Distillery &amp; Tap Room</div>
+        <h3 class="tour-title">Distillery Tour &amp; Guided Tasting</h3>
+        <p class="tour-desc">Join our Founder Rupert Holloway at the Distiller’s Table for a two-hour journey into the Conker story — from our humble beginnings to…</p>
+        <a href="https://fareharbor.com/embeds/book/conkerspirit/items/666407/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="666407" data-tour-name="Distillery Tour &amp; Guided Tasting">Check Availability →</a>
     </div>
 </article>
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/eq5g6LQ2yCJCyGyZ2rQO" alt="Best of Liverpool Sightseeing Tour by Taxi" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £206.7 Private Cab - Best of Liverpool tour - total 3 hours</div>
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/SRpLDpgMTvd7hHFHomEF" alt="New Forest Food Safari with Beer Tasting" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £70</div>
     </div>
     <div class="tour-content">
-        <div class="tour-company">Fab 4 Taxi Tours</div>
-        <h3 class="tour-title">Best of Liverpool Sightseeing Tour by Taxi</h3>
-        <p class="tour-desc">Though the city might be best known for the Beatles, its football team and the Grand National, there are many more reasons to explore…</p>
-        <a href="https://fareharbor.com/embeds/book/fab4taxitours/items/222258/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="222258" data-tour-name="Best of Liverpool Sightseeing Tour by Taxi">Check Availability →</a>
+        <div class="tour-company">Jaunt E-Bikes</div>
+        <h3 class="tour-title">New Forest Food Safari with Beer Tasting</h3>
+        <p class="tour-desc">Enjoy an adventurous, power assisted e-bike safari to the New Forest&#x27;s premier artisan micro brewery, for a beer tasting at the restored…</p>
+        <a href="https://fareharbor.com/embeds/book/jaunt-ebikes/items/611770/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="611770" data-tour-name="New Forest Food Safari with Beer Tasting">Check Availability →</a>
     </div>
 </article>
     </div>
-    <a class="top-picks-more" href="#tours">All 12 tours ↓</a>
+    <a class="top-picks-more" href="#tours">See all tours ↓</a>
   </div>
 </section>
+
 
 <section class="tours" id="tours">
       <div class="container">
@@ -499,7 +513,7 @@
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/xBBn5CpMTWynIqFsiyzE" alt="Regent&#x27;s Canal Private Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £185.5 Private Tour for Two</div>
+        <div class="tour-price">From £220.50 Private Tour for Two</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">London Guided Walks Private Tours</div>
@@ -511,7 +525,7 @@
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/eq5g6LQ2yCJCyGyZ2rQO" alt="Best of Liverpool Sightseeing Tour by Taxi" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £206.7 Private Cab - Best of Liverpool tour - total 3 hours</div>
+        <div class="tour-price">From £180.20 Private Cab - Best of Liverpool tour - total 3 hours</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">Fab 4 Taxi Tours</div>

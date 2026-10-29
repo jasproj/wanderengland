@@ -305,6 +305,19 @@
   .hub-fold{margin-top:14px}
 }
 </style>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -332,21 +345,9 @@
 </div>
     </section>
 <section class="top-picks" aria-label="Top picks">
-  <div class="container">
+  <div class="tp-wrap">
     <h2>Top picks</h2>
     <div class="tours-grid top-picks-grid">
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/BFJiSN4ES6CUCYbOcv8Y" alt="Shared • Oxford University Walking Tour &amp; Optional New College" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £30</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Alumni Tours</div>
-        <h3 class="tour-title">Shared • Oxford University Walking Tour &amp; Optional New College</h3>
-        <p class="tour-desc">Discover the historic heart of Oxford on a professionally guided walking tour led by Oxford graduates and academically trained guides.…</p>
-        <a href="https://fareharbor.com/embeds/book/cambridgealumnitours/items/283386/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="283386" data-tour-name="Shared • Oxford University Walking Tour &amp; Optional New College">Check Availability →</a>
-    </div>
-</article>
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/qysAgVC6Q1GQnL24nb5y" alt="Custom Walking Tour of Bath" loading="eager" style="width:100%; height:200px; object-fit:cover;">
@@ -361,20 +362,33 @@
 </article>
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/luLfLxlTu6wBC9MTc5Oy" alt="History of London - City Center Westminster Guided Walking Tour – Semi-Private" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">Price on request</div>
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/luHEl3d5RSqnRDKTGCJD" alt="Birmingham City Centre Walking Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £12.72</div>
     </div>
     <div class="tour-content">
-        <div class="tour-company">Babylon Tours London</div>
-        <h3 class="tour-title">History of London - City Center Westminster Guided Walking Tour – Semi-Private</h3>
-        <p class="tour-desc">Discover London’s royal and political heart on this 2.5-hour small-group walking tour through Westminster. From the grandeur of…</p>
-        <a href="https://fareharbor.com/embeds/book/babyloncitytours-london/items/83643/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="83643" data-tour-name="History of London - City Center Westminster Guided Walking Tour – Semi-Private">Check Availability →</a>
+        <div class="tour-company">Walking Tours in the UK</div>
+        <h3 class="tour-title">Birmingham City Centre Walking Tour</h3>
+        <p class="tour-desc">See Birmingham through a true Brummie’s eyes on this 1.5-hour walking tour. Immerse yourself in the city&#x27;s sights and sounds as you…</p>
+        <a href="https://fareharbor.com/embeds/book/walkingtoursin/items/354307/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="354307" data-tour-name="Birmingham City Centre Walking Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/d7Wt3j2TUGm0La8H9klL" alt="London: Witches &amp; History Bankside Walking Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From £18.9</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Enthral Experiences</div>
+        <h3 class="tour-title">London: Witches &amp; History Bankside Walking Tour</h3>
+        <p class="tour-desc">Join your characterful witch guide and hear the true historical tales of suspected London witches across the ages. Witness fascinating…</p>
+        <a href="https://fareharbor.com/embeds/book/witchestour/items/407758/?asn=fhdn-gbp&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="407758" data-tour-name="London: Witches &amp; History Bankside Walking Tour">Check Availability →</a>
     </div>
 </article>
     </div>
-    <a class="top-picks-more" href="#tours">All 11 tours ↓</a>
+    <a class="top-picks-more" href="#tours">See all tours ↓</a>
   </div>
 </section>
+
 
 <section class="tours" id="tours">
       <div class="container">
@@ -443,7 +457,7 @@
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/x4AvDfs0R8CMsz4oiGkw" alt="Oxford On Screen Walking Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £35</div>
+        <div class="tour-price">From £37.10</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">Experience Oxfordshire</div>
@@ -503,7 +517,7 @@
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/J1Ho5nxARonIklQZ5Ecg" alt="Walking Tour of Fowey" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From £16.96</div>
+        <div class="tour-price">From £18</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">Lucy Daniel Guide</div>
